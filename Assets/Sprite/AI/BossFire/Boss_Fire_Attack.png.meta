@@ -1,0 +1,1036 @@
+fileFormatVersion: 2
+guid: 3e51b0965ba498645bdbeff46e65b8e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -33400637551476486
+    second: Boss_Fire_Attack_0
+  - first:
+      213: 560843599045547779
+    second: Boss_Fire_Attack_1
+  - first:
+      213: 1808019363076949581
+    second: Boss_Fire_Attack_2
+  - first:
+      213: -110612113343440291
+    second: Boss_Fire_Attack_3
+  - first:
+      213: 6723377236140432478
+    second: Boss_Fire_Attack_4
+  - first:
+      213: -6349198201849598797
+    second: Boss_Fire_Attack_5
+  - first:
+      213: -1640491421492373638
+    second: Boss_Fire_Attack_6
+  - first:
+      213: 177879549221999171
+    second: Boss_Fire_Attack_7
+  - first:
+      213: 67841985615240603
+    second: Boss_Fire_Attack_8
+  - first:
+      213: 6079952930520318920
+    second: Boss_Fire_Attack_9
+  - first:
+      213: -3014553647636310041
+    second: Boss_Fire_Attack_10
+  - first:
+      213: -5877751305145253406
+    second: Boss_Fire_Attack_11
+  - first:
+      213: 8260475202372832280
+    second: Boss_Fire_Attack_12
+  - first:
+      213: 2967039280078947437
+    second: Boss_Fire_Attack_13
+  - first:
+      213: 7291536585169071985
+    second: Boss_Fire_Attack_14
+  - first:
+      213: -5571455282548526869
+    second: Boss_Fire_Attack_15
+  - first:
+      213: 7238641526992997532
+    second: Boss_Fire_Attack_16
+  - first:
+      213: -2464634551641083481
+    second: Boss_Fire_Attack_17
+  - first:
+      213: 1425030029645212292
+    second: Boss_Fire_Attack_18
+  - first:
+      213: -6264620402147729159
+    second: Boss_Fire_Attack_19
+  - first:
+      213: 1466909599089981728
+    second: Boss_Fire_Attack_20
+  - first:
+      213: 7160755108536855851
+    second: Boss_Fire_Attack_21
+  - first:
+      213: -7102534993476787710
+    second: Boss_Fire_Attack_22
+  - first:
+      213: 3745800182631928293
+    second: Boss_Fire_Attack_23
+  - first:
+      213: 573055573497205969
+    second: Boss_Fire_Attack_24
+  - first:
+      213: -6525332215652474050
+    second: Boss_Fire_Attack_25
+  - first:
+      213: -7100669437704882158
+    second: Boss_Fire_Attack_26
+  - first:
+      213: 5086424532323817528
+    second: Boss_Fire_Attack_27
+  - first:
+      213: -6262059967996256930
+    second: Boss_Fire_Attack_28
+  - first:
+      213: 4614998902623274813
+    second: Boss_Fire_Attack_29
+  - first:
+      213: -6732246997679330959
+    second: Boss_Fire_Attack_30
+  - first:
+      213: -7523959921324645005
+    second: Boss_Fire_Attack_31
+  - first:
+      213: 129652754960160662
+    second: Boss_Fire_Attack_32
+  - first:
+      213: 3090994141762492904
+    second: Boss_Fire_Attack_33
+  - first:
+      213: 2123050819206177478
+    second: Boss_Fire_Attack_34
+  - first:
+      213: 3357816223124995707
+    second: Boss_Fire_Attack_35
+  - first:
+      213: -3202526330082965753
+    second: Boss_Fire_Attack_36
+  - first:
+      213: -303410072663272771
+    second: Boss_Fire_Attack_37
+  - first:
+      213: 1802365254923466911
+    second: Boss_Fire_Attack_38
+  - first:
+      213: 7757833929140023484
+    second: Boss_Fire_Attack_39
+  - first:
+      213: -5712874523756069467
+    second: Boss_Fire_Attack_40
+  - first:
+      213: 6371150477582362090
+    second: Boss_Fire_Attack_41
+  - first:
+      213: 4002434425380543417
+    second: Boss_Fire_Attack_42
+  - first:
+      213: 2631003807333139702
+    second: Boss_Fire_Attack_43
+  - first:
+      213: 5748601112336522934
+    second: Boss_Fire_Attack_44
+  - first:
+      213: 5358152541369867749
+    second: Boss_Fire_Attack_45
+  - first:
+      213: -7961891209364214385
+    second: Boss_Fire_Attack_46
+  - first:
+      213: 4389218332341475483
+    second: Boss_Fire_Attack_47
+  - first:
+      213: 6066980365206739471
+    second: Boss_Fire_Attack_48
+  - first:
+      213: -5949645627009167434
+    second: Boss_Fire_Attack_49
+  - first:
+      213: -1226140382510058442
+    second: Boss_Fire_Attack_50
+  - first:
+      213: -230689786115422853
+    second: Boss_Fire_Attack_51
+  - first:
+      213: 7230476456282840532
+    second: Boss_Fire_Attack_52
+  - first:
+      213: -8211433683676575613
+    second: Boss_Fire_Attack_53
+  - first:
+      213: -2788073031287652658
+    second: Boss_Fire_Attack_54
+  - first:
+      213: 5626745925216585857
+    second: Boss_Fire_Attack_55
+  - first:
+      213: -3061875222342975708
+    second: Boss_Fire_Attack_56
+  - first:
+      213: 1239561655631256075
+    second: Boss_Fire_Attack_57
+  - first:
+      213: -6031538495648903702
+    second: Boss_Fire_Attack_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2495
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0097f0c46598ff0800000000000000
+      internalID: -33400637551476486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2495
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30759a7284488c700800000000000000
+      internalID: 560843599045547779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 2495
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46ca3b0800671910800000000000000
+      internalID: 1808019363076949581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 2495
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a1f447ed6077ef0800000000000000
+      internalID: -110612113343440291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 2495
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c191b69fb3e4d50800000000000000
+      internalID: 6723377236140432478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2015
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bca43affdd13e7a0800000000000000
+      internalID: -6349198201849598797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2015
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a771fdc6ebdcb39e0800000000000000
+      internalID: -1640491421492373638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 2015
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3421f20f184f77200800000000000000
+      internalID: 177879549221999171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 2015
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d147d2de501f000800000000000000
+      internalID: 67841985615240603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 2015
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c342c23af4506450800000000000000
+      internalID: 6079952930520318920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1535
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e79744ed672a26d0800000000000000
+      internalID: -3014553647636310041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1535
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e18ab264580e6ea0800000000000000
+      internalID: -5877751305145253406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1535
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c0b514e6a13a270800000000000000
+      internalID: 8260475202372832280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1535
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d648cb3518a0d2920800000000000000
+      internalID: 2967039280078947437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1535
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f64c954edb03560800000000000000
+      internalID: 7291536585169071985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1055
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0b8b970f63ea2b0800000000000000
+      internalID: -5571455282548526869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1055
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c0fc8ed12d47460800000000000000
+      internalID: 7238641526992997532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 976
+        width: 300
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a17748feebdbcdd0800000000000000
+      internalID: -2464634551641083481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 986
+        width: 290
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a64470349b6c310800000000000000
+      internalID: 1425030029645212292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 983
+        width: 309
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0297e5322828b5410800000000000000
+      internalID: 1466909599089981728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 533
+        width: 410
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4dbd60207e3f700800000000000000
+      internalID: 573055573497205969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 551
+        width: 434
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e332f9c2cec5175a0800000000000000
+      internalID: -6525332215652474050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 563
+        width: 458
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218b02274ca557d90800000000000000
+      internalID: -7100669437704882158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 575
+        width: 458
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8385ef1c92c969640800000000000000
+      internalID: 5086424532323817528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 556
+        width: 479
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d378da5fc05cb0040800000000000000
+      internalID: 4614998902623274813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 545
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3752b21b056859790800000000000000
+      internalID: -7523959921324645005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 545
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6971d836e7e9cc100800000000000000
+      internalID: 129652754960160662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 471
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d6a85012ea18190800000000000000
+      internalID: -7961891209364214385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_49
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 95
+        width: 430
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf89a623dc9e6da0800000000000000
+      internalID: -5949645627009167434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_51
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 95
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75874d9cdc6cccf0800000000000000
+      internalID: -230689786115422853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Attack_52
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 95
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd509d3700d75460800000000000000
+      internalID: 7230476456282840532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 914dcaec37b633049b39133282e809e3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_Fire_Attack_0: -33400637551476486
+      Boss_Fire_Attack_1: 560843599045547779
+      Boss_Fire_Attack_10: -3014553647636310041
+      Boss_Fire_Attack_11: -5877751305145253406
+      Boss_Fire_Attack_12: 8260475202372832280
+      Boss_Fire_Attack_13: 2967039280078947437
+      Boss_Fire_Attack_14: 7291536585169071985
+      Boss_Fire_Attack_15: -5571455282548526869
+      Boss_Fire_Attack_16: 7238641526992997532
+      Boss_Fire_Attack_17: -2464634551641083481
+      Boss_Fire_Attack_18: 1425030029645212292
+      Boss_Fire_Attack_19: -6264620402147729159
+      Boss_Fire_Attack_2: 1808019363076949581
+      Boss_Fire_Attack_20: 1466909599089981728
+      Boss_Fire_Attack_21: 7160755108536855851
+      Boss_Fire_Attack_22: -7102534993476787710
+      Boss_Fire_Attack_23: 3745800182631928293
+      Boss_Fire_Attack_24: 573055573497205969
+      Boss_Fire_Attack_25: -6525332215652474050
+      Boss_Fire_Attack_26: -7100669437704882158
+      Boss_Fire_Attack_27: 5086424532323817528
+      Boss_Fire_Attack_28: -6262059967996256930
+      Boss_Fire_Attack_29: 4614998902623274813
+      Boss_Fire_Attack_3: -110612113343440291
+      Boss_Fire_Attack_30: -6732246997679330959
+      Boss_Fire_Attack_31: -7523959921324645005
+      Boss_Fire_Attack_32: 129652754960160662
+      Boss_Fire_Attack_33: 3090994141762492904
+      Boss_Fire_Attack_34: 2123050819206177478
+      Boss_Fire_Attack_35: 3357816223124995707
+      Boss_Fire_Attack_36: -3202526330082965753
+      Boss_Fire_Attack_37: -303410072663272771
+      Boss_Fire_Attack_38: 1802365254923466911
+      Boss_Fire_Attack_39: 7757833929140023484
+      Boss_Fire_Attack_4: 6723377236140432478
+      Boss_Fire_Attack_40: -5712874523756069467
+      Boss_Fire_Attack_41: 6371150477582362090
+      Boss_Fire_Attack_42: 4002434425380543417
+      Boss_Fire_Attack_43: 2631003807333139702
+      Boss_Fire_Attack_44: 5748601112336522934
+      Boss_Fire_Attack_45: 5358152541369867749
+      Boss_Fire_Attack_46: -7961891209364214385
+      Boss_Fire_Attack_47: 4389218332341475483
+      Boss_Fire_Attack_48: 6066980365206739471
+      Boss_Fire_Attack_49: -5949645627009167434
+      Boss_Fire_Attack_5: -6349198201849598797
+      Boss_Fire_Attack_50: -1226140382510058442
+      Boss_Fire_Attack_51: -230689786115422853
+      Boss_Fire_Attack_52: 7230476456282840532
+      Boss_Fire_Attack_53: -8211433683676575613
+      Boss_Fire_Attack_54: -2788073031287652658
+      Boss_Fire_Attack_55: 5626745925216585857
+      Boss_Fire_Attack_56: -3061875222342975708
+      Boss_Fire_Attack_57: 1239561655631256075
+      Boss_Fire_Attack_58: -6031538495648903702
+      Boss_Fire_Attack_59: 89649997
+      Boss_Fire_Attack_6: -1640491421492373638
+      Boss_Fire_Attack_7: 177879549221999171
+      Boss_Fire_Attack_8: 67841985615240603
+      Boss_Fire_Attack_9: 6079952930520318920
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
