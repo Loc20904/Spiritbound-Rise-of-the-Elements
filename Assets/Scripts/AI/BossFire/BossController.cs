@@ -4,7 +4,7 @@ public class BossController : MonoBehaviour
 {
     BossHealth health;
     BossPhase phase;
-    BossAttack attack;
+    BossAttackBase attack;
     BossMovement movement;
     Animator anim;
 
@@ -15,7 +15,7 @@ public class BossController : MonoBehaviour
     {
         health = GetComponent<BossHealth>();
         phase = GetComponent<BossPhase>();
-        attack = GetComponent<BossAttack>();
+        attack = GetComponent<BossAttackBase>();
         movement = GetComponent<BossMovement>();
         anim = GetComponent<Animator>();
     }

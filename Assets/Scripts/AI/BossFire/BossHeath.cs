@@ -41,6 +41,17 @@ public class BossHealth : MonoBehaviour
         }
     }
 
+    // Thêm vào trong class BossHealth
+    public void Heal(float amount)
+    {
+        currentHP += amount;
+        if (currentHP > maxHP) currentHP = maxHP;
+
+        // Gọi event cập nhật UI (nếu có thanh máu)
+        OnPhaseChanged?.Invoke((currentHP / maxHP) * 100f);
+        Debug.Log($"Boss healed: {amount}. Current HP: {currentHP}");
+    }
+
     [ContextMenu("TEST: Vào ngay Phase 2")]
     public void TestEnterPhase2()
     {

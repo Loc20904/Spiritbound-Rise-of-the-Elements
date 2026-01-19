@@ -12,7 +12,7 @@ public class BossCutsceneManager : MonoBehaviour
 
     [Header("Controllers")]
     public MonoBehaviour playerMovement; // Script di chuyển của Player
-    public BossAttack bossAttack;     // Script tấn công của Boss
+    public BossAttackBase bossAttack;     // Script tấn công của Boss
     public BossHealth bossHealth;        // Để bật bất tử khi chuyển phase
 
     private void Start()
