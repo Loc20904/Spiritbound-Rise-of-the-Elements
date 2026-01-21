@@ -4,9 +4,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class BossMovement : MonoBehaviour
 {
-    [Header("Hover Effect (Lơ lửng)")]
-    public float hoverAmplitude = 0.3f; // Biên độ: Bay lên xuống bao nhiêu (vd: 0.5 mét)
-    public float hoverFrequency = 1.5f;   // Tần số: Bay nhanh hay chậm
 
     [Header("Teleport Settings")]
     public GameObject teleportVFX;
@@ -66,18 +63,6 @@ public class BossMovement : MonoBehaviour
             LookAtPlayer();
             //Hover();
         }
-    }
-
-    // ---------------------------------------------------------
-    // HÀM LÀM BOSS LƠ LỬNG
-    // ---------------------------------------------------------
-    void Hover()
-    {
-        // Công thức: Y mới = Y chuẩn + Sin(thời gian * tốc độ) * độ cao
-        float newY = fixedY + Mathf.Sin(Time.time * hoverFrequency) * hoverAmplitude;
-
-        // Cập nhật vị trí (Giữ nguyên X và Z, chỉ thay đổi Y)
-        transform.position = new Vector3(transform.position.x, newY, transform.position.z);
     }
 
     // ---------------------------------------------------------

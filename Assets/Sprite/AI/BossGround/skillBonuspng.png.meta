@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: 8a206ffbbd129064696501db2cea01fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -825589680853430738
+    second: skillBonuspng_0
+  - first:
+      213: -7977168588335588489
+    second: skillBonuspng_1
+  - first:
+      213: 4980236219494835547
+    second: skillBonuspng_2
+  - first:
+      213: 610836102454357563
+    second: skillBonuspng_3
+  - first:
+      213: 2075503045117854357
+    second: skillBonuspng_4
+  - first:
+      213: 2273039316777924871
+    second: skillBonuspng_5
+  - first:
+      213: -525242149180910207
+    second: skillBonuspng_6
+  - first:
+      213: 579071656830039990
+    second: skillBonuspng_7
+  - first:
+      213: 1225929273522675064
+    second: skillBonuspng_8
+  - first:
+      213: -3492369960242660257
+    second: skillBonuspng_9
+  - first:
+      213: -9165829060654937372
+    second: skillBonuspng_10
+  - first:
+      213: 3648854295348007765
+    second: skillBonuspng_11
+  - first:
+      213: 4539802464717228418
+    second: skillBonuspng_12
+  - first:
+      213: -7922032295705567685
+    second: skillBonuspng_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skillBonuspng_0
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 4527
+        width: 696
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ec0863f8aea84f0800000000000000
+      internalID: -825589680853430738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_1
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 4608
+        width: 595
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b5ada0f676b4190800000000000000
+      internalID: -7977168588335588489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_2
+      rect:
+        serializedVersion: 2
+        x: 3446
+        y: 4681
+        width: 502
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b552688847a5d1540800000000000000
+      internalID: 4980236219494835547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_3
+      rect:
+        serializedVersion: 2
+        x: 4889
+        y: 4830
+        width: 385
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ea6c6e2302a7800800000000000000
+      internalID: 610836102454357563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3132
+        width: 1263
+        height: 1083
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592cd76e50badcc10800000000000000
+      internalID: 2075503045117854357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_5
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 3109
+        width: 1060
+        height: 1117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7097b0d27357b8f10800000000000000
+      internalID: 2273039316777924871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_6
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 3109
+        width: 1016
+        height: 1163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18552055c07f5b8f0800000000000000
+      internalID: -525242149180910207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_7
+      rect:
+        serializedVersion: 2
+        x: 4173
+        y: 3097
+        width: 1006
+        height: 1162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7f9d49a96490800800000000000000
+      internalID: 579071656830039990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1609
+        width: 1048
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cbd77460c988fc0800000000000000
+      internalID: -3492369960242660257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_10
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1609
+        width: 1028
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eac5bf280f6cc080800000000000000
+      internalID: -9165829060654937372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_11
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 1609
+        width: 985
+        height: 990
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553506f26a553a230800000000000000
+      internalID: 3648854295348007765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_12
+      rect:
+        serializedVersion: 2
+        x: 4215
+        y: 1609
+        width: 772
+        height: 978
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289c9ebe94e900f30800000000000000
+      internalID: 4539802464717228418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillBonuspng_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 122
+        width: 590
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e1c4b89994f0290800000000000000
+      internalID: -7922032295705567685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 940efbe0621180843848c7198226cdd8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      skillBonuspng_0: -825589680853430738
+      skillBonuspng_1: -7977168588335588489
+      skillBonuspng_10: -9165829060654937372
+      skillBonuspng_11: 3648854295348007765
+      skillBonuspng_12: 4539802464717228418
+      skillBonuspng_13: -7922032295705567685
+      skillBonuspng_2: 4980236219494835547
+      skillBonuspng_3: 610836102454357563
+      skillBonuspng_4: 2075503045117854357
+      skillBonuspng_5: 2273039316777924871
+      skillBonuspng_6: -525242149180910207
+      skillBonuspng_7: 579071656830039990
+      skillBonuspng_8: 1225929273522675064
+      skillBonuspng_9: -3492369960242660257
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
