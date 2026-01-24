@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: 317b938f1ef2f7f4da061bb6e304cb91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3845594685775712281
+    second: Sprite-0001_QLDG (2)_0
+  - first:
+      213: -5242514449436491919
+    second: Sprite-0001_QLDG (2)_1
+  - first:
+      213: 1221723091736343231
+    second: Sprite-0001_QLDG (2)_2
+  - first:
+      213: 4667602015551564972
+    second: Sprite-0001_QLDG (2)_3
+  - first:
+      213: 8928750371495332244
+    second: Sprite-0001_QLDG (2)_4
+  - first:
+      213: -538656334137614721
+    second: Sprite-0001_QLDG (2)_5
+  - first:
+      213: -6647761834493626968
+    second: Sprite-0001_QLDG (2)_6
+  - first:
+      213: -3386434210231219130
+    second: Sprite-0001_QLDG (2)_7
+  - first:
+      213: -8203615169258457878
+    second: Sprite-0001_QLDG (2)_8
+  - first:
+      213: 8879554621427337182
+    second: Sprite-0001_QLDG (2)_9
+  - first:
+      213: -6041210584281979205
+    second: Sprite-0001_QLDG (2)_10
+  - first:
+      213: -3993043297211058569
+    second: Sprite-0001_QLDG (2)_11
+  - first:
+      213: -9125710213019496570
+    second: Sprite-0001_QLDG (2)_12
+  - first:
+      213: -7858615578690577125
+    second: Sprite-0001_QLDG (2)_13
+  - first:
+      213: -157903879846003726
+    second: Sprite-0001_QLDG (2)_14
+  - first:
+      213: 6319156802462161382
+    second: Sprite-0001_QLDG (2)_15
+  - first:
+      213: -8351990497753686498
+    second: Sprite-0001_QLDG (2)_16
+  - first:
+      213: -1045158057531823656
+    second: Sprite-0001_QLDG (2)_17
+  - first:
+      213: 6702867758262049797
+    second: Sprite-0001_QLDG (2)_18
+  - first:
+      213: -8016980871697105450
+    second: Sprite-0001_QLDG (2)_19
+  - first:
+      213: 8292051657298791853
+    second: Sprite-0001_QLDG (2)_20
+  - first:
+      213: 1124103446296542196
+    second: Sprite-0001_QLDG (2)_21
+  - first:
+      213: 3591346252843907945
+    second: Sprite-0001_QLDG (2)_22
+  - first:
+      213: 4054878757440420631
+    second: Sprite-0001_QLDG (2)_23
+  - first:
+      213: 7971318890901172706
+    second: Sprite-0001_QLDG (2)_24
+  - first:
+      213: -3761312980538096090
+    second: Sprite-0001_QLDG (2)_25
+  - first:
+      213: -64579495928747959
+    second: Sprite-0001_QLDG (2)_26
+  - first:
+      213: -3468324134353724316
+    second: Sprite-0001_QLDG (2)_27
+  - first:
+      213: 44269476220046500
+    second: Sprite-0001_QLDG (2)_28
+  - first:
+      213: 4497954199595942223
+    second: Sprite-0001_QLDG (2)_29
+  - first:
+      213: 4665297451006721233
+    second: Sprite-0001_QLDG (2)_30
+  - first:
+      213: 7568010466765939872
+    second: Sprite-0001_QLDG (2)_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 379
+        width: 38
+        height: 29
+      alignment: 9
+      pivot: {x: 0.49484956, y: 0.5045166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef65341204b1aac0800000000000000
+      internalID: -3845594685775712281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 379
+        width: 35
+        height: 30
+      alignment: 9
+      pivot: {x: 0.47998658, y: 0.48914388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f3c7f52e8de37b0800000000000000
+      internalID: -5242514449436491919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 379
+        width: 46
+        height: 52
+      alignment: 9
+      pivot: {x: 0.19524018, y: 0.30743116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb236d0ddae64f010800000000000000
+      internalID: 1221723091736343231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 268
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.3748301, y: 0.3138498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac29d99d47a6c040800000000000000
+      internalID: 4667602015551564972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 268
+        width: 53
+        height: 52
+      alignment: 9
+      pivot: {x: 0.3821198, y: 0.30233824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5bb9735d76eb3a0800000000000000
+      internalID: -6647761834493626968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_8
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 268
+        width: 54
+        height: 49
+      alignment: 9
+      pivot: {x: 0.41042808, y: 0.3149146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4f75ad777e62e80800000000000000
+      internalID: -8203615169258457878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 152
+        width: 70
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4061274, y: 0.30986404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f81dd49e6fa5180800000000000000
+      internalID: -9125710213019496570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 154
+        width: 57
+        height: 66
+      alignment: 9
+      pivot: {x: 0.2694354, y: 0.26031354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d1cc594c690f290800000000000000
+      internalID: -7858615578690577125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 154
+        width: 59
+        height: 66
+      alignment: 9
+      pivot: {x: 0.29375032, y: 0.27137595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b73880fb2d54830800000000000000
+      internalID: 4054878757440420631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_QLDG (2)_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 45
+        width: 61
+        height: 62
+      alignment: 9
+      pivot: {x: 0.31068894, y: 0.22850597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4a5082c69f60960800000000000000
+      internalID: 7568010466765939872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: df6c9a9085212a040bfcaf5c7c1737c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprite-0001_QLDG (2)_0: -3845594685775712281
+      Sprite-0001_QLDG (2)_1: -5242514449436491919
+      Sprite-0001_QLDG (2)_10: -6041210584281979205
+      Sprite-0001_QLDG (2)_11: -3993043297211058569
+      Sprite-0001_QLDG (2)_12: -9125710213019496570
+      Sprite-0001_QLDG (2)_13: -7858615578690577125
+      Sprite-0001_QLDG (2)_14: -157903879846003726
+      Sprite-0001_QLDG (2)_15: 6319156802462161382
+      Sprite-0001_QLDG (2)_16: -8351990497753686498
+      Sprite-0001_QLDG (2)_17: -1045158057531823656
+      Sprite-0001_QLDG (2)_18: 6702867758262049797
+      Sprite-0001_QLDG (2)_19: -8016980871697105450
+      Sprite-0001_QLDG (2)_2: 1221723091736343231
+      Sprite-0001_QLDG (2)_20: 8292051657298791853
+      Sprite-0001_QLDG (2)_21: 1124103446296542196
+      Sprite-0001_QLDG (2)_22: 3591346252843907945
+      Sprite-0001_QLDG (2)_23: 4054878757440420631
+      Sprite-0001_QLDG (2)_24: 7971318890901172706
+      Sprite-0001_QLDG (2)_25: -3761312980538096090
+      Sprite-0001_QLDG (2)_26: -64579495928747959
+      Sprite-0001_QLDG (2)_27: -3468324134353724316
+      Sprite-0001_QLDG (2)_28: 44269476220046500
+      Sprite-0001_QLDG (2)_29: 4497954199595942223
+      Sprite-0001_QLDG (2)_3: 4667602015551564972
+      Sprite-0001_QLDG (2)_30: 4665297451006721233
+      Sprite-0001_QLDG (2)_31: 7568010466765939872
+      Sprite-0001_QLDG (2)_4: 8928750371495332244
+      Sprite-0001_QLDG (2)_5: -538656334137614721
+      Sprite-0001_QLDG (2)_6: -6647761834493626968
+      Sprite-0001_QLDG (2)_7: -3386434210231219130
+      Sprite-0001_QLDG (2)_8: -8203615169258457878
+      Sprite-0001_QLDG (2)_9: 8879554621427337182
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
