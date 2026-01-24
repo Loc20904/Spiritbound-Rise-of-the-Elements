@@ -1,0 +1,722 @@
+fileFormatVersion: 2
+guid: 40699f4586984dd46bf5b4a2745292dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7872975390362379258
+    second: Quaidatgan_Attack_0
+  - first:
+      213: -978033740186771901
+    second: Quaidatgan_Attack_1
+  - first:
+      213: -138128560348984827
+    second: Quaidatgan_Attack_2
+  - first:
+      213: -3522983544491365225
+    second: Quaidatgan_Attack_3
+  - first:
+      213: -2925966663967582831
+    second: Quaidatgan_Attack_4
+  - first:
+      213: -6455370115771701568
+    second: Quaidatgan_Attack_5
+  - first:
+      213: 551627585850351100
+    second: Quaidatgan_Attack_6
+  - first:
+      213: -6465517363417927774
+    second: Quaidatgan_Attack_7
+  - first:
+      213: -7070140367278020637
+    second: Quaidatgan_Attack_8
+  - first:
+      213: 2768675198277909770
+    second: Quaidatgan_Attack_9
+  - first:
+      213: -6629380824765401862
+    second: Quaidatgan_Attack_10
+  - first:
+      213: -5712608025391379957
+    second: Quaidatgan_Attack_11
+  - first:
+      213: 5486179055832721671
+    second: Quaidatgan_Attack_12
+  - first:
+      213: 988450167720667442
+    second: Quaidatgan_Attack_13
+  - first:
+      213: -1321215383955631030
+    second: Quaidatgan_Attack_14
+  - first:
+      213: -8501743592576020154
+    second: Quaidatgan_Attack_15
+  - first:
+      213: -5947620251452466846
+    second: Quaidatgan_Attack_16
+  - first:
+      213: 2775082901836886071
+    second: Quaidatgan_Attack_17
+  - first:
+      213: -8093157934138634982
+    second: Quaidatgan_Attack_18
+  - first:
+      213: 8595324192250518760
+    second: Quaidatgan_Attack_19
+  - first:
+      213: -5238404249387681675
+    second: Quaidatgan_Attack_20
+  - first:
+      213: 3464055643836919994
+    second: Quaidatgan_Attack_21
+  - first:
+      213: -2412929972702624217
+    second: Quaidatgan_Attack_22
+  - first:
+      213: -2818878096179691133
+    second: Quaidatgan_Attack_23
+  - first:
+      213: 998427293121851276
+    second: Quaidatgan_Attack_24
+  - first:
+      213: -6435837674476744584
+    second: Quaidatgan_Attack_25
+  - first:
+      213: 6875489368612040458
+    second: Quaidatgan_Attack_26
+  - first:
+      213: -241329381718026429
+    second: Quaidatgan_Attack_27
+  - first:
+      213: 1349621627286940160
+    second: Quaidatgan_Attack_28
+  - first:
+      213: -2935235852656827857
+    second: Quaidatgan_Attack_29
+  - first:
+      213: -7611678529377686746
+    second: Quaidatgan_Attack_30
+  - first:
+      213: 8557812295426055471
+    second: Quaidatgan_Attack_31
+  - first:
+      213: 5933980848175761563
+    second: Quaidatgan_Attack_32
+  - first:
+      213: -3034641310807948182
+    second: Quaidatgan_Attack_33
+  - first:
+      213: 4957244619309437848
+    second: Quaidatgan_Attack_34
+  - first:
+      213: 1022554266161853091
+    second: Quaidatgan_Attack_35
+  - first:
+      213: 5878934681394794388
+    second: Quaidatgan_Attack_36
+  - first:
+      213: -1695655762576917382
+    second: Quaidatgan_Attack_37
+  - first:
+      213: -795671240198833394
+    second: Quaidatgan_Attack_38
+  - first:
+      213: -7448565863567911609
+    second: Quaidatgan_Attack_39
+  - first:
+      213: 5809457189914665844
+    second: Quaidatgan_Attack_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 574
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af321fb976d624d60800000000000000
+      internalID: 7872975390362379258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 574
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e12d1ce735d62f0800000000000000
+      internalID: -978033740186771901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 574
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a00136ec4451ef0800000000000000
+      internalID: -138128560348984827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 574
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cab01c129db1fc0800000000000000
+      internalID: -3522983544491365225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 434
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195d39152d0e467d0800000000000000
+      internalID: -2925966663967582831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 434
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c661cbe41be966a0800000000000000
+      internalID: -6455370115771701568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 434
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd9aeedd56c7a700800000000000000
+      internalID: 551627585850351100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 434
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afaa58b63ed546a0800000000000000
+      internalID: -6465517363417927774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 294
+        width: 63
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e76e309bc0d1ed90800000000000000
+      internalID: -7070140367278020637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 294
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0df9cb7c6f4c6620800000000000000
+      internalID: 2768675198277909770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 294
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4721b8345bff3a0800000000000000
+      internalID: -6629380824765401862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 294
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a4081844db8b0b0800000000000000
+      internalID: -5712608025391379957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 139
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709e815c8c2d22c40800000000000000
+      internalID: 5486179055832721671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 151
+        width: 131
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7307f3a3233138620800000000000000
+      internalID: 2775082901836886071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 151
+        width: 131
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d48800db35faf80800000000000000
+      internalID: -8093157934138634982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 151
+        width: 131
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726ca2d59fc838ed0800000000000000
+      internalID: -2412929972702624217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 11
+        width: 120
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f259c45502bdd00800000000000000
+      internalID: 998427293121851276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 12
+        width: 124
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f68112725aa6f50800000000000000
+      internalID: 6875489368612040458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 12
+        width: 125
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34715d8b430a6acf0800000000000000
+      internalID: -241329381718026429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 12
+        width: 115
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ba9f7b4b2ed5690800000000000000
+      internalID: -7611678529377686746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d2d816b2dc58c1e4999b5f9c98cc4e66
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Quaidatgan_Attack_0: 7872975390362379258
+      Quaidatgan_Attack_1: -978033740186771901
+      Quaidatgan_Attack_10: -6629380824765401862
+      Quaidatgan_Attack_11: -5712608025391379957
+      Quaidatgan_Attack_12: 5486179055832721671
+      Quaidatgan_Attack_13: 988450167720667442
+      Quaidatgan_Attack_14: -1321215383955631030
+      Quaidatgan_Attack_15: -8501743592576020154
+      Quaidatgan_Attack_16: -5947620251452466846
+      Quaidatgan_Attack_17: 2775082901836886071
+      Quaidatgan_Attack_18: -8093157934138634982
+      Quaidatgan_Attack_19: 8595324192250518760
+      Quaidatgan_Attack_2: -138128560348984827
+      Quaidatgan_Attack_20: -5238404249387681675
+      Quaidatgan_Attack_21: 3464055643836919994
+      Quaidatgan_Attack_22: -2412929972702624217
+      Quaidatgan_Attack_23: -2818878096179691133
+      Quaidatgan_Attack_24: 998427293121851276
+      Quaidatgan_Attack_25: -6435837674476744584
+      Quaidatgan_Attack_26: 6875489368612040458
+      Quaidatgan_Attack_27: -241329381718026429
+      Quaidatgan_Attack_28: 1349621627286940160
+      Quaidatgan_Attack_29: -2935235852656827857
+      Quaidatgan_Attack_3: -3522983544491365225
+      Quaidatgan_Attack_30: -7611678529377686746
+      Quaidatgan_Attack_31: 8557812295426055471
+      Quaidatgan_Attack_32: 5933980848175761563
+      Quaidatgan_Attack_33: -3034641310807948182
+      Quaidatgan_Attack_34: 4957244619309437848
+      Quaidatgan_Attack_35: 1022554266161853091
+      Quaidatgan_Attack_36: 5878934681394794388
+      Quaidatgan_Attack_37: -1695655762576917382
+      Quaidatgan_Attack_38: -795671240198833394
+      Quaidatgan_Attack_39: -7448565863567911609
+      Quaidatgan_Attack_4: -2925966663967582831
+      Quaidatgan_Attack_40: 5809457189914665844
+      Quaidatgan_Attack_41: 1398003023
+      Quaidatgan_Attack_5: -6455370115771701568
+      Quaidatgan_Attack_6: 551627585850351100
+      Quaidatgan_Attack_7: -6465517363417927774
+      Quaidatgan_Attack_8: -7070140367278020637
+      Quaidatgan_Attack_9: 2768675198277909770
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
