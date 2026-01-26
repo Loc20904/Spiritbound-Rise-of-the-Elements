@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 589d195bacfa5d44ea8ccdbdf87a1761
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3988971534753927752
+    second: Bos_Fire_speccialAttack_0
+  - first:
+      213: -4773094968463969916
+    second: Bos_Fire_speccialAttack_1
+  - first:
+      213: 4247931213853243306
+    second: Bos_Fire_speccialAttack_2
+  - first:
+      213: -3024932630373062706
+    second: Bos_Fire_speccialAttack_3
+  - first:
+      213: 2321276864805840808
+    second: Bos_Fire_speccialAttack_4
+  - first:
+      213: 9218348951972228086
+    second: Bos_Fire_speccialAttack_5
+  - first:
+      213: 5387182070042423567
+    second: Bos_Fire_speccialAttack_6
+  - first:
+      213: 8962329901791604483
+    second: Bos_Fire_speccialAttack_7
+  - first:
+      213: 4730081217078578546
+    second: Bos_Fire_speccialAttack_8
+  - first:
+      213: -8215618324775410718
+    second: Bos_Fire_speccialAttack_9
+  - first:
+      213: -1887279416105941274
+    second: Bos_Fire_speccialAttack_10
+  - first:
+      213: 3277566497174849488
+    second: Bos_Fire_speccialAttack_11
+  - first:
+      213: -2897410619757586913
+    second: Bos_Fire_speccialAttack_12
+  - first:
+      213: 441305736103455314
+    second: Bos_Fire_speccialAttack_13
+  - first:
+      213: 2634395914568072458
+    second: Bos_Fire_speccialAttack_14
+  - first:
+      213: -9180502679869826395
+    second: Bos_Fire_speccialAttack_15
+  - first:
+      213: -2217235682560305237
+    second: Bos_Fire_speccialAttack_16
+  - first:
+      213: 1980899361633540041
+    second: Bos_Fire_speccialAttack_17
+  - first:
+      213: -3148384116159912327
+    second: Bos_Fire_speccialAttack_18
+  - first:
+      213: 4728075942816593625
+    second: Bos_Fire_speccialAttack_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 466
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bde8db068354a8c0800000000000000
+      internalID: -3988971534753927752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_2
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 466
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48130854a6f82cdb0800000000000000
+      internalID: -4773094968463969916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_3
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 462
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa73408beeea3fa30800000000000000
+      internalID: 4247931213853243306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_4
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 453
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7a5188205d63020800000000000000
+      internalID: 2321276864805840808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 466
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb26e9e7872eef70800000000000000
+      internalID: 9218348951972228086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 239
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f662caf87906c70800000000000000
+      internalID: 8962329901791604483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 215
+        width: 145
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d47be4ecf94a140800000000000000
+      internalID: 4730081217078578546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 212
+        width: 156
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3629d69a24cfd80800000000000000
+      internalID: -8215618324775410718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_10
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 207
+        width: 157
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6491bce590fc5e0800000000000000
+      internalID: -1887279416105941274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_11
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 201
+        width: 148
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d704d72d514c7d20800000000000000
+      internalID: 3277566497174849488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 22
+        width: 148
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1697e874645ac7d0800000000000000
+      internalID: -2897410619757586913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 18
+        width: 133
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ae9c59a35df1600800000000000000
+      internalID: 441305736103455314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 41
+        width: 89
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa56daf37d489080800000000000000
+      internalID: -9180502679869826395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_16
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 50
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba71ca5e4ebca31e0800000000000000
+      internalID: -2217235682560305237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bos_Fire_speccialAttack_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 54
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c717f169719d7b10800000000000000
+      internalID: 1980899361633540041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 984748594f1e71145b3359d2920054f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bos_Fire_speccialAttack_: 9218348951972228086
+      Bos_Fire_speccialAttack_1: -3988971534753927752
+      Bos_Fire_speccialAttack_10: -1887279416105941274
+      Bos_Fire_speccialAttack_11: 3277566497174849488
+      Bos_Fire_speccialAttack_12: -2897410619757586913
+      Bos_Fire_speccialAttack_13: 441305736103455314
+      Bos_Fire_speccialAttack_14: 2634395914568072458
+      Bos_Fire_speccialAttack_15: -9180502679869826395
+      Bos_Fire_speccialAttack_16: -2217235682560305237
+      Bos_Fire_speccialAttack_17: 1980899361633540041
+      Bos_Fire_speccialAttack_18: -3148384116159912327
+      Bos_Fire_speccialAttack_19: 4728075942816593625
+      Bos_Fire_speccialAttack_2: -4773094968463969916
+      Bos_Fire_speccialAttack_3: 4247931213853243306
+      Bos_Fire_speccialAttack_4: 2321276864805840808
+      Bos_Fire_speccialAttack_6: 5387182070042423567
+      Bos_Fire_speccialAttack_7: 8962329901791604483
+      Bos_Fire_speccialAttack_8: 4730081217078578546
+      Bos_Fire_speccialAttack_9: -8215618324775410718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
