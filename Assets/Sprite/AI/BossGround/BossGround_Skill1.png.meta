@@ -1,0 +1,796 @@
+fileFormatVersion: 2
+guid: efabc8956d9b86d4582442ccc472cede
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2204792606681710243
+    second: BossGround_Skill1_0
+  - first:
+      213: -2322376349732415895
+    second: BossGround_Skill1_1
+  - first:
+      213: 1142176805933607821
+    second: BossGround_Skill1_2
+  - first:
+      213: 7374165738762520078
+    second: BossGround_Skill1_3
+  - first:
+      213: -3774503271597244318
+    second: BossGround_Skill1_4
+  - first:
+      213: -8926288753903605736
+    second: BossGround_Skill1_5
+  - first:
+      213: 2700546911394779798
+    second: BossGround_Skill1_6
+  - first:
+      213: -1470283351691495563
+    second: BossGround_Skill1_7
+  - first:
+      213: -8191614532290943519
+    second: BossGround_Skill1_8
+  - first:
+      213: -3467860473546766027
+    second: BossGround_Skill1_9
+  - first:
+      213: -8333265597777275388
+    second: BossGround_Skill1_10
+  - first:
+      213: -3549431012502341329
+    second: BossGround_Skill1_11
+  - first:
+      213: 1903657472813530385
+    second: BossGround_Skill1_12
+  - first:
+      213: -4661863358396159467
+    second: BossGround_Skill1_13
+  - first:
+      213: 5247716203238974549
+    second: BossGround_Skill1_14
+  - first:
+      213: -7676929926802983685
+    second: BossGround_Skill1_15
+  - first:
+      213: 6038571918673210952
+    second: BossGround_Skill1_16
+  - first:
+      213: 3790195111413870411
+    second: BossGround_Skill1_17
+  - first:
+      213: 3407036067799789443
+    second: BossGround_Skill1_18
+  - first:
+      213: 3779637962065836979
+    second: BossGround_Skill1_19
+  - first:
+      213: 8528202342073852476
+    second: BossGround_Skill1_20
+  - first:
+      213: 727847084733426524
+    second: BossGround_Skill1_21
+  - first:
+      213: 3599313597050119037
+    second: BossGround_Skill1_22
+  - first:
+      213: 9154025769760212030
+    second: BossGround_Skill1_23
+  - first:
+      213: -4444910051493761854
+    second: BossGround_Skill1_24
+  - first:
+      213: 9022913323391880623
+    second: BossGround_Skill1_25
+  - first:
+      213: -7027146386532773844
+    second: BossGround_Skill1_26
+  - first:
+      213: -678564737672980622
+    second: BossGround_Skill1_27
+  - first:
+      213: -6732726563332527510
+    second: BossGround_Skill1_28
+  - first:
+      213: 5055889430720207046
+    second: BossGround_Skill1_29
+  - first:
+      213: -7444297563976343446
+    second: BossGround_Skill1_30
+  - first:
+      213: 2739491899763275229
+    second: BossGround_Skill1_31
+  - first:
+      213: 2323808836347063503
+    second: BossGround_Skill1_32
+  - first:
+      213: -68158818214427689
+    second: BossGround_Skill1_33
+  - first:
+      213: -6411712198321993868
+    second: BossGround_Skill1_34
+  - first:
+      213: 5133522753401517541
+    second: BossGround_Skill1_35
+  - first:
+      213: -194677722824224858
+    second: BossGround_Skill1_36
+  - first:
+      213: -6326891706084114011
+    second: BossGround_Skill1_37
+  - first:
+      213: -1031776545913643020
+    second: BossGround_Skill1_38
+  - first:
+      213: -4922876073815736470
+    second: BossGround_Skill1_39
+  - first:
+      213: 8072730368868750708
+    second: BossGround_Skill1_40
+  - first:
+      213: -8474100112852504351
+    second: BossGround_Skill1_41
+  - first:
+      213: -6206899564370085908
+    second: BossGround_Skill1_42
+  - first:
+      213: 2129327119889044941
+    second: BossGround_Skill1_43
+  - first:
+      213: -1145225365844534127
+    second: BossGround_Skill1_44
+  - first:
+      213: 4486938472546344399
+    second: BossGround_Skill1_45
+  - first:
+      213: 6899605087558031206
+    second: BossGround_Skill1_46
+  - first:
+      213: -5899524622961218133
+    second: BossGround_Skill1_47
+  - first:
+      213: 5471939440470561794
+    second: BossGround_Skill1_48
+  - first:
+      213: -6454774510939199491
+    second: BossGround_Skill1_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossGround_Skill1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.48777735, y: 0.25554657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5144534ec00761e0800000000000000
+      internalID: -2204792606681710243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24943542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9665e6fa30345cfd0800000000000000
+      internalID: -2322376349732415895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.4938886, y: 0.24943542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bec54e0c3d9df00800000000000000
+      internalID: 1142176805933607821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 960
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.46944326, y: 0.26165798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06cbcd5bac465660800000000000000
+      internalID: 7374165738762520078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24120076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26085ecc5454e9bc0800000000000000
+      internalID: -3774503271597244318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818e20dfba37f1480800000000000000
+      internalID: -8926288753903605736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 722
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692d6f89b154a7520800000000000000
+      internalID: 2700546911394779798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577f14fd411889be0800000000000000
+      internalID: -1470283351691495563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_8
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 720
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5eed1ebf9815e80800000000000000
+      internalID: -8191614532290943519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_9
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 720
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53980a7d54fafdfc0800000000000000
+      internalID: -3467860473546766027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4069081271b4a5c80800000000000000
+      internalID: -8333265597777275388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29fa01cc43edbec0800000000000000
+      internalID: -3549431012502341329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d7111b2662b6a10800000000000000
+      internalID: 1903657472813530385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_13
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a2363a9fbbd4fb0800000000000000
+      internalID: -4661863358396159467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554ee105512a3d840800000000000000
+      internalID: 5247716203238974549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4b75bd7e0167590800000000000000
+      internalID: -7676929926802983685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e6a239a215dc350800000000000000
+      internalID: 6038571918673210952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fee3d5f5a799430800000000000000
+      internalID: 3790195111413870411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f662e9049384f20800000000000000
+      internalID: 3407036067799789443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 240
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbf38c73b8f37430800000000000000
+      internalID: 3779637962065836979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3267f388d24a5670800000000000000
+      internalID: 8528202342073852476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5be6583115d91a00800000000000000
+      internalID: 727847084733426524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Skill1_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73e76385a453f130800000000000000
+      internalID: 3599313597050119037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a8017f1e43768ba439dfc4c1132491f7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BossGround_Skill1_0: -2204792606681710243
+      BossGround_Skill1_1: -2322376349732415895
+      BossGround_Skill1_10: -8333265597777275388
+      BossGround_Skill1_11: -3549431012502341329
+      BossGround_Skill1_12: 1903657472813530385
+      BossGround_Skill1_13: -4661863358396159467
+      BossGround_Skill1_14: 5247716203238974549
+      BossGround_Skill1_15: -7676929926802983685
+      BossGround_Skill1_16: 6038571918673210952
+      BossGround_Skill1_17: 3790195111413870411
+      BossGround_Skill1_18: 3407036067799789443
+      BossGround_Skill1_19: 3779637962065836979
+      BossGround_Skill1_2: 1142176805933607821
+      BossGround_Skill1_20: 8528202342073852476
+      BossGround_Skill1_21: 727847084733426524
+      BossGround_Skill1_22: 3599313597050119037
+      BossGround_Skill1_3: 7374165738762520078
+      BossGround_Skill1_4: -3774503271597244318
+      BossGround_Skill1_5: -8926288753903605736
+      BossGround_Skill1_6: 2700546911394779798
+      BossGround_Skill1_7: -1470283351691495563
+      BossGround_Skill1_8: -8191614532290943519
+      BossGround_Skill1_9: -3467860473546766027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
