@@ -5,15 +5,14 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
-  - Border
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - enemy
+  - 
   - Water
   - UI
-  - Ground+Wall
+  - Wall
   - Player
   - 
   - 

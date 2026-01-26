@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 67456a84b4acb18438df51edea5c700c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2752139808979668241
+    second: Boss_Fire_Idle_0
+  - first:
+      213: -1263381682261022105
+    second: Boss_Fire_Idle_1
+  - first:
+      213: -7586619318151354376
+    second: Boss_Fire_Idle_2
+  - first:
+      213: -1709598076172460768
+    second: Boss_Fire_Idle_3
+  - first:
+      213: 2865526461334887965
+    second: Boss_Fire_Idle_4
+  - first:
+      213: -4112064697067782498
+    second: Boss_Fire_Idle_5
+  - first:
+      213: -7594498745487483512
+    second: Boss_Fire_Idle_6
+  - first:
+      213: 8624755076748972396
+    second: Boss_Fire_Idle_7
+  - first:
+      213: -3178225805987899379
+    second: Boss_Fire_Idle_8
+  - first:
+      213: -477880246130911408
+    second: Boss_Fire_Idle_9
+  - first:
+      213: 6181399322541310834
+    second: Boss_Fire_Idle_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1535
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe23e89dc6f6ec9d0800000000000000
+      internalID: -2752139808979668241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1535
+        width: 290
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aa81dbd01977ee0800000000000000
+      internalID: -1263381682261022105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1535
+        width: 290
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7e87ffce9e6b690800000000000000
+      internalID: -7586619318151354376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1055
+        width: 290
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d9c098b994648e0800000000000000
+      internalID: -1709598076172460768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1055
+        width: 290
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e1956622564c720800000000000000
+      internalID: 2865526461334887965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1055
+        width: 290
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9eb9d5d1f20fe6c0800000000000000
+      internalID: -4112064697067782498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 575
+        width: 290
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d911cd0abea9690800000000000000
+      internalID: -7594498745487483512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 575
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c619e50eb0941b770800000000000000
+      internalID: 8624755076748972396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 575
+        width: 290
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d089c1ae77ca4e3d0800000000000000
+      internalID: -3178225805987899379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 95
+        width: 290
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057d034b27a3e59f0800000000000000
+      internalID: -477880246130911408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 95
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2734ae2feedb8c550800000000000000
+      internalID: 6181399322541310834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_Fire_Idle_0: -2752139808979668241
+      Boss_Fire_Idle_1: -1263381682261022105
+      Boss_Fire_Idle_10: 6181399322541310834
+      Boss_Fire_Idle_2: -7586619318151354376
+      Boss_Fire_Idle_3: -1709598076172460768
+      Boss_Fire_Idle_4: 2865526461334887965
+      Boss_Fire_Idle_5: -4112064697067782498
+      Boss_Fire_Idle_6: -7594498745487483512
+      Boss_Fire_Idle_7: 8624755076748972396
+      Boss_Fire_Idle_8: -3178225805987899379
+      Boss_Fire_Idle_9: -477880246130911408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
