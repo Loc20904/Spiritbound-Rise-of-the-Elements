@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 916499af4b24b204586c6208cd19151c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8752248104280149015
+    second: Boss_Fire_Breathing_0
+  - first:
+      213: 1396125805562784556
+    second: Boss_Fire_Breathing_1
+  - first:
+      213: 5861710913544494369
+    second: Boss_Fire_Breathing_2
+  - first:
+      213: -388053567585425109
+    second: Boss_Fire_Breathing_3
+  - first:
+      213: -1942447238825136947
+    second: Boss_Fire_Breathing_4
+  - first:
+      213: 8862421054833105713
+    second: Boss_Fire_Breathing_5
+  - first:
+      213: 9199147840499937021
+    second: Boss_Fire_Breathing_6
+  - first:
+      213: -5794746351293697527
+    second: Boss_Fire_Breathing_7
+  - first:
+      213: 1241049000262612795
+    second: Boss_Fire_Breathing_8
+  - first:
+      213: -7460993223267722743
+    second: Boss_Fire_Breathing_9
+  - first:
+      213: -6128957236503426065
+    second: Boss_Fire_Breathing_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1535
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c44b9874b367970800000000000000
+      internalID: 8752248104280149015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_1
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1535
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b635ee509006310800000000000000
+      internalID: 1396125805562784556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_2
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1535
+        width: 290
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d99d9e40bf85150800000000000000
+      internalID: 5861710913544494369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1055
+        width: 290
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b296f36165b5d9af0800000000000000
+      internalID: -388053567585425109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_4
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1055
+        width: 290
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcca3ee178a0b05e0800000000000000
+      internalID: -1942447238825136947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_5
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1055
+        width: 290
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b15478ef4adfa70800000000000000
+      internalID: 8862421054833105713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 575
+        width: 290
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfeec45c830f9af70800000000000000
+      internalID: 9199147840499937021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_7
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 575
+        width: 290
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902f5a735ece49fa0800000000000000
+      internalID: -5794746351293697527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_8
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 575
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37b1898d77193110800000000000000
+      internalID: 1241049000262612795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 95
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ad787813a357890800000000000000
+      internalID: -7460993223267722743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Fire_Breathing_10
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 95
+        width: 290
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb47a2bdd191faa0800000000000000
+      internalID: -6128957236503426065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_Fire_Breathing_0: 8752248104280149015
+      Boss_Fire_Breathing_1: 1396125805562784556
+      Boss_Fire_Breathing_10: -6128957236503426065
+      Boss_Fire_Breathing_2: 5861710913544494369
+      Boss_Fire_Breathing_3: -388053567585425109
+      Boss_Fire_Breathing_4: -1942447238825136947
+      Boss_Fire_Breathing_5: 8862421054833105713
+      Boss_Fire_Breathing_6: 9199147840499937021
+      Boss_Fire_Breathing_7: -5794746351293697527
+      Boss_Fire_Breathing_8: 1241049000262612795
+      Boss_Fire_Breathing_9: -7460993223267722743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
