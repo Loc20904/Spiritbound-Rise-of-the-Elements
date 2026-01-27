@@ -41,6 +41,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Dash",
+                    "type": "Button",
+                    "id": "84675670-f441-427f-9fa5-5750235c7439",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Up_idle_Attack",
+                    "type": "Button",
+                    "id": "5a62d778-597b-48b5-a36b-613e63d7797f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -167,17 +185,6 @@
                 },
                 {
                     "name": "",
-                    "id": "3441feb3-3ece-4c7c-88d1-d607e4b6be04",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Attack1",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "2c2e2c45-142b-42a6-bf9d-4188a23a09b8",
                     "path": "<Keyboard>/k",
                     "interactions": "",
@@ -211,12 +218,34 @@
                 },
                 {
                     "name": "",
-                    "id": "27f7cde2-2741-4d41-ba67-525c582fcd5f",
+                    "id": "0ec47407-e5fa-4a1c-aff3-fa094956f9e3",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "429ad269-152c-4e2b-9a6d-bc7af32de912",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0742ec34-940b-43be-a494-aa6972d86e76",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up_idle_Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
