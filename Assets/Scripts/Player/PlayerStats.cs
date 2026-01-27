@@ -14,6 +14,11 @@ public class PlayerStats : MonoBehaviour
     [Header("Respawn")]
     public float respawnDelay = 5f;
 
+    [Header("Hurt / i-frames")]
+    [SerializeField] private float hurtInvincibleTime = 0.35f; // 0.25~0.5 tuỳ bạn
+    private float nextHurtTime;
+
+
     private Animator anim;
     private bool dead = false;
 
@@ -31,16 +36,18 @@ public class PlayerStats : MonoBehaviour
     {
         if (dead) return;
 
-        // ✅ tính sát thương sau khi trừ giáp
+        // ✅ chỉ nhận hit 1 lần trong khoảng i-frame
+        if (Time.time < nextHurtTime) return;
+        nextHurtTime = Time.time + hurtInvincibleTime;
+
         int finalDamage = Mathf.Max(incomingDamage - armor, 0);
-
         currentHP -= finalDamage;
-        Debug.Log($"Player nhận damage: {finalDamage} | HP còn: {currentHP}");
+        Debug.Log($"[PlayerStats] -{finalDamage} HP => {currentHP}/{maxHP}");
 
-        if (currentHP <= 0)
-        {
-            Die();
-        }
+        // ✅ trigger hit anim ngay lập tức
+        controller?.TakeHit();
+
+        if (currentHP <= 0) Die();
     }
 
     private void Die()
@@ -50,7 +57,7 @@ public class PlayerStats : MonoBehaviour
 
         // bật anim chết
         if (anim != null)
-            anim.SetBool("IsDead", true);
+            anim.SetBool("Isdead", true);
 
         // tắt điều khiển
         if (controller != null)
@@ -70,7 +77,7 @@ public class PlayerStats : MonoBehaviour
 
         // tắt trạng thái chết để quay lại idle/run
         if (anim != null)
-            anim.SetBool("IsDead", false);
+            anim.SetBool("Isdead", false);
 
         // bật lại điều khiển
         if (controller != null)
