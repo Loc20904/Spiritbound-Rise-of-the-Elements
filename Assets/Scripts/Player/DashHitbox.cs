@@ -3,7 +3,6 @@
 public class DashHitbox : MonoBehaviour
 {
     [SerializeField] private PlayerController player;
-    [SerializeField] private string enemyTag = "Enemy";
 
     private void Reset()
     {
@@ -14,14 +13,7 @@ public class DashHitbox : MonoBehaviour
     {
         if (player == null) return;
 
-        // cách 1: theo tag
-        if (other.CompareTag(enemyTag))
-        {
-            player.OnDashHit(other.gameObject);
-            return;
-        }
-
-        // cách 2: ai có IDamageable thì cũng coi là enemy
+        // ✅ ai có IDamageable thì coi là enemy
         if (other.GetComponent<IDamageable>() != null)
         {
             player.OnDashHit(other.gameObject);
