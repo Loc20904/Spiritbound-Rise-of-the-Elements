@@ -386,7 +386,9 @@ public class PlayerController : MonoBehaviour
     // ===== Hit / Dead =====
     public void TakeHit()
     {
+      
         if (isDead) return;
+        Debug.Log("TakeHit() called, animator = " + (animator ? animator.name : "NULL"));
         animator.SetTrigger(T_Hit);
     }
 
@@ -394,7 +396,6 @@ public class PlayerController : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
-
         animator.SetBool(A_Isdead, true);
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;
@@ -424,6 +425,42 @@ public class PlayerController : MonoBehaviour
 
         if (climbCheck)
             Gizmos.DrawWireSphere(climbCheck.position, climbCheckRadius);
+    }
+    // Biến kiểm tra trạng thái để khóa di chuyển
+    public bool isStunned = false;
+
+    public void ApplyStun(float duration, GameObject stunVFXPrefab)
+    {
+        if (isStunned) return; // Nếu đang choáng thì không chồng hiệu ứng
+
+        StartCoroutine(StunRoutine(duration, stunVFXPrefab));
+    }
+
+    private IEnumerator StunRoutine(float duration, GameObject vfxPrefab)
+    {
+        isStunned = true;
+        Debug.Log("Player bị choáng!");
+
+        // 1. Tạo hiệu ứng trên đầu
+        GameObject currentVFX = null;
+        if (vfxPrefab != null)
+        {
+            Vector3 headPos = transform.position + new Vector3(0, 1f, 0);
+            currentVFX = Instantiate(vfxPrefab, headPos, Quaternion.identity);
+            currentVFX.transform.SetParent(this.transform); // Gán làm con để di chuyển theo
+        }
+
+        // 2. Tại đây bạn nên KHÓA DI CHUYỂN (disable movement script hoặc set velocity = 0)
+        // Ví dụ: GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+
+        yield return new WaitForSeconds(duration);
+
+        // 3. Hết thời gian choáng
+        isStunned = false;
+        Debug.Log("Hết choáng!");
+
+        // Xóa hiệu ứng
+        if (currentVFX != null) Destroy(currentVFX);
     }
 }
 
