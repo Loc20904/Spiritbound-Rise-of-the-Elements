@@ -330,4 +330,9 @@ public class BossGroundAttack : BossAttackBase
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, meleeRange);
     }
+
+    protected override IEnumerator SkillUtimateUlti()
+    {
+        throw new System.NotImplementedException();
+    }
 }

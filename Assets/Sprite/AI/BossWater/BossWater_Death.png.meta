@@ -1,0 +1,861 @@
+fileFormatVersion: 2
+guid: 503591b8124fa7e428e77269b34b5c7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1469393483389542525
+    second: BossWater_Death_0
+  - first:
+      213: -9144067163737030791
+    second: BossWater_Death_1
+  - first:
+      213: 299479001079607159
+    second: BossWater_Death_2
+  - first:
+      213: -2251138187835449698
+    second: BossWater_Death_3
+  - first:
+      213: -4347452304808825384
+    second: BossWater_Death_4
+  - first:
+      213: 8894462497157781664
+    second: BossWater_Death_5
+  - first:
+      213: 5133495756990635541
+    second: BossWater_Death_6
+  - first:
+      213: -5119974530019915455
+    second: BossWater_Death_7
+  - first:
+      213: 919945643614936379
+    second: BossWater_Death_8
+  - first:
+      213: -1724952957178735380
+    second: BossWater_Death_9
+  - first:
+      213: 7581240806093720600
+    second: BossWater_Death_10
+  - first:
+      213: 8076161395621934500
+    second: BossWater_Death_11
+  - first:
+      213: -2261020958550028578
+    second: BossWater_Death_12
+  - first:
+      213: -5932841140707502931
+    second: BossWater_Death_13
+  - first:
+      213: -2907827242735796360
+    second: BossWater_Death_14
+  - first:
+      213: 343601857488989980
+    second: BossWater_Death_15
+  - first:
+      213: 7910192627663790830
+    second: BossWater_Death_16
+  - first:
+      213: 8038764088473345422
+    second: BossWater_Death_17
+  - first:
+      213: -4360352954800717354
+    second: BossWater_Death_18
+  - first:
+      213: 4890501846837842785
+    second: BossWater_Death_19
+  - first:
+      213: 4331407566836212680
+    second: BossWater_Death_20
+  - first:
+      213: -6522613304535358782
+    second: BossWater_Death_21
+  - first:
+      213: 1626688423004583199
+    second: BossWater_Death_22
+  - first:
+      213: -7022753696299022221
+    second: BossWater_Death_23
+  - first:
+      213: 1467665245251654519
+    second: BossWater_Death_24
+  - first:
+      213: 4479530330811161177
+    second: BossWater_Death_25
+  - first:
+      213: -1371724486741505838
+    second: BossWater_Death_26
+  - first:
+      213: 724369435566898425
+    second: BossWater_Death_27
+  - first:
+      213: -1163802080273610344
+    second: BossWater_Death_28
+  - first:
+      213: 3468911260352566767
+    second: BossWater_Death_29
+  - first:
+      213: 6418710997392539813
+    second: BossWater_Death_30
+  - first:
+      213: -6657045511938512340
+    second: BossWater_Death_31
+  - first:
+      213: -7732281825647316163
+    second: BossWater_Death_32
+  - first:
+      213: 8810096531661156019
+    second: BossWater_Death_33
+  - first:
+      213: -4602610458137068592
+    second: BossWater_Death_34
+  - first:
+      213: 4153407601938413253
+    second: BossWater_Death_35
+  - first:
+      213: -1505158061714468054
+    second: BossWater_Death_36
+  - first:
+      213: -8627645658896423839
+    second: BossWater_Death_37
+  - first:
+      213: -6161763116408506565
+    second: BossWater_Death_38
+  - first:
+      213: 3548510820465645679
+    second: BossWater_Death_39
+  - first:
+      213: 4795332062198147931
+    second: BossWater_Death_40
+  - first:
+      213: 865221315733789779
+    second: BossWater_Death_41
+  - first:
+      213: 6153268901137240835
+    second: BossWater_Death_42
+  - first:
+      213: -8029858224816117302
+    second: BossWater_Death_43
+  - first:
+      213: 1881427121438761676
+    second: BossWater_Death_44
+  - first:
+      213: 1851134800929108775
+    second: BossWater_Death_45
+  - first:
+      213: -7815262237537345574
+    second: BossWater_Death_46
+  - first:
+      213: -3249687149356505849
+    second: BossWater_Death_47
+  - first:
+      213: -3878285726415379796
+    second: BossWater_Death_48
+  - first:
+      213: 985171219081454559
+    second: BossWater_Death_49
+  - first:
+      213: 1134710143236887650
+    second: BossWater_Death_50
+  - first:
+      213: -7181542674186665627
+    second: BossWater_Death_51
+  - first:
+      213: -7336170206591039196
+    second: BossWater_Death_52
+  - first:
+      213: -5984784244775320186
+    second: BossWater_Death_53
+  - first:
+      213: -4138201451403571735
+    second: BossWater_Death_54
+  - first:
+      213: 6760638391193345134
+    second: BossWater_Death_55
+  - first:
+      213: 2619390658474491108
+    second: BossWater_Death_56
+  - first:
+      213: -2735927545039287644
+    second: BossWater_Death_57
+  - first:
+      213: 1283768721135589304
+    second: BossWater_Death_58
+  - first:
+      213: 7982928046169582543
+    second: BossWater_Death_59
+  - first:
+      213: 899185856451233949
+    second: BossWater_Death_60
+  - first:
+      213: -76842310682535064
+    second: BossWater_Death_61
+  - first:
+      213: -3262532025991981791
+    second: BossWater_Death_62
+  - first:
+      213: -1831881766839440680
+    second: BossWater_Death_63
+  - first:
+      213: 6338041448134743237
+    second: BossWater_Death_64
+  - first:
+      213: 8586779870269790604
+    second: BossWater_Death_65
+  - first:
+      213: 5584235923488671025
+    second: BossWater_Death_66
+  - first:
+      213: 1447793040211803856
+    second: BossWater_Death_67
+  - first:
+      213: -8572175174841914364
+    second: BossWater_Death_68
+  - first:
+      213: 7147882627357423912
+    second: BossWater_Death_69
+  - first:
+      213: -680634391570065506
+    second: BossWater_Death_70
+  - first:
+      213: -7894606165566163247
+    second: BossWater_Death_71
+  - first:
+      213: -2645432576644031086
+    second: BossWater_Death_72
+  - first:
+      213: -6270929278778439489
+    second: BossWater_Death_73
+  - first:
+      213: 5533429338145478158
+    second: BossWater_Death_74
+  - first:
+      213: -463857677867575673
+    second: BossWater_Death_75
+  - first:
+      213: 2297716281403543649
+    second: BossWater_Death_76
+  - first:
+      213: 5962129808921131352
+    second: BossWater_Death_77
+  - first:
+      213: 5478920497011810022
+    second: BossWater_Death_78
+  - first:
+      213: -4781307250819417716
+    second: BossWater_Death_79
+  - first:
+      213: 931098667813499946
+    second: BossWater_Death_80
+  - first:
+      213: 4821519198469459594
+    second: BossWater_Death_81
+  - first:
+      213: 8842128233902328764
+    second: BossWater_Death_82
+  - first:
+      213: -8281732179224700991
+    second: BossWater_Death_83
+  - first:
+      213: 2849354256422968310
+    second: BossWater_Death_84
+  - first:
+      213: 8495636024376685941
+    second: BossWater_Death_85
+  - first:
+      213: -6911874987501758750
+    second: BossWater_Death_86
+  - first:
+      213: 4122765426056328165
+    second: BossWater_Death_87
+  - first:
+      213: -2147877761365078821
+    second: BossWater_Death_88
+  - first:
+      213: -3761694453155084211
+    second: BossWater_Death_89
+  - first:
+      213: 3276454378098097665
+    second: BossWater_Death_90
+  - first:
+      213: -97044524307424857
+    second: BossWater_Death_91
+  - first:
+      213: 3813440513081691416
+    second: BossWater_Death_92
+  - first:
+      213: -6851543562531837850
+    second: BossWater_Death_93
+  - first:
+      213: -4077690755167263206
+    second: BossWater_Death_94
+  - first:
+      213: 9019129178418956708
+    second: BossWater_Death_95
+  - first:
+      213: 7804112064252773362
+    second: BossWater_Death_96
+  - first:
+      213: -7747374704025075936
+    second: BossWater_Death_97
+  - first:
+      213: -6389541620334545520
+    second: BossWater_Death_98
+  - first:
+      213: 3791139598444278773
+    second: BossWater_Death_99
+  - first:
+      213: 3627101918693841894
+    second: BossWater_Death_100
+  - first:
+      213: 7768101624998335819
+    second: BossWater_Death_101
+  - first:
+      213: 1048271806312978479
+    second: BossWater_Death_102
+  - first:
+      213: -4612194004613995632
+    second: BossWater_Death_103
+  - first:
+      213: -5835389829465521771
+    second: BossWater_Death_104
+  - first:
+      213: -8245577232544759813
+    second: BossWater_Death_105
+  - first:
+      213: 7820856472451367009
+    second: BossWater_Death_106
+  - first:
+      213: 1131202093357318473
+    second: BossWater_Death_107
+  - first:
+      213: -6391008202106850380
+    second: BossWater_Death_108
+  - first:
+      213: 760055467513756078
+    second: BossWater_Death_109
+  - first:
+      213: -6467610870409058663
+    second: BossWater_Death_110
+  - first:
+      213: -5788517291539689127
+    second: BossWater_Death_111
+  - first:
+      213: 6505972257953821011
+    second: BossWater_Death_112
+  - first:
+      213: 7912295724385257588
+    second: BossWater_Death_113
+  - first:
+      213: 7718369060390395553
+    second: BossWater_Death_114
+  - first:
+      213: 6544949226770383006
+    second: BossWater_Death_115
+  - first:
+      213: -3310181730117783402
+    second: BossWater_Death_116
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossWater_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fda4b796aab9be0800000000000000
+      internalID: -1469393483389542525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ff327ac5fb91180800000000000000
+      internalID: -9144067163737030791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fe9059096f72400800000000000000
+      internalID: 299479001079607159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e50c5ceb952c0e0800000000000000
+      internalID: -2251138187835449698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddaaed992fbaa3c0800000000000000
+      internalID: -4347452304808825384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a89f1b248a7f6b70800000000000000
+      internalID: 8894462497157781664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ed66b4137dd3740800000000000000
+      internalID: 5133495756990635541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1498d1faa4232f8b0800000000000000
+      internalID: -5119974530019915455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d165450bd44cc00800000000000000
+      internalID: 919945643614936379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce41a15bc6cbf08e0800000000000000
+      internalID: -1724952957178735380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c89e3985af53960800000000000000
+      internalID: 7581240806093720600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5b4cefff9441070800000000000000
+      internalID: 8076161395621934500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede89e7ea6d3f90e0800000000000000
+      internalID: -2261020958550028578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da45e438a605aada0800000000000000
+      internalID: -5932841140707502931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f7780778255a7d0800000000000000
+      internalID: -2907827242735796360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fabc3a118b4c400800000000000000
+      internalID: 343601857488989980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Death_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee260dce846a6cd60800000000000000
+      internalID: 7910192627663790830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f73ed74992de2743b96b4c9beda4e56
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":5.0},"gridSpriteSize":{"x":200.0,"y":200.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossWater_Death_0: -1469393483389542525
+      BossWater_Death_1: -9144067163737030791
+      BossWater_Death_10: 7581240806093720600
+      BossWater_Death_11: 8076161395621934500
+      BossWater_Death_12: -2261020958550028578
+      BossWater_Death_13: -5932841140707502931
+      BossWater_Death_14: -2907827242735796360
+      BossWater_Death_15: 343601857488989980
+      BossWater_Death_16: 7910192627663790830
+      BossWater_Death_2: 299479001079607159
+      BossWater_Death_3: -2251138187835449698
+      BossWater_Death_4: -4347452304808825384
+      BossWater_Death_5: 8894462497157781664
+      BossWater_Death_6: 5133495756990635541
+      BossWater_Death_7: -5119974530019915455
+      BossWater_Death_8: 919945643614936379
+      BossWater_Death_9: -1724952957178735380
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
