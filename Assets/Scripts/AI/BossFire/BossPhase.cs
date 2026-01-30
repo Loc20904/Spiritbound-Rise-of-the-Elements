@@ -4,6 +4,7 @@ public class BossPhase : MonoBehaviour
 {
     public bool isPhase2 = false;
     public float phase2Threshold = 50f;
+    public GameObject phase2;
 
     Animator anim;
 
@@ -17,6 +18,7 @@ public class BossPhase : MonoBehaviour
         if (!isPhase2 && hpPercent <= phase2Threshold)
         {
             EnterPhase2();
+            phase2.SetActive(true);
         }
     }
 

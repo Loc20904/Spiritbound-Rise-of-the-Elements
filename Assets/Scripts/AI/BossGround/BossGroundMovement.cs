@@ -46,7 +46,6 @@ public class BossGroundMovement : MonoBehaviour
         if (anim != null)
         {
             // Chỉ tính là đang di chuyển nếu vận tốc X đáng kể và KHÔNG phải đang dash
-            // (Dùng rb.velocity nếu Unity bản cũ, dùng rb.linearVelocity nếu Unity 6)
             bool moving = Mathf.Abs(rb.linearVelocity.x) > 0.1f && !isDashing;
             anim.SetBool("isMoving", moving);
         }
@@ -146,7 +145,6 @@ public class BossGroundMovement : MonoBehaviour
         // Chỉ xử lý nếu Boss ĐANG DASH và va chạm với PLAYER
         if (isDashing && collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Boss húc trúng Player!");
 
             Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
 

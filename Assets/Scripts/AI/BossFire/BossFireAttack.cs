@@ -130,4 +130,9 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
             yield return new WaitForSeconds(delay);
         }
     }
+
+    protected override IEnumerator SkillUtimateUlti()
+    {
+        throw new System.NotImplementedException();
+    }
 }

@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: c2b779a28ca0ef04898e40d00909e1e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1789681910255852195
+    second: BossWater_attack_0
+  - first:
+      213: -4023040457586896456
+    second: BossWater_attack_1
+  - first:
+      213: -5367694293831236245
+    second: BossWater_attack_2
+  - first:
+      213: 4126109791310835820
+    second: BossWater_attack_3
+  - first:
+      213: -4956953287656510275
+    second: BossWater_attack_4
+  - first:
+      213: -3959290014240082108
+    second: BossWater_attack_5
+  - first:
+      213: -2415611016822121843
+    second: BossWater_attack_6
+  - first:
+      213: 8843992134374344528
+    second: BossWater_attack_7
+  - first:
+      213: -2656167642686075792
+    second: BossWater_attack_8
+  - first:
+      213: -1662550217434074672
+    second: BossWater_attack_9
+  - first:
+      213: 5883665363724637089
+    second: BossWater_attack_10
+  - first:
+      213: -8469994713969015420
+    second: BossWater_attack_11
+  - first:
+      213: -6154823763861738903
+    second: BossWater_attack_12
+  - first:
+      213: -8337579387140347003
+    second: BossWater_attack_13
+  - first:
+      213: 3438949419736008237
+    second: BossWater_attack_14
+  - first:
+      213: -5815065908150372563
+    second: BossWater_attack_15
+  - first:
+      213: -7878506896696531704
+    second: BossWater_attack_16
+  - first:
+      213: -7684435290244831411
+    second: BossWater_attack_17
+  - first:
+      213: 3968901303417434106
+    second: BossWater_attack_18
+  - first:
+      213: 7208533870166905024
+    second: BossWater_attack_19
+  - first:
+      213: 7368002916355660046
+    second: BossWater_attack_20
+  - first:
+      213: 7270034411330196813
+    second: BossWater_attack_21
+  - first:
+      213: -8568181628455698228
+    second: BossWater_attack_22
+  - first:
+      213: 1220069160037147347
+    second: BossWater_attack_23
+  - first:
+      213: -2531275707498183958
+    second: BossWater_attack_24
+  - first:
+      213: -3076814336498291107
+    second: BossWater_attack_25
+  - first:
+      213: -3889859933194979019
+    second: BossWater_attack_26
+  - first:
+      213: -2050295689033599547
+    second: BossWater_attack_27
+  - first:
+      213: -172447952076380275
+    second: BossWater_attack_28
+  - first:
+      213: -7096457748532685419
+    second: BossWater_attack_29
+  - first:
+      213: -8234162184418201395
+    second: BossWater_attack_30
+  - first:
+      213: 3934530460047886356
+    second: BossWater_attack_31
+  - first:
+      213: 3792979650859110567
+    second: BossWater_attack_32
+  - first:
+      213: -1822805277585850063
+    second: BossWater_attack_33
+  - first:
+      213: 1581557971433647842
+    second: BossWater_attack_34
+  - first:
+      213: 6259745678398072209
+    second: BossWater_attack_35
+  - first:
+      213: -6652336108499306291
+    second: BossWater_attack_36
+  - first:
+      213: -6769745724801051871
+    second: BossWater_attack_37
+  - first:
+      213: 7566900219907692651
+    second: BossWater_attack_38
+  - first:
+      213: -155071257728238375
+    second: BossWater_attack_39
+  - first:
+      213: 2086023228323849642
+    second: BossWater_attack_40
+  - first:
+      213: -4520167516787313643
+    second: BossWater_attack_41
+  - first:
+      213: 8490581951685210613
+    second: BossWater_attack_42
+  - first:
+      213: -7614383647634526485
+    second: BossWater_attack_43
+  - first:
+      213: -8375382366350016399
+    second: BossWater_attack_44
+  - first:
+      213: -5032730345674428833
+    second: BossWater_attack_45
+  - first:
+      213: -9024970961401634613
+    second: BossWater_attack_46
+  - first:
+      213: 6842292176235648776
+    second: BossWater_attack_47
+  - first:
+      213: -3760014303429996822
+    second: BossWater_attack_48
+  - first:
+      213: 1235296527388436259
+    second: BossWater_attack_49
+  - first:
+      213: -5666208411304663684
+    second: BossWater_attack_50
+  - first:
+      213: 6111264494261711140
+    second: BossWater_attack_51
+  - first:
+      213: -245737180797943818
+    second: BossWater_attack_52
+  - first:
+      213: 6630776960660870986
+    second: BossWater_attack_53
+  - first:
+      213: 4301240571525433884
+    second: BossWater_attack_54
+  - first:
+      213: 2470901630597771276
+    second: BossWater_attack_55
+  - first:
+      213: -3332505726123023660
+    second: BossWater_attack_56
+  - first:
+      213: 2804250330820110466
+    second: BossWater_attack_57
+  - first:
+      213: 8539453266870119166
+    second: BossWater_attack_58
+  - first:
+      213: -5900095105739245389
+    second: BossWater_attack_59
+  - first:
+      213: 4598230115753038205
+    second: BossWater_attack_60
+  - first:
+      213: -39658302779069904
+    second: BossWater_attack_61
+  - first:
+      213: -4206863316753842431
+    second: BossWater_attack_62
+  - first:
+      213: -1383735843195450523
+    second: BossWater_attack_63
+  - first:
+      213: 3458482663919444205
+    second: BossWater_attack_64
+  - first:
+      213: -2709371428172054599
+    second: BossWater_attack_65
+  - first:
+      213: -4986238329128639860
+    second: BossWater_attack_66
+  - first:
+      213: -6295931202611601504
+    second: BossWater_attack_67
+  - first:
+      213: 307527211239202771
+    second: BossWater_attack_68
+  - first:
+      213: -3274190468627141678
+    second: BossWater_attack_69
+  - first:
+      213: -7698303673006653237
+    second: BossWater_attack_70
+  - first:
+      213: -3790628300599514181
+    second: BossWater_attack_71
+  - first:
+      213: -8479399768129655404
+    second: BossWater_attack_72
+  - first:
+      213: 5659263971791947871
+    second: BossWater_attack_73
+  - first:
+      213: 4282885982254799753
+    second: BossWater_attack_74
+  - first:
+      213: -4467118189212991447
+    second: BossWater_attack_75
+  - first:
+      213: -4142512681670258228
+    second: BossWater_attack_76
+  - first:
+      213: 272340379168808216
+    second: BossWater_attack_77
+  - first:
+      213: -1394446677469740557
+    second: BossWater_attack_78
+  - first:
+      213: 4324180387240544337
+    second: BossWater_attack_79
+  - first:
+      213: -7457222411739152806
+    second: BossWater_attack_80
+  - first:
+      213: 6315120230204047348
+    second: BossWater_attack_81
+  - first:
+      213: -8990050735610129546
+    second: BossWater_attack_82
+  - first:
+      213: 8232286895594045230
+    second: BossWater_attack_83
+  - first:
+      213: 214419004293138427
+    second: BossWater_attack_84
+  - first:
+      213: -8079126651928450832
+    second: BossWater_attack_85
+  - first:
+      213: -1060662243968120726
+    second: BossWater_attack_86
+  - first:
+      213: 781293952106942748
+    second: BossWater_attack_87
+  - first:
+      213: -1288404653564122399
+    second: BossWater_attack_88
+  - first:
+      213: 9113796398899111574
+    second: BossWater_attack_89
+  - first:
+      213: -4716091361208536096
+    second: BossWater_attack_90
+  - first:
+      213: -5338260398735978159
+    second: BossWater_attack_91
+  - first:
+      213: -2265342621039074179
+    second: BossWater_attack_92
+  - first:
+      213: 2586233195672375893
+    second: BossWater_attack_93
+  - first:
+      213: -88445865425028502
+    second: BossWater_attack_94
+  - first:
+      213: 352853819053530355
+    second: BossWater_attack_95
+  - first:
+      213: 8937702401388884213
+    second: BossWater_attack_96
+  - first:
+      213: -1943686026664129750
+    second: BossWater_attack_97
+  - first:
+      213: -7190606231117048060
+    second: BossWater_attack_98
+  - first:
+      213: -7369986540667331394
+    second: BossWater_attack_99
+  - first:
+      213: -4397942324994297640
+    second: BossWater_attack_100
+  - first:
+      213: 1661271292461566340
+    second: BossWater_attack_101
+  - first:
+      213: -5086923066481563300
+    second: BossWater_attack_102
+  - first:
+      213: 4292658153645686524
+    second: BossWater_attack_103
+  - first:
+      213: -4629512759160334369
+    second: BossWater_attack_104
+  - first:
+      213: -8743037187756448368
+    second: BossWater_attack_105
+  - first:
+      213: -6198396672819055955
+    second: BossWater_attack_106
+  - first:
+      213: -797392635677475255
+    second: BossWater_attack_107
+  - first:
+      213: 955089958168930057
+    second: BossWater_attack_108
+  - first:
+      213: -1995783016302662284
+    second: BossWater_attack_109
+  - first:
+      213: 7108779208600122011
+    second: BossWater_attack_110
+  - first:
+      213: 1221446727295307079
+    second: BossWater_attack_111
+  - first:
+      213: 5008105343320255831
+    second: BossWater_attack_112
+  - first:
+      213: 3653257788422879813
+    second: BossWater_attack_113
+  - first:
+      213: -5656011335134039445
+    second: BossWater_attack_114
+  - first:
+      213: 784159347592533271
+    second: BossWater_attack_115
+  - first:
+      213: 1906996300992141856
+    second: BossWater_attack_116
+  - first:
+      213: 8864696121052936464
+    second: BossWater_attack_117
+  - first:
+      213: -4340547921879390461
+    second: BossWater_attack_118
+  - first:
+      213: 5177986809961492979
+    second: BossWater_attack_119
+  - first:
+      213: 2425117181986850095
+    second: BossWater_attack_120
+  - first:
+      213: -7163051149781003015
+    second: BossWater_attack_121
+  - first:
+      213: 4858120900820921
+    second: BossWater_attack_122
+  - first:
+      213: 5537475064043417930
+    second: BossWater_attack_123
+  - first:
+      213: 1921569596871280590
+    second: BossWater_attack_124
+  - first:
+      213: 4078693584264689525
+    second: BossWater_attack_125
+  - first:
+      213: 7145403844992346547
+    second: BossWater_attack_126
+  - first:
+      213: 5923648452359140179
+    second: BossWater_attack_127
+  - first:
+      213: -5584956019366857957
+    second: BossWater_attack_128
+  - first:
+      213: -2647021828407398196
+    second: BossWater_attack_129
+  - first:
+      213: 3594606735762596888
+    second: BossWater_attack_130
+  - first:
+      213: 5005290314560917097
+    second: BossWater_attack_131
+  - first:
+      213: -7479955247758628888
+    second: BossWater_attack_132
+  - first:
+      213: 8610764418421503681
+    second: BossWater_attack_133
+  - first:
+      213: -2976587169993108892
+    second: BossWater_attack_134
+  - first:
+      213: 2227594021069365476
+    second: BossWater_attack_135
+  - first:
+      213: -2861983580480145653
+    second: BossWater_attack_136
+  - first:
+      213: 6981219259565062010
+    second: BossWater_attack_137
+  - first:
+      213: 4191199715638799202
+    second: BossWater_attack_138
+  - first:
+      213: 605677975649973447
+    second: BossWater_attack_139
+  - first:
+      213: -2750930262367861162
+    second: BossWater_attack_140
+  - first:
+      213: -8676117376321589894
+    second: BossWater_attack_141
+  - first:
+      213: -3727303326880202044
+    second: BossWater_attack_142
+  - first:
+      213: 6230883157664695789
+    second: BossWater_attack_143
+  - first:
+      213: -3518672493402547247
+    second: BossWater_attack_144
+  - first:
+      213: -880155306696927777
+    second: BossWater_attack_145
+  - first:
+      213: -4824916631747545707
+    second: BossWater_attack_146
+  - first:
+      213: -8143688837563937598
+    second: BossWater_attack_147
+  - first:
+      213: 4843153536858766683
+    second: BossWater_attack_148
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossWater_attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa1eb9173a36d810800000000000000
+      internalID: 1789681910255852195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b11280d40a4b28c0800000000000000
+      internalID: -4023040457586896456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b654c41aa7e1285b0800000000000000
+      internalID: -5367694293831236245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60f75f7ef2e24930800000000000000
+      internalID: 4126109791310835820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc67097f3d553bb0800000000000000
+      internalID: -4956953287656510275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447f77295b6cd09c0800000000000000
+      internalID: -3959290014240082108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a1cc224960a7ed0800000000000000
+      internalID: -2415611016822121843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0574bbd1dfb2cba70800000000000000
+      internalID: 8843992134374344528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c4fc91a95632bd0800000000000000
+      internalID: -2656167642686075792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1f794c26f6de8e0800000000000000
+      internalID: -1662550217434074672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3931ea97af6a150800000000000000
+      internalID: 5883665363724637089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485c0700fa8847a80800000000000000
+      internalID: -8469994713969015420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a63eb756ca59aa0800000000000000
+      internalID: -6154823763861738903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b61e6c8b7fa4c80800000000000000
+      internalID: -8337579387140347003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2686e3e64a99bf20800000000000000
+      internalID: 3438949419736008237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d277637bd5cbc4fa0800000000000000
+      internalID: -5815065908150372563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80520f538bbe9a290800000000000000
+      internalID: -7878506896696531704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d472b7141d66b5590800000000000000
+      internalID: -7684435290244831411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_attack_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affe7c215be541730800000000000000
+      internalID: 3968901303417434106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b350a33c0755bea4fb73f3ba91196660
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":5.0},"gridSpriteSize":{"x":200.0,"y":200.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossWater_attack_0: 1789681910255852195
+      BossWater_attack_1: -4023040457586896456
+      BossWater_attack_10: 5883665363724637089
+      BossWater_attack_11: -8469994713969015420
+      BossWater_attack_12: -6154823763861738903
+      BossWater_attack_13: -8337579387140347003
+      BossWater_attack_14: 3438949419736008237
+      BossWater_attack_15: -5815065908150372563
+      BossWater_attack_16: -7878506896696531704
+      BossWater_attack_17: -7684435290244831411
+      BossWater_attack_18: 3968901303417434106
+      BossWater_attack_2: -5367694293831236245
+      BossWater_attack_3: 4126109791310835820
+      BossWater_attack_4: -4956953287656510275
+      BossWater_attack_5: -3959290014240082108
+      BossWater_attack_6: -2415611016822121843
+      BossWater_attack_7: 8843992134374344528
+      BossWater_attack_8: -2656167642686075792
+      BossWater_attack_9: -1662550217434074672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

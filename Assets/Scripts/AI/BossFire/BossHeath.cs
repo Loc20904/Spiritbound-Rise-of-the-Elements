@@ -41,7 +41,6 @@ public class BossHealth : MonoBehaviour
         }
     }
 
-    // Thêm vào trong class BossHealth
     public void Heal(float amount)
     {
         currentHP += amount;
