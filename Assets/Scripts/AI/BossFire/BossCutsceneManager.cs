@@ -13,6 +13,7 @@ public class BossCutsceneManager : MonoBehaviour
     [Header("Controllers")]
     public MonoBehaviour playerMovement; // Script di chuyển của Player
     public BossAttackBase bossAttack;     // Script tấn công của Boss
+    public BossGroundMovement bossMove;
     public BossHealth bossHealth;        // Để bật bất tử khi chuyển phase
 
     private void Start()
@@ -37,6 +38,12 @@ public class BossCutsceneManager : MonoBehaviour
         // 1. Dừng điều khiển của người chơi và Boss
         if (playerMovement) playerMovement.enabled = false;
         if (bossAttack) bossAttack.enabled = false;
+        if (bossMove)
+        {
+            bossMove.Stop();
+            bossMove.enabled = false;
+
+        }
 
         // 2. QUAN TRỌNG: Dừng ngay mọi luồng bắn đạn đang chờ (Coroutine)
         bossAttack.StopAllCoroutines();
@@ -65,6 +72,7 @@ public class BossCutsceneManager : MonoBehaviour
         // 1. Trả lại điều khiển
         if (playerMovement) playerMovement.enabled = true;
         if (bossAttack) bossAttack.enabled = true;
+        if (bossMove) bossMove.enabled = true;
 
         // 2. Bật lại UI
         if (gameUI) gameUI.SetActive(true);
