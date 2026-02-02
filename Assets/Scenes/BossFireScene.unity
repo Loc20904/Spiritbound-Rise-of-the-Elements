@@ -4950,6 +4950,7 @@ MonoBehaviour:
   gameUI: {fileID: 0}
   playerMovement: {fileID: 0}
   bossAttack: {fileID: 3924589710735724489}
+  bossMove: {fileID: 0}
   bossHealth: {fileID: 4958431886905960972}
 --- !u!4 &1933789360
 Transform:
@@ -5968,6 +5969,18 @@ PrefabInstance:
     - target: {fileID: 6432452412418108945, guid: 050b4496d0ff6d44399017979f03c52e, type: 3}
       propertyPath: m_Name
       value: Boss_Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768015034203273977, guid: 050b4496d0ff6d44399017979f03c52e, type: 3}
+      propertyPath: sunPrefab
+      value: 
+      objectReference: {fileID: 4758515076502791691, guid: 9ce339869674afc4ebb4d380b66c5c8c, type: 3}
+    - target: {fileID: 7768015034203273977, guid: 050b4496d0ff6d44399017979f03c52e, type: 3}
+      propertyPath: sunBulletPrefab
+      value: 
+      objectReference: {fileID: 3171551015218902307, guid: 71a485d704799094f9d90954019eca28, type: 3}
+    - target: {fileID: 7768015034203273977, guid: 050b4496d0ff6d44399017979f03c52e, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 8417799409103097498, guid: 050b4496d0ff6d44399017979f03c52e, type: 3}
       propertyPath: cutsceneManager

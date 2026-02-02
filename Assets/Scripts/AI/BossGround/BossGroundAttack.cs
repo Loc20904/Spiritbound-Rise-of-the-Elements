@@ -60,6 +60,8 @@ public class BossGroundAttack : BossAttackBase
     public float summonSpawnRadius = 1f;  // Khoảng cách triệu hồi quanh boss
     public Transform spawnUltiPoint;
     public AudioClip soundCast;
+    public AudioClip startBattle;
+
 
     // ---------------------------------------------------------
     // INIT & UPDATE
@@ -349,16 +351,16 @@ public class BossGroundAttack : BossAttackBase
         // --- BƯỚC 1: TRIỆU HỒI VFX GỒNG SKILL (1s) ---
         anim.SetTrigger("skillCast");
         // Nếu castUltiPrefab là VFX tại chỗ Boss, nên truyền transform.position
-        GameObject castUlti = Instantiate(castUltiPrefab, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
-
+        GameObject castUlti = Instantiate(castUltiPrefab, transform.position + new Vector3(0, 2, 0), Quaternion.identity);
 
         yield return new WaitForSeconds(3f);
 
         // --- BƯỚC 2: HIỂN THỊ VIDEO CUTSCENE ---
         if (videoCutscenePrefab != null)
         {
+            PlaySound(startBattle);
             GameObject videoObj = Instantiate(videoCutscenePrefab);
-            yield return new WaitForSeconds(3.5f);
+            yield return new WaitForSeconds(3.3f);
             Destroy(videoObj);
         }
 
