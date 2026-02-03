@@ -14,6 +14,9 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
     [Header("Ultimate: Supernova")]
     public GameObject sunPrefab;       // Quả cầu lửa trung tâm
     public GameObject sunBulletPrefab; // Đạn bắn ra từ "Mặt trời"
+    public GameObject BoomVFX;
+    public AudioClip BoomSFX;
+
     public float rotateSpeed = 1000f;   // Tốc độ xoay của tia đạn
 
     public Boolean isBusy = false;
@@ -161,7 +164,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
         while (t < 1f)
         {
             t += Time.deltaTime;
-            sun.transform.localScale = Vector3.one * Mathf.Lerp(0, 0.3f, t);
+            sun.transform.localScale = Vector3.one * Mathf.Lerp(0, 0.6f, t);
             yield return null;
         }
 
@@ -188,16 +191,20 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
         // Thu nhỏ lại một chút để "nén" năng lượng trước khi nổ
         yield return StartCoroutine(ScaleOverTime(sun.transform, sun.transform.localScale, Vector3.one * 0.5f, 0.2f));
 
+        GameObject boomVFX = null;
+        // Tạo VFX nổ lớn tràn màn hình
+        if (BoomVFX) boomVFX = Instantiate(BoomVFX, centerPos, Quaternion.identity);
+        Destroy(sun);
+        yield return new WaitForSeconds(0.1f);
+        PlaySound(BoomSFX);
         // Nổ tung!
         // Gây sát thương diện rộng (có thể dùng OverlapCircleAll)
         HandleSupernovaDamage(centerPos, 15f);
-
-        // Tạo VFX nổ lớn tràn màn hình
-        if (specialPrefab) Instantiate(specialPrefab, centerPos, Quaternion.identity);
-
-        Destroy(sun);
+        StartCoroutine(TriggerWhiteout(3f));
+        Destroy(boomVFX);
 
         yield return new WaitForSeconds(1f);
+
         isBusy = false;
     }
 
@@ -232,6 +239,27 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
         {
             // p.GetComponent<PlayerHealth>()?.TakeDamage(50); // Sát thương cực lớn
             Debug.Log("Player bị nổ tung bởi Supernova!");
+        }
+    }
+
+    [Header("Whiteout Effect")]
+    public UnityEngine.UI.Image flashImage;
+
+    IEnumerator TriggerWhiteout(float duration)
+    {
+        // 1. Hiện trắng ngay lập tức (Alpha = 1)
+        Color c = flashImage.color;
+        c.a = 1f;
+        flashImage.color = c;
+
+        // 2. Mờ dần về trong suốt
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            c.a = Mathf.Lerp(1f, 0f, elapsed / duration);
+            flashImage.color = c;
+            yield return null;
         }
     }
 }
