@@ -104,11 +104,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 5880
-        height: 5280
+        y: 4620
+        width: 1176
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +121,869 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_1
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 4620
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2674afe2b55cbbf4193dd6883dc88126
+      internalID: -706689825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_2
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 4620
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c78e1b9cd0c7a942ba7f3f1e7d01fff
+      internalID: 966423608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_3
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 4620
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79237c65243b17a43a89b327a75556ea
+      internalID: 1153155716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_4
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 4620
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8f6282e081ad0448e0fe614ef25513
+      internalID: -1989276934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3960
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8088219cecc337b439b5349fce907ef5
+      internalID: 447765429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_6
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3960
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e2699869642ed4eb7ee202da36e8df
+      internalID: 1403056336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_7
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 3960
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5efff99dad3e74ebfde1d12519f97b
+      internalID: 16076486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_8
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 3960
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1f7dd58363092458560458727179b2
+      internalID: -2023971838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_9
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 3960
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0758923b4966a1b4a961d22c82eb92b8
+      internalID: 1861669854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3300
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a56831025963443bf1092f7b43c0e8
+      internalID: 1092746299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_11
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3300
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf81f39555a341b4d84f7769dfbc3c4c
+      internalID: -566736290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_12
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 3300
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5793b14b98f4d41bd267436ee44c51
+      internalID: -1491634497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_13
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 3300
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1b651ab1323c24bb6dd1e0fd772d4b
+      internalID: -2096634187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_14
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 3300
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528c94f7276216e4a87b2700160a0862
+      internalID: 1459219256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2640
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f8c75687328dd4c93297ccd040cc08
+      internalID: 445182316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_16
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2640
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d05d1efa1e5f34ea2ad7a22a6e2e7a
+      internalID: 889731765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_17
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 2640
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3488c1b585356444cbff5913c402277f
+      internalID: -1704399729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_18
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 2640
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9320847c42894df4989a32c39afa3188
+      internalID: -1973443619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_19
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 2640
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050ffcdb3c4f9ae4f9749b977d4a1822
+      internalID: 721303647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1980
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15880d1b7692c7f439996ce1a6989da3
+      internalID: 987154503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_21
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1980
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafda9694e3553742ae0558fe13ec06e
+      internalID: 1224810811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_22
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1980
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaceaae4afeb7ea458d2654e9446c1e2
+      internalID: 1708638224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_23
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 1980
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd7e87f204f2141898beca8173cc2e
+      internalID: -1184233098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_24
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 1980
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8f47cde8bf2dd4cbbb0305217f9882
+      internalID: 559708368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a33933d179a4ed43ad0f13803a262b4
+      internalID: -107027811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_26
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1320
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29af3d08b88022948a5178551d5742a9
+      internalID: 1692914128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_27
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1320
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eb141b507b3fc409d3eb655c3ad5f5
+      internalID: 2115766784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_28
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 1320
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8572fc0f455aa3e489a9b44dcd7d1661
+      internalID: -1925787256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_29
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 1320
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ae449575f49464089771f336d67634
+      internalID: -1726728766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd51b56c204192747a14ca669a6d13e4
+      internalID: -310999825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_31
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 660
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d7fe9d3f882e24d9607d1ae3a0fe1f
+      internalID: -1228235505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_32
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 660
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6435ec18383cc044faad5fa5bedff80a
+      internalID: 1908299813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_33
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 660
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18f9175f6fd1ab43b54ed65984dc192
+      internalID: -665040274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_34
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 660
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a573ecaa4fa7944cb7e04739a6749e1
+      internalID: -349071350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68119da69c2e23f4780346e754b0e8b4
+      internalID: -747342359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_36
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e51599b7dc8244bb3c262aa901ce4e
+      internalID: -812978201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_37
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 0
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78712998cb8b8d4438bedd81a09a8d50
+      internalID: -1528482990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_38
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 0
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143e647730a41c6498032c01913fe3d4
+      internalID: -253770646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGroundCast_CutScene_39
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 0
+        width: 1176
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33d73a43d7fa4c40b4f18b1509aca90
+      internalID: 677759509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9d34ec1066c590b46a617816813317f4
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +991,50 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":8.0},"gridSpriteSize":{"x":1176.0,"y":660.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       BossGroundCast_CutScene_0: -4866156684409523029
+      BossGroundCast_CutScene_1: -706689825
+      BossGroundCast_CutScene_10: 1092746299
+      BossGroundCast_CutScene_11: -566736290
+      BossGroundCast_CutScene_12: -1491634497
+      BossGroundCast_CutScene_13: -2096634187
+      BossGroundCast_CutScene_14: 1459219256
+      BossGroundCast_CutScene_15: 445182316
+      BossGroundCast_CutScene_16: 889731765
+      BossGroundCast_CutScene_17: -1704399729
+      BossGroundCast_CutScene_18: -1973443619
+      BossGroundCast_CutScene_19: 721303647
+      BossGroundCast_CutScene_2: 966423608
+      BossGroundCast_CutScene_20: 987154503
+      BossGroundCast_CutScene_21: 1224810811
+      BossGroundCast_CutScene_22: 1708638224
+      BossGroundCast_CutScene_23: -1184233098
+      BossGroundCast_CutScene_24: 559708368
+      BossGroundCast_CutScene_25: -107027811
+      BossGroundCast_CutScene_26: 1692914128
+      BossGroundCast_CutScene_27: 2115766784
+      BossGroundCast_CutScene_28: -1925787256
+      BossGroundCast_CutScene_29: -1726728766
+      BossGroundCast_CutScene_3: 1153155716
+      BossGroundCast_CutScene_30: -310999825
+      BossGroundCast_CutScene_31: -1228235505
+      BossGroundCast_CutScene_32: 1908299813
+      BossGroundCast_CutScene_33: -665040274
+      BossGroundCast_CutScene_34: -349071350
+      BossGroundCast_CutScene_35: -747342359
+      BossGroundCast_CutScene_36: -812978201
+      BossGroundCast_CutScene_37: -1528482990
+      BossGroundCast_CutScene_38: -253770646
+      BossGroundCast_CutScene_39: 677759509
+      BossGroundCast_CutScene_4: -1989276934
+      BossGroundCast_CutScene_5: 447765429
+      BossGroundCast_CutScene_6: 1403056336
+      BossGroundCast_CutScene_7: 16076486
+      BossGroundCast_CutScene_8: -2023971838
+      BossGroundCast_CutScene_9: 1861669854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

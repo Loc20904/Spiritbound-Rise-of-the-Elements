@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: fb9f44e93ce89c1498eb2ff4b64adb9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4368959797816151395
+    second: BossGround_Ult2_0
+  - first:
+      213: 8861608001906760096
+    second: BossGround_Ult2_1
+  - first:
+      213: -2782761354143729698
+    second: BossGround_Ult2_2
+  - first:
+      213: 3147264923756647467
+    second: BossGround_Ult2_3
+  - first:
+      213: -2344012567434977680
+    second: BossGround_Ult2_4
+  - first:
+      213: -5272180273142188372
+    second: BossGround_Ult2_5
+  - first:
+      213: 3197102469603721997
+    second: BossGround_Ult2_6
+  - first:
+      213: 3150769229295682452
+    second: BossGround_Ult2_7
+  - first:
+      213: -3112119220570123276
+    second: BossGround_Ult2_8
+  - first:
+      213: -3054565013376770354
+    second: BossGround_Ult2_9
+  - first:
+      213: -8418565263537085243
+    second: BossGround_Ult2_10
+  - first:
+      213: 6538495390576231069
+    second: BossGround_Ult2_11
+  - first:
+      213: -6995511825645448452
+    second: BossGround_Ult2_12
+  - first:
+      213: -7246592171827719866
+    second: BossGround_Ult2_13
+  - first:
+      213: 8244503298738610085
+    second: BossGround_Ult2_14
+  - first:
+      213: -8497483005083755054
+    second: BossGround_Ult2_15
+  - first:
+      213: 6082975930051140859
+    second: BossGround_Ult2_16
+  - first:
+      213: 6773944429227028392
+    second: BossGround_Ult2_17
+  - first:
+      213: 4927567198468247760
+    second: BossGround_Ult2_18
+  - first:
+      213: -2929312596839803035
+    second: BossGround_Ult2_19
+  - first:
+      213: 2685917828984755124
+    second: BossGround_Ult2_20
+  - first:
+      213: 8693314121919433499
+    second: BossGround_Ult2_21
+  - first:
+      213: -326071322173468320
+    second: BossGround_Ult2_22
+  - first:
+      213: 4936240093847188528
+    second: BossGround_Ult2_23
+  - first:
+      213: -1960792189029862368
+    second: BossGround_Ult2_24
+  - first:
+      213: 6266854221496468744
+    second: BossGround_Ult2_25
+  - first:
+      213: 331223216442839744
+    second: BossGround_Ult2_26
+  - first:
+      213: -8982558666435873212
+    second: BossGround_Ult2_27
+  - first:
+      213: 8349949927720109442
+    second: BossGround_Ult2_28
+  - first:
+      213: -4782267912482097542
+    second: BossGround_Ult2_29
+  - first:
+      213: -2979973449812547189
+    second: BossGround_Ult2_30
+  - first:
+      213: -3067039473870173804
+    second: BossGround_Ult2_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossGround_Ult2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d4bc2d9c9a1ac30800000000000000
+      internalID: 4368959797816151395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Ult2_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a95964e681cafa70800000000000000
+      internalID: 8861608001906760096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Ult2_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7f397ca45a169d0800000000000000
+      internalID: -2782761354143729698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Ult2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24df82f5c45dab20800000000000000
+      internalID: 3147264923756647467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Ult2_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e9cf03df4687fd0800000000000000
+      internalID: -2344012567434977680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Ult2_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6b98b89f375d6b0800000000000000
+      internalID: -5272180273142188372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Ult2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d030143d1c36e5c20800000000000000
+      internalID: 3197102469603721997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Ult2_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4938669abe7c9bb20800000000000000
+      internalID: 3150769229295682452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Ult2_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3904fbe088fc4d0800000000000000
+      internalID: -3112119220570123276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Ult2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece575add410c95d0800000000000000
+      internalID: -3054565013376770354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9352a2f88c790ba44b38bad2d98367d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":4.0},"gridSpriteSize":{"x":200.0,"y":200.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossGround_Ult2_0: 4368959797816151395
+      BossGround_Ult2_1: 8861608001906760096
+      BossGround_Ult2_2: -2782761354143729698
+      BossGround_Ult2_3: 3147264923756647467
+      BossGround_Ult2_4: -2344012567434977680
+      BossGround_Ult2_5: -5272180273142188372
+      BossGround_Ult2_6: 3197102469603721997
+      BossGround_Ult2_7: 3150769229295682452
+      BossGround_Ult2_8: -3112119220570123276
+      BossGround_Ult2_9: -3054565013376770354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -52,6 +52,17 @@ public class BossGroundAttack : BossAttackBase
     private float nextShieldTime = 0f;
     private float nextStunTime = 0f;
 
+    [Header("Ultimate Settings")]
+    public GameObject videoCutscenePrefab; // Prefab chứa Video Player và Canvas
+    public GameObject castUltiPrefab;      // Prefab VFX gồng ulti
+    public List<GameObject> summonPrefabs; // Danh sách 1-5 mẫu prefab để triệu hồi
+    public int summonNumber = 10;
+    public float summonSpawnRadius = 1f;  // Khoảng cách triệu hồi quanh boss
+    public Transform spawnUltiPoint;
+    public AudioClip soundCast;
+    public AudioClip startBattle;
+
+
     // ---------------------------------------------------------
     // INIT & UPDATE
     // ---------------------------------------------------------
@@ -324,15 +335,89 @@ public class BossGroundAttack : BossAttackBase
     }
 
     // Vẽ vòng tròn tầm đánh để dễ chỉnh trong Scene
-    void OnDrawGizmosSelected()
-    {
-        if (attackPoint == null) return;
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPoint.position, meleeRange);
-    }
+    //void OnDrawGizmosSelected()
+    //{
+    //    if (attackPoint == null) return;
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireSphere(attackPoint.position, meleeRange);
+    //}
 
     protected override IEnumerator SkillUtimateUlti()
     {
-        throw new System.NotImplementedException();
+        isBusy = true;
+        movement.Stop();
+        movement.SetMove(false);
+
+        // --- BƯỚC 1: TRIỆU HỒI VFX GỒNG SKILL (1s) ---
+        anim.SetTrigger("skillCast");
+        // Nếu castUltiPrefab là VFX tại chỗ Boss, nên truyền transform.position
+        GameObject castUlti = Instantiate(castUltiPrefab, transform.position + new Vector3(0, 2, 0), Quaternion.identity);
+
+        yield return new WaitForSeconds(3f);
+
+        // --- BƯỚC 2: HIỂN THỊ VIDEO CUTSCENE ---
+        if (videoCutscenePrefab != null)
+        {
+            PlaySound(startBattle);
+            GameObject videoObj = Instantiate(videoCutscenePrefab);
+            yield return new WaitForSeconds(3.3f);
+            Destroy(videoObj);
+        }
+
+
+        // --- BƯỚC 3: TRIỆU HỒI VÀ CHẠY VỀ BÊN TRÁI ---
+        if (summonPrefabs != null && summonPrefabs.Count > 0)
+        {
+            int amountToSummon = summonNumber;
+
+            for (int i = 0; i < amountToSummon; i++)
+            {
+                PlaySound(soundCast);
+                GameObject randomPrefab = summonPrefabs[Random.Range(0, summonPrefabs.Count)];
+
+                // Spawn tại điểm chỉ định (spawnUltiPoint)
+                // Có thể cộng thêm một chút Random Y để các prefab không bị chồng khít lên nhau
+                Vector3 spawnPos = spawnUltiPoint.position;
+
+                GameObject summoned = Instantiate(randomPrefab, spawnPos, Quaternion.identity);
+
+                // Gọi hàm di chuyển sang trái
+                StartCoroutine(MoveToLeft(summoned));
+
+                yield return new WaitForSeconds(0.2f);
+            }
+        }
+
+        yield return new WaitForSeconds(1f);
+        Destroy(castUlti); // Tự hủy cho sạch scene
+        movement.SetMove(true);
+        isBusy = false;
+    }
+
+    // Hàm phụ để điều khiển vật thể chạy thẳng sang bên trái
+    IEnumerator MoveToLeft(GameObject obj)
+    {
+        float speed = 15f;
+        float duration = 5f; // Sau 5s không chạm gì cũng tự hủy để tránh rác bộ nhớ
+        float elapsed = 0f;
+
+        // Lật prefab sang trái nếu cần (tùy thuộc vào hướng gốc của prefab)
+        if (obj.transform.localScale.x > 0)
+        {
+            Vector3 scale = obj.transform.localScale;
+            scale.x *= -1;
+            obj.transform.localScale = scale;
+        }
+
+        while (obj != null && elapsed < duration)
+        {
+            // Di chuyển tịnh tiến sang trái theo trục X
+            obj.transform.Translate(Vector3.left * speed * Time.deltaTime);
+
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        if (obj != null) Destroy(obj);
     }
 }

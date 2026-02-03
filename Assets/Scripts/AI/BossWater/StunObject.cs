@@ -8,7 +8,7 @@ public class StunObject : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        PlaySound(SFX);
+        if (SFX) PlaySound(SFX);
         if (other.CompareTag("Player"))
         {
 
