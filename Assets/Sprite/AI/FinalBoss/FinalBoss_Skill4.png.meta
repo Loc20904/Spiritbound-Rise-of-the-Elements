@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: fd3bfd85f60426945b3d34f7e2041030
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2974551447332305890
+    second: FinalBoss_Skill4_0
+  - first:
+      213: -3874828901192446703
+    second: FinalBoss_Skill4_1
+  - first:
+      213: -6475792880867636673
+    second: FinalBoss_Skill4_2
+  - first:
+      213: 8335856189447630822
+    second: FinalBoss_Skill4_3
+  - first:
+      213: -4721015268180498373
+    second: FinalBoss_Skill4_4
+  - first:
+      213: -8098145405862887647
+    second: FinalBoss_Skill4_5
+  - first:
+      213: 6714707207422549544
+    second: FinalBoss_Skill4_6
+  - first:
+      213: 1134434229204189482
+    second: FinalBoss_Skill4_7
+  - first:
+      213: 5966141644411189106
+    second: FinalBoss_Skill4_8
+  - first:
+      213: -5227262983865915534
+    second: FinalBoss_Skill4_9
+  - first:
+      213: 805466758685421166
+    second: FinalBoss_Skill4_10
+  - first:
+      213: 5458725232960453409
+    second: FinalBoss_Skill4_11
+  - first:
+      213: -6481286999719859764
+    second: FinalBoss_Skill4_12
+  - first:
+      213: 4028742849157027104
+    second: FinalBoss_Skill4_13
+  - first:
+      213: 9068807193711805656
+    second: FinalBoss_Skill4_14
+  - first:
+      213: 3043687851194651314
+    second: FinalBoss_Skill4_15
+  - first:
+      213: 6072993535762369196
+    second: FinalBoss_Skill4_16
+  - first:
+      213: 159561531562439602
+    second: FinalBoss_Skill4_17
+  - first:
+      213: -5390113726542706848
+    second: FinalBoss_Skill4_18
+  - first:
+      213: 4419935905920157222
+    second: FinalBoss_Skill4_19
+  - first:
+      213: -1296358584458156269
+    second: FinalBoss_Skill4_20
+  - first:
+      213: -7985531448437505496
+    second: FinalBoss_Skill4_21
+  - first:
+      213: 849504026030214137
+    second: FinalBoss_Skill4_22
+  - first:
+      213: 8164995795541672554
+    second: FinalBoss_Skill4_23
+  - first:
+      213: 5448398235917016247
+    second: FinalBoss_Skill4_24
+  - first:
+      213: -8595531205999108922
+    second: FinalBoss_Skill4_25
+  - first:
+      213: 4810603371125134805
+    second: FinalBoss_Skill4_26
+  - first:
+      213: 6731265794108525790
+    second: FinalBoss_Skill4_27
+  - first:
+      213: -3041957533478111360
+    second: FinalBoss_Skill4_28
+  - first:
+      213: 2863305874816637444
+    second: FinalBoss_Skill4_29
+  - first:
+      213: -5455548127452480226
+    second: FinalBoss_Skill4_30
+  - first:
+      213: 4707231475408079653
+    second: FinalBoss_Skill4_31
+  - first:
+      213: -779588184781420906
+    second: FinalBoss_Skill4_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2232
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebbd5018cab74920800000000000000
+      internalID: 2974551447332305890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2232
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dc103e4a7d93ac0800000000000000
+      internalID: -3874828901192446703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_2
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2232
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a81e06fac5126a0800000000000000
+      internalID: -6475792880867636673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_3
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 2232
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef64cef909eea370800000000000000
+      internalID: 8335856189447630822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_4
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 2232
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38e7e860a59b7eb0800000000000000
+      internalID: -4721015268180498373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_5
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 2232
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fb410c8ab9d9f80800000000000000
+      internalID: -8098145405862887647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_6
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2232
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e1d2d01ae6f2d50800000000000000
+      internalID: 6714707207422549544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2182c4cbe15ebf00800000000000000
+      internalID: 1134434229204189482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_8
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1488
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2773bc2373efbc250800000000000000
+      internalID: 5966141644411189106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_9
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1488
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277af1be2080577b0800000000000000
+      internalID: -5227262983865915534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_10
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1488
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e64dddfb79d2b00800000000000000
+      internalID: 805466758685421166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_11
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1488
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bb1158da941cb40800000000000000
+      internalID: 5458725232960453409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_12
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 1488
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9275620d7dd06a0800000000000000
+      internalID: -6481286999719859764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_13
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1488
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025566fa648f8e730800000000000000
+      internalID: 4028742849157027104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d403b51810eadd70800000000000000
+      internalID: 9068807193711805656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 744
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b211a979f95d3a20800000000000000
+      internalID: 3043687851194651314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_16
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 744
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa0c56d17b974450800000000000000
+      internalID: 6072993535762369196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_17
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 744
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3b8981e50e63200800000000000000
+      internalID: 159561531562439602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_18
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 744
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067077eaf187235b0800000000000000
+      internalID: -5390113726542706848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_19
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 744
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6268d52e944c65d30800000000000000
+      internalID: 4419935905920157222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_20
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 744
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317e7df5cb8620ee0800000000000000
+      internalID: -1296358584458156269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8220c21f471bd2190800000000000000
+      internalID: -7985531448437505496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_22
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb8bca296b0acb00800000000000000
+      internalID: 849504026030214137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_23
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 0
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62c1d18a64ef4170800000000000000
+      internalID: 8164995795541672554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_24
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 0
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcd2b624599c9b40800000000000000
+      internalID: 5448398235917016247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss_Skill4_25
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 0
+        width: 436
+        height: 744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc53a2c8e986b880800000000000000
+      internalID: -8595531205999108922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 973d4da087c2709449b04f16e10ce86a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":4.0},"gridSpriteSize":{"x":436.0,"y":744.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FinalBoss_Skill4_0: 2974551447332305890
+      FinalBoss_Skill4_1: -3874828901192446703
+      FinalBoss_Skill4_10: 805466758685421166
+      FinalBoss_Skill4_11: 5458725232960453409
+      FinalBoss_Skill4_12: -6481286999719859764
+      FinalBoss_Skill4_13: 4028742849157027104
+      FinalBoss_Skill4_14: 9068807193711805656
+      FinalBoss_Skill4_15: 3043687851194651314
+      FinalBoss_Skill4_16: 6072993535762369196
+      FinalBoss_Skill4_17: 159561531562439602
+      FinalBoss_Skill4_18: -5390113726542706848
+      FinalBoss_Skill4_19: 4419935905920157222
+      FinalBoss_Skill4_2: -6475792880867636673
+      FinalBoss_Skill4_20: -1296358584458156269
+      FinalBoss_Skill4_21: -7985531448437505496
+      FinalBoss_Skill4_22: 849504026030214137
+      FinalBoss_Skill4_23: 8164995795541672554
+      FinalBoss_Skill4_24: 5448398235917016247
+      FinalBoss_Skill4_25: -8595531205999108922
+      FinalBoss_Skill4_26: 4810603371125134805
+      FinalBoss_Skill4_27: 6731265794108525790
+      FinalBoss_Skill4_3: 8335856189447630822
+      FinalBoss_Skill4_4: -4721015268180498373
+      FinalBoss_Skill4_5: -8098145405862887647
+      FinalBoss_Skill4_6: 6714707207422549544
+      FinalBoss_Skill4_7: 1134434229204189482
+      FinalBoss_Skill4_8: 5966141644411189106
+      FinalBoss_Skill4_9: -5227262983865915534
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
