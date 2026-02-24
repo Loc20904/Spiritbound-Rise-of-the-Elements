@@ -1,0 +1,784 @@
+fileFormatVersion: 2
+guid: e3462f934c4ec724faaff7016e6a2d57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3688584376462311590
+    second: Harmony_breathing_0
+  - first:
+      213: 6656527396189600072
+    second: Harmony_breathing_1
+  - first:
+      213: -8980742788605287783
+    second: Harmony_breathing_2
+  - first:
+      213: -4375421845953182906
+    second: Harmony_breathing_3
+  - first:
+      213: 4409722503034358392
+    second: Harmony_breathing_4
+  - first:
+      213: 4588585532960686541
+    second: Harmony_breathing_5
+  - first:
+      213: 1350817947533493768
+    second: Harmony_breathing_6
+  - first:
+      213: 5854594475521561718
+    second: Harmony_breathing_7
+  - first:
+      213: -791208660545642863
+    second: Harmony_breathing_8
+  - first:
+      213: 3236028863166104248
+    second: Harmony_breathing_9
+  - first:
+      213: -5311602269917550011
+    second: Harmony_breathing_10
+  - first:
+      213: 4656659597710722180
+    second: Harmony_breathing_11
+  - first:
+      213: 7249297065747648881
+    second: Harmony_breathing_12
+  - first:
+      213: -4015756426601374291
+    second: Harmony_breathing_13
+  - first:
+      213: -1968265857010701850
+    second: Harmony_breathing_14
+  - first:
+      213: 845854107480172439
+    second: Harmony_breathing_15
+  - first:
+      213: 5152285337112155448
+    second: Harmony_breathing_16
+  - first:
+      213: -7925573831467751443
+    second: Harmony_breathing_17
+  - first:
+      213: 1569827362536678915
+    second: Harmony_breathing_18
+  - first:
+      213: 4211805961626953463
+    second: Harmony_breathing_19
+  - first:
+      213: -3188093572273639538
+    second: Harmony_breathing_20
+  - first:
+      213: -6568885959619920543
+    second: Harmony_breathing_21
+  - first:
+      213: -5718835648517457648
+    second: Harmony_breathing_22
+  - first:
+      213: -53473407381862337
+    second: Harmony_breathing_23
+  - first:
+      213: 7210789613019926037
+    second: Harmony_breathing_24
+  - first:
+      213: 7554670639359818710
+    second: Harmony_breathing_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Harmony_breathing_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 317
+        width: 42
+        height: 63
+      alignment: 9
+      pivot: {x: 0.618225, y: 0.42992583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f78e47d048fccc0800000000000000
+      internalID: -3688584376462311590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 317
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992e70a040efd5380800000000000000
+      internalID: -8980742788605287783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 365
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6430a7953016743c0800000000000000
+      internalID: -4375421845953182906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 317
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ac867b04b723d30800000000000000
+      internalID: 4409722503034358392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 365
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc14e991b3eedaf30800000000000000
+      internalID: 4588585532960686541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_6
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 317
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806c4fe24c11fb210800000000000000
+      internalID: 1350817947533493768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 365
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6745d6118a2bf3150800000000000000
+      internalID: 5854594475521561718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 217
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ed6fc4aef0505f0800000000000000
+      internalID: -791208660545642863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 265
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b24de71b1fa8ec20800000000000000
+      internalID: 3236028863166104248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 217
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ae769a0e56946b0800000000000000
+      internalID: -5311602269917550011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 265
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48406796b37cf9040800000000000000
+      internalID: 4656659597710722180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 216
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1719b2bd54daa9460800000000000000
+      internalID: 7249297065747648881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 265
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daddeef6eca2548c0800000000000000
+      internalID: -4015756426601374291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_14
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 213
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9e851a1a05fa4e0800000000000000
+      internalID: -1968265857010701850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_15
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 265
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797292844d31dbb00800000000000000
+      internalID: 845854107480172439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 113
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83516045738908740800000000000000
+      internalID: 5152285337112155448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 164
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7ab3e7794b20290800000000000000
+      internalID: -7925573831467751443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 113
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306efae3ba529c510800000000000000
+      internalID: 1569827362536678915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 164
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6a5adf437537a30800000000000000
+      internalID: 4211805961626953463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_20
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 113
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f6ce989cd91c3d0800000000000000
+      internalID: -3188093572273639538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 113
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16dbdcee501a6d4a0800000000000000
+      internalID: -6568885959619920543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_22
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 13
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019b641074d92a0b0800000000000000
+      internalID: -5718835648517457648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_23
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 63
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3803142836024ff0800000000000000
+      internalID: -53473407381862337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 13
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e012ad2fed11460800000000000000
+      internalID: 7210789613019926037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_breathing_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 63
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db7d1e8be497d860800000000000000
+      internalID: 7554670639359818710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 44291b0e7eb02244597ffbeec217101b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Harmony_breathing_0: -3688584376462311590
+      Harmony_breathing_1: 6656527396189600072
+      Harmony_breathing_10: -5311602269917550011
+      Harmony_breathing_11: 4656659597710722180
+      Harmony_breathing_12: 7249297065747648881
+      Harmony_breathing_13: -4015756426601374291
+      Harmony_breathing_14: -1968265857010701850
+      Harmony_breathing_15: 845854107480172439
+      Harmony_breathing_16: 5152285337112155448
+      Harmony_breathing_17: -7925573831467751443
+      Harmony_breathing_18: 1569827362536678915
+      Harmony_breathing_19: 4211805961626953463
+      Harmony_breathing_2: -8980742788605287783
+      Harmony_breathing_20: -3188093572273639538
+      Harmony_breathing_21: -6568885959619920543
+      Harmony_breathing_22: -5718835648517457648
+      Harmony_breathing_23: -53473407381862337
+      Harmony_breathing_24: 7210789613019926037
+      Harmony_breathing_25: 7554670639359818710
+      Harmony_breathing_3: -4375421845953182906
+      Harmony_breathing_4: 4409722503034358392
+      Harmony_breathing_5: 4588585532960686541
+      Harmony_breathing_6: 1350817947533493768
+      Harmony_breathing_7: 5854594475521561718
+      Harmony_breathing_8: -791208660545642863
+      Harmony_breathing_9: 3236028863166104248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
