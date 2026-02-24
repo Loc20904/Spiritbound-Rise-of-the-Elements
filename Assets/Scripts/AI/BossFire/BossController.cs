@@ -7,6 +7,7 @@ public class BossController : MonoBehaviour
     BossAttackBase attack;
     BossMovement movement;
     Animator anim;
+    public bool isFinalBoss = false;
 
     public BossCutsceneManager cutsceneManager;
     private bool hasPlayedPhase2Cutscene = false;
@@ -28,7 +29,8 @@ public class BossController : MonoBehaviour
 
     void Update()
     {
-        attack.Attack();
+        if (!isFinalBoss)
+            attack.Attack();
     }
 
     void OnBossPhaseCheck(float hpPercent)

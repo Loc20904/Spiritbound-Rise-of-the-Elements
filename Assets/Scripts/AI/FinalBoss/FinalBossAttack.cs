@@ -43,7 +43,7 @@ public class FinalBossAttack : BossAttackBase
         if (isAttacking) yield break;
         isAttacking = true;
 
-        FacePlayer();
+        //FacePlayer();
 
         // Random từ 0 đến 3 (tương ứng 4 chiêu thức)
         int rand = UnityEngine.Random.Range(0, 4);
@@ -59,7 +59,10 @@ public class FinalBossAttack : BossAttackBase
         yield return new WaitForSeconds(1.5f);
         isAttacking = false;
     }
-
+    public IEnumerator TriggerBossAction()
+    {
+        yield return StartCoroutine(PerformAttackRoutine());
+    }
     protected override IEnumerator SkillUtimateUlti()
     {
         throw new System.NotImplementedException();
@@ -68,7 +71,6 @@ public class FinalBossAttack : BossAttackBase
     // --- CHIÊU 1: ENERGY OVERLOAD ---
     private IEnumerator EnergyOverloadRoutine()
     {
-        //anim.SetTrigger("castSpell");
         base.PlaySound(castSound);
 
         // Triệu hồi các điểm nổ
@@ -81,7 +83,6 @@ public class FinalBossAttack : BossAttackBase
 
             yield return new WaitForSeconds(0.2f); // Delay nhỏ giữa mỗi lần spawn cho đẹp
         }
-
         yield return new WaitForSeconds(explosionDelay);
     }
 
@@ -120,19 +121,25 @@ public class FinalBossAttack : BossAttackBase
 
         if (player != null)
         {
-            Vector3 playerPos = player.position;
-            startPos = playerPos + Vector3.down * 2f;
-            // Có thể dùng Raycast lần nữa để đảm bảo rồng mọc lên từ mặt đất dưới chân Player
-            RaycastHit2D playerGroundHit = Physics2D.Raycast(startPos, Vector2.down, 5f, groundLayer);
-            Vector3 spawnPos = playerGroundHit.collider != null ? (Vector3)playerGroundHit.point : playerPos;
-
-            PlaySound(dragonBiteSFX, 1.2f);
-            if (finalBoss_Skill2_3 != null)
+            for (int i = 0; i < 3; i++)
             {
-                GameObject dragon = Instantiate(finalBoss_Skill2_3, spawnPos + new Vector3(0, 1.5f, 0), Quaternion.identity);
+                Vector3 playerPos = player.position;
+                startPos = playerPos + Vector3.down * 2f;
+                // Có thể dùng Raycast lần nữa để đảm bảo rồng mọc lên từ mặt đất dưới chân Player
+                RaycastHit2D playerGroundHit = Physics2D.Raycast(startPos, Vector2.down, 5f, groundLayer);
+                Vector3 spawnPos = playerGroundHit.collider != null ? (Vector3)playerGroundHit.point : playerPos;
 
-                // Xử lý gây sát thương (nếu script dragon cắn có logic sát thương riêng)
-                HandleDragonDamage(spawnPos, 2f);
+                PlaySound(dragonBiteSFX, 1.2f);
+                if (finalBoss_Skill2_3 != null)
+                {
+
+                    GameObject dragon = Instantiate(finalBoss_Skill2_3, spawnPos + new Vector3(0, 1.8f, 0), Quaternion.identity);
+
+                    // Xử lý gây sát thương (nếu script dragon cắn có logic sát thương riêng)
+                    HandleDragonDamage(spawnPos, 2f);
+
+                }
+                yield return new WaitForSeconds(0.5f); // Delay giữa các lần cắn
             }
         }
     }
@@ -141,8 +148,6 @@ public class FinalBossAttack : BossAttackBase
     private IEnumerator KunaiBurstRoutine()
     {
         if (player == null) yield break;
-
-        // anim.SetTrigger("throwKunai"); // Bật animation ném nếu có
 
         for (int wave = 0; wave < 3; wave++) // 3 đợt
         {
