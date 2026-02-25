@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 2457f9f278f253645824a1b4895c4ba7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -370455783107987710
+    second: quaidanhxa_Idle_0
+  - first:
+      213: -1949141673797565838
+    second: quaidanhxa_Idle_1
+  - first:
+      213: 3651573547260338023
+    second: quaidanhxa_Idle_2
+  - first:
+      213: 8172299618387176772
+    second: quaidanhxa_Idle_3
+  - first:
+      213: -453067917260035048
+    second: quaidanhxa_Idle_4
+  - first:
+      213: -5935199880080479226
+    second: quaidanhxa_Idle_5
+  - first:
+      213: 8196588179657764596
+    second: quaidanhxa_Idle_6
+  - first:
+      213: -8820057178744766611
+    second: quaidanhxa_Idle_7
+  - first:
+      213: -6883732570382191246
+    second: quaidanhxa_Idle_8
+  - first:
+      213: 2782155481367506489
+    second: quaidanhxa_Idle_9
+  - first:
+      213: 2619975960657419596
+    second: quaidanhxa_Idle_10
+  - first:
+      213: -7354328323381324736
+    second: quaidanhxa_Idle_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 255
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207fbd29d60ebdaf0800000000000000
+      internalID: -370455783107987710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 255
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272c26489f143f4e0800000000000000
+      internalID: -1949141673797565838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 255
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f5aab5bcefca230800000000000000
+      internalID: 3651573547260338023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 175
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d27084437d96170800000000000000
+      internalID: 8172299618387176772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 175
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ce694312166b9f0800000000000000
+      internalID: -453067917260035048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 175
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cacd4b72fe1ada0800000000000000
+      internalID: -5935199880080479226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 95
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feaaa2a58120c170800000000000000
+      internalID: 8196588179657764596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 95
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fb8420abcd89580800000000000000
+      internalID: -8820057178744766611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 95
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2753595e2b11870a0800000000000000
+      internalID: -6883732570382191246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 15
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ee0d87ba33c9620800000000000000
+      internalID: 2782155481367506489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 15
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d5c0741460c5420800000000000000
+      internalID: 2619975960657419596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quaidanhxa_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 15
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0441343da5d20f990800000000000000
+      internalID: -7354328323381324736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      quaidanhxa_Idle_0: -370455783107987710
+      quaidanhxa_Idle_1: -1949141673797565838
+      quaidanhxa_Idle_10: 2619975960657419596
+      quaidanhxa_Idle_11: -7354328323381324736
+      quaidanhxa_Idle_2: 3651573547260338023
+      quaidanhxa_Idle_3: 8172299618387176772
+      quaidanhxa_Idle_4: -453067917260035048
+      quaidanhxa_Idle_5: -5935199880080479226
+      quaidanhxa_Idle_6: 8196588179657764596
+      quaidanhxa_Idle_7: -8820057178744766611
+      quaidanhxa_Idle_8: -6883732570382191246
+      quaidanhxa_Idle_9: 2782155481367506489
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
