@@ -186,4 +186,39 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: DisableHitbox
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 21dd898d5dc4c38448ad9eb35d60e47e, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: delay
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 21dd898d5dc4c38448ad9eb35d60e47e, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.1666666
+    functionName: EnableHitbox
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 21dd898d5dc4c38448ad9eb35d60e47e, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.5
+    functionName: DisableHitbox
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 21dd898d5dc4c38448ad9eb35d60e47e, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3.25
+    functionName: DestroyChain
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 21dd898d5dc4c38448ad9eb35d60e47e, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

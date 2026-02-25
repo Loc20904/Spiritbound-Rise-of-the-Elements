@@ -4206,7 +4206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1154713215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4225,6 +4225,7 @@ MonoBehaviour:
   playerMovement: {fileID: 0}
   bossAttack: {fileID: 8987172745801008819}
   bossMove: {fileID: 5611412343477854991}
+  FinalBossMove: {fileID: 0}
   bossHealth: {fileID: 3554775187319072045}
 --- !u!4 &1154713216
 Transform:

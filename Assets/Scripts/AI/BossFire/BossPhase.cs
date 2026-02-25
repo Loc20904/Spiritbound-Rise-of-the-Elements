@@ -25,7 +25,7 @@ public class BossPhase : MonoBehaviour
     void EnterPhase2()
     {
         isPhase2 = true;
-        anim.SetTrigger("rage");
+        //anim.SetTrigger("rage");
         Debug.Log("Boss entered Phase 2");
     }
 }

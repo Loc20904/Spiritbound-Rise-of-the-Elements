@@ -49,6 +49,8 @@ public class BossCutsceneManager : MonoBehaviour
             FinalBossMove.stopMove();
         }
 
+        bossAttack.ultiReady = 0f; // Reset ulti để tránh việc Boss tự động tung ulti khi đang cutscene
+
         // 2. QUAN TRỌNG: Dừng ngay mọi luồng bắn đạn đang chờ (Coroutine)
         bossAttack.StopAllCoroutines();
 

@@ -40,6 +40,20 @@ public abstract class BossAttackBase : MonoBehaviour
     {
         if (this.enabled == false || player == null) return;
 
+        routineUlti();
+
+        if (Time.time < nextAttackTime) return;
+
+        // Gọi Coroutine tấn công (Logic cụ thể sẽ nằm ở script con)
+        StartCoroutine(PerformAttackRoutine());
+
+        float cooldown = isPhase2 ? attackRatePhase2 : attackRatePhase1;
+        nextAttackTime = Time.time + cooldown;
+    }
+
+    public void routineUlti()
+    {
+        if (this.enabled == false || player == null) return;
         if (ultiReady < ultimateThreshold)
         {
             ultiReady += Time.deltaTime;
@@ -53,14 +67,6 @@ public abstract class BossAttackBase : MonoBehaviour
                 return;
             }
         }
-
-        if (Time.time < nextAttackTime) return;
-
-        // Gọi Coroutine tấn công (Logic cụ thể sẽ nằm ở script con)
-        StartCoroutine(PerformAttackRoutine());
-
-        float cooldown = isPhase2 ? attackRatePhase2 : attackRatePhase1;
-        nextAttackTime = Time.time + cooldown;
     }
 
     // --- HÀM TRỪU TƯỢNG: Bắt buộc script con phải tự viết nội dung ---

@@ -63,9 +63,51 @@ public class FinalBossAttack : BossAttackBase
     {
         yield return StartCoroutine(PerformAttackRoutine());
     }
+    // --- ULTIMATE: CHAIN PRISON ---
+    // --- ULTIMATE: CHAIN PRISON ---
+    [Header("Ultimate: Chain Prison Settings")]
+    public GameObject ultiChainPrefab;    // Prefab sợi xích thực sự đâm ra
+    public int ultiChainCount = 6;        // Số lượng xích triệu hồi
+    public float ultiRadius = 3.5f;       // Bán kính xuất hiện quanh Player
+    public AudioClip chainStrikeSFX;      // Âm thanh xích đâm
+
     protected override IEnumerator SkillUtimateUlti()
     {
-        throw new System.NotImplementedException();
+        // Thêm kiểm tra isAttacking để tránh Boss cast Ulti đè lên các chiêu khác
+        if (player == null) yield break;
+
+        isAttacking = true;
+
+        Vector3 playerPos = player.position;
+        Vector3[] spawnPositions = new Vector3[ultiChainCount];
+
+        // --- BƯỚC KHÔI PHỤC: Tính toán vị trí bao vây Player ---
+        for (int i = 0; i < ultiChainCount; i++)
+        {
+            // Lấy vị trí ngẫu nhiên xung quanh Player
+            Vector2 randomPoint = UnityEngine.Random.insideUnitCircle.normalized * ultiRadius;
+            randomPoint *= UnityEngine.Random.Range(0.6f, 1.2f);
+            spawnPositions[i] = playerPos + new Vector3(randomPoint.x, randomPoint.y, 0);
+        }
+
+        // --- PHASE 2 & 3: Gọi xích ra ---
+        PlaySound(chainStrikeSFX, 1.2f);
+        for (int i = 0; i < ultiChainCount; i++)
+        {
+            if (ultiChainPrefab != null)
+            {
+                Vector3 direction = (playerPos - spawnPositions[i]).normalized;
+                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                Quaternion chainRotation = Quaternion.Euler(0, 0, angle);
+
+                Instantiate(ultiChainPrefab, spawnPositions[i], chainRotation);
+                yield return new WaitForSeconds(0.1f);
+            }
+        }
+
+        // Đợi Boss phục hồi dáng đứng (Recovery phase của Boss)
+        yield return new WaitForSeconds(1.5f);
+        isAttacking = false;
     }
 
     // --- CHIÊU 1: ENERGY OVERLOAD ---
@@ -273,5 +315,11 @@ public class FinalBossAttack : BossAttackBase
         float x = UnityEngine.Random.Range(-10f, 10f);
         float y = UnityEngine.Random.Range(-5f, 5f);
         return new Vector3(x, y, 0);
+    }
+
+    private void OnEnable()
+    {
+        // Đảm bảo mỗi khi Boss được bật lại (hoặc hồi sinh, chuyển phase), biến này luôn được reset!
+        isAttacking = false;
     }
 }

@@ -31,6 +31,10 @@ public class BossController : MonoBehaviour
     {
         if (!isFinalBoss)
             attack.Attack();
+        else
+        {
+            attack.routineUlti();
+        }
     }
 
     void OnBossPhaseCheck(float hpPercent)
