@@ -3,29 +3,91 @@ using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [Header("Attack Stats")]
+    public int damage = 50; // ✅ damage cơ bản của player
+
     [Header("Health")]
     public int maxHP = 100;
-    int currentHP;
+    [SerializeField] private int currentHP;
+
+    [Header("Defense")]
+    public int armor = 5;
+
+    [Header("Hurt / i-frames")]
+    [SerializeField] private float hurtInvincibleTime = 0.35f;
+    private float nextHurtTime;
+
+    [Header("Respawn")]
+    public float respawnDelay = 2f;
+    [SerializeField] private Transform respawnPoint;
 
     [Header("Debug")]
-    public bool showDamageLog = true; // Hiển thị log damage
-    Rigidbody2D rb;
+    public bool showDamageLog = true;
 
+    private Rigidbody2D rb;
+    private Animator anim;
+    private PlayerController controller;
 
     public bool isKnockback;
-    
+
+    private bool dead = false;
+    private bool respawning = false;
+
     void Start()
     {
         currentHP = maxHP;
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        controller = GetComponent<PlayerController>();
     }
 
     // ================= TAKE DAMAGE =================
-    public void TakeDamage(int damage)
+    public void TakeDamage(int incomingDamage)
     {
-        // Mặc định là damage từ boss (melee/ranged attack)
-        TakeDamage(damage, DamageType.Boss);
+        TakeDamage(incomingDamage, DamageType.Boss);
     }
+
+    public void TakeDamage(int incomingDamage, DamageType damageType)
+    {
+        if (dead || respawning) return;
+        if (currentHP <= 0) return;
+
+        // i-frame chống hit liên tục
+        if (Time.time < nextHurtTime) return;
+        nextHurtTime = Time.time + hurtInvincibleTime;
+
+        int finalDamage = Mathf.Max(incomingDamage - armor, 0);
+
+        // Trigger hit animation / effect
+        controller?.TakeHit();
+
+        // Trừ máu
+        currentHP -= finalDamage;
+        currentHP = Mathf.Max(0, currentHP);
+
+        // Show damage popup/UI
+        ShowDamageInGame(finalDamage, damageType);
+
+        if (showDamageLog)
+        {
+            string src = damageType == DamageType.Boss ? "Boss" : "Fire DOT";
+            Debug.Log($"[PlayerHealth] Incoming:{incomingDamage} Armor:{armor} Final:{finalDamage} From:{src} | HP: {currentHP}/{maxHP}");
+        }
+
+        if (currentHP <= 0)
+            Die();
+    }
+
+    // Spike / hazard overload
+    public void TakeDamage(int incomingDamage, Vector2 hitPoint)
+    {
+        TakeDamage(incomingDamage, DamageType.Boss);
+
+        if (showDamageLog)
+            Debug.Log($"[PlayerHealth] Spike hit at {hitPoint}");
+    }
+
+    // ================= KNOCKBACK =================
     public void ApplyKnockback(Vector2 force, float duration)
     {
         StopAllCoroutines();
@@ -36,110 +98,97 @@ public class PlayerHealth : MonoBehaviour
     {
         isKnockback = true;
 
-        rb.linearVelocity = Vector2.zero;
-        rb.AddForce(force, ForceMode2D.Impulse);
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.AddForce(force, ForceMode2D.Impulse);
+        }
 
         yield return new WaitForSeconds(duration);
 
         isKnockback = false;
     }
-    public void TakeDamage(int damage, DamageType damageType)
-    {
-        if (currentHP <= 0) return;
-
-        currentHP -= damage;
-        currentHP = Mathf.Max(0, currentHP);
-
-        // ⭐ Hiển thị damage trong game (floating text hoặc UI)
-        ShowDamageInGame(damage, damageType);
-
-        // Hiển thị thông tin damage trong log
-        if (showDamageLog)
-        {
-            string damageSource = damageType == DamageType.Boss ? "Boss" : "Fire DOT";
-            string damageTypeName = damageType == DamageType.Boss ? "Damage cơ bản" : "Damage over time";
-            
-            Debug.Log($"[PlayerHealth] Nhận {damage} damage từ {damageSource} ({damageTypeName}) | HP: {currentHP}/{maxHP}");
-        }
-
-        // Kiểm tra chết
-        if (currentHP <= 0)
-        {
-            Die();
-        }
-    }
-    public void TakeDamage(int dmg, Vector2 hitPoint)
-    {
-        if (currentHP <= 0) return;
-
-        currentHP -= dmg;
-        currentHP = Mathf.Max(0, currentHP);
-
-        // Hiển thị damage trong game
-        ShowDamageInGame(dmg, DamageType.Boss);
-
-        // Hiển thị thông tin damage trong log
-        if (showDamageLog)
-        {
-            Debug.Log($"[PlayerHealth] Nhận {dmg} damage từ Spike (knockback) | HP: {currentHP}/{maxHP}");
-        }
-
-        
-
-        // Kiểm tra chết
-        if (currentHP <= 0)
-        {
-            Die();
-        }
-    }
-    
-
-    
-
-    // ================= ON TAKE FIRE DOT DAMAGE =================
-    // ⭐ Hàm này được gọi từ PlayerFireDOT để log damage type (không trừ damage 2 lần)
-    void OnTakeFireDOTDamage(int damage)
-    {
-        // Chỉ log, không trừ damage vì đã trừ trong TakeDamage()
-        if (showDamageLog)
-        {
-            Debug.Log($"[PlayerHealth] Fire DOT damage: {damage} | HP: {currentHP}/{maxHP}");
-        }
-    }
 
     // ================= SHOW DAMAGE IN GAME =================
     void ShowDamageInGame(int damage, DamageType damageType)
     {
-        // ⭐ Gửi message để hệ thống hiển thị damage (tương thích với hệ thống cũ)
-        // Có thể là floating text, UI, hoặc bất kỳ hệ thống nào đã có sẵn
         SendMessage(
             "OnTakeDamage",
             new DamageInfo { damage = damage, damageType = damageType },
             SendMessageOptions.DontRequireReceiver
         );
-
-        // ⭐ Hoặc hiển thị trực tiếp nếu có component FloatingText hoặc DamageDisplay
-        // Ví dụ: FloatingText.Show("-" + damage + "hp", transform.position, Color.red);
     }
 
-    // ================= DIE =================
+    // ================= DIE + RESPAWN =================
     void Die()
     {
+        if (dead) return;
+        dead = true;
+        currentHP = 0;
+
         Debug.Log("[PlayerHealth] Player đã chết!");
-        // Thêm logic chết ở đây (ví dụ: reload scene, show game over, etc.)
+
+        if (anim != null)
+            anim.SetBool("Isdead", true);
+
+        if (controller != null)
+            controller.enabled = false;
+
+        StartCoroutine(RespawnRoutine());
+    }
+
+    private IEnumerator RespawnRoutine()
+    {
+        respawning = true;
+
+        yield return new WaitForSeconds(respawnDelay);
+
+        if (respawnPoint != null)
+            transform.position = respawnPoint.position;
+
+        if (rb != null)
+            rb.linearVelocity = Vector2.zero;
+
+        ResetHealth();
+
+        if (anim != null)
+        {
+            anim.SetBool("Isdead", false);
+            anim.Play("Player_Idle", 0, 0f);
+        }
+
+        if (controller != null)
+            controller.enabled = true;
+
+        dead = false;
+        respawning = false;
+
+        // miễn nhiễm 0.5s sau spawn
+        nextHurtTime = Time.time + 0.5f;
     }
 
     // ================= PUBLIC =================
     public int CurrentHP => currentHP;
     public int MaxHP => maxHP;
     public float HealthPercent => maxHP > 0 ? (float)currentHP / maxHP : 0f;
+
+    // ✅ expose damage nếu script khác muốn lấy
+    public int Damage => damage;
+
+    public void ResetHealth()
+    {
+        currentHP = maxHP;
+
+        if (showDamageLog)
+            Debug.Log($"[PlayerHealth] Reset HP: {currentHP}/{maxHP}");
+    }
 }
 
 // ================= DAMAGE TYPE =================
 public enum DamageType
 {
-    Boss,      // Damage từ boss (melee/ranged attack)
-    FireDOT    // Damage từ fire DOT
+    Boss,
+    FireDOT
 }
 
 // ================= DAMAGE INFO =================

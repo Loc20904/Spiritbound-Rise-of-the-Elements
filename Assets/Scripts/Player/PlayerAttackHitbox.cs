@@ -2,24 +2,30 @@
 
 public class PlayerAttackHitbox : MonoBehaviour
 {
-    [SerializeField] private LayerMask enemyLayer;
-    [SerializeField] private float damageMultiplier = 1f; // J=1, K=1.2, L=1.6...
+    public float damageMultiplier = 1f;
+    public LayerMask enemyLayer;
 
-    private PlayerStats stats;
+    private PlayerHealth ph;
 
     private void Awake()
     {
-        stats = GetComponentInParent<PlayerStats>();
+        ph = GetComponentInParent<PlayerHealth>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (((1 << other.gameObject.layer) & enemyLayer) == 0) return;
+        if (ph == null) return;
 
-        var hp = other.GetComponent<EnemyHealth>();
-        if (hp == null) return;
+        int dmg = Mathf.RoundToInt(ph.Damage * damageMultiplier);
 
-        int dmg = Mathf.RoundToInt(stats.damage * damageMultiplier);
-        hp.TakeDamage(dmg);
+        var enemyHealth = other.GetComponentInParent<EnemyHealth>();
+        if (enemyHealth != null)
+        {
+            enemyHealth.TakeDamage(dmg);
+            return;
+        }
+
+        other.SendMessage("TakeDamage", dmg, SendMessageOptions.DontRequireReceiver);
     }
 }

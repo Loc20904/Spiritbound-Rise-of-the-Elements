@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Border
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - Player
   - PlayerAttack
   - enemyAttack
-  - 
-  - 
+  - Obstacle
+  - Bullet
   - 
   - 
   - 

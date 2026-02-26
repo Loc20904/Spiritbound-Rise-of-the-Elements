@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowBullet
   speed: 10
-  damage: 1000
+  damage: 10
   lifeTime: 5
   damagePerTick: 5
   burnDuration: 3
