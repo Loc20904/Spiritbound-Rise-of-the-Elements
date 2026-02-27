@@ -334,7 +334,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5436559, y: 0.7754472}
+    pivot: {x: 0.49, y: 0.8531}
     oldSize: {x: 0.59, y: 0.61}
     newSize: {x: 0.61, y: 0.63}
     adaptiveTilingThreshold: 0.5
@@ -484,7 +484,13 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
+  earthKnockbackForce: 8
+  earthKnockbackDuration: 0.2
   damage: 10
+  elementType: 0
+  fireDamagePerTick: 2
+  fireBurnDuration: 3
+  fireTickRate: 0.5
   attackCooldown: 2
   attackFrames:
   - {fileID: -3845594685775712281, guid: 317b938f1ef2f7f4da061bb6e304cb91, type: 3}
@@ -1429,63 +1435,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &4392294452466222538
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4105178886236360548, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_Name
-      value: Qlua-danhxa_Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071907220643691694, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cb8cef292e46c6c40987603fd331ae8f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1495,6 +1444,5 @@ SceneRoots:
   - {fileID: 1546772140}
   - {fileID: 277142285}
   - {fileID: 367409440}
-  - {fileID: 4392294452466222538}
   - {fileID: 354186971}
   - {fileID: 355416192}
