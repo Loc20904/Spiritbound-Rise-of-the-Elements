@@ -93,7 +93,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
                         float randomX = UnityEngine.Random.Range(-8f, 8f);
                         Vector3 spawnPos = new Vector3(randomX, firePoint.position.y + 5f, 0);
 
-                        GameObject rain = Instantiate(fireballPrefab, spawnPos, Quaternion.identity);
+                        GameObject rain = Instantiate(fireballPrefab, spawnPos, Quaternion.identity, skillHolder);
 
                         // Xoay đạn cắm đầu xuống đất (-90 độ)
                         rain.transform.rotation = Quaternion.Euler(0, 0, -90);
@@ -118,7 +118,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
         if (prefab == null || firePoint == null || player == null) return;
 
         // 1. Sinh ra đạn
-        GameObject spell = Instantiate(prefab, firePoint.position, Quaternion.identity);
+        GameObject spell = Instantiate(prefab, firePoint.position, Quaternion.identity, skillHolder);
 
         // 2. Phát tiếng bắn (Gọi hàm từ cha)
         base.PlaySound(shootSound);
@@ -156,7 +156,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
         Vector3 centerPos = new Vector3(0, 0, 0); // Vị trí trung tâm Map hoặc giữa sân
 
         // Tạo quả cầu mặt trời nhân tạo
-        GameObject sun = Instantiate(sunPrefab, centerPos, Quaternion.identity);
+        GameObject sun = Instantiate(sunPrefab, centerPos, Quaternion.identity, skillHolder);
         sun.transform.localScale = Vector3.zero; // Bắt đầu từ tí hon
 
         // Phóng to quả cầu dần dần trong 1s
@@ -193,7 +193,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
 
         GameObject boomVFX = null;
         // Tạo VFX nổ lớn tràn màn hình
-        if (BoomVFX) boomVFX = Instantiate(BoomVFX, centerPos, Quaternion.identity);
+        if (BoomVFX) boomVFX = Instantiate(BoomVFX, centerPos, Quaternion.identity, skillHolder);
         Destroy(sun);
         yield return new WaitForSeconds(0.1f);
         PlaySound(BoomSFX);
@@ -211,7 +211,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
     // Hàm phụ bắn đạn từ tâm mặt trời
     void FireSunBullet(Vector3 position, float angle)
     {
-        GameObject bullet = Instantiate(sunBulletPrefab, position, Quaternion.Euler(0, 0, angle));
+        GameObject bullet = Instantiate(sunBulletPrefab, position, Quaternion.Euler(0, 0, angle), skillHolder);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         if (rb != null)
         {

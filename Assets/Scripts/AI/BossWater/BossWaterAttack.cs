@@ -280,7 +280,7 @@ public class BossWaterAttack : BossAttackBase
         // 1. Cảnh báo
         GameObject warning = null;
         if (geyserWarningPrefab)
-            warning = Instantiate(geyserWarningPrefab, pos, Quaternion.identity);
+            warning = Instantiate(geyserWarningPrefab, pos, Quaternion.identity, skillHolder);
 
         yield return new WaitForSeconds(warningTime);
 
@@ -290,7 +290,7 @@ public class BossWaterAttack : BossAttackBase
         if (geyserDamagePrefab)
         {
             PlaySound(castSkill2, 1f);
-            GameObject damage = Instantiate(geyserDamagePrefab, pos + new Vector2(0, 0.58f), Quaternion.identity);
+            GameObject damage = Instantiate(geyserDamagePrefab, pos + new Vector2(0, 0.58f), Quaternion.identity, skillHolder);
             Destroy(damage, 1.5f); // Tự hủy sau 1s
         }
     }
@@ -323,7 +323,7 @@ public class BossWaterAttack : BossAttackBase
                 Transform spawnPoint = summonPoints[Random.Range(0, summonPoints.Length)];
                 GameObject minionToSpawn = minionPrefabs[Random.Range(0, minionPrefabs.Count)];
 
-                Instantiate(minionToSpawn, spawnPoint.position, Quaternion.identity);
+                Instantiate(minionToSpawn, spawnPoint.position, Quaternion.identity, skillHolder);
                 yield return new WaitForSeconds(0.3f);
             }
         }
@@ -339,7 +339,7 @@ public class BossWaterAttack : BossAttackBase
         if (movement) movement.Stop(); // Boss đứng yên
         anim.SetTrigger("castUlti"); // Hoặc animation xả đạn riêng nếu có
 
-        GameObject cast = Instantiate(castUlti, firePoint.position - new Vector3(0.5f, 0f, 0f), Quaternion.identity);
+        GameObject cast = Instantiate(castUlti, firePoint.position - new Vector3(0.5f, 0f, 0f), Quaternion.identity, skillHolder);
 
         yield return new WaitForSeconds(2.0f); // Chờ animation chuẩn bị xả đạn
 
@@ -355,7 +355,7 @@ public class BossWaterAttack : BossAttackBase
             Vector3 spawnPos = firePoint.position + new Vector3(0, randomY, 0);
 
             // --- SINH ĐẠN ---
-            GameObject proj = Instantiate(ultiProjectilePrefab, spawnPos, Quaternion.identity);
+            GameObject proj = Instantiate(ultiProjectilePrefab, spawnPos, Quaternion.identity, skillHolder);
 
             // --- TÍNH HƯỚNG BAY ---
             // Đạn bay thẳng đến vị trí hiện tại của Player

@@ -2596,6 +2596,61 @@ Transform:
   - {fileID: 1539926590}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &637109502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637109503}
+  - component: {fileID: 637109504}
+  m_Layer: 0
+  m_Name: DeathCutScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &637109503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637109502}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.93282, y: 0.22244, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &637109504
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637109502}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 5e9d9686a39f84f409e80509a102efee, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5892409301899801032, guid: 5e9d9686a39f84f409e80509a102efee, type: 2}
+    value: {fileID: 4958162702817430203}
+  - key: {fileID: 7374495474233188552, guid: 5e9d9686a39f84f409e80509a102efee, type: 2}
+    value: {fileID: 4958162702817430203}
+  - key: {fileID: -7861250230174802011, guid: 5e9d9686a39f84f409e80509a102efee, type: 2}
+    value: {fileID: 1580648083}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &642231414
 GameObject:
   m_ObjectHideFlags: 0
@@ -3868,6 +3923,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &907414613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 907414614}
+  m_Layer: 0
+  m_Name: BossSkillsHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &907414614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907414613}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.46987, y: 2.43353, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &942193896
 GameObject:
   m_ObjectHideFlags: 0
@@ -7792,10 +7878,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   introTimeline: {fileID: 2062017822}
   phase2Timeline: {fileID: 1145047883}
+  DeathTimeline: {fileID: 637109504}
   gameUI: {fileID: 0}
   playerMovement: {fileID: 0}
   bossAttack: {fileID: 6052892817817517639}
+  bossMove: {fileID: 0}
+  FinalBossMove: {fileID: 0}
   bossHealth: {fileID: 1209577588526585569}
+  skillHolder: {fileID: 907414614}
 --- !u!4 &1842176944
 Transform:
   m_ObjectHideFlags: 0
@@ -9455,3 +9545,5 @@ SceneRoots:
   - {fileID: 308768292}
   - {fileID: 815132143}
   - {fileID: 1164764730}
+  - {fileID: 907414614}
+  - {fileID: 637109503}
