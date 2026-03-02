@@ -91,17 +91,18 @@ public class FinalBossAttack : BossAttackBase
         }
 
         // --- PHASE 2 & 3: Gọi xích ra ---
-        PlaySound(chainStrikeSFX, 1.2f);
-        for (int i = 0; i < ultiChainCount; i++)
+        if (ultiChainPrefab != null)
         {
-            if (ultiChainPrefab != null)
+            PlaySound(chainStrikeSFX, 1.2f);
+            for (int i = 0; i < ultiChainCount; i++)
             {
                 Vector3 direction = (playerPos - spawnPositions[i]).normalized;
                 float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
                 Quaternion chainRotation = Quaternion.Euler(0, 0, angle);
 
-                Instantiate(ultiChainPrefab, spawnPositions[i], chainRotation);
+                Instantiate(ultiChainPrefab, spawnPositions[i], chainRotation, skillHolder);
                 yield return new WaitForSeconds(0.1f);
+
             }
         }
 
@@ -121,7 +122,7 @@ public class FinalBossAttack : BossAttackBase
             Vector3 spawnPos = GetRandomArenaPosition();
 
             // Tạo quả cầu năng lượng
-            GameObject boom = Instantiate(energyBoomPrefab, spawnPos, Quaternion.identity);
+            GameObject boom = Instantiate(energyBoomPrefab, spawnPos, Quaternion.identity, skillHolder);
 
             yield return new WaitForSeconds(0.2f); // Delay nhỏ giữa mỗi lần spawn cho đẹp
         }
@@ -138,7 +139,7 @@ public class FinalBossAttack : BossAttackBase
         PlaySound(dragonCastSFX, 1f);
         if (finalBoss_Skill2_1 != null)
         {
-            Instantiate(finalBoss_Skill2_1, transform.position, Quaternion.identity);
+            Instantiate(finalBoss_Skill2_1, transform.position, Quaternion.identity, skillHolder);
         }
         yield return new WaitForSeconds(0.8f);
 
@@ -155,7 +156,7 @@ public class FinalBossAttack : BossAttackBase
         PlaySound(groundRumbleSFX, 0.8f);
         if (finalBoss_Skill2_2 != null)
         {
-            Instantiate(finalBoss_Skill2_2, groundPos + new Vector3(0, 1f, 0), Quaternion.identity);
+            Instantiate(finalBoss_Skill2_2, groundPos + new Vector3(0, 1f, 0), Quaternion.identity, skillHolder);
         }
 
         // BƯỚC 3: Đợi 2s và triệu hồi Rồng cắn dưới chân Player
@@ -175,7 +176,7 @@ public class FinalBossAttack : BossAttackBase
                 if (finalBoss_Skill2_3 != null)
                 {
 
-                    GameObject dragon = Instantiate(finalBoss_Skill2_3, spawnPos + new Vector3(0, 1.8f, 0), Quaternion.identity);
+                    GameObject dragon = Instantiate(finalBoss_Skill2_3, spawnPos + new Vector3(0, 1.8f, 0), Quaternion.identity, skillHolder);
 
                     // Xử lý gây sát thương (nếu script dragon cắn có logic sát thương riêng)
                     HandleDragonDamage(spawnPos, 2f);
@@ -245,7 +246,7 @@ public class FinalBossAttack : BossAttackBase
         {
             if (finalBoss_Skill4_Warning != null)
             {
-                warnings[i] = Instantiate(finalBoss_Skill4_Warning, spawnPositions[i] + new Vector3(0, -0.2f, 0), Quaternion.identity);
+                warnings[i] = Instantiate(finalBoss_Skill4_Warning, spawnPositions[i] + new Vector3(0, -0.2f, 0), Quaternion.identity, skillHolder);
             }
             yield return new WaitForSeconds(0.1f);
         }
@@ -263,7 +264,7 @@ public class FinalBossAttack : BossAttackBase
             // Tạo Boom
             if (finalBoss_Skill4_Boom != null)
             {
-                GameObject boom = Instantiate(finalBoss_Skill4_Boom, spawnPositions[i], Quaternion.identity);
+                GameObject boom = Instantiate(finalBoss_Skill4_Boom, spawnPositions[i], Quaternion.identity, skillHolder);
                 Destroy(boom, 2f);
 
                 // Gây sát thương tại mỗi vị trí nổ
@@ -285,7 +286,7 @@ public class FinalBossAttack : BossAttackBase
     private void SpawnKunai(float angle)
     {
         // Tạo phi tiêu tại vị trí Boss (hoặc firePoint nếu bạn có)
-        GameObject kunai = Instantiate(kunaiPrefab, transform.position, Quaternion.Euler(0, 0, angle));
+        GameObject kunai = Instantiate(kunaiPrefab, transform.position, Quaternion.Euler(0, 0, angle), skillHolder);
 
         Rigidbody2D rb = kunai.GetComponent<Rigidbody2D>();
         if (rb != null)

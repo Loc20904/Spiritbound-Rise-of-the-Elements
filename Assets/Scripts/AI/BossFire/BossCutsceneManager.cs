@@ -6,6 +6,7 @@ public class BossCutsceneManager : MonoBehaviour
     [Header("Timelines")]
     public PlayableDirector introTimeline;
     public PlayableDirector phase2Timeline;
+    public PlayableDirector DeathTimeline;
 
     [Header("UI")]
     public GameObject gameUI; // Thanh máu, nút bấm... (Tắt đi cho đẹp khi chiếu phim)
@@ -16,6 +17,7 @@ public class BossCutsceneManager : MonoBehaviour
     public BossGroundMovement bossMove;
     public FinalBossMovement FinalBossMove;
     public BossHealth bossHealth;        // Để bật bất tử khi chuyển phase
+    public Transform skillHolder;
 
     private void Start()
     {
@@ -34,8 +36,23 @@ public class BossCutsceneManager : MonoBehaviour
         }
     }
 
+    public void PlayDeathCutscene()
+    {
+        if (DeathTimeline != null)
+        {
+            PlayCutscene(DeathTimeline);
+        }
+    }
+
     void PlayCutscene(PlayableDirector director)
     {
+        if (skillHolder != null)
+        {
+            foreach (Transform child in skillHolder)
+            {
+                Destroy(child.gameObject);
+            }
+        }
         // 1. Dừng điều khiển của người chơi và Boss
         if (playerMovement) playerMovement.enabled = false;
         if (bossAttack) bossAttack.enabled = false;

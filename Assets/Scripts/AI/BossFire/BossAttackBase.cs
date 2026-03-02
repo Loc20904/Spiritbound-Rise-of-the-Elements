@@ -22,6 +22,7 @@ public abstract class BossAttackBase : MonoBehaviour
     protected Animator anim;
     protected Transform player;
     protected AudioSource audioSource; // Nếu cần dùng trực tiếp
+    public Transform skillHolder;
 
     protected virtual void Awake() // Dùng virtual để con có thể override nếu cần
     {
@@ -29,6 +30,13 @@ public abstract class BossAttackBase : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         if (GameObject.FindGameObjectWithTag("Player"))
             player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        GameObject holderGo = GameObject.Find("BossSkillsHolder");
+        if (holderGo == null)
+        {
+            holderGo = new GameObject("BossSkillsHolder");
+        }
+        skillHolder = holderGo.transform;
     }
 
     public void SetPhase(bool phase2)

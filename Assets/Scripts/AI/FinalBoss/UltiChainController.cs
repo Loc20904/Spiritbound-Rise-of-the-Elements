@@ -42,7 +42,7 @@ public class UltiChainController : MonoBehaviour
         // Kiểm tra xem có đúng layer của Player không
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("<color=red>Player dính Xích!</color>");
+            //Debug.Log("<color=red>Player dính Xích!</color>");
 
             // Lấy script máu của player và trừ máu
             // collision.GetComponent<PlayerHealth>()?.TakeDamage(damage);
