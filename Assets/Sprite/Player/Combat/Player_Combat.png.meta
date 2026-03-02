@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 85eea4cd0200cdb4b80a27f9a05e710e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6976585927401561316
+    second: Player_Combat_0
+  - first:
+      213: 8270481878255849523
+    second: Player_Combat_1
+  - first:
+      213: -7545325883473464758
+    second: Player_Combat_2
+  - first:
+      213: 848893757744257149
+    second: Player_Combat_3
+  - first:
+      213: -4461504708816470617
+    second: Player_Combat_4
+  - first:
+      213: 7187753030007273321
+    second: Player_Combat_5
+  - first:
+      213: -4362238662053778864
+    second: Player_Combat_6
+  - first:
+      213: -779280449283020115
+    second: Player_Combat_7
+  - first:
+      213: -8027830633024622867
+    second: Player_Combat_8
+  - first:
+      213: 2920509246284764368
+    second: Player_Combat_9
+  - first:
+      213: 618899226038641272
+    second: Player_Combat_10
+  - first:
+      213: -8697665807433971944
+    second: Player_Combat_11
+  - first:
+      213: -6248930337619181802
+    second: Player_Combat_12
+  - first:
+      213: 7537274132091593383
+    second: Player_Combat_13
+  - first:
+      213: -1828221395390777408
+    second: Player_Combat_14
+  - first:
+      213: 776175645424878068
+    second: Player_Combat_15
+  - first:
+      213: -9150719200648441538
+    second: Player_Combat_16
+  - first:
+      213: 4114496555364679610
+    second: Player_Combat_17
+  - first:
+      213: -5087466217444198032
+    second: Player_Combat_18
+  - first:
+      213: 3686960123814134301
+    second: Player_Combat_19
+  - first:
+      213: 510291639942883122
+    second: Player_Combat_20
+  - first:
+      213: 1179308938067039938
+    second: Player_Combat_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Combat_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 612
+        width: 298
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 6, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec52cbffefc1d060800000000000000
+      internalID: 6976585927401561316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Combat_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 612
+        width: 325
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 8, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330deba0377a6c270800000000000000
+      internalID: 8270481878255849523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Combat_2
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 608
+        width: 331
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42f009f51e994790800000000000000
+      internalID: -7545325883473464758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Combat_3
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 653
+        width: 361
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7894620060e7cb00800000000000000
+      internalID: 848893757744257149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Combat_15
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 170
+        width: 373
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f10cdc13a785ca00800000000000000
+      internalID: 776175645424878068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Combat_16
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 132
+        width: 412
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31d00e9e5d120180800000000000000
+      internalID: -9150719200648441538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 537491da05051fe459d28992d1c87dba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Player_Combat_0: 6976585927401561316
+      Player_Combat_1: 8270481878255849523
+      Player_Combat_10: 618899226038641272
+      Player_Combat_11: -8697665807433971944
+      Player_Combat_12: -6248930337619181802
+      Player_Combat_13: 7537274132091593383
+      Player_Combat_14: -1828221395390777408
+      Player_Combat_15: 776175645424878068
+      Player_Combat_16: -9150719200648441538
+      Player_Combat_17: 4114496555364679610
+      Player_Combat_18: -5087466217444198032
+      Player_Combat_19: 3686960123814134301
+      Player_Combat_2: -7545325883473464758
+      Player_Combat_20: 510291639942883122
+      Player_Combat_21: 1179308938067039938
+      Player_Combat_22: -1054235029
+      Player_Combat_3: 848893757744257149
+      Player_Combat_4: -4461504708816470617
+      Player_Combat_5: 7187753030007273321
+      Player_Combat_6: -4362238662053778864
+      Player_Combat_7: -779280449283020115
+      Player_Combat_8: -8027830633024622867
+      Player_Combat_9: 2920509246284764368
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

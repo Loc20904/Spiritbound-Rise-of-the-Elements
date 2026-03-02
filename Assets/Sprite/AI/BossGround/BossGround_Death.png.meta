@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: fbe8290711d045e41b0cfa9bddb0df30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1203578081029061797
+    second: BossGround_Death_0
+  - first:
+      213: 2722578530345175317
+    second: BossGround_Death_1
+  - first:
+      213: 2361733488864083562
+    second: BossGround_Death_2
+  - first:
+      213: -8991159395837509647
+    second: BossGround_Death_3
+  - first:
+      213: 3914782818105971370
+    second: BossGround_Death_4
+  - first:
+      213: -6896868710478509405
+    second: BossGround_Death_5
+  - first:
+      213: 2795774045883667451
+    second: BossGround_Death_6
+  - first:
+      213: 7488381666784639383
+    second: BossGround_Death_7
+  - first:
+      213: 2397717234212906713
+    second: BossGround_Death_8
+  - first:
+      213: 3033572564632257428
+    second: BossGround_Death_9
+  - first:
+      213: 1564389148179556211
+    second: BossGround_Death_10
+  - first:
+      213: -6218691391754927115
+    second: BossGround_Death_11
+  - first:
+      213: -8932092819562438450
+    second: BossGround_Death_12
+  - first:
+      213: 6024400868278969036
+    second: BossGround_Death_13
+  - first:
+      213: -3464172426098358504
+    second: BossGround_Death_14
+  - first:
+      213: 4905951490653528105
+    second: BossGround_Death_15
+  - first:
+      213: 7005629112098038432
+    second: BossGround_Death_16
+  - first:
+      213: -4021413351687906824
+    second: BossGround_Death_17
+  - first:
+      213: -9057600217155499350
+    second: BossGround_Death_18
+  - first:
+      213: 1485882107020987726
+    second: BossGround_Death_19
+  - first:
+      213: 7964592817528233559
+    second: BossGround_Death_20
+  - first:
+      213: -4857268118236744496
+    second: BossGround_Death_21
+  - first:
+      213: -2920475885128288651
+    second: BossGround_Death_22
+  - first:
+      213: 7535012995398142564
+    second: BossGround_Death_23
+  - first:
+      213: -947568881566493067
+    second: BossGround_Death_24
+  - first:
+      213: 7613762857651625896
+    second: BossGround_Death_25
+  - first:
+      213: 3981552344993507320
+    second: BossGround_Death_26
+  - first:
+      213: 7431748437169280237
+    second: BossGround_Death_27
+  - first:
+      213: 5722924635247714282
+    second: BossGround_Death_28
+  - first:
+      213: 5651589938669383515
+    second: BossGround_Death_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossGround_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.520704, y: 0.2170463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acfe2b43e7f3b010800000000000000
+      internalID: 1203578081029061797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.50690144, y: 0.19634236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519445e9fba88c520800000000000000
+      internalID: 2722578530345175317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21014506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e33e9581096c020800000000000000
+      internalID: 2361733488864083562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5138029, y: 0.19634217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff703caa2cf83380800000000000000
+      internalID: -8991159395837509647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5138027, y: 0.19634236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2520e4b3a145630800000000000000
+      internalID: 3914782818105971370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5552106, y: 0.18253946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa0c61f2766940a0800000000000000
+      internalID: -6896868710478509405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5138027, y: 0.20324361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3172d9ea59cc620800000000000000
+      internalID: 2795774045883667451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5483093, y: 0.17563823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799fe3763731ce760800000000000000
+      internalID: 7488381666784639383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5207039, y: 0.19634247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6a711fe17664120800000000000000
+      internalID: 2397717234212906713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5069013, y: 0.21014465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493c64bcc2a691a20800000000000000
+      internalID: 3033572564632257428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_10
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 298
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20324321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377e7bb44a3d5b510800000000000000
+      internalID: 1564389148179556211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_11
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5276058, y: 0.17563802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f30ba29025c2b9a0800000000000000
+      internalID: -6218691391754927115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.51380265, y: 0.196342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0e925a7e4da0480800000000000000
+      internalID: -8932092819562438450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_13
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.50690144, y: 0.18944077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2a25acba8fa9350800000000000000
+      internalID: 6024400868278969036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.50690126, y: 0.18253955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81744bd4889ccefc0800000000000000
+      internalID: -3464172426098358504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossGround_Death_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5414083, y: 0.1825396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920a3bd43e0751440800000000000000
+      internalID: 4905951490653528105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0c9eb938415de4f489004442af98eb64
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BossGround_Death_0: 1203578081029061797
+      BossGround_Death_1: 2722578530345175317
+      BossGround_Death_10: 1564389148179556211
+      BossGround_Death_11: -6218691391754927115
+      BossGround_Death_12: -8932092819562438450
+      BossGround_Death_13: 6024400868278969036
+      BossGround_Death_14: -3464172426098358504
+      BossGround_Death_15: 4905951490653528105
+      BossGround_Death_2: 2361733488864083562
+      BossGround_Death_3: -8991159395837509647
+      BossGround_Death_4: 3914782818105971370
+      BossGround_Death_5: -6896868710478509405
+      BossGround_Death_6: 2795774045883667451
+      BossGround_Death_7: 7488381666784639383
+      BossGround_Death_8: 2397717234212906713
+      BossGround_Death_9: 3033572564632257428
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

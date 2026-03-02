@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: ffb4857e89d20a24ea47664da457fa82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7803000326406027134
+    second: groundVFX_0
+  - first:
+      213: -7634302703873266926
+    second: groundVFX_1
+  - first:
+      213: 2439105888528505022
+    second: groundVFX_2
+  - first:
+      213: 4046092289939112378
+    second: groundVFX_3
+  - first:
+      213: -8753460258293444899
+    second: groundVFX_4
+  - first:
+      213: -7906264396428050116
+    second: groundVFX_5
+  - first:
+      213: -821378420449965100
+    second: groundVFX_6
+  - first:
+      213: -2864401785863928137
+    second: groundVFX_7
+  - first:
+      213: 9133141163589368020
+    second: groundVFX_8
+  - first:
+      213: -6245170302793250201
+    second: groundVFX_9
+  - first:
+      213: 1936307966005912425
+    second: groundVFX_10
+  - first:
+      213: -7435566391045630337
+    second: groundVFX_11
+  - first:
+      213: -1563993863568997887
+    second: groundVFX_12
+  - first:
+      213: -6006725851028024355
+    second: groundVFX_13
+  - first:
+      213: -8345874793470122415
+    second: groundVFX_14
+  - first:
+      213: 4312118870459266541
+    second: groundVFX_15
+  - first:
+      213: 7490962890154278359
+    second: groundVFX_16
+  - first:
+      213: 9007377235534448425
+    second: groundVFX_17
+  - first:
+      213: 63822654922813799
+    second: groundVFX_18
+  - first:
+      213: -1661519898983064775
+    second: groundVFX_19
+  - first:
+      213: -2118250869995335336
+    second: groundVFX_20
+  - first:
+      213: 4635027496126445289
+    second: groundVFX_21
+  - first:
+      213: 4085561123185885503
+    second: groundVFX_22
+  - first:
+      213: -7235441123388216773
+    second: groundVFX_23
+  - first:
+      213: -4199201605553271174
+    second: groundVFX_24
+  - first:
+      213: 6656961696693739874
+    second: groundVFX_25
+  - first:
+      213: 1189110426691648412
+    second: groundVFX_26
+  - first:
+      213: 378649935562460315
+    second: groundVFX_27
+  - first:
+      213: -4826047190928244700
+    second: groundVFX_28
+  - first:
+      213: -8067388313695846637
+    second: groundVFX_29
+  - first:
+      213: -805901929840269954
+    second: groundVFX_30
+  - first:
+      213: -7231898152971003242
+    second: groundVFX_31
+  - first:
+      213: -8927685361383221109
+    second: groundVFX_32
+  - first:
+      213: 980500890286256739
+    second: groundVFX_33
+  - first:
+      213: 3046002798260205663
+    second: groundVFX_34
+  - first:
+      213: -836180290525874119
+    second: groundVFX_35
+  - first:
+      213: -5738548863760421561
+    second: groundVFX_36
+  - first:
+      213: 1265173946571032580
+    second: groundVFX_37
+  - first:
+      213: -6026031242077176081
+    second: groundVFX_38
+  - first:
+      213: 666737316593925538
+    second: groundVFX_39
+  - first:
+      213: 2091215793072174656
+    second: groundVFX_40
+  - first:
+      213: -7726861344415750442
+    second: groundVFX_41
+  - first:
+      213: 5007427142451535669
+    second: groundVFX_42
+  - first:
+      213: -8660180200457907273
+    second: groundVFX_43
+  - first:
+      213: -2676215747485283787
+    second: groundVFX_44
+  - first:
+      213: -1662435355242458683
+    second: groundVFX_45
+  - first:
+      213: 964641697630009310
+    second: groundVFX_46
+  - first:
+      213: 7257991602706948861
+    second: groundVFX_47
+  - first:
+      213: 3796921920888944319
+    second: groundVFX_48
+  - first:
+      213: 4825659146760663261
+    second: groundVFX_49
+  - first:
+      213: -5123876012039101729
+    second: groundVFX_50
+  - first:
+      213: -6896838056946343289
+    second: groundVFX_51
+  - first:
+      213: 6922450187246337351
+    second: groundVFX_52
+  - first:
+      213: -8217891203738083511
+    second: groundVFX_53
+  - first:
+      213: -8782309555403561929
+    second: groundVFX_54
+  - first:
+      213: -7987228070931840138
+    second: groundVFX_55
+  - first:
+      213: 3156578740602384999
+    second: groundVFX_56
+  - first:
+      213: 1587083071907477832
+    second: groundVFX_57
+  - first:
+      213: -4184321789318577811
+    second: groundVFX_58
+  - first:
+      213: -6141562211221308273
+    second: groundVFX_59
+  - first:
+      213: -7040599810371408458
+    second: groundVFX_60
+  - first:
+      213: 5186185164087462364
+    second: groundVFX_61
+  - first:
+      213: -1022845594929947568
+    second: groundVFX_62
+  - first:
+      213: -1713115227486750464
+    second: groundVFX_63
+  - first:
+      213: -2978653549761813027
+    second: groundVFX_64
+  - first:
+      213: 186957548903999832
+    second: groundVFX_65
+  - first:
+      213: 8839101327528338732
+    second: groundVFX_66
+  - first:
+      213: 4502355499294227457
+    second: groundVFX_67
+  - first:
+      213: 5614837931417426862
+    second: groundVFX_68
+  - first:
+      213: -4909932336988691497
+    second: groundVFX_69
+  - first:
+      213: 4986463571680229667
+    second: groundVFX_70
+  - first:
+      213: -2319630592972883632
+    second: groundVFX_71
+  - first:
+      213: -159836311662836215
+    second: groundVFX_72
+  - first:
+      213: 8137433843975145101
+    second: groundVFX_73
+  - first:
+      213: -258877753501499135
+    second: groundVFX_74
+  - first:
+      213: 6996206600522499515
+    second: groundVFX_75
+  - first:
+      213: 987644247187937521
+    second: groundVFX_76
+  - first:
+      213: -7481229225127744064
+    second: groundVFX_77
+  - first:
+      213: -6284561923980327197
+    second: groundVFX_78
+  - first:
+      213: -8922716866682024715
+    second: groundVFX_79
+  - first:
+      213: -3118692189751385671
+    second: groundVFX_80
+  - first:
+      213: 3218589523931132897
+    second: groundVFX_81
+  - first:
+      213: -1750445782980234129
+    second: groundVFX_82
+  - first:
+      213: -3413096398177694704
+    second: groundVFX_83
+  - first:
+      213: 2662511428515281920
+    second: groundVFX_84
+  - first:
+      213: 8071132442729466024
+    second: groundVFX_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: groundVFX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7730bd6473d94c60800000000000000
+      internalID: 7803000326406027134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_1
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 7200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b64db93228d0690800000000000000
+      internalID: -7634302703873266926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_2
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 7200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb81e47f1e179d120800000000000000
+      internalID: 2439105888528505022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_3
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 7200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab18446208b962830800000000000000
+      internalID: 4046092289939112378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_4
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 7200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde8becd546758680800000000000000
+      internalID: -8753460258293444899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31869eab6e474290800000000000000
+      internalID: -7906264396428050116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_6
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6000
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db88eeada0e994f0800000000000000
+      internalID: -821378420449965100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_7
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6000
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6069380c99f38d0800000000000000
+      internalID: -2864401785863928137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_8
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 6000
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8fd33bf7f6fbe70800000000000000
+      internalID: 9133141163589368020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_9
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 6000
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a803ca2b2b459a0800000000000000
+      internalID: -6245170302793250201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963aa8906d52fda10800000000000000
+      internalID: 1936307966005912425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_11
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4800
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7654ed33cf8fc890800000000000000
+      internalID: -7435566391045630337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_12
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4800
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10244131ed39b4ae0800000000000000
+      internalID: -1563993863568997887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_13
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4800
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3915ad9a2d3aca0800000000000000
+      internalID: -6006725851028024355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_14
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 4800
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156a35bf71f7d2c80800000000000000
+      internalID: -8345874793470122415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5bbfe1449b7db30800000000000000
+      internalID: 4312118870459266541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3600
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd774d4f0f35f760800000000000000
+      internalID: 7490962890154278359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_17
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3600
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92788f16fd1a00d70800000000000000
+      internalID: 9007377235534448425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_18
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3600
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761fb43dd5eb2e000800000000000000
+      internalID: 63822654922813799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_19
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 3600
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b1fd9747811f8e0800000000000000
+      internalID: -1661519898983064775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85114c48e067a92e0800000000000000
+      internalID: -2118250869995335336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_21
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2400
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6f8c643fce25040800000000000000
+      internalID: 4635027496126445289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_22
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2400
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3104aff134d2b830800000000000000
+      internalID: 4085561123185885503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_23
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a213f12ac869b90800000000000000
+      internalID: -7235441123388216773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_24
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 2400
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e4fb8536079b5c0800000000000000
+      internalID: -4199201605553271174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261efce9467426c50800000000000000
+      internalID: 6656961696693739874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_26
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b3ba502a1908010800000000000000
+      internalID: 1189110426691648412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_27
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ccc673c1c314500800000000000000
+      internalID: 378649935562460315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_28
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420437b36af660db0800000000000000
+      internalID: -4826047190928244700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_29
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 1200
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f75015211ea0090800000000000000
+      internalID: -8067388313695846637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75a114f67cd0d4f0800000000000000
+      internalID: -805901929840269954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_31
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a1c5432f223ab90800000000000000
+      internalID: -7231898152971003242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_32
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b885c48f67d7a1480800000000000000
+      internalID: -8927685361383221109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundVFX_33
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 1600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36277736d507b9d00800000000000000
+      internalID: 980500890286256739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1ddb21b7cfe49da4fad5ab0058d631a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      groundVFX_0: 7803000326406027134
+      groundVFX_1: -7634302703873266926
+      groundVFX_10: 1936307966005912425
+      groundVFX_11: -7435566391045630337
+      groundVFX_12: -1563993863568997887
+      groundVFX_13: -6006725851028024355
+      groundVFX_14: -8345874793470122415
+      groundVFX_15: 4312118870459266541
+      groundVFX_16: 7490962890154278359
+      groundVFX_17: 9007377235534448425
+      groundVFX_18: 63822654922813799
+      groundVFX_19: -1661519898983064775
+      groundVFX_2: 2439105888528505022
+      groundVFX_20: -2118250869995335336
+      groundVFX_21: 4635027496126445289
+      groundVFX_22: 4085561123185885503
+      groundVFX_23: -7235441123388216773
+      groundVFX_24: -4199201605553271174
+      groundVFX_25: 6656961696693739874
+      groundVFX_26: 1189110426691648412
+      groundVFX_27: 378649935562460315
+      groundVFX_28: -4826047190928244700
+      groundVFX_29: -8067388313695846637
+      groundVFX_3: 4046092289939112378
+      groundVFX_30: -805901929840269954
+      groundVFX_31: -7231898152971003242
+      groundVFX_32: -8927685361383221109
+      groundVFX_33: 980500890286256739
+      groundVFX_4: -8753460258293444899
+      groundVFX_5: -7906264396428050116
+      groundVFX_6: -821378420449965100
+      groundVFX_7: -2864401785863928137
+      groundVFX_8: 9133141163589368020
+      groundVFX_9: -6245170302793250201
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

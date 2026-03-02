@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: df6eee05c4cea2645aec20964ffda6e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5398799437281706457
+    second: Quaidatgan_Idle_0
+  - first:
+      213: -4934963003800539060
+    second: Quaidatgan_Idle_1
+  - first:
+      213: -5261811169887225456
+    second: Quaidatgan_Idle_2
+  - first:
+      213: -6103222900620009723
+    second: Quaidatgan_Idle_3
+  - first:
+      213: 7440750244576796495
+    second: Quaidatgan_Idle_4
+  - first:
+      213: -5403888458625261208
+    second: Quaidatgan_Idle_5
+  - first:
+      213: 4377480056040920483
+    second: Quaidatgan_Idle_6
+  - first:
+      213: 1874278432700067708
+    second: Quaidatgan_Idle_7
+  - first:
+      213: -4573308621748517104
+    second: Quaidatgan_Idle_8
+  - first:
+      213: 5437873574756607601
+    second: Quaidatgan_Idle_9
+  - first:
+      213: 5850036132929015135
+    second: Quaidatgan_Idle_10
+  - first:
+      213: -7532848770361807535
+    second: Quaidatgan_Idle_11
+  - first:
+      213: -3967694422215237852
+    second: Quaidatgan_Idle_12
+  - first:
+      213: -2239296164533901862
+    second: Quaidatgan_Idle_13
+  - first:
+      213: 1910432834544978582
+    second: Quaidatgan_Idle_14
+  - first:
+      213: 6966310030643812183
+    second: Quaidatgan_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 372
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ebe3f048c9315b0800000000000000
+      internalID: -5398799437281706457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 372
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4036ca6b4d738bb0800000000000000
+      internalID: -4934963003800539060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 372
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09970b78e9a4af6b0800000000000000
+      internalID: -5261811169887225456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 372
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fd38fab1ffc4ba0800000000000000
+      internalID: -6103222900620009723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 252
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f9666bcead24760800000000000000
+      internalID: 7440750244576796495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 252
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861eec1f3188105b0800000000000000
+      internalID: -5403888458625261208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 252
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a51da70beeefbc30800000000000000
+      internalID: 4377480056040920483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 252
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f634fdd46c20a10800000000000000
+      internalID: 1874278432700067708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 132
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017c278f9085880c0800000000000000
+      internalID: -4573308621748517104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 132
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176e9d48435377b40800000000000000
+      internalID: 5437873574756607601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 132
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d0f6a3ed08f2150800000000000000
+      internalID: 5850036132929015135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 132
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15da8df34f1f57790800000000000000
+      internalID: -7532848770361807535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 12
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fdf8ad1faefe8c0800000000000000
+      internalID: -3967694422215237852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 12
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5ef0ea00c6ce0e0800000000000000
+      internalID: -2239296164533901862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 12
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69acb468a88338a10800000000000000
+      internalID: 1910432834544978582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quaidatgan_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 12
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757d3c3501e4da060800000000000000
+      internalID: 6966310030643812183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Quaidatgan_Idle_0: -5398799437281706457
+      Quaidatgan_Idle_1: -4934963003800539060
+      Quaidatgan_Idle_10: 5850036132929015135
+      Quaidatgan_Idle_11: -7532848770361807535
+      Quaidatgan_Idle_12: -3967694422215237852
+      Quaidatgan_Idle_13: -2239296164533901862
+      Quaidatgan_Idle_14: 1910432834544978582
+      Quaidatgan_Idle_15: 6966310030643812183
+      Quaidatgan_Idle_2: -5261811169887225456
+      Quaidatgan_Idle_3: -6103222900620009723
+      Quaidatgan_Idle_4: 7440750244576796495
+      Quaidatgan_Idle_5: -5403888458625261208
+      Quaidatgan_Idle_6: 4377480056040920483
+      Quaidatgan_Idle_7: 1874278432700067708
+      Quaidatgan_Idle_8: -4573308621748517104
+      Quaidatgan_Idle_9: 5437873574756607601
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
