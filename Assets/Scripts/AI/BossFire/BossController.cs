@@ -7,6 +7,7 @@ public class BossController : MonoBehaviour
     BossAttackBase attack;
     BossMovement movement;
     Animator anim;
+    public bool isFinalBoss = false;
 
     public BossCutsceneManager cutsceneManager;
     private bool hasPlayedPhase2Cutscene = false;
@@ -28,7 +29,12 @@ public class BossController : MonoBehaviour
 
     void Update()
     {
-        attack.Attack();
+        if (!isFinalBoss)
+            attack.Attack();
+        else
+        {
+            attack.routineUlti();
+        }
     }
 
     void OnBossPhaseCheck(float hpPercent)
@@ -49,9 +55,16 @@ public class BossController : MonoBehaviour
         }
     }
 
+
     void OnBossDeath()
     {
-        anim.SetTrigger("die");
-        Destroy(gameObject, 2f);
+        // 1. Chạy phim cắt cảnh cái chết và đợi nó kết thúc hoàn toàn
+        // Giả sử PlayDeathCutscene() trả về một IEnumerator xử lý Timeline
+        cutsceneManager.PlayDeathCutscene();
+
+        // 4. Cuối cùng mới xóa GameObject Boss
+        //Destroy(gameObject);
+
+        // 5. Chuyển Scene kết thúc (Ví dụ: SceneManager.LoadScene("EndGame"))
     }
 }

@@ -182,13 +182,23 @@ MonoBehaviour:
   attackRatePhase1: 2
   attackRatePhase2: 1
   ultiReady: 0
-  ultimateThreshold: 30
+  ultimateThreshold: 10
   castSound: {fileID: 0}
   shootSound: {fileID: 8300000, guid: 2f36ce876b37305458ff5f2ac0b9d679, type: 3}
   soundVolume: 0.7
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
   fireballPrefab: {fileID: 3171551015218902307, guid: 71a485d704799094f9d90954019eca28, type: 3}
   specialPrefab: {fileID: 4004484374997962187, guid: 88b1f7f164ee8264a81ee901517bed18, type: 3}
   firePoint: {fileID: 6103775103566474261}
+  sunPrefab: {fileID: 2026664282432181255, guid: c51ad39109e70474faf73f20903ba703, type: 3}
+  sunBulletPrefab: {fileID: 3171551015218902307, guid: 71a485d704799094f9d90954019eca28, type: 3}
+  BoomVFX: {fileID: 3636150567069411162, guid: ca4aba961ad386c4cb602e18e2a3f414, type: 3}
+  BoomSFX: {fileID: 8300000, guid: 507efee0c28d28741a00145ab5226b68, type: 3}
+  rotateSpeed: 1000
+  isBusy: 0
+  flashImage: {fileID: 0}
 --- !u!114 &4432281223325696492
 MonoBehaviour:
   m_ObjectHideFlags: 0

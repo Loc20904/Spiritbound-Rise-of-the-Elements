@@ -6,6 +6,7 @@ public class BossCutsceneManager : MonoBehaviour
     [Header("Timelines")]
     public PlayableDirector introTimeline;
     public PlayableDirector phase2Timeline;
+    public PlayableDirector DeathTimeline;
 
     [Header("UI")]
     public GameObject gameUI; // Thanh máu, nút bấm... (Tắt đi cho đẹp khi chiếu phim)
@@ -14,7 +15,9 @@ public class BossCutsceneManager : MonoBehaviour
     public MonoBehaviour playerMovement; // Script di chuyển của Player
     public BossAttackBase bossAttack;     // Script tấn công của Boss
     public BossGroundMovement bossMove;
+    public FinalBossMovement FinalBossMove;
     public BossHealth bossHealth;        // Để bật bất tử khi chuyển phase
+    public Transform skillHolder;
 
     private void Start()
     {
@@ -33,8 +36,23 @@ public class BossCutsceneManager : MonoBehaviour
         }
     }
 
+    public void PlayDeathCutscene()
+    {
+        if (DeathTimeline != null)
+        {
+            PlayCutscene(DeathTimeline);
+        }
+    }
+
     void PlayCutscene(PlayableDirector director)
     {
+        if (skillHolder != null)
+        {
+            foreach (Transform child in skillHolder)
+            {
+                Destroy(child.gameObject);
+            }
+        }
         // 1. Dừng điều khiển của người chơi và Boss
         if (playerMovement) playerMovement.enabled = false;
         if (bossAttack) bossAttack.enabled = false;
@@ -42,8 +60,13 @@ public class BossCutsceneManager : MonoBehaviour
         {
             bossMove.Stop();
             bossMove.enabled = false;
-
         }
+        if (FinalBossMove)
+        {
+            FinalBossMove.stopMove();
+        }
+
+        bossAttack.ultiReady = 0f; // Reset ulti để tránh việc Boss tự động tung ulti khi đang cutscene
 
         // 2. QUAN TRỌNG: Dừng ngay mọi luồng bắn đạn đang chờ (Coroutine)
         bossAttack.StopAllCoroutines();
@@ -73,6 +96,7 @@ public class BossCutsceneManager : MonoBehaviour
         if (playerMovement) playerMovement.enabled = true;
         if (bossAttack) bossAttack.enabled = true;
         if (bossMove) bossMove.enabled = true;
+        if (FinalBossMove) FinalBossMove.startMove();
 
         // 2. Bật lại UI
         if (gameUI) gameUI.SetActive(true);
