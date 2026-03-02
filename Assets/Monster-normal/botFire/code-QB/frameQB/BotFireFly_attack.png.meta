@@ -1,0 +1,4693 @@
+fileFormatVersion: 2
+guid: 278babf7b72be3342b724b47107f5198
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1717983223711943475
+    second: BotFireFly_attack_0
+  - first:
+      213: -4004571906709716399
+    second: BotFireFly_attack_1
+  - first:
+      213: 3142371952965959351
+    second: BotFireFly_attack_2
+  - first:
+      213: -432725659151599249
+    second: BotFireFly_attack_3
+  - first:
+      213: -1144248426881810530
+    second: BotFireFly_attack_4
+  - first:
+      213: 6493829733104000471
+    second: BotFireFly_attack_5
+  - first:
+      213: 4208422452110279888
+    second: BotFireFly_attack_6
+  - first:
+      213: -3529020560550003005
+    second: BotFireFly_attack_7
+  - first:
+      213: 7500276757102485788
+    second: BotFireFly_attack_8
+  - first:
+      213: -8278073287599986356
+    second: BotFireFly_attack_9
+  - first:
+      213: -5506828581863660170
+    second: BotFireFly_attack_10
+  - first:
+      213: 2741863226891664074
+    second: BotFireFly_attack_11
+  - first:
+      213: -768257787566218419
+    second: BotFireFly_attack_12
+  - first:
+      213: -1730414346751285744
+    second: BotFireFly_attack_13
+  - first:
+      213: 4094685972793562543
+    second: BotFireFly_attack_14
+  - first:
+      213: -4241386050888015390
+    second: BotFireFly_attack_15
+  - first:
+      213: 4206681119601991519
+    second: BotFireFly_attack_16
+  - first:
+      213: -2238087438276255334
+    second: BotFireFly_attack_17
+  - first:
+      213: -7420396701675544516
+    second: BotFireFly_attack_18
+  - first:
+      213: -1147347492558051217
+    second: BotFireFly_attack_19
+  - first:
+      213: 7472708288462685537
+    second: BotFireFly_attack_20
+  - first:
+      213: 7288428365873112635
+    second: BotFireFly_attack_21
+  - first:
+      213: -2230971857322248632
+    second: BotFireFly_attack_22
+  - first:
+      213: -5979925877626321355
+    second: BotFireFly_attack_23
+  - first:
+      213: 4823842698210392850
+    second: BotFireFly_attack_24
+  - first:
+      213: 1020732774902962563
+    second: BotFireFly_attack_25
+  - first:
+      213: 1793335662501532900
+    second: BotFireFly_attack_26
+  - first:
+      213: 7840989923949371804
+    second: BotFireFly_attack_27
+  - first:
+      213: 1586120781078166153
+    second: BotFireFly_attack_28
+  - first:
+      213: 8618939899637656764
+    second: BotFireFly_attack_29
+  - first:
+      213: -668431661620252995
+    second: BotFireFly_attack_30
+  - first:
+      213: -8309068743767424780
+    second: BotFireFly_attack_31
+  - first:
+      213: 6929394777714423918
+    second: BotFireFly_attack_32
+  - first:
+      213: 8262054229592156140
+    second: BotFireFly_attack_33
+  - first:
+      213: 6613831399101831833
+    second: BotFireFly_attack_34
+  - first:
+      213: 5524432451943115992
+    second: BotFireFly_attack_35
+  - first:
+      213: -8090411640979157884
+    second: BotFireFly_attack_36
+  - first:
+      213: 2924535510967725081
+    second: BotFireFly_attack_37
+  - first:
+      213: -1211087130931345662
+    second: BotFireFly_attack_38
+  - first:
+      213: -1177868299232062680
+    second: BotFireFly_attack_39
+  - first:
+      213: 8223770930136444063
+    second: BotFireFly_attack_40
+  - first:
+      213: 2989818402991477097
+    second: BotFireFly_attack_41
+  - first:
+      213: 6224760543167943184
+    second: BotFireFly_attack_42
+  - first:
+      213: 8664187491526930582
+    second: BotFireFly_attack_43
+  - first:
+      213: -6398458857038283383
+    second: BotFireFly_attack_44
+  - first:
+      213: -2505145795843938482
+    second: BotFireFly_attack_45
+  - first:
+      213: -2042533825644611228
+    second: BotFireFly_attack_46
+  - first:
+      213: -3683458551903207404
+    second: BotFireFly_attack_47
+  - first:
+      213: -7763636316147754124
+    second: BotFireFly_attack_48
+  - first:
+      213: 3788070782799695096
+    second: BotFireFly_attack_49
+  - first:
+      213: -2948833369966447414
+    second: BotFireFly_attack_50
+  - first:
+      213: -3172061485893073017
+    second: BotFireFly_attack_51
+  - first:
+      213: 1099459369002271378
+    second: BotFireFly_attack_52
+  - first:
+      213: -4221834609017554137
+    second: BotFireFly_attack_53
+  - first:
+      213: -4031378788463683718
+    second: BotFireFly_attack_54
+  - first:
+      213: -4726654552786500130
+    second: BotFireFly_attack_55
+  - first:
+      213: -1531760503216550335
+    second: BotFireFly_attack_56
+  - first:
+      213: -3777415767928372534
+    second: BotFireFly_attack_57
+  - first:
+      213: 3577579487069142648
+    second: BotFireFly_attack_58
+  - first:
+      213: 4581849605013070574
+    second: BotFireFly_attack_59
+  - first:
+      213: 9056995710520028602
+    second: BotFireFly_attack_60
+  - first:
+      213: -4929394986471812264
+    second: BotFireFly_attack_61
+  - first:
+      213: -9030239646210845426
+    second: BotFireFly_attack_62
+  - first:
+      213: 7676889011665516398
+    second: BotFireFly_attack_63
+  - first:
+      213: -8603379745526835806
+    second: BotFireFly_attack_64
+  - first:
+      213: -395156470503964932
+    second: BotFireFly_attack_65
+  - first:
+      213: -8264390670685210232
+    second: BotFireFly_attack_66
+  - first:
+      213: 1989630099860122375
+    second: BotFireFly_attack_67
+  - first:
+      213: -6484498253057582868
+    second: BotFireFly_attack_68
+  - first:
+      213: -3359228674663075724
+    second: BotFireFly_attack_69
+  - first:
+      213: -7357002740066721017
+    second: BotFireFly_attack_70
+  - first:
+      213: 5521729071672188846
+    second: BotFireFly_attack_71
+  - first:
+      213: -3908955987398273204
+    second: BotFireFly_attack_72
+  - first:
+      213: 6670471649215752218
+    second: BotFireFly_attack_73
+  - first:
+      213: 8986385916827373795
+    second: BotFireFly_attack_74
+  - first:
+      213: -2317426342666455336
+    second: BotFireFly_attack_75
+  - first:
+      213: 1001473021663938208
+    second: BotFireFly_attack_76
+  - first:
+      213: -5781300667693243501
+    second: BotFireFly_attack_77
+  - first:
+      213: -8650334006456980813
+    second: BotFireFly_attack_78
+  - first:
+      213: 2055160150619103633
+    second: BotFireFly_attack_79
+  - first:
+      213: 6944114666987487352
+    second: BotFireFly_attack_80
+  - first:
+      213: 3787201267869078876
+    second: BotFireFly_attack_81
+  - first:
+      213: 3191131072147516204
+    second: BotFireFly_attack_82
+  - first:
+      213: 8997181111777266749
+    second: BotFireFly_attack_83
+  - first:
+      213: -5411347577882497547
+    second: BotFireFly_attack_84
+  - first:
+      213: 391373224094202571
+    second: BotFireFly_attack_85
+  - first:
+      213: -5469508416782285593
+    second: BotFireFly_attack_86
+  - first:
+      213: -2410990733255472740
+    second: BotFireFly_attack_87
+  - first:
+      213: -1738544452199647274
+    second: BotFireFly_attack_88
+  - first:
+      213: -6364458339348865691
+    second: BotFireFly_attack_89
+  - first:
+      213: -6407824593073342995
+    second: BotFireFly_attack_90
+  - first:
+      213: -1935737693627820088
+    second: BotFireFly_attack_91
+  - first:
+      213: 2798029090936343017
+    second: BotFireFly_attack_92
+  - first:
+      213: -2641388636497168269
+    second: BotFireFly_attack_93
+  - first:
+      213: -7303229259798515606
+    second: BotFireFly_attack_94
+  - first:
+      213: 226535724902649456
+    second: BotFireFly_attack_95
+  - first:
+      213: -1749828937629811138
+    second: BotFireFly_attack_96
+  - first:
+      213: 1822478021336147384
+    second: BotFireFly_attack_97
+  - first:
+      213: -2771680580737973300
+    second: BotFireFly_attack_98
+  - first:
+      213: 3581386900935800885
+    second: BotFireFly_attack_99
+  - first:
+      213: -5936540671519404853
+    second: BotFireFly_attack_100
+  - first:
+      213: 2012976500272034546
+    second: BotFireFly_attack_101
+  - first:
+      213: -6938692193369082742
+    second: BotFireFly_attack_102
+  - first:
+      213: -6769954450385473811
+    second: BotFireFly_attack_103
+  - first:
+      213: -8564204139053036344
+    second: BotFireFly_attack_104
+  - first:
+      213: -6952772721203207844
+    second: BotFireFly_attack_105
+  - first:
+      213: 1487912052752653700
+    second: BotFireFly_attack_106
+  - first:
+      213: 6431479510888488096
+    second: BotFireFly_attack_107
+  - first:
+      213: -5450048487449032183
+    second: BotFireFly_attack_108
+  - first:
+      213: 1086852897620376063
+    second: BotFireFly_attack_109
+  - first:
+      213: -2530303670893567679
+    second: BotFireFly_attack_110
+  - first:
+      213: -1252835930282341126
+    second: BotFireFly_attack_111
+  - first:
+      213: -9131705740164843775
+    second: BotFireFly_attack_112
+  - first:
+      213: -7229708072989199815
+    second: BotFireFly_attack_113
+  - first:
+      213: -7686467189597087117
+    second: BotFireFly_attack_114
+  - first:
+      213: 8769230557642880539
+    second: BotFireFly_attack_115
+  - first:
+      213: -2838082206172368341
+    second: BotFireFly_attack_116
+  - first:
+      213: -2268342033050443506
+    second: BotFireFly_attack_117
+  - first:
+      213: -5531676464854417322
+    second: BotFireFly_attack_118
+  - first:
+      213: -212341320318236758
+    second: BotFireFly_attack_119
+  - first:
+      213: -918371421871043808
+    second: BotFireFly_attack_120
+  - first:
+      213: 6947658213963300382
+    second: BotFireFly_attack_121
+  - first:
+      213: 1323071091253906482
+    second: BotFireFly_attack_122
+  - first:
+      213: -5020165800234616097
+    second: BotFireFly_attack_123
+  - first:
+      213: 3965315005855533108
+    second: BotFireFly_attack_124
+  - first:
+      213: 6705534684271030928
+    second: BotFireFly_attack_125
+  - first:
+      213: -725838593058559206
+    second: BotFireFly_attack_126
+  - first:
+      213: -1382347267511391051
+    second: BotFireFly_attack_127
+  - first:
+      213: 3886204783943966646
+    second: BotFireFly_attack_128
+  - first:
+      213: -785881062484312282
+    second: BotFireFly_attack_129
+  - first:
+      213: 9209243443826600772
+    second: BotFireFly_attack_130
+  - first:
+      213: -1898483735145416938
+    second: BotFireFly_attack_131
+  - first:
+      213: 7969961063251470179
+    second: BotFireFly_attack_132
+  - first:
+      213: -3135367209571068965
+    second: BotFireFly_attack_133
+  - first:
+      213: 984541258930968417
+    second: BotFireFly_attack_134
+  - first:
+      213: -3512128515270459957
+    second: BotFireFly_attack_135
+  - first:
+      213: 6992876915875657691
+    second: BotFireFly_attack_136
+  - first:
+      213: 6476482280094455689
+    second: BotFireFly_attack_137
+  - first:
+      213: 5769606653166010956
+    second: BotFireFly_attack_138
+  - first:
+      213: -2086642082450990786
+    second: BotFireFly_attack_139
+  - first:
+      213: 9042098578174294170
+    second: BotFireFly_attack_140
+  - first:
+      213: 1162494943264654661
+    second: BotFireFly_attack_141
+  - first:
+      213: -626350000338359282
+    second: BotFireFly_attack_142
+  - first:
+      213: 5580344215187662090
+    second: BotFireFly_attack_143
+  - first:
+      213: 7758143025918643703
+    second: BotFireFly_attack_144
+  - first:
+      213: 1854882106765406490
+    second: BotFireFly_attack_145
+  - first:
+      213: -3578960378917434049
+    second: BotFireFly_attack_146
+  - first:
+      213: 6826240924662185912
+    second: BotFireFly_attack_147
+  - first:
+      213: 636938099895313376
+    second: BotFireFly_attack_148
+  - first:
+      213: -4630083010875920316
+    second: BotFireFly_attack_149
+  - first:
+      213: -5842301599140059845
+    second: BotFireFly_attack_150
+  - first:
+      213: 2834583133199974395
+    second: BotFireFly_attack_151
+  - first:
+      213: 1700663111894681709
+    second: BotFireFly_attack_152
+  - first:
+      213: -9218817689266883778
+    second: BotFireFly_attack_153
+  - first:
+      213: 6601201551778234898
+    second: BotFireFly_attack_154
+  - first:
+      213: -189655894703513687
+    second: BotFireFly_attack_155
+  - first:
+      213: 8512451940522468024
+    second: BotFireFly_attack_156
+  - first:
+      213: -2582192069009212092
+    second: BotFireFly_attack_157
+  - first:
+      213: 3128830969571020641
+    second: BotFireFly_attack_158
+  - first:
+      213: -1738253388695905010
+    second: BotFireFly_attack_159
+  - first:
+      213: -5064358942376522061
+    second: BotFireFly_attack_160
+  - first:
+      213: 510867778514447213
+    second: BotFireFly_attack_161
+  - first:
+      213: 480305379021669164
+    second: BotFireFly_attack_162
+  - first:
+      213: 4058925831479533545
+    second: BotFireFly_attack_163
+  - first:
+      213: 1860401454923453139
+    second: BotFireFly_attack_164
+  - first:
+      213: -8453409191342614961
+    second: BotFireFly_attack_165
+  - first:
+      213: 3474580939433553036
+    second: BotFireFly_attack_166
+  - first:
+      213: 1074421133772306724
+    second: BotFireFly_attack_167
+  - first:
+      213: 4913777099953146930
+    second: BotFireFly_attack_168
+  - first:
+      213: -2515077968104353012
+    second: BotFireFly_attack_169
+  - first:
+      213: -452030605684549668
+    second: BotFireFly_attack_170
+  - first:
+      213: 1397069356619129188
+    second: BotFireFly_attack_171
+  - first:
+      213: 4664988564202041238
+    second: BotFireFly_attack_172
+  - first:
+      213: -1475524358292853806
+    second: BotFireFly_attack_173
+  - first:
+      213: -4241536768416060361
+    second: BotFireFly_attack_174
+  - first:
+      213: 1505042419514298087
+    second: BotFireFly_attack_175
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 796
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4b19c3c5f7828e0800000000000000
+      internalID: -1717983223711943475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 795
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1520f076117ec68c0800000000000000
+      internalID: -4004571906709716399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 795
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bebfa864a2fb9b20800000000000000
+      internalID: 3142371952965959351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 795
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6972114e46aef9f0800000000000000
+      internalID: -432725659151599249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 795
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ff8e44e10de10f0800000000000000
+      internalID: -1144248426881810530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 795
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd98898cb7be1a50800000000000000
+      internalID: 6493829733104000471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 726
+        width: 67
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4cfca4ce1576a30800000000000000
+      internalID: 4208422452110279888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 722
+        width: 76
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cefd5b6f76660fc0800000000000000
+      internalID: -3529020560550003005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_8
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 733
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c116630f8f5561860800000000000000
+      internalID: 7500276757102485788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 728
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49e3fb34306e1d80800000000000000
+      internalID: -8278073287599986356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 665
+        width: 77
+        height: 84
+      alignment: 9
+      pivot: {x: 0.47646144, y: 0.42447916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6756c0bc490d393b0800000000000000
+      internalID: -5506828581863660170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_11
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 735
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca759de31e0d0620800000000000000
+      internalID: 2741863226891664074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 737
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d432034dc999655f0800000000000000
+      internalID: -768257787566218419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 733
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01666abd1555cf7e0800000000000000
+      internalID: -1730414346751285744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_14
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 734
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5922b923f33d830800000000000000
+      internalID: 4094685972793562543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 734
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1e589cbd19325c0800000000000000
+      internalID: -4241386050888015390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 665
+        width: 80
+        height: 84
+      alignment: 9
+      pivot: {x: 0.45846444, y: 0.4208839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f1839b032216a30800000000000000
+      internalID: 4206681119601991519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_17
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 734
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91a7413557b0f0e0800000000000000
+      internalID: -2238087438276255334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 665
+        width: 91
+        height: 85
+      alignment: 9
+      pivot: {x: 0.4469182, y: 0.41949177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c302628c384750990800000000000000
+      internalID: -7420396701675544516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 665
+        width: 98
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4055263, y: 0.43203932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f686420d88dc310f0800000000000000
+      internalID: -1147347492558051217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_20
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 728
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1658fe3a89464b760800000000000000
+      internalID: 7472708288462685537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 665
+        width: 67
+        height: 78
+      alignment: 9
+      pivot: {x: 0.46566227, y: 0.4555617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b366fb6abf2b52560800000000000000
+      internalID: 7288428365873112635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_22
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 714
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846f96c7aeef901e0800000000000000
+      internalID: -2230971857322248632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 665
+        width: 76
+        height: 81
+      alignment: 9
+      pivot: {x: 0.48012623, y: 0.44032946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536cae8e819030da0800000000000000
+      internalID: -5979925877626321355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_24
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 714
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b313f406bb1f240800000000000000
+      internalID: 4823842698210392850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_25
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 718
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38990bafc0f5a2e00800000000000000
+      internalID: 1020732774902962563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 535
+        width: 75
+        height: 74
+      alignment: 9
+      pivot: {x: 0.19278818, y: 0.42016354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e49176984533e810800000000000000
+      internalID: 1793335662501532900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 535
+        width: 76
+        height: 75
+      alignment: 9
+      pivot: {x: 0.1927954, y: 0.42486003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c916b60eacac0dc60800000000000000
+      internalID: 7840989923949371804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 535
+        width: 77
+        height: 74
+      alignment: 9
+      pivot: {x: 0.1758732, y: 0.46192232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a770f5278030610800000000000000
+      internalID: 1586120781078166153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 535
+        width: 76
+        height: 73
+      alignment: 9
+      pivot: {x: 0.21398243, y: 0.44485766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbce7527c20ac9770800000000000000
+      internalID: 8618939899637656764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 535
+        width: 75
+        height: 74
+      alignment: 9
+      pivot: {x: 0.21016845, y: 0.44560283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe208cf1f049b6f0800000000000000
+      internalID: -668431661620252995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_31
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 595
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f00179300240bc80800000000000000
+      internalID: -8309068743767424780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_32
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 592
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e687d1a36d72a2060800000000000000
+      internalID: 6929394777714423918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 535
+        width: 74
+        height: 75
+      alignment: 9
+      pivot: {x: 0.19590306, y: 0.4290796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7aadd2c86b8a270800000000000000
+      internalID: 8262054229592156140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_34
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 594
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a1acbad9c09cb50800000000000000
+      internalID: 6613831399101831833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_35
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 597
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dca5bb9b0abaac40800000000000000
+      internalID: 5524432451943115992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_36
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 599
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c80c43a7519bf80800000000000000
+      internalID: -8090411640979157884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_37
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 583
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c2f386d89069820800000000000000
+      internalID: 2924535510967725081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_38
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 577
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2074ac8cbaa513fe0800000000000000
+      internalID: -1211087130931345662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_39
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 567
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8235410c50f57afe0800000000000000
+      internalID: -1177868299232062680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c67fce614b02270800000000000000
+      internalID: 8223770930136444063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_41
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 568
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9619b3d2ff7fd7920800000000000000
+      internalID: 2989818402991477097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_42
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 551
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012946bdbbac26650800000000000000
+      internalID: 6224760543167943184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_43
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 556
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69078d36e906d3870800000000000000
+      internalID: 8664187491526930582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_44
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 543
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98df74ce19b1437a0800000000000000
+      internalID: -6398458857038283383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 407
+        width: 77
+        height: 75
+      alignment: 9
+      pivot: {x: 0.2130659, y: 0.41817015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47a828eb2feb3dd0800000000000000
+      internalID: -2505145795843938482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_46
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 447
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469bbb0be4677a3e0800000000000000
+      internalID: -2042533825644611228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_47
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 449
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4104fec76f9b1ecc0800000000000000
+      internalID: -3683458551903207404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_48
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 443
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bd0ba67e5024490800000000000000
+      internalID: -7763636316147754124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_49
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 448
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fccfc09e4ee19430800000000000000
+      internalID: 3788070782799695096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 443
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4f4517ca3a317d0800000000000000
+      internalID: -2948833369966447414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 408
+        width: 75
+        height: 74
+      alignment: 9
+      pivot: {x: 0.22723532, y: 0.40600628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78745a782e29af3d0800000000000000
+      internalID: -3172061485893073017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_52
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 444
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2920b5e8870124f00800000000000000
+      internalID: 1099459369002271378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_53
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 451
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bfe059ac70965c0800000000000000
+      internalID: -4221834609017554137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 408
+        width: 70
+        height: 75
+      alignment: 9
+      pivot: {x: 0.26035678, y: 0.41816977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77d39ed95aad08c0800000000000000
+      internalID: -4031378788463683718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_55
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 408
+        width: 60
+        height: 58
+      alignment: 9
+      pivot: {x: 0.26814932, y: 0.49999946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed58d252abc876eb0800000000000000
+      internalID: -4726654552786500130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_56
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 408
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: 0.32815674, y: 0.49294516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ecdcc10f71ebae0800000000000000
+      internalID: -1531760503216550335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 408
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac28ba76f5ce39bc0800000000000000
+      internalID: -3777415767928372534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_58
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 434
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87efa72b69d16a130800000000000000
+      internalID: 3577579487069142648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_59
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 439
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee26119a0fff59f30800000000000000
+      internalID: 4581849605013070574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_60
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 432
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd68c9dc99e0bd70800000000000000
+      internalID: 9056995710520028602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_61
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 427
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85391c97065479bb0800000000000000
+      internalID: -4929394986471812264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_62
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 431
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0514f2d2e42ea280800000000000000
+      internalID: -9030239646210845426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_63
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 426
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e673c68d1e9c98a60800000000000000
+      internalID: 7676889011665516398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_64
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 428
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5151044b7aa9880800000000000000
+      internalID: -8603379745526835806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_65
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 429
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfef9e0a84f148af0800000000000000
+      internalID: -395156470503964932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_66
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 415
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88971ccb87cfe4d80800000000000000
+      internalID: -8264390670685210232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_67
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 424
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b6698c8069c9b10800000000000000
+      internalID: 1989630099860122375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_68
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 416
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce89cd7f13f6206a0800000000000000
+      internalID: -6484498253057582868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_69
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 415
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470b66f715f9161d0800000000000000
+      internalID: -3359228674663075724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 278
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7036fbaacfca6e990800000000000000
+      internalID: -7357002740066721017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 278
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafd7f6d55f11ac40800000000000000
+      internalID: 5521729071672188846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 25
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 278
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c475d707d3990c9c0800000000000000
+      internalID: -3908955987398273204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 26
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 278
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18a1df8f96429c50800000000000000
+      internalID: 6670471649215752218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 27
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 279
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e09113216e06bc70800000000000000
+      internalID: 8986385916827373795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 28
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 279
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6bb340509d6dfd0800000000000000
+      internalID: -2317426342666455336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 144
+        width: 97
+        height: 87
+      alignment: 9
+      pivot: {x: 0.49156362, y: 0.42475417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a68a6c3862f5ed00800000000000000
+      internalID: 1001473021663938208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 138
+        width: 115
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3936a626ca1b4cfa0800000000000000
+      internalID: -5781300667693243501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 136
+        width: 120
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba66a47d07d3f780800000000000000
+      internalID: -8650334006456980813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_79
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 203
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191a03ea445658c10800000000000000
+      internalID: 2055160150619103633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_80
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 219
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8708e558f737e5060800000000000000
+      internalID: 6944114666987487352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_81
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 223
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55de38dc77de8430800000000000000
+      internalID: 3787201267869078876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_82
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 220
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b60138dcc294c20800000000000000
+      internalID: 3191131072147516204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_83
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 232
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c86535d886cdc70800000000000000
+      internalID: 8997181111777266749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_84
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 228
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fda4286c0807e4b0800000000000000
+      internalID: -5411347577882497547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_85
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 228
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcafbbcafdf6e6500800000000000000
+      internalID: 391373224094202571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_86
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 221
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4cea9d2176814b0800000000000000
+      internalID: -5469508416782285593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 140
+        width: 109
+        height: 91
+      alignment: 9
+      pivot: {x: 0.49624607, y: 0.4370538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c998c8bb3b07a8ed0800000000000000
+      internalID: -2410990733255472740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_88
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 219
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7f96c28037fd7e0800000000000000
+      internalID: -1738544452199647274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_89
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 218
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d96575cd6eca7a0800000000000000
+      internalID: -6364458339348865691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_90
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 223
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5f9d29b75d217a0800000000000000
+      internalID: -6407824593073342995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_91
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 211
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7daf8d2d0e225e0800000000000000
+      internalID: -1935737693627820088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_92
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 215
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9487432a894d620800000000000000
+      internalID: 2798029090936343017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_93
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 202
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37835df9707e75bd0800000000000000
+      internalID: -2641388636497168269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_94
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 222
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a607870bea7b5aa90800000000000000
+      internalID: -7303229259798515606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_95
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 200
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e02c3aa01d42300800000000000000
+      internalID: 226535724902649456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 34
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 135
+        width: 124
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e30ea2adb57b7e0800000000000000
+      internalID: -1749828937629811138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_97
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 209
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5a2b0ca1eba4910800000000000000
+      internalID: 1822478021336147384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_98
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 215
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3c34262330989d0800000000000000
+      internalID: -2771680580737973300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_99
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 212
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538f3815964a3b130800000000000000
+      internalID: 3581386900935800885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_100
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 216
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc4d6f56bb2d9da0800000000000000
+      internalID: -5936540671519404853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_101
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f27ce736778feb10800000000000000
+      internalID: 2012976500272034546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_102
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 215
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84b5708630d4bf90800000000000000
+      internalID: -6938692193369082742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 148
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deee23fcb4a4c02a0800000000000000
+      internalID: -6769954450385473811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_104
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 189
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc40dbe5b5d52980800000000000000
+      internalID: -8564204139053036344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_105
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 179
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5128a42c0ac28f90800000000000000
+      internalID: -6952772721203207844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_106
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 195
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d1851f02026a410800000000000000
+      internalID: 1487912052752653700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_107
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 181
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac16ba2a84314950800000000000000
+      internalID: 6431479510888488096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_108
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 190
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a02f8b6c98d54b0800000000000000
+      internalID: -5450048487449032183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_109
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 198
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff934c5b3f6451f00800000000000000
+      internalID: 1086852897620376063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_110
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 190
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141a58aa73e82ecd0800000000000000
+      internalID: -2530303670893567679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_111
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 193
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afccca5fb580d9ee0800000000000000
+      internalID: -1252835930282341126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_112
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 181
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107341cd20aa54180800000000000000
+      internalID: -9131705740164843775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_113
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 184
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93274bfefcaeaab90800000000000000
+      internalID: -7229708072989199815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_114
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 157
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ade52d0de245590800000000000000
+      internalID: -7686467189597087117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_115
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 168
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16fdc51bb092b970800000000000000
+      internalID: 8769230557642880539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_116
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 180
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b223db1354b1d98d0800000000000000
+      internalID: -2838082206172368341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_117
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 188
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01e0fa60fa3580e0800000000000000
+      internalID: -2268342033050443506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_118
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 173
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650c6f330998b33b0800000000000000
+      internalID: -5531676464854417322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_119
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 143
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa74b47b1bc9d0df0800000000000000
+      internalID: -212341320318236758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_120
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b818bbe0a4143f0800000000000000
+      internalID: -918371421871043808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_121
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e7b18d55a0b6060800000000000000
+      internalID: 6947658213963300382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_122
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 165
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c07c6c52e7c5210800000000000000
+      internalID: 1323071091253906482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_123
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 157
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda737b7dc9c45ab0800000000000000
+      internalID: -5020165800234616097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_124
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 154
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4388b8a1df0a70730800000000000000
+      internalID: 3965315005855533108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_125
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 155
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09239059448de0d50800000000000000
+      internalID: 6705534684271030928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_126
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 153
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ba97035ad4de5f0800000000000000
+      internalID: -725838593058559206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_127
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc60c3fb7ae0dce0800000000000000
+      internalID: -1382347267511391051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_128
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 149
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf576739a29ee530800000000000000
+      internalID: 3886204783943966646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_129
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 143
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f7ae2665df715f0800000000000000
+      internalID: -785881062484312282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_130
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 137
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b21679e1ecdcf70800000000000000
+      internalID: 9209243443826600772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 143
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617fccaf91b37a5e0800000000000000
+      internalID: -1898483735145416938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_132
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 135
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3676cc04c5dfa9e60800000000000000
+      internalID: 7969961063251470179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_133
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 141
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3db118220fc74d0800000000000000
+      internalID: -3135367209571068965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_134
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 140
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167db450f0bc9ad00800000000000000
+      internalID: 984541258930968417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_135
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 137
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdb8c139b9624fc0800000000000000
+      internalID: -3512128515270459957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_136
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 89
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd73cc05180bb0160800000000000000
+      internalID: 6992876915875657691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_137
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9875423e15611e950800000000000000
+      internalID: 6476482280094455689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_138
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 96
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42c0bfaea2c11050800000000000000
+      internalID: 5769606653166010956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_139
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 80
+        width: 61
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39902ed412ca03e0800000000000000
+      internalID: -2086642082450990786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_140
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 88
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98b420ffbcfb7d70800000000000000
+      internalID: 9042098578174294170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_141
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 4
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5454a72edf2022010800000000000000
+      internalID: 1162494943264654661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_142
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 76
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c24c44ef1ce47f0800000000000000
+      internalID: -626350000338359282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_143
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 85
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05aaae6f7d517d40800000000000000
+      internalID: 5580344215187662090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_144
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 67
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd0e884af57aab60800000000000000
+      internalID: 7758143025918643703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_145
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 83
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11faf1d27dddb910800000000000000
+      internalID: 1854882106765406490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_146
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dcd6d5f7af45ec0800000000000000
+      internalID: -3578960378917434049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_147
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf39b934fdabbe50800000000000000
+      internalID: 6826240924662185912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_148
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 69
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e32c24c3dbd6d800800000000000000
+      internalID: 636938099895313376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_149
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 78
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4407b286804aebfb0800000000000000
+      internalID: -4630083010875920316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_150
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 61
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b356f8046a9fbeea0800000000000000
+      internalID: -5842301599140059845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_151
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 73
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffb2b46756765720800000000000000
+      internalID: 2834583133199974395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_152
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 41
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68c71bf618f99710800000000000000
+      internalID: 1700663111894681709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_153
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 55
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33f82ea72e201080800000000000000
+      internalID: -9218817689266883778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_154
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 45
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212cf7036dd2c9b50800000000000000
+      internalID: 6601201551778234898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 124
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af53a6f7f43e5df0800000000000000
+      internalID: -189655894703513687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_156
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 47
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b22d6260fd422670800000000000000
+      internalID: 8512451940522468024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_157
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 44
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dffd88ef53a2cd0800000000000000
+      internalID: -2582192069009212092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_158
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 32
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f85878037db6b20800000000000000
+      internalID: 3128830969571020641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 36
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 4
+        width: 129
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d592da0cb70e7e0800000000000000
+      internalID: -1738253388695905010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_160
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 16
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be0390cf58c7b9b0800000000000000
+      internalID: -5064358942376522061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_161
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 30
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6beb81b987f61700800000000000000
+      internalID: 510867778514447213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_162
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23cb4c82336aa600800000000000000
+      internalID: 480305379021669164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_163
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 41
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef9ef2e983345830800000000000000
+      internalID: 4058925831479533545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_164
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 34
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d21554344971d910800000000000000
+      internalID: 1860401454923453139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_165
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 24
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f465009e0257faa80800000000000000
+      internalID: -8453409191342614961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_166
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 34
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ca74e84f0383030800000000000000
+      internalID: 3474580939433553036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_167
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 12
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429bba1245c19ee00800000000000000
+      internalID: 1074421133772306724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_168
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 18
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c0824fc3e313440800000000000000
+      internalID: 4913777099953146930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_169
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c039ab8d9e5a81dd0800000000000000
+      internalID: -2515077968104353012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_170
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd751902f801ab9f0800000000000000
+      internalID: -452030605684549668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_171
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 12
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461edd78d23636310800000000000000
+      internalID: 1397069356619129188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_172
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 16
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fa58a026e5db040800000000000000
+      internalID: 4664988564202041238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_173
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 6
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dba48ee962e58be0800000000000000
+      internalID: -1475524358292853806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_174
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 6
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c6dc028c80325c0800000000000000
+      internalID: -4241536768416060361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_attack_175
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 4
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee4b034b1cf2e410800000000000000
+      internalID: 1505042419514298087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f1635749622892b4c97111ccf403279f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1: -1717983223711943475
+      10: 4206681119601991519
+      11: -7420396701675544516
+      12: -1147347492558051217
+      13: 1793335662501532900
+      14: 7840989923949371804
+      15: 1586120781078166153
+      16: 8618939899637656764
+      17: -668431661620252995
+      18: 8262054229592156140
+      19: -2505145795843938482
+      2: -4004571906709716399
+      20: -3172061485893073017
+      21: -4031378788463683718
+      22: -3777415767928372534
+      23: -7357002740066721017
+      24: 5521729071672188846
+      25: -3908955987398273204
+      26: 6670471649215752218
+      27: 8986385916827373795
+      28: -2317426342666455336
+      29: -6769954450385473811
+      3: 3142371952965959351
+      30: 1001473021663938208
+      31: -2410990733255472740
+      32: -5781300667693243501
+      33: -8650334006456980813
+      34: -1749828937629811138
+      35: -189655894703513687
+      36: -1738253388695905010
+      4: -432725659151599249
+      5: -1144248426881810530
+      6: 6493829733104000471
+      7: 7288428365873112635
+      8: -5979925877626321355
+      9: -5506828581863660170
+      BotFireFly_attack_100: -5936540671519404853
+      BotFireFly_attack_101: 2012976500272034546
+      BotFireFly_attack_102: -6938692193369082742
+      BotFireFly_attack_104: -8564204139053036344
+      BotFireFly_attack_105: -6952772721203207844
+      BotFireFly_attack_106: 1487912052752653700
+      BotFireFly_attack_107: 6431479510888488096
+      BotFireFly_attack_108: -5450048487449032183
+      BotFireFly_attack_109: 1086852897620376063
+      BotFireFly_attack_11: 2741863226891664074
+      BotFireFly_attack_110: -2530303670893567679
+      BotFireFly_attack_111: -1252835930282341126
+      BotFireFly_attack_112: -9131705740164843775
+      BotFireFly_attack_113: -7229708072989199815
+      BotFireFly_attack_114: -7686467189597087117
+      BotFireFly_attack_115: 8769230557642880539
+      BotFireFly_attack_116: -2838082206172368341
+      BotFireFly_attack_117: -2268342033050443506
+      BotFireFly_attack_118: -5531676464854417322
+      BotFireFly_attack_119: -212341320318236758
+      BotFireFly_attack_12: -768257787566218419
+      BotFireFly_attack_120: -918371421871043808
+      BotFireFly_attack_121: 6947658213963300382
+      BotFireFly_attack_122: 1323071091253906482
+      BotFireFly_attack_123: -5020165800234616097
+      BotFireFly_attack_124: 3965315005855533108
+      BotFireFly_attack_125: 6705534684271030928
+      BotFireFly_attack_126: -725838593058559206
+      BotFireFly_attack_127: -1382347267511391051
+      BotFireFly_attack_128: 3886204783943966646
+      BotFireFly_attack_129: -785881062484312282
+      BotFireFly_attack_13: -1730414346751285744
+      BotFireFly_attack_130: 9209243443826600772
+      BotFireFly_attack_131: -1898483735145416938
+      BotFireFly_attack_132: 7969961063251470179
+      BotFireFly_attack_133: -3135367209571068965
+      BotFireFly_attack_134: 984541258930968417
+      BotFireFly_attack_135: -3512128515270459957
+      BotFireFly_attack_136: 6992876915875657691
+      BotFireFly_attack_137: 6476482280094455689
+      BotFireFly_attack_138: 5769606653166010956
+      BotFireFly_attack_139: -2086642082450990786
+      BotFireFly_attack_14: 4094685972793562543
+      BotFireFly_attack_140: 9042098578174294170
+      BotFireFly_attack_141: 1162494943264654661
+      BotFireFly_attack_142: -626350000338359282
+      BotFireFly_attack_143: 5580344215187662090
+      BotFireFly_attack_144: 7758143025918643703
+      BotFireFly_attack_145: 1854882106765406490
+      BotFireFly_attack_146: -3578960378917434049
+      BotFireFly_attack_147: 6826240924662185912
+      BotFireFly_attack_148: 636938099895313376
+      BotFireFly_attack_149: -4630083010875920316
+      BotFireFly_attack_15: -4241386050888015390
+      BotFireFly_attack_150: -5842301599140059845
+      BotFireFly_attack_151: 2834583133199974395
+      BotFireFly_attack_152: 1700663111894681709
+      BotFireFly_attack_153: -9218817689266883778
+      BotFireFly_attack_154: 6601201551778234898
+      BotFireFly_attack_156: 8512451940522468024
+      BotFireFly_attack_157: -2582192069009212092
+      BotFireFly_attack_158: 3128830969571020641
+      BotFireFly_attack_160: -5064358942376522061
+      BotFireFly_attack_161: 510867778514447213
+      BotFireFly_attack_162: 480305379021669164
+      BotFireFly_attack_163: 4058925831479533545
+      BotFireFly_attack_164: 1860401454923453139
+      BotFireFly_attack_165: -8453409191342614961
+      BotFireFly_attack_166: 3474580939433553036
+      BotFireFly_attack_167: 1074421133772306724
+      BotFireFly_attack_168: 4913777099953146930
+      BotFireFly_attack_169: -2515077968104353012
+      BotFireFly_attack_17: -2238087438276255334
+      BotFireFly_attack_170: -452030605684549668
+      BotFireFly_attack_171: 1397069356619129188
+      BotFireFly_attack_172: 4664988564202041238
+      BotFireFly_attack_173: -1475524358292853806
+      BotFireFly_attack_174: -4241536768416060361
+      BotFireFly_attack_175: 1505042419514298087
+      BotFireFly_attack_20: 7472708288462685537
+      BotFireFly_attack_22: -2230971857322248632
+      BotFireFly_attack_24: 4823842698210392850
+      BotFireFly_attack_25: 1020732774902962563
+      BotFireFly_attack_31: -8309068743767424780
+      BotFireFly_attack_32: 6929394777714423918
+      BotFireFly_attack_34: 6613831399101831833
+      BotFireFly_attack_35: 5524432451943115992
+      BotFireFly_attack_36: -8090411640979157884
+      BotFireFly_attack_37: 2924535510967725081
+      BotFireFly_attack_38: -1211087130931345662
+      BotFireFly_attack_39: -1177868299232062680
+      BotFireFly_attack_40: 8223770930136444063
+      BotFireFly_attack_41: 2989818402991477097
+      BotFireFly_attack_42: 6224760543167943184
+      BotFireFly_attack_43: 8664187491526930582
+      BotFireFly_attack_44: -6398458857038283383
+      BotFireFly_attack_46: -2042533825644611228
+      BotFireFly_attack_47: -3683458551903207404
+      BotFireFly_attack_48: -7763636316147754124
+      BotFireFly_attack_49: 3788070782799695096
+      BotFireFly_attack_50: -2948833369966447414
+      BotFireFly_attack_52: 1099459369002271378
+      BotFireFly_attack_53: -4221834609017554137
+      BotFireFly_attack_55: -4726654552786500130
+      BotFireFly_attack_56: -1531760503216550335
+      BotFireFly_attack_58: 3577579487069142648
+      BotFireFly_attack_59: 4581849605013070574
+      BotFireFly_attack_6: 4208422452110279888
+      BotFireFly_attack_60: 9056995710520028602
+      BotFireFly_attack_61: -4929394986471812264
+      BotFireFly_attack_62: -9030239646210845426
+      BotFireFly_attack_63: 7676889011665516398
+      BotFireFly_attack_64: -8603379745526835806
+      BotFireFly_attack_65: -395156470503964932
+      BotFireFly_attack_66: -8264390670685210232
+      BotFireFly_attack_67: 1989630099860122375
+      BotFireFly_attack_68: -6484498253057582868
+      BotFireFly_attack_69: -3359228674663075724
+      BotFireFly_attack_7: -3529020560550003005
+      BotFireFly_attack_79: 2055160150619103633
+      BotFireFly_attack_8: 7500276757102485788
+      BotFireFly_attack_80: 6944114666987487352
+      BotFireFly_attack_81: 3787201267869078876
+      BotFireFly_attack_82: 3191131072147516204
+      BotFireFly_attack_83: 8997181111777266749
+      BotFireFly_attack_84: -5411347577882497547
+      BotFireFly_attack_85: 391373224094202571
+      BotFireFly_attack_86: -5469508416782285593
+      BotFireFly_attack_88: -1738544452199647274
+      BotFireFly_attack_89: -6364458339348865691
+      BotFireFly_attack_9: -8278073287599986356
+      BotFireFly_attack_90: -6407824593073342995
+      BotFireFly_attack_91: -1935737693627820088
+      BotFireFly_attack_92: 2798029090936343017
+      BotFireFly_attack_93: -2641388636497168269
+      BotFireFly_attack_94: -7303229259798515606
+      BotFireFly_attack_95: 226535724902649456
+      BotFireFly_attack_97: 1822478021336147384
+      BotFireFly_attack_98: -2771680580737973300
+      BotFireFly_attack_99: 3581386900935800885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
