@@ -22,6 +22,10 @@ public class EnemyExploder : MonoBehaviour
     public Sprite[] deathFrames;
     public float frameRate = 0.08f;
 
+    [Header("Hit Sound")]
+    public AudioClip hitSound;   // kéo file sound vào đây trong Inspector
+    AudioSource audioSource;
+
     Rigidbody2D rb;
     SpriteRenderer sr;
 
@@ -37,6 +41,7 @@ public class EnemyExploder : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -71,6 +76,13 @@ public class EnemyExploder : MonoBehaviour
         {
             isChasing = false;
             rb.linearVelocity = Vector2.zero;
+        }
+    }
+    public void PlayHitSound()
+    {
+        if (hitSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(hitSound);
         }
     }
 
@@ -117,17 +129,17 @@ public class EnemyExploder : MonoBehaviour
         isExploding = true;
         isChasing = false;
         rb.linearVelocity = Vector2.zero;
-
+        PlayHitSound();
         // Chạy animation nổ
         for (int i = 0; i < deathFrames.Length; i++)
         {
             sr.sprite = deathFrames[i];
             yield return new WaitForSeconds(frameRate);
         }
-
+        
         // Gây damage + knockback
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, explosionRadius, playerLayer);
-
+        
         foreach (Collider2D hit in hits)
         {
             PlayerHealth health = hit.GetComponent<PlayerHealth>();

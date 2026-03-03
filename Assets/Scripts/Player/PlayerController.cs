@@ -96,9 +96,12 @@ public class PlayerController : MonoBehaviour
     private static readonly int T_Dash = Animator.StringToHash("tDash");
     private static readonly int T_DashAtta = Animator.StringToHash("tDashAttack");
 
+    //dùng để knockback hoặc các hiệu ứng khác cần tương tác với PlayerHealth 
+    PlayerHealth playerHealth;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerHealth = GetComponent<PlayerHealth>(); //gọi PlayerHealth để sau này có thể tương tác (vd: knockback khi hit)
         animator = GetComponent<Animator>();
         defaultGravity = rb.gravityScale;
 
@@ -196,7 +199,9 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         if (isDead) return;
-        if (isDashing) return;
+        if (playerHealth != null && playerHealth.isKnockback)
+            return;   // CHẶN ghi đè velocity khi đang knockback
+        if (isDashing) return; // dash sẽ set velocity riêng trong coroutine
 
         if (isClimbing)
         {
