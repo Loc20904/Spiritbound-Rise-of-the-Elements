@@ -1,0 +1,629 @@
+fileFormatVersion: 2
+guid: b523d4b7f24070344bab1330116741ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7587032914073719305
+    second: QuaiNuocDanhgan_attack_0
+  - first:
+      213: 3966833644251535408
+    second: QuaiNuocDanhgan_attack_1
+  - first:
+      213: 2337812491795028714
+    second: QuaiNuocDanhgan_attack_2
+  - first:
+      213: -4127330113509242149
+    second: QuaiNuocDanhgan_attack_3
+  - first:
+      213: 8768581687580001831
+    second: QuaiNuocDanhgan_attack_4
+  - first:
+      213: -505915137358292071
+    second: QuaiNuocDanhgan_attack_5
+  - first:
+      213: -7308331725919889707
+    second: QuaiNuocDanhgan_attack_6
+  - first:
+      213: -8734372837565724968
+    second: QuaiNuocDanhgan_attack_7
+  - first:
+      213: -1457736979944898425
+    second: QuaiNuocDanhgan_attack_8
+  - first:
+      213: -511172231715272115
+    second: QuaiNuocDanhgan_attack_9
+  - first:
+      213: -3464250982551495117
+    second: QuaiNuocDanhgan_attack_10
+  - first:
+      213: -6389992990881590433
+    second: QuaiNuocDanhgan_attack_11
+  - first:
+      213: 8204760794243881385
+    second: QuaiNuocDanhgan_attack_12
+  - first:
+      213: -6647260535985194039
+    second: QuaiNuocDanhgan_attack_13
+  - first:
+      213: 8976033477829650283
+    second: QuaiNuocDanhgan_attack_14
+  - first:
+      213: 4285598816701510616
+    second: QuaiNuocDanhgan_attack_15
+  - first:
+      213: -5299357675044972246
+    second: QuaiNuocDanhgan_attack_16
+  - first:
+      213: 7502925390719612271
+    second: QuaiNuocDanhgan_attack_17
+  - first:
+      213: -4974444270616951482
+    second: QuaiNuocDanhgan_attack_18
+  - first:
+      213: -7461322315254096624
+    second: QuaiNuocDanhgan_attack_19
+  - first:
+      213: 6428574665520869610
+    second: QuaiNuocDanhgan_attack_20
+  - first:
+      213: 7267371990468101475
+    second: QuaiNuocDanhgan_attack_21
+  - first:
+      213: -9032058900623422423
+    second: QuaiNuocDanhgan_attack_22
+  - first:
+      213: 4490583525773845102
+    second: QuaiNuocDanhgan_attack_23
+  - first:
+      213: 992351131158114056
+    second: QuaiNuocDanhgan_attack_24
+  - first:
+      213: 8503634618252645016
+    second: QuaiNuocDanhgan_attack_25
+  - first:
+      213: -124793534870381915
+    second: QuaiNuocDanhgan_attack_26
+  - first:
+      213: 3402123358993178100
+    second: QuaiNuocDanhgan_attack_27
+  - first:
+      213: 7627500776412600899
+    second: QuaiNuocDanhgan_attack_28
+  - first:
+      213: -5956371506243298117
+    second: QuaiNuocDanhgan_attack_29
+  - first:
+      213: -441624488386020387
+    second: QuaiNuocDanhgan_attack_30
+  - first:
+      213: -3393046467644199651
+    second: QuaiNuocDanhgan_attack_31
+  - first:
+      213: 95077203055403174
+    second: QuaiNuocDanhgan_attack_32
+  - first:
+      213: -3022273636087362992
+    second: QuaiNuocDanhgan_attack_33
+  - first:
+      213: 6700668221995252905
+    second: QuaiNuocDanhgan_attack_34
+  - first:
+      213: 8332142778185426384
+    second: QuaiNuocDanhgan_attack_35
+  - first:
+      213: 3077771769332695527
+    second: QuaiNuocDanhgan_attack_36
+  - first:
+      213: -1361595666227633896
+    second: QuaiNuocDanhgan_attack_37
+  - first:
+      213: -8943109097179750269
+    second: QuaiNuocDanhgan_attack_38
+  - first:
+      213: 1689523870556879126
+    second: QuaiNuocDanhgan_attack_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 375
+        width: 48
+        height: 75
+      alignment: 9
+      pivot: {x: 0.60395, y: 0.29302368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd607133c175b690800000000000000
+      internalID: -7587032914073719305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 375
+        width: 51
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5869646, y: 0.27255365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0385ea8ae260d0730800000000000000
+      internalID: 3966833644251535408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 375
+        width: 52
+        height: 81
+      alignment: 9
+      pivot: {x: 0.70256925, y: 0.26728877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aead9e43314917020800000000000000
+      internalID: 2337812491795028714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 375
+        width: 56
+        height: 82
+      alignment: 9
+      pivot: {x: 0.72770035, y: 0.2633656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda42891127c8b6c0800000000000000
+      internalID: -4127330113509242149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 253
+        width: 61
+        height: 83
+      alignment: 9
+      pivot: {x: 0.7453901, y: 0.25953692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7268330469240b970800000000000000
+      internalID: 8768581687580001831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 255
+        width: 57
+        height: 83
+      alignment: 9
+      pivot: {x: 0.6945268, y: 0.3062939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b144fecd0aaf8f0800000000000000
+      internalID: -505915137358292071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 254
+        width: 87
+        height: 96
+      alignment: 9
+      pivot: {x: 0.64019287, y: 0.23434989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6d3d73407939a90800000000000000
+      internalID: -7308331725919889707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_9
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 250
+        width: 87
+        height: 98
+      alignment: 9
+      pivot: {x: 0.32794505, y: 0.279371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a41954093f7e8f0800000000000000
+      internalID: -511172231715272115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 124
+        width: 88
+        height: 108
+      alignment: 9
+      pivot: {x: 0.27949953, y: 0.27926663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e5834f5128cefc0800000000000000
+      internalID: -3464250982551495117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 131
+        width: 81
+        height: 105
+      alignment: 9
+      pivot: {x: 0.33573368, y: 0.25711975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53544dfa3f2257a0800000000000000
+      internalID: -6389992990881590433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 130
+        width: 79
+        height: 108
+      alignment: 9
+      pivot: {x: 0.33859253, y: 0.23306642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb312fd2cf20c3a0800000000000000
+      internalID: -6647260535985194039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_25
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 133
+        width: 80
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3128895, y: 0.20739944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892d9a091aaf20670800000000000000
+      internalID: 8503634618252645016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_30
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 15
+        width: 88
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3173003, y: 0.23511967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb33ad1ed80fd9f0800000000000000
+      internalID: -441624488386020387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_31
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 14
+        width: 70
+        height: 83
+      alignment: 9
+      pivot: {x: 0.4762403, y: 0.31297296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d6cadf63a79e0d0800000000000000
+      internalID: -3393046467644199651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_38
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 13
+        width: 90
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3336797, y: 0.2125329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3806903a8a1b3e380800000000000000
+      internalID: -8943109097179750269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_attack_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 15
+        width: 82
+        height: 87
+      alignment: 9
+      pivot: {x: 0.29040956, y: 0.25784802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619f5104205627710800000000000000
+      internalID: 1689523870556879126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9be3ba97acf9340468c2d97b2c03118a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      QuaiNuocDanhgan_attack_0: -7587032914073719305
+      QuaiNuocDanhgan_attack_1: 3966833644251535408
+      QuaiNuocDanhgan_attack_10: -3464250982551495117
+      QuaiNuocDanhgan_attack_11: -6389992990881590433
+      QuaiNuocDanhgan_attack_12: 8204760794243881385
+      QuaiNuocDanhgan_attack_13: -6647260535985194039
+      QuaiNuocDanhgan_attack_14: 8976033477829650283
+      QuaiNuocDanhgan_attack_15: 4285598816701510616
+      QuaiNuocDanhgan_attack_16: -5299357675044972246
+      QuaiNuocDanhgan_attack_17: 7502925390719612271
+      QuaiNuocDanhgan_attack_18: -4974444270616951482
+      QuaiNuocDanhgan_attack_19: -7461322315254096624
+      QuaiNuocDanhgan_attack_2: 2337812491795028714
+      QuaiNuocDanhgan_attack_20: 6428574665520869610
+      QuaiNuocDanhgan_attack_21: 7267371990468101475
+      QuaiNuocDanhgan_attack_22: -9032058900623422423
+      QuaiNuocDanhgan_attack_23: 4490583525773845102
+      QuaiNuocDanhgan_attack_24: 992351131158114056
+      QuaiNuocDanhgan_attack_25: 8503634618252645016
+      QuaiNuocDanhgan_attack_26: -124793534870381915
+      QuaiNuocDanhgan_attack_27: 3402123358993178100
+      QuaiNuocDanhgan_attack_28: 7627500776412600899
+      QuaiNuocDanhgan_attack_29: -5956371506243298117
+      QuaiNuocDanhgan_attack_3: -4127330113509242149
+      QuaiNuocDanhgan_attack_30: -441624488386020387
+      QuaiNuocDanhgan_attack_31: -3393046467644199651
+      QuaiNuocDanhgan_attack_32: 95077203055403174
+      QuaiNuocDanhgan_attack_33: -3022273636087362992
+      QuaiNuocDanhgan_attack_34: 6700668221995252905
+      QuaiNuocDanhgan_attack_35: 8332142778185426384
+      QuaiNuocDanhgan_attack_36: 3077771769332695527
+      QuaiNuocDanhgan_attack_37: -1361595666227633896
+      QuaiNuocDanhgan_attack_38: -8943109097179750269
+      QuaiNuocDanhgan_attack_39: 1689523870556879126
+      QuaiNuocDanhgan_attack_4: 8768581687580001831
+      QuaiNuocDanhgan_attack_5: -505915137358292071
+      QuaiNuocDanhgan_attack_6: -7308331725919889707
+      QuaiNuocDanhgan_attack_7: -8734372837565724968
+      QuaiNuocDanhgan_attack_8: -1457736979944898425
+      QuaiNuocDanhgan_attack_9: -511172231715272115
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

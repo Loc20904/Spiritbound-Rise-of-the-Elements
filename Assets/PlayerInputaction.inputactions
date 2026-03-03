@@ -22,16 +22,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Attack2",
-                    "type": "Button",
-                    "id": "749b3fcc-3406-4de9-ad02-f8250dabb563",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Jump",
@@ -46,15 +37,6 @@
                     "name": "Dash",
                     "type": "Button",
                     "id": "84675670-f441-427f-9fa5-5750235c7439",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Up_idle_Attack",
-                    "type": "Button",
-                    "id": "5a62d778-597b-48b5-a36b-613e63d7797f",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -185,17 +167,6 @@
                 },
                 {
                     "name": "",
-                    "id": "2c2e2c45-142b-42a6-bf9d-4188a23a09b8",
-                    "path": "<Keyboard>/k",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Attack2",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "2891e643-95ad-4352-bb44-6e67a09cc96e",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -235,17 +206,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Dash",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "0742ec34-940b-43be-a494-aa6972d86e76",
-                    "path": "<Keyboard>/l",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Up_idle_Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

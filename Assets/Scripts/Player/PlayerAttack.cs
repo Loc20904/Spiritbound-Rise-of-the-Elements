@@ -1,53 +1,57 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+public enum AttackType { J, K }
+
 public class PlayerAttack : MonoBehaviour
 {
     [Header("Hitboxes")]
     [SerializeField] private Collider2D hitboxJ;
     [SerializeField] private Collider2D hitboxK;
-    [SerializeField] private Collider2D hitboxL;
 
     [Header("Active times")]
     [SerializeField] private float timeJ = 0.12f;
     [SerializeField] private float timeK = 0.15f;
-    [SerializeField] private float timeL = 0.20f;
 
-    private bool isAttacking;
+    private Coroutine currentRoutine;
 
-    private void Start()
+    private void Awake()
     {
-        hitboxJ.enabled = false;
-        hitboxK.enabled = false;
-        hitboxL.enabled = false;
+        // đảm bảo tắt hết ngay từ đầu
+        if (hitboxJ) hitboxJ.enabled = false;
+        if (hitboxK) hitboxK.enabled = false;
     }
 
-    private void Update()
+    /// <summary>
+    /// Được PlayerController gọi khi bấm J (combo).
+    /// </summary>
+    public void PlayAttack(AttackType type)
     {
-        if (Input.GetKeyDown(KeyCode.J)) TryAttack(hitboxJ, timeJ);
-        if (Input.GetKeyDown(KeyCode.K)) TryAttack(hitboxK, timeK);
-        if (Input.GetKeyDown(KeyCode.L)) TryAttack(hitboxL, timeL);
+        if (currentRoutine != null) StopCoroutine(currentRoutine);
+        currentRoutine = StartCoroutine(AttackRoutine(type));
     }
 
-    private void TryAttack(Collider2D box, float activeTime)
+    private IEnumerator AttackRoutine(AttackType type)
     {
-        if (isAttacking) return;
-        StartCoroutine(AttackRoutine(box, activeTime));
-    }
-
-    private IEnumerator AttackRoutine(Collider2D box, float activeTime)
-    {
-        isAttacking = true;
-
         // tắt hết cho chắc
-        hitboxJ.enabled = false;
-        hitboxK.enabled = false;
-        hitboxL.enabled = false;
+        if (hitboxJ) hitboxJ.enabled = false;
+        if (hitboxK) hitboxK.enabled = false;
 
-        box.enabled = true;
-        yield return new WaitForSeconds(activeTime);
-        box.enabled = false;
+        switch (type)
+        {
+            case AttackType.J:
+                if (hitboxJ) hitboxJ.enabled = true;
+                yield return new WaitForSeconds(timeJ);
+                if (hitboxJ) hitboxJ.enabled = false;
+                break;
 
-        isAttacking = false;
+            case AttackType.K:
+                if (hitboxK) hitboxK.enabled = true;
+                yield return new WaitForSeconds(timeK);
+                if (hitboxK) hitboxK.enabled = false;
+                break;
+        }
+
+        currentRoutine = null;
     }
 }
