@@ -101,10 +101,17 @@ public abstract class EnemyBase : MonoBehaviour
     {
         Vector2 dir = (target.position - transform.position).normalized;
         rb.linearVelocity = dir * moveSpeed;
-        if (dir.x != 0) sr.flipX = dir.x < 0;
+
+        if (dir.x != 0)
+        {
+            // Flip cả enemy -> mọi child (hitPoint) sẽ lật theo
+            Vector3 s = transform.localScale;
+            s.x = Mathf.Abs(s.x) * (dir.x > 0 ? 1 : -1);
+            transform.localScale = s;
+        }
+
         SetSpeedAnim(rb.linearVelocity.magnitude);
     }
-
     protected void StopMove()
     {
         rb.linearVelocity = Vector2.zero;
@@ -157,4 +164,5 @@ public abstract class EnemyBase : MonoBehaviour
         Gizmos.color = Color.gray;
         Gizmos.DrawWireSphere(transform.position, loseRange);
     }
+   
 }
