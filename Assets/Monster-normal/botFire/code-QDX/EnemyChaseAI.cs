@@ -35,11 +35,11 @@ public class EnemyChaseAI : MonoBehaviour
     // ================= TICK =================
     public void Tick()
     {
-        if (player == null) return;
+        if (player == null) return; /// Không tìm thấy player, không cần tiếp tục
 
-        bool inRange = ranged != null && ranged.PlayerInRange;
+        bool inRange = ranged != null && ranged.PlayerInRange; //kiểm tra nếu player đang trong tầm bắn của EnemyRangedAttack
 
-        // ⭐ mất mục tiêu → chase
+        // Nếu vừa mất player → bắt đầu chase
         if (wasPlayerInRange && !inRange && !isChasing)
         {
             chaseDir = ai.FacingRight ? 1 : -1;
@@ -49,7 +49,7 @@ public class EnemyChaseAI : MonoBehaviour
 
         wasPlayerInRange = inRange;
 
-        // ⭐ đang bắn → dừng chase
+        // Nếu trong tầm bắn → dừng chase
         if (inRange)
         {
             Stop();

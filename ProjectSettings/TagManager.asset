@@ -18,11 +18,11 @@ TagManager:
   - UI
   - Ground+Wall
   - Player
-  - PlayerAttack
-  - enemyAttack
+  - Ground
+  - DeadEnemy
   - Obstacle
   - Bullet
-  - 
+  - Climb
   - 
   - 
   - 

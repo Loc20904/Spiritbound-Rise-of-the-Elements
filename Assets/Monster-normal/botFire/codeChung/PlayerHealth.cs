@@ -28,7 +28,7 @@ public class PlayerHealth : MonoBehaviour
     private Animator anim;
     private PlayerController controller;
 
-    public bool isKnockback;
+    public bool isKnockback { get; private set; }
 
     private bool dead = false;
     private bool respawning = false;
@@ -101,7 +101,7 @@ public class PlayerHealth : MonoBehaviour
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero;
-            rb.AddForce(force, ForceMode2D.Impulse);
+            rb.AddForce(force, ForceMode2D.Impulse); //Nếu PlayerController không chặn, mỗi frame nó lại set velocity mới → lực bị hủy ngay.
         }
 
         yield return new WaitForSeconds(duration);

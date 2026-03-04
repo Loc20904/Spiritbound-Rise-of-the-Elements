@@ -67,31 +67,33 @@ public class EnemyMeleeAttack : MonoBehaviour
         PlayerInRange = false;
 
         Vector2 center = transform.position;
+        Collider2D hit = Physics2D.OverlapBox(center, new Vector2(detectWidth, detectHeight), 0, playerLayer);
 
-        Collider2D hit = Physics2D.OverlapBox(
-            center,
-            new Vector2(detectWidth, detectHeight),
-            0,
-            playerLayer
-        );
+        if (!hit) return;
 
-        if (!hit)
-            return;
+        if (CheckIfTargetInRange(hit.gameObject))
+        {
+            PlayerInRange = true;
+            PlayerPosition = hit.transform.position;
+            attackRoutine = StartCoroutine(AttackRoutine(hit.gameObject));
+        }
+    }
 
-        Vector2 playerPos = hit.transform.position;
+    bool CheckIfTargetInRange(GameObject target)
+    {
+        if (target == null) return false;
 
-        // ⭐ chỉ phía trước (GIỮ Y NGUYÊN LOGIC CŨ)
+        Vector2 center = transform.position;
+        Collider2D hit = Physics2D.OverlapBox(center, new Vector2(detectWidth, detectHeight), 0, playerLayer);
+
+        // Phải trúng collider của chính target đó
+        if (!hit || hit.gameObject != target) return false;
+
+        // Phải ở phía trước mặt
         float dirX = transform.localScale.x > 0 ? 1 : -1;
-
-        bool isFront = (playerPos.x - transform.position.x) * dirX > 0;
-
-        if (!isFront)
-            return;
-
-        PlayerInRange = true;
-        PlayerPosition = playerPos;
-
-        attackRoutine = StartCoroutine(AttackRoutine(hit.gameObject));
+        bool isFront = (target.transform.position.x - transform.position.x) * dirX > 0;
+        
+        return isFront;
     }
 
     // ================= ATTACK =================
@@ -122,7 +124,8 @@ public class EnemyMeleeAttack : MonoBehaviour
     // ================= HIT =================
     void HitPlayer(GameObject player)
     {
-        if (!player) return;
+        // ⭐ Kiểm tra lại tầm đánh TẠI THỜI ĐIỂM gây sát thương
+        if (!CheckIfTargetInRange(player)) return;
 
         // ⭐ Gửi damage với type Boss
         PlayerHealth health = player.GetComponent<PlayerHealth>();

@@ -1,150 +1,155 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿    using UnityEngine;
+    using System.Collections;
 
-public class EnemyHealth : MonoBehaviour
-{
-    public int maxHP = 200;
-    int currentHP;
-
-    [Header("Death Animation")]
-    public Sprite[] deathFrames;
-    public float deathFrameRate = 0.08f;
-
-    bool isDead;
-
-    SpriteRenderer sr;
-    Rigidbody2D rb;
-    Collider2D col;
-    RangerBotFly ranger;
-    CastSkill castSkill;
-    QuaiAI ai;
-    QuaiAI_QCC ai1;
-    EnemyChaseAI chase;
-    EnemyMeleeAttack melee;
-    EnemyRangedAttack ranged;
-    EnemyExploder exploder;
-
-    void Awake()
+    public class EnemyHealth : MonoBehaviour
     {
-        currentHP = maxHP;
+        public int maxHP = 200;
+        int currentHP;
 
-        sr = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>();
-        col = GetComponent<Collider2D>();
-        ranger = GetComponent<RangerBotFly>();
-        castSkill = GetComponent<CastSkill>();
-        ai1 = GetComponent<QuaiAI_QCC>();
-        ai = GetComponent<QuaiAI>();
-        chase = GetComponent<EnemyChaseAI>();
-        melee = GetComponent<EnemyMeleeAttack>();
-        ranged = GetComponent<EnemyRangedAttack>();
-        exploder = GetComponent<EnemyExploder>();
-    }
+        [Header("Death Animation")]
+        public Sprite[] deathFrames;
+        public float deathFrameRate = 0.08f;
 
-    public void TakeDamage(int dmg)
-    {
-        if (isDead) return;
+        [Header("Hit Sound")]
+        public AudioClip hitSound;   // kéo file sound vào đây trong Inspector
+        AudioSource audioSource;
 
-        currentHP -= dmg;
+        bool isDead;
 
-        // ⭐ bị đánh → quay mặt player
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player)
+        SpriteRenderer sr;
+        Rigidbody2D rb;
+        Collider2D col;
+        RangerBotFly ranger;
+   
+        QuaiAI ai;
+        QuaiAI_QCC ai1;
+        EnemyChaseAI chase;
+        EnemyMeleeAttack melee;
+        EnemyRangedAttack ranged;
+        EnemyExploder exploder;
+        BotFlyAI fly;
+
+        void Awake()
         {
-            bool playerRight = player.transform.position.x > transform.position.x;
+            currentHP = maxHP;
+            fly = GetComponent<BotFlyAI>();
+            sr = GetComponent<SpriteRenderer>();
+            rb = GetComponent<Rigidbody2D>();
+            col = GetComponent<Collider2D>();
+            ranger = GetComponent<RangerBotFly>();
+            ai1 = GetComponent<QuaiAI_QCC>();
+            ai = GetComponent<QuaiAI>();
+            chase = GetComponent<EnemyChaseAI>();
+            melee = GetComponent<EnemyMeleeAttack>();
+            ranged = GetComponent<EnemyRangedAttack>();
+            exploder = GetComponent<EnemyExploder>();
+            audioSource = GetComponent<AudioSource>();
+        }
 
-            if (ai != null)
+        public void TakeDamage(int dmg)
+        {
+            if (isDead) return;
+
+            currentHP -= dmg;
+            PlayHitSound();
+            // ⭐ bị đánh → quay mặt player
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player)
             {
-                if (playerRight != ai.FacingRight)
-                    ai.FlipPublic();
+                bool playerRight = player.transform.position.x > transform.position.x;
+
+                if (ai != null)
+                {
+                    if (playerRight != ai.FacingRight)
+                        ai.FlipPublic();
+                }
+
+                if (ai1 != null)
+                {
+                    if (playerRight != ai1.FacingRight)
+                        ai1.FlipPublic();
+                }
             }
 
-            if (ai1 != null)
+            if (currentHP <= 0)
             {
-                if (playerRight != ai1.FacingRight)
-                    ai1.FlipPublic();
+                DieImmediate();
             }
         }
 
-        if (currentHP <= 0)
+        // =====================================================
+        // DIE
+        // =====================================================
+        void DieImmediate()
         {
-            DieImmediate();
+            isDead = true;
+
+            // ⭐ CẮT TOÀN BỘ ATTACK NGAY
+            if (melee)
+            {
+                melee.StopAllCoroutines();
+                melee.enabled = false;
+            }
+
+            if (ranged)
+            {
+                ranged.StopAllCoroutines();
+                ranged.enabled = false;
+            }
+
+            // ⭐ CẮT AI + CHASE
+            if (ai) ai.enabled = false;
+            if (ai1) ai1.enabled = false;
+            if (chase) chase.enabled = false;
+
+            // ⭐ VẬT LÝ
+            if (rb)
+            {
+                rb.linearVelocity = Vector2.zero;
+                rb.simulated = false;
+            }
+
+            if (col) col.enabled = false;
+
+            
+            if (fly)
+            {
+                fly.StopAllCoroutines();
+                fly.enabled = false;
+            }
+
+            if (ranger)
+            {
+                ranger.StopAllCoroutines();
+                ranger.enabled = false;
+            }
+
+            if (exploder)
+            {
+                exploder.StopAllCoroutines();
+                exploder.enabled = false;
+            }
+            // ⭐ ĐẢM BẢO KHÔNG CÒN SCRIPT NÀO SET SPRITE
+            StopAllCoroutines();
+
+            StartCoroutine(DeathAnimation());
         }
-    }
-
-    // =====================================================
-    // DIE
-    // =====================================================
-    void DieImmediate()
-    {
-        isDead = true;
-
-        // ⭐ CẮT TOÀN BỘ ATTACK NGAY
-        if (melee)
+        public void PlayHitSound()
         {
-            melee.StopAllCoroutines();
-            melee.enabled = false;
+            if (hitSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(hitSound);
+            }
         }
-
-        if (ranged)
-        {
-            ranged.StopAllCoroutines();
-            ranged.enabled = false;
-        }
-
-        // ⭐ CẮT AI + CHASE
-        if (ai) ai.enabled = false;
-        if (ai1) ai1.enabled = false;
-        if (chase) chase.enabled = false;
-
-        // ⭐ VẬT LÝ
-        if (rb)
-        {
-            rb.linearVelocity = Vector2.zero;
-            rb.simulated = false;
-        }
-
-        if (col) col.enabled = false;
-
-        BotFlyAI fly = GetComponent<BotFlyAI>();
-        if (fly)
-        {
-            fly.StopAllCoroutines();
-            fly.enabled = false;
-        }
-
-        if (ranger)
-        {
-            ranger.StopAllCoroutines();
-            ranger.enabled = false;
-        }
-
-        if (castSkill)
-        {
-            castSkill.StopAllCoroutines();
-            castSkill.enabled = false;
-        }
-
-        if (exploder)
-        {
-            exploder.StopAllCoroutines();
-            exploder.enabled = false;
-        }
-
-        // ⭐ ĐẢM BẢO KHÔNG CÒN SCRIPT NÀO SET SPRITE
-        StopAllCoroutines();
-
-        StartCoroutine(DeathAnimation());
-    }
 
     IEnumerator DeathAnimation()
-    {
-        for (int i = 0; i < deathFrames.Length; i++)
         {
-            sr.sprite = deathFrames[i];
-            yield return new WaitForSeconds(deathFrameRate);
-        }
+            for (int i = 0; i < deathFrames.Length; i++)
+            {
+                sr.sprite = deathFrames[i];
+                yield return new WaitForSeconds(deathFrameRate);
+            }
 
-        Destroy(gameObject); // tuỳ bạn
+            Destroy(gameObject); 
+        }
     }
-}
