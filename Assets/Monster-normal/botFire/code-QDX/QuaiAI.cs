@@ -107,7 +107,7 @@ public class QuaiAI : MonoBehaviour
         if (ranged != null && ranged.IsAttacking)//nếu player đang trong tầm bắn và đang thực hiện tấn công thì sẽ không di chuyển mà đứng yên để bắn
         {
             rb.linearVelocity = Vector2.zero; // Đứng yên để bắn
-            UpdateAnimation(); // Cập nhật animation (Idle)
+             
             return;
         }
 

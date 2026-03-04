@@ -262,6 +262,7 @@ MonoBehaviour:
   - {fileID: 615485827241510736, guid: 280184d3659cf144c9010f8cc3bee600, type: 3}
   - {fileID: -2225331948748204838, guid: 280184d3659cf144c9010f8cc3bee600, type: 3}
   deathFrameRate: 0.1
+  hitSound: {fileID: 0}
 --- !u!114 &2566024975595323274
 MonoBehaviour:
   m_ObjectHideFlags: 0
