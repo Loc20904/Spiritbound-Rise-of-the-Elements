@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 7834106692812899121}
   - component: {fileID: 105853628183847031}
   - component: {fileID: 5528114514281650800}
-  m_Layer: 9
+  m_Layer: 3
   m_Name: Qlua-danhxa_Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ MonoBehaviour:
   detectHeight: 0.8
   playerLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   arrowPrefab: {fileID: 1315192156441794720, guid: 38ff917736c5b04419f1105b0b014155, type: 3}
   firePoint: {fileID: 8190306617573877734}
   attackCooldown: 2.5
@@ -359,13 +359,13 @@ MonoBehaviour:
   edgeGroundCheck: {fileID: 3693178522140671438}
   checkRadius: 0.2
   groundCheckSize: {x: 3.5, y: 1}
-  groundAheadcheck: {x: 0.2, y: 5}
+  groundEdgeGroundcheck: {x: 0.8, y: 0.2}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 1024
   patrolTime: 3
   idleTime: 2
   jumpCooldown: 0.2
@@ -424,6 +424,7 @@ MonoBehaviour:
   - {fileID: 6375865884340717893, guid: 95749578e5d6ae6419f21a40767acaf3, type: 3}
   - {fileID: 3284306718968432719, guid: 95749578e5d6ae6419f21a40767acaf3, type: 3}
   deathFrameRate: 0.1
+  hitSound: {fileID: 0}
 --- !u!114 &5528114514281650800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,6 +441,6 @@ MonoBehaviour:
   detectHeight: 0.5
   playerLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   chaseTime: 5
   chaseSpeedMultiplier: 1.5
