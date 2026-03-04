@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 2566024975595323274}
   - component: {fileID: 8159287844502938889}
   - component: {fileID: 6219278971381378025}
-  m_Layer: 9
+  m_Layer: 3
   m_Name: QL-CanChien_Enemy 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -278,11 +278,11 @@ MonoBehaviour:
   detectHeight: 0.4
   playerLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   earthKnockbackForce: 8
   earthKnockbackDuration: 0.2
   damage: 1000
-  elementType: 0
+  elementType: 1
   fireDamagePerTick: 2
   fireBurnDuration: 3
   fireTickRate: 0.5
@@ -316,7 +316,7 @@ MonoBehaviour:
   detectHeight: 0.1
   playerLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   chaseTime: 2.5
   chaseSpeedMultiplier: 1.5
 --- !u!114 &6219278971381378025
@@ -344,7 +344,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 1024
   patrolTime: 3
   idleTime: 2
   jumpCooldown: 0.5

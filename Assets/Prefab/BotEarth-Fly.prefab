@@ -76,9 +76,9 @@ GameObject:
   - component: {fileID: 2482834689889083538}
   - component: {fileID: 8694539509135716408}
   - component: {fileID: 3113423367460184138}
-  m_Layer: 9
+  m_Layer: 3
   m_Name: BotEarth-Fly
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -274,7 +274,7 @@ MonoBehaviour:
   explodeRange: 1.2
   playerLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   moveSpeed: 5
   damage: 25
   explosionRadius: 2.5

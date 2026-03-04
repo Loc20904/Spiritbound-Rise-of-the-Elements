@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Border
   - Enemy
+  - Lava
+  - spike
   layers:
   - Default
   - TransparentFX
@@ -43,6 +45,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 1947969953
     locked: 0
   m_RenderingLayers:
   - Default
