@@ -77,16 +77,19 @@ public class QuaiAI : MonoBehaviour
 
             if (chaseAI.IsChasing)
             {
-                int dir = chaseAI.ChaseDirection;
+                int dir = chaseAI.ChaseDirection;// dùng để biết hướng di chuyển khi đang đuổi theo player
+                                                 // (1 = phải, -1 = trái, 0 = không di chuyển).
+                                                 // Nếu dir = 0 thì sẽ không di chuyển dù vẫn đang trong trạng thái đuổi theo.
 
                 if (dir != 0)
                 {
-                    // Quay mặt theo hướng đuổi theo
-                    if ((dir > 0) != facingRight)
-                        Flip();
+                    
+                    if ((dir > 0) != facingRight)//nếu lớn hơn 0 là đang di chuyển sang phải, nếu nhỏ hơn 0 là đang di chuyển sang trái.
+                            Flip();              //So sánh với facingRight để biết có cần quay mặt hay không. 
+                        
 
-                    float speed = moveSpeed * chaseAI.SpeedMultiplier;
-                    rb.linearVelocity = new Vector2(dir * speed, rb.linearVelocity.y);
+                    float speed = moveSpeed * chaseAI.SpeedMultiplier; //tăng tốc độ dí người chơi
+                    rb.linearVelocity = new Vector2(dir * speed, rb.linearVelocity.y);//di chuyển theo hướng chase 
                 }
 
                 CheckEnvironment(); // Kiểm tra vật cản/vực khi đang đuổi
@@ -101,7 +104,7 @@ public class QuaiAI : MonoBehaviour
         bool playerInRange = ranged != null && ranged.PlayerInRange;
 
         // ===== XỬ LÝ KHI ĐANG TẤN CÔNG =====
-        if (ranged != null && ranged.IsAttacking)
+        if (ranged != null && ranged.IsAttacking)//nếu player đang trong tầm bắn và đang thực hiện tấn công thì sẽ không di chuyển mà đứng yên để bắn
         {
             rb.linearVelocity = Vector2.zero; // Đứng yên để bắn
             UpdateAnimation(); // Cập nhật animation (Idle)
@@ -109,7 +112,7 @@ public class QuaiAI : MonoBehaviour
         }
 
         // ===== XỬ LÝ KHI PLAYER TRƯỚC MẶT =====
-        if (playerInRange)
+        if (playerInRange)//nếu player đang trong tầm bắn nhưng không phải đang tấn công thì sẽ đứng yên và quay mặt về phía player 
         {
             rb.linearVelocity = Vector2.zero; // Đứng yên khi player trong tầm
 
@@ -217,17 +220,17 @@ public class QuaiAI : MonoBehaviour
         transform.localScale = s;
     }
 
-    // Khi chạm vào Player -> Quay mặt về phía Player (để phản kháng)
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        if (!col.collider.CompareTag("Player"))
-            return;
+    //  Quay mặt về phía Player (để phản kháng)
+    //void OnCollisionEnter2D(Collision2D col)
+    //{
+    //    if (!col.collider.CompareTag("Player"))
+    //        return;
 
-        bool playerRight = col.transform.position.x > transform.position.x;
+    //    bool playerRight = col.transform.position.x > transform.position.x;
 
-        if (playerRight != facingRight)
-            Flip();
-    }
+    //    if (playerRight != facingRight)
+    //        Flip();
+    //}
 
     // ================= ANIMATION (XỬ LÝ HÌNH ẢNH) =================
     void UpdateAnimation()

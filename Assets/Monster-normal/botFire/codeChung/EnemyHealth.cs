@@ -150,6 +150,6 @@
                 yield return new WaitForSeconds(deathFrameRate);
             }
 
-            Destroy(gameObject); // tuỳ bạn
+            Destroy(gameObject); 
         }
     }
