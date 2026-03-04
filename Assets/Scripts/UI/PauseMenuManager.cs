@@ -30,8 +30,11 @@ public class PauseMenuManager : MonoBehaviour
     [SerializeField] private GameObject graphicsLastSelectable;  //
     [SerializeField] private GameObject controlsLastSelectable;
     [SerializeField] private GameObject gameplayLastSelectable;
-
+    //để set slider master thành target đầu tiên khi mở subpanel audio, tránh trường hợp focus vào button Apply/Reset/Back của bottom bar
     [SerializeField] private GameObject sliderMaster;
+
+    [SerializeField] private UnityEngine.UI.Selectable dropdownResolution;
+
     [Header("Audio Panel Script")]
     [SerializeField] private AudioSettingsPanel audioSettingsPanel;
 
@@ -173,7 +176,7 @@ public class PauseMenuManager : MonoBehaviour
 
         SetupBottomNavigation(); //hàm để thiết lập navigation cho bottom bar dựa trên currentSubPanel
         // 🔥 Focus đúng sau khi panel bật
-        StartCoroutine(ForceSelect());
+        StartCoroutine(ForceSelectForPanel());
     }
 
     public void CloseSubPanel()
@@ -220,7 +223,7 @@ public class PauseMenuManager : MonoBehaviour
         Application.Quit();
     }
 
-    IEnumerator ForceSelect()
+    IEnumerator ForceSelectForPanel()
     {
         yield return null;
         yield return null;
@@ -229,8 +232,16 @@ public class PauseMenuManager : MonoBehaviour
 
         EventSystem.current.SetSelectedGameObject(null);
 
-        sliderMaster.GetComponent<UnityEngine.UI.Selectable>().Select();
-        EventSystem.current.SetSelectedGameObject(sliderMaster);
+        if (currentSubPanel == panelAudio)
+        {
+            sliderMaster.GetComponent<UnityEngine.UI.Selectable>().Select();
+            EventSystem.current.SetSelectedGameObject(sliderMaster);
+        }
+        else if (currentSubPanel == panelGraphics)
+        {
+            dropdownResolution.Select();
+            EventSystem.current.SetSelectedGameObject(dropdownResolution.gameObject);
+        }
 
         Debug.Log("Now Selected: " + EventSystem.current.currentSelectedGameObject);
     }
