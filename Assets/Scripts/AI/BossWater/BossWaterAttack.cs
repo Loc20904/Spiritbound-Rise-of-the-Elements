@@ -269,7 +269,6 @@ public class BossWaterAttack : BossAttackBase
             }
             StartCoroutine(SpawnSingleGeyser(spawnPos));
 
-            // Delay nhỏ giữa các cột nước để tạo nhịp điệu
             yield return new WaitForSeconds(0.2f);
         }
         anim.SetTrigger("returnIdle");
@@ -336,7 +335,7 @@ public class BossWaterAttack : BossAttackBase
     protected override IEnumerator SkillUtimateUlti()
     {
         // 1. Chuẩn bị
-        if (movement) movement.Stop(); // Boss đứng yên
+        if (movement) movement.SetMove(false);
         anim.SetTrigger("castUlti"); // Hoặc animation xả đạn riêng nếu có
 
         GameObject cast = Instantiate(castUlti, firePoint.position - new Vector3(0.5f, 0f, 0f), Quaternion.identity, skillHolder);

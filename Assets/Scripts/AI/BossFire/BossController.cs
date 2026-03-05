@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections; // Nhớ có thư viện này để dùng IEnumerator
+using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
@@ -7,10 +8,15 @@ public class BossController : MonoBehaviour
     BossAttackBase attack;
     BossMovement movement;
     Animator anim;
+    BossDialogue bossDialogue; // Script lo liệu phần thoại
+
     public bool isFinalBoss = false;
 
     public BossCutsceneManager cutsceneManager;
     private bool hasPlayedPhase2Cutscene = false;
+
+    // (MỚI) Biến cờ khóa Boss lúc đang đọc thoại đầu game
+    private bool isBattleStarted = false;
 
     void Awake()
     {
@@ -19,16 +25,51 @@ public class BossController : MonoBehaviour
         attack = GetComponent<BossAttackBase>();
         movement = GetComponent<BossMovement>();
         anim = GetComponent<Animator>();
+        bossDialogue = GetComponent<BossDialogue>();
     }
 
     void Start()
     {
         health.OnPhaseChanged += OnBossPhaseCheck;
         health.OnDeath += OnBossDeath;
+
+        // Bắt đầu chuỗi sự kiện khi vừa gặp Boss
+        StartCoroutine(StartBattleRoutine());
+    }
+
+    // --- COROUTINE: KHI VỪA CHẠM MẶT BOSS ---
+    IEnumerator StartBattleRoutine()
+    {
+        // 1. (MỚI) CHỜ CHIẾU PHIM INTRO TRƯỚC
+        if (cutsceneManager != null)
+        {
+            // Code sẽ tạm dừng ở đây cho đến khi phim chiếu xong
+            yield return StartCoroutine(cutsceneManager.PlayIntroCutsceneRoutine());
+        }
+
+        // Lưu ý: Sau khi phim kết thúc, BossCutsceneManager sẽ tự bật lại playerMovement và bossAttack.
+        // Ta cần phải tạm khóa chúng lại một lần nữa để Boss không đánh lén lúc đang nói chuyện!
+        if (attack) attack.enabled = false;
+        if (movement) movement.enabled = false;
+
+        // 2. PHÁT THOẠI INTRO
+        if (bossDialogue != null)
+        {
+            // Code lại tiếp tục dừng ở đây chờ người chơi bấm đọc hết chữ
+            yield return StartCoroutine(bossDialogue.PlayIntroRoutine());
+        }
+
+        // 3. ĐỌC THOẠI XONG -> MỞ KHÓA CHO BOSS KHÔ MÁU
+        if (attack) attack.enabled = true;
+        if (movement) movement.enabled = true;
+
+        isBattleStarted = true;
     }
 
     void Update()
     {
+        if (!isBattleStarted) return; // Nếu đang nói chuyện thì không gọi hàm đánh
+
         if (!isFinalBoss)
             attack.Attack();
         else
@@ -41,13 +82,10 @@ public class BossController : MonoBehaviour
     {
         phase.CheckPhase(hpPercent);
         attack.SetPhase(phase.isPhase2);
-        //movement.SetPhase(phase.isPhase2);
 
         if (phase.isPhase2 && !hasPlayedPhase2Cutscene)
         {
             hasPlayedPhase2Cutscene = true;
-
-            // Gọi Cutscene
             if (cutsceneManager != null)
             {
                 cutsceneManager.PlayPhase2Cutscene();
@@ -55,16 +93,21 @@ public class BossController : MonoBehaviour
         }
     }
 
-
     void OnBossDeath()
     {
-        // 1. Chạy phim cắt cảnh cái chết và đợi nó kết thúc hoàn toàn
-        // Giả sử PlayDeathCutscene() trả về một IEnumerator xử lý Timeline
-        cutsceneManager.PlayDeathCutscene();
+        // Chuyển quyền xử lý cái chết cho BossDialogue
+        if (bossDialogue != null)
+        {
+            // Khóa boss lại để tránh bị lỗi vừa chết vừa đánh
+            if (attack) attack.enabled = false;
+            if (movement) movement.enabled = false;
 
-        // 4. Cuối cùng mới xóa GameObject Boss
-        //Destroy(gameObject);
-
-        // 5. Chuyển Scene kết thúc (Ví dụ: SceneManager.LoadScene("EndGame"))
+            StartCoroutine(bossDialogue.DecisionRoutine());
+        }
+        else
+        {
+            // Code đề phòng nếu bạn quên gắn script BossDialogue
+            if (cutsceneManager != null) cutsceneManager.PlayDeathCutscene();
+        }
     }
 }
