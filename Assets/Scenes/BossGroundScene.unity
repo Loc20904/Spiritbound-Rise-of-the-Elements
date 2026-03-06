@@ -4231,7 +4231,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1034215124352111831, guid: 0faadd59b1915404e8869f24ff78bb02, type: 3}
       propertyPath: typingSpeed
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1034215124352111831, guid: 0faadd59b1915404e8869f24ff78bb02, type: 3}
       propertyPath: dialogueText
@@ -4298,60 +4298,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0faadd59b1915404e8869f24ff78bb02, type: 3}
---- !u!1 &1154713214
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1154713216}
-  - component: {fileID: 1154713215}
-  m_Layer: 0
-  m_Name: BossCutsceneManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1154713215
+--- !u!114 &1154713215 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 501522761656159169, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+  m_PrefabInstance: {fileID: 6084261044694365360}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154713214}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: efa5c0fb68e4aee4891f8c208b3905e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  introTimeline: {fileID: 481603554}
-  phase2Timeline: {fileID: 365910519}
-  DeathTimeline: {fileID: 2115452774}
-  gameUI: {fileID: 0}
-  playerMovement: {fileID: 0}
-  bossAttack: {fileID: 8987172745801008819}
-  bossMove: {fileID: 5611412343477854991}
-  FinalBossMove: {fileID: 0}
-  bossHealth: {fileID: 3554775187319072045}
-  skillHolder: {fileID: 1068588984}
---- !u!4 &1154713216
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154713214}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.7383486, y: -0.5650769, z: 0.035739433}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183152036
 GameObject:
   m_ObjectHideFlags: 0
@@ -7832,6 +7789,91 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb02ae13c5b7b19449978e4afed4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &6084261044694365360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 501522761656159169, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: bossMove
+      value: 
+      objectReference: {fileID: 5611412343477854991}
+    - target: {fileID: 501522761656159169, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: bossAttack
+      value: 
+      objectReference: {fileID: 8987172745801008819}
+    - target: {fileID: 501522761656159169, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: bossHealth
+      value: 
+      objectReference: {fileID: 3554775187319072045}
+    - target: {fileID: 501522761656159169, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: skillHolder
+      value: 
+      objectReference: {fileID: 1068588984}
+    - target: {fileID: 501522761656159169, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: DeathTimeline
+      value: 
+      objectReference: {fileID: 2115452774}
+    - target: {fileID: 501522761656159169, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: introTimeline
+      value: 
+      objectReference: {fileID: 481603554}
+    - target: {fileID: 501522761656159169, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: phase2Timeline
+      value: 
+      objectReference: {fileID: 365910519}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7383486
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5650769
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.035739433
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815398732895263453, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393763144102179350, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+      propertyPath: m_Name
+      value: BossCutsceneManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
 --- !u!1 &7927739891563643128 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7872335646049176987, guid: d5aba98a5e38d024fa687fe44ed82bd7, type: 3}
@@ -7861,12 +7903,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossDialogue
   isFirstBoss: 0
-  introDialogue: {fileID: 0}
+  introDialogue: {fileID: 11400000, guid: 12bc1aecccf3d464793fcd9df489caad, type: 2}
   preChoiceDialogue: {fileID: 0}
-  killDialogue: {fileID: 0}
-  mercyDialogue: {fileID: 0}
+  killDialogue: {fileID: 11400000, guid: afb3e2d647deac642a059185db1b8fb5, type: 2}
+  mercyDialogue: {fileID: 11400000, guid: f6d037bc6dbb8a64eb17d1f3c1349b35, type: 2}
   choiceUIPanel: {fileID: 0}
-  cutsceneManager: {fileID: 0}
+  cutsceneManager: {fileID: 1154713215}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -7874,7 +7916,7 @@ SceneRoots:
   - {fileID: 365910520}
   - {fileID: 481603555}
   - {fileID: 593665383}
-  - {fileID: 1154713216}
+  - {fileID: 6084261044694365360}
   - {fileID: 774398088}
   - {fileID: 562230055}
   - {fileID: 1979945567}

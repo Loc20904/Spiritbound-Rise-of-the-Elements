@@ -1227,7 +1227,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1034215124352111831, guid: 0faadd59b1915404e8869f24ff78bb02, type: 3}
       propertyPath: typingSpeed
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1034215124352111831, guid: 0faadd59b1915404e8869f24ff78bb02, type: 3}
       propertyPath: dialogueText
@@ -7489,12 +7489,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossDialogue
   isFirstBoss: 0
-  introDialogue: {fileID: 0}
+  introDialogue: {fileID: 11400000, guid: 264493824015f4a4e8d728ee8d9da081, type: 2}
   preChoiceDialogue: {fileID: 0}
-  killDialogue: {fileID: 0}
-  mercyDialogue: {fileID: 0}
+  killDialogue: {fileID: 11400000, guid: 97c42f45178ac8f4291e0a7adbf27583, type: 2}
+  mercyDialogue: {fileID: 11400000, guid: ae091efd05db3344e9e6d67aeca3381b, type: 2}
   choiceUIPanel: {fileID: 0}
-  cutsceneManager: {fileID: 0}
+  cutsceneManager: {fileID: 1840497921}
 --- !u!1001 &4085015032055828325
 PrefabInstance:
   m_ObjectHideFlags: 0

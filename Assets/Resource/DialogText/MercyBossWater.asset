@@ -13,4 +13,16 @@ MonoBehaviour:
   m_Name: MercyBossWater
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
-  lines: []
+  lines:
+  - characterName: Boss water
+    characterAvatar: {fileID: 1789681910255852195, guid: c2b779a28ca0ef04898e40d00909e1e0, type: 3}
+    sentence: "You defeated me\u2026"
+  - characterName: Boss water
+    characterAvatar: {fileID: 1789681910255852195, guid: c2b779a28ca0ef04898e40d00909e1e0, type: 3}
+    sentence: Yet you chose not to end my life.
+  - characterName: Boss water
+    characterAvatar: {fileID: 1789681910255852195, guid: c2b779a28ca0ef04898e40d00909e1e0, type: 3}
+    sentence: "Perhaps\u2026 hope still remains."
+  - characterName: Boss water
+    characterAvatar: {fileID: 1789681910255852195, guid: c2b779a28ca0ef04898e40d00909e1e0, type: 3}
+    sentence: I will aid you with the power of the tides.

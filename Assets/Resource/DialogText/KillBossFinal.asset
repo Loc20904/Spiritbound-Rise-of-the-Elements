@@ -13,4 +13,21 @@ MonoBehaviour:
   m_Name: KillBossFinal
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
-  lines: []
+  lines:
+  - characterName: Dark mage
+    characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
+    sentence: "Hahaha\u2026"
+  - characterName: Dark mage
+    characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
+    sentence: You have won.
+  - characterName: Dark mage
+    characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
+    sentence: 'But look around you.
+
+      No balance remains.'
+  - characterName: Dark mage
+    characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
+    sentence: "This world will collapse\u2026"
+  - characterName: Dark mage
+    characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
+    sentence: and you will fall with it.

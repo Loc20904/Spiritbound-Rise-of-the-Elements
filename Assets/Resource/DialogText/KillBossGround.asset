@@ -13,4 +13,16 @@ MonoBehaviour:
   m_Name: KillBossGround
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
-  lines: []
+  lines:
+  - characterName: Boss ground
+    characterAvatar: {fileID: -8991159395837509647, guid: fbe8290711d045e41b0cfa9bddb0df30, type: 3}
+    sentence: Then this is how it ends.
+  - characterName: Boss ground
+    characterAvatar: {fileID: -8991159395837509647, guid: fbe8290711d045e41b0cfa9bddb0df30, type: 3}
+    sentence: "A world without spirits\u2026"
+  - characterName: Boss ground
+    characterAvatar: {fileID: -8991159395837509647, guid: fbe8290711d045e41b0cfa9bddb0df30, type: 3}
+    sentence: cannot remain in balance.
+  - characterName: Boss ground
+    characterAvatar: {fileID: -8991159395837509647, guid: fbe8290711d045e41b0cfa9bddb0df30, type: 3}
+    sentence: May you live with the consequences.

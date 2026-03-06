@@ -13,4 +13,13 @@ MonoBehaviour:
   m_Name: PreBossFire
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
-  lines: []
+  lines:
+  - characterName: Boss fire
+    characterAvatar: {fileID: 560843599045547779, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: "Impressive\u2026\nYour strength is real."
+  - characterName: Boss fire
+    characterAvatar: {fileID: 560843599045547779, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: Now answer me this.
+  - characterName: Boss fire
+    characterAvatar: {fileID: 560843599045547779, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: "Do you seek my power\u2026\nor my protection?"

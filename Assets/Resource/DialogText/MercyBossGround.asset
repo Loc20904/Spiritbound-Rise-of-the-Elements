@@ -13,4 +13,13 @@ MonoBehaviour:
   m_Name: MercyBossGround
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
-  lines: []
+  lines:
+  - characterName: Bos ground
+    characterAvatar: {fileID: 2361733488864083562, guid: fbe8290711d045e41b0cfa9bddb0df30, type: 3}
+    sentence: You do not seek domination.
+  - characterName: Bos ground
+    characterAvatar: {fileID: 2361733488864083562, guid: fbe8290711d045e41b0cfa9bddb0df30, type: 3}
+    sentence: You seek salvation.
+  - characterName: Bos ground
+    characterAvatar: {fileID: 2361733488864083562, guid: fbe8290711d045e41b0cfa9bddb0df30, type: 3}
+    sentence: The strength of the earth will stand with you.

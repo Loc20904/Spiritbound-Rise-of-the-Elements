@@ -13,4 +13,16 @@ MonoBehaviour:
   m_Name: KillBossFire
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
-  lines: []
+  lines:
+  - characterName: Player
+    characterAvatar: {fileID: 848893757744257149, guid: 85eea4cd0200cdb4b80a27f9a05e710e, type: 3}
+    sentence: "I don\u2019t need protection.\nI need power."
+  - characterName: BossFire
+    characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: "Hahaha\u2026"
+  - characterName: BossFire
+    characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: So you have chosen the path of destruction.
+  - characterName: BossFire
+    characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: "Take my core\u2026\nand let the world burn with it."

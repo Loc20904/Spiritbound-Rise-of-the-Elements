@@ -164,6 +164,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
         while (t < 1f)
         {
             t += Time.deltaTime;
+            //Mathf.Lerp is used to smoothly transition the scale from 0 to 0.6 over time t
             sun.transform.localScale = Vector3.one * Mathf.Lerp(0, 0.6f, t);
             yield return null;
         }
