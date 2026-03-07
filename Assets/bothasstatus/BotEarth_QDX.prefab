@@ -193,7 +193,7 @@ MonoBehaviour:
   edgeGroundCheck: {fileID: 3511739727765797238}
   checkRadius: 0.05
   groundCheckSize: {x: 2.1, y: 0.2}
-  groundAheadcheck: {x: 0.7, y: 2}
+  groundEdgeGroundcheck: {x: 0.8, y: 0.2}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -263,7 +263,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
-  arrowPrefab: {fileID: 290722058081409660, guid: 5c0f86a2a31175e41a086a9695d0c6a9, type: 3}
+  arrowPrefab: {fileID: 6699630321200591508, guid: 495fc4634bd9dc14ab596afd11e8fcfc, type: 3}
   firePoint: {fileID: 3545481640005070469}
   attackCooldown: 2
   attackFrames:
@@ -323,6 +323,7 @@ MonoBehaviour:
   - {fileID: 2193590868737747539, guid: 634d01078a7d87d4888c4eca9691c193, type: 3}
   - {fileID: -5374936915978268778, guid: 634d01078a7d87d4888c4eca9691c193, type: 3}
   deathFrameRate: 0.02
+  hitSound: {fileID: 0}
 --- !u!1 &4996777437432279594
 GameObject:
   m_ObjectHideFlags: 0

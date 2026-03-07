@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8915188140387716791}
   - component: {fileID: 3485672668165002347}
   - component: {fileID: 6798482013839470864}
-  m_Layer: 9
+  m_Layer: 3
   m_Name: BotEarth_QDX
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 1024
   patrolTime: 3
   idleTime: 2
   jumpCooldown: 0.5
@@ -243,7 +243,7 @@ MonoBehaviour:
   detectHeight: 0.5
   playerLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   chaseTime: 2.5
   chaseSpeedMultiplier: 1.5
 --- !u!114 &3485672668165002347
@@ -262,7 +262,7 @@ MonoBehaviour:
   detectHeight: 1
   playerLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   arrowPrefab: {fileID: 290722058081409660, guid: 5c0f86a2a31175e41a086a9695d0c6a9, type: 3}
   firePoint: {fileID: 3545481640005070469}
   attackCooldown: 2

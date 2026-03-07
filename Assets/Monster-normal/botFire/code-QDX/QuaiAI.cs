@@ -4,8 +4,7 @@ public class QuaiAI : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed = 2.5f; // Tốc độ di chuyển cơ bản 
-    public float jumpForce = 8f; // Lực nhảy khi gặp vật cản
-
+    
     [Header("Check Points")]
     public Transform groundCheck; // Điểm kiểm tra dưới chân xem có đang đứng trên đất không
     public Transform obstacleCheck; // Điểm kiểm tra phía trước xem có vật cản(tường) không
@@ -23,13 +22,10 @@ public class QuaiAI : MonoBehaviour
     public float patrolTime = 3f; // Thời gian di chuyển tuần tra trước khi chuyển sang trạng thái đứng yên
     public float idleTime = 2f; // Thời gian đứng yên trước khi chuyển sang trạng thái di chuyển tuần tra
 
-    [Header("Jump Control")]
-    public float jumpCooldown = 0.5f; // Thời gian chờ giữa các lần nhảy 
-
     [Header("Animation")]
     public Sprite[] idleFrames; // Các khung hình khi đứng yên
     public Sprite[] runFrames; // Các khung hình khi chạy
-    public Sprite jumpFrame; // Khung hình khi nhảy
+    //public Sprite jumpFrame; // Khung hình khi nhảy
     public float frameRate = 0.1f; // Tốc độ chuyển khung hình
 
     EnemyChaseAI chaseAI; // Script xử lý đuổi theo người chơi
@@ -41,8 +37,7 @@ public class QuaiAI : MonoBehaviour
     EnemyRangedAttack ranged; // Script xử lý tấn công tầm xa, dùng để kiểm tra nếu đang tấn công thì không di chuyển
 
     float stateTimer;  // Bộ đếm thời gian để chuyển đổi giữa trạng thái tuần tra và đứng yên
-    float jumpTimer;    // Số đếm thời gian để kiểm soát khi nào có thể nhảy tiếp (tránh nhảy liên tục)
-
+    
     float animTimer; // Bộ đếm thời gian để điều khiển tốc độ chuyển khung hình trong animation
     int frameIndex; // Chỉ số của khung hình hiện tại trong mảng animation (0, 1, 2...)
     bool facingRight = true; // Kiểm tra xem AI đang quay mặt sang phải hay không.true = quay phải, false = quay trái
@@ -98,7 +93,7 @@ public class QuaiAI : MonoBehaviour
             }
         }
 
-        jumpTimer -= Time.deltaTime; // Giảm thời gian chờ nhảy
+        
 
         // Kiểm tra xem người chơi có trong tầm bắn hay không
         bool playerInRange = ranged != null && ranged.PlayerInRange;
@@ -185,11 +180,11 @@ public class QuaiAI : MonoBehaviour
         bool wallAhead = Physics2D.OverlapCircle(obstacleCheck.position, checkRadius, mask);
         bool groundAhead = Physics2D.OverlapBox(edgeGroundCheck.position, groundEdgeGroundcheck, 0, mask);
 
-        // NẾU: Gặp tường VÀ Đang đứng trên đất VÀ Phía trước vẫn có đất (không phải vực) -> NHẢY
-        if (wallAhead && isGrounded && groundAhead && jumpTimer <= 0)
+        //Nếu gặp ức tường phía trước thì quay đầu
+        if (wallAhead && isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            jumpTimer = jumpCooldown;
+            Flip();
+            return;
         }
 
         // NẾU: Phía trước là vực (không có đất) VÀ Đang đứng trên đất
@@ -220,18 +215,6 @@ public class QuaiAI : MonoBehaviour
         transform.localScale = s;
     }
 
-    //  Quay mặt về phía Player (để phản kháng)
-    //void OnCollisionEnter2D(Collision2D col)
-    //{
-    //    if (!col.collider.CompareTag("Player"))
-    //        return;
-
-    //    bool playerRight = col.transform.position.x > transform.position.x;
-
-    //    if (playerRight != facingRight)
-    //        Flip();
-    //}
-
     // ================= ANIMATION (XỬ LÝ HÌNH ẢNH) =================
     void UpdateAnimation()
     {
@@ -241,13 +224,6 @@ public class QuaiAI : MonoBehaviour
             checkRadius,
             groundLayer | obstacleLayer
         );
-
-        if (!isGrounded)
-        {
-            if (jumpFrame != null)
-                sr.sprite = jumpFrame;
-            return;
-        }
 
         // Kiểm tra xem có đang di chuyển thực tế không (vận tốc x > 0.1)
         bool isMoving = Mathf.Abs(rb.linearVelocity.x) > 0.1f;

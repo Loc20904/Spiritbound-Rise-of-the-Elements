@@ -4,8 +4,7 @@ public class QuaiAI_QCC : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed = 2.5f;
-    public float jumpForce = 8f;
-
+    
     [Header("Check Points")]
     public Transform groundCheck;
     public Transform obstacleCheck;
@@ -21,13 +20,10 @@ public class QuaiAI_QCC : MonoBehaviour
     public float patrolTime = 3f;
     public float idleTime = 2f;
 
-    [Header("Jump Control")]
-    public float jumpCooldown = 0.5f;
-
     [Header("Animation")]
     public Sprite[] idleFrames;
     public Sprite[] runFrames;
-    public Sprite jumpFrame;
+
     public float frameRate = 0.1f;
 
     // ================= COMPONENTS =================
@@ -58,7 +54,7 @@ public class QuaiAI_QCC : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
 
-        melee = GetComponent<EnemyMeleeAttack>(); // ⭐ đổi
+        melee = GetComponent<EnemyMeleeAttack>();
         chaseAI = GetComponent<EnemyChaseAI_QCC>();
 
         stateTimer = patrolTime;
@@ -108,10 +104,7 @@ public class QuaiAI_QCC : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             return;
         }
-
-
         // ⭐ PLAYER TRƯỚC MẶT → ĐỨNG + QUAY + IDLE
-        
         if (playerInRange)
         {
             rb.linearVelocity = Vector2.zero;
@@ -129,7 +122,6 @@ public class QuaiAI_QCC : MonoBehaviour
 
             return;
         }
-
         // =====================================================
         // PATROL / IDLE (GIỮ NGUYÊN)
         // =====================================================
@@ -193,12 +185,10 @@ public class QuaiAI_QCC : MonoBehaviour
         bool groundAhead =
             Physics2D.OverlapBox(edgeGroundCheck.position, groundAheadcheck, 0, mask);
 
-        if (wallAhead && isGrounded && groundAhead && jumpTimer <= 0)
+        if (wallAhead && isGrounded )
         {
-            rb.linearVelocity =
-                new Vector2(rb.linearVelocity.x, jumpForce);
-
-            jumpTimer = jumpCooldown;
+           Flip();
+           return;
         }
 
         if (!groundAhead && isGrounded)
@@ -245,13 +235,6 @@ public class QuaiAI_QCC : MonoBehaviour
             checkRadius,
             groundLayer | obstacleLayer
         );
-
-        if (!isGrounded)
-        {
-            if (jumpFrame != null)
-                sr.sprite = jumpFrame;
-            return;
-        }
 
         bool isMoving = Mathf.Abs(rb.linearVelocity.x) > 0.1f;
 
