@@ -7451,6 +7451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FinalBoss
       objectReference: {fileID: 0}
+    - target: {fileID: 3019008084065890196, guid: 8fae6d4d64316824dbf2341e27ce021a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4061307061396078098, guid: 8fae6d4d64316824dbf2341e27ce021a, type: 3}
       propertyPath: player
       value: 

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
   lines:
-  - characterName: Boss Ground
+  - characterName: 'Terradon '
     characterAvatar: {fileID: -3584024959895979993, guid: 531a8ced75724004095e7b13437e8922, type: 3}
     sentence: "The earth remembers every step you took to reach me\u2026"
-  - characterName: Boss Ground
+  - characterName: 'Terradon '
     characterAvatar: {fileID: -3584024959895979993, guid: 531a8ced75724004095e7b13437e8922, type: 3}
     sentence: ' now face the weight of your choices.'

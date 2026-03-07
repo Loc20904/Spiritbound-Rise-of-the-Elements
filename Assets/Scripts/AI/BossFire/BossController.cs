@@ -7,6 +7,7 @@ public class BossController : MonoBehaviour
     BossPhase phase;
     BossAttackBase attack;
     BossMovement movement;
+    BossGroundMovement groundMovement;
     Animator anim;
     BossDialogue bossDialogue; // Script lo liệu phần thoại
 
@@ -24,6 +25,7 @@ public class BossController : MonoBehaviour
         phase = GetComponent<BossPhase>();
         attack = GetComponent<BossAttackBase>();
         movement = GetComponent<BossMovement>();
+        groundMovement = GetComponent<BossGroundMovement>();
         anim = GetComponent<Animator>();
         bossDialogue = GetComponent<BossDialogue>();
     }
@@ -51,6 +53,11 @@ public class BossController : MonoBehaviour
         // Ta cần phải tạm khóa chúng lại một lần nữa để Boss không đánh lén lúc đang nói chuyện!
         if (attack) attack.enabled = false;
         if (movement) movement.enabled = false;
+        if (groundMovement)
+        {
+            groundMovement.Stop();
+            groundMovement.enabled = false;
+        }
 
         // 2. PHÁT THOẠI INTRO
         if (bossDialogue != null)
@@ -62,6 +69,7 @@ public class BossController : MonoBehaviour
         // 3. ĐỌC THOẠI XONG -> MỞ KHÓA CHO BOSS KHÔ MÁU
         if (attack) attack.enabled = true;
         if (movement) movement.enabled = true;
+        if (groundMovement) groundMovement.enabled = true;
 
         isBattleStarted = true;
     }
@@ -101,6 +109,7 @@ public class BossController : MonoBehaviour
             // Khóa boss lại để tránh bị lỗi vừa chết vừa đánh
             if (attack) attack.enabled = false;
             if (movement) movement.enabled = false;
+            if (groundMovement) groundMovement.enabled = false;
 
             StartCoroutine(bossDialogue.DecisionRoutine());
         }

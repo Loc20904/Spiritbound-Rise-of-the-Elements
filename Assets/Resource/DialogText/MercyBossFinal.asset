@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
   lines:
-  - characterName: Dark mage
+  - characterName: 'Maltherion '
     characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
     sentence: You truly believe those spirits can save this world?
-  - characterName: Dark mage
+  - characterName: 'Maltherion '
     characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
     sentence: "At least I didn\u2019t destroy the world to save one life."
-  - characterName: Dark mage
+  - characterName: 'Maltherion '
     characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
     sentence: "\u2026"
-  - characterName: Dark mage
+  - characterName: 'Maltherion '
     characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
     sentence: Perhaps I was wrong.
-  - characterName: Dark mage
+  - characterName: 'Maltherion '
     characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
     sentence: "Or perhaps\u2026"
-  - characterName: Dark mage
+  - characterName: 'Maltherion '
     characterAvatar: {fileID: -4824340102443529508, guid: fa855fcf678b4bc4d9cdf8db55e95617, type: 3}
     sentence: you are stronger than I ever was.

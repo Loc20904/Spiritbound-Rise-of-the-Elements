@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
   lines:
-  - characterName: Player
+  - characterName: Hero
     characterAvatar: {fileID: 848893757744257149, guid: 85eea4cd0200cdb4b80a27f9a05e710e, type: 3}
     sentence: "I didn\u2019t come here to kill you."
-  - characterName: Player
+  - characterName: Hero
     characterAvatar: {fileID: 848893757744257149, guid: 85eea4cd0200cdb4b80a27f9a05e710e, type: 3}
     sentence: "If you truly protect this world\u2026\nhelp me save my sister."
-  - characterName: Fire Spirit
+  - characterName: 'Ignar '
     characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
     sentence: ...
-  - characterName: Fire Spirit
+  - characterName: 'Ignar '
     characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
     sentence: Few mortals would refuse such power.
-  - characterName: Fire Spirit
+  - characterName: 'Ignar '
     characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
     sentence: Very well.
-  - characterName: Fire Spirit
+  - characterName: 'Ignar '
     characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
     sentence: I will lend you the strength of flame.

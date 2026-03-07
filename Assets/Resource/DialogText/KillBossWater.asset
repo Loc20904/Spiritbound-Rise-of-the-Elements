@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   requiredFlag: 
   lines:
-  - characterName: Boss water
+  - characterName: 'Aqualis '
     characterAvatar: {fileID: 1789681910255852195, guid: c2b779a28ca0ef04898e40d00909e1e0, type: 3}
     sentence: "So this is the path you walk\u2026"
-  - characterName: Boss water
+  - characterName: 'Aqualis '
     characterAvatar: {fileID: 1789681910255852195, guid: c2b779a28ca0ef04898e40d00909e1e0, type: 3}
     sentence: Remember this, mortal.
   - characterName: Boss water

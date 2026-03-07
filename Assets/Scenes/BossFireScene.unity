@@ -6717,6 +6717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss_Fire
       objectReference: {fileID: 0}
+    - target: {fileID: 6432452412418108945, guid: 050b4496d0ff6d44399017979f03c52e, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7768015034203273977, guid: 050b4496d0ff6d44399017979f03c52e, type: 3}
       propertyPath: BoomSFX
       value: 

@@ -10073,6 +10073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss_Water
       objectReference: {fileID: 0}
+    - target: {fileID: 8247615195374393977, guid: 79a77c17634ff084c85a4681358b7056, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 9152761593376228998, guid: 79a77c17634ff084c85a4681358b7056, type: 3}
       propertyPath: m_Size.y
       value: 1.0000006
