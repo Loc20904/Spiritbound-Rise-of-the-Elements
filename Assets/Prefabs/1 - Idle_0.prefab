@@ -246,7 +246,7 @@ Transform:
   m_GameObject: {fileID: 5169177377934608990}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.045, y: -0.289, z: 0}
+  m_LocalPosition: {x: 0.006, y: -0.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -472,7 +472,7 @@ MonoBehaviour:
   comboWindow: 0.35
   maxJumpCount: 2
   moveSpeed: 10
-  jumpForce: 35
+  jumpForce: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -547,7 +547,6 @@ MonoBehaviour:
   respawnDelay: 0.25
   respawnPoint: {fileID: 0}
   showDamageLog: 1
-  isKnockback: 0
 --- !u!114 &8114047626243343293
 MonoBehaviour:
   m_ObjectHideFlags: 0
