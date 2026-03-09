@@ -40,6 +40,7 @@ public class EnemyChaseAI : MonoBehaviour
         bool inRange = ranged != null && ranged.PlayerInRange; //kiểm tra nếu player đang trong tầm bắn của EnemyRangedAttack
 
         // Nếu vừa mất player → bắt đầu chase
+        // trường hợp 3 cái này true khi player vừa rời khỏi tầm bắn: wasPlayerInRange = true, inRange = false, isChasing = false → bắt đầu chase
         if (wasPlayerInRange && !inRange && !isChasing)
         {
             chaseDir = ai.FacingRight ? 1 : -1;
@@ -57,7 +58,7 @@ public class EnemyChaseAI : MonoBehaviour
             return;
         }
 
-        // ⭐ đang chase
+        // isChasing phải true thì mới update chase, nếu không thì sẽ tiếp tục detect phía trước để bắt đầu chase khi phát hiện player
         if (isChasing)
         {
             UpdateChase();
@@ -71,25 +72,25 @@ public class EnemyChaseAI : MonoBehaviour
     // ================= DETECT =================
     void TryDetectForChase()
     {
-        Vector2 center = transform.position;
+        Vector2 center = transform.position;// lấy vị trí của Enemy làm tâm của box detect
 
         Collider2D hit = Physics2D.OverlapBox(
             center,
             new Vector2(detectWidth, detectHeight),
             0,
             playerLayer
-        );
+        ); //Tạo một box detect với kích thước detectWidth x detectHeight và chỉ phát hiện các collider thuộc playerLayer
 
-        if (!hit) return;
+        if (!hit) return;//neu không phát hiện được player nào trong box thì dừng lại
 
-        Vector2 playerPos = hit.transform.position;
+        Vector2 playerPos = hit.transform.position;//lấy vị trí của player được phát hiện
 
-        float faceDir = ai.FacingRight ? 1 : -1;
-        bool inFront = (playerPos.x - transform.position.x) * faceDir > 0;
+        float faceDir = ai.FacingRight ? 1 : -1; //xác định hướng mà Enemy đang đối mặt (1 nếu đang đối mặt phải, -1 nếu đang đối mặt trái)
+        bool inFront = (playerPos.x - transform.position.x) * faceDir > 0; //kiểm tra xem player có nằm ở phía trước của Enemy hay không bằng cách tính hiệu giữa vị trí player và vị trí Enemy, sau đó nhân với hướng đối mặt. Nếu kết quả lớn hơn 0, nghĩa là player nằm ở phía trước của Enemy.
 
-        if (!inFront) return;
+        if (!inFront) return;//nếu player không nằm ở phía trước của Enemy thì dừng chạy
 
-        chaseDir = playerPos.x > transform.position.x ? 1 : -1;
+        chaseDir = playerPos.x > transform.position.x ? 1 : -1; //xác định hướng chase dựa trên vị trí của player so với Enemy. Nếu player nằm ở bên phải của Enemy, chaseDir sẽ là 1 (chase sang phải), ngược lại sẽ là -1 (chase sang trái)
 
         chaseTimer = chaseTime;
         isChasing = true;
