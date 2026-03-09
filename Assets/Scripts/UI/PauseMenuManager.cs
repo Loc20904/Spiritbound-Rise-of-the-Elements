@@ -102,6 +102,7 @@ public class PauseMenuManager : MonoBehaviour
             pauseButton.SetActive(false);
 
         Time.timeScale = 0f;
+        AudioListener.pause = true;
 
         Select(firstSelectedButton);
     }
