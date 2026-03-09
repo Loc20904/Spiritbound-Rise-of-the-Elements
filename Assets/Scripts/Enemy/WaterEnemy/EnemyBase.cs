@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-
+﻿using UnityEditor.Experimental.GraphView;
+using UnityEngine;
+using System.Collections;
 public abstract class EnemyBase : MonoBehaviour
 {
     [Header("Target")]
@@ -24,6 +25,7 @@ public abstract class EnemyBase : MonoBehaviour
     protected Rigidbody2D rb;
     protected Animator anim;
     protected SpriteRenderer sr;
+    protected EnemyDropTable dropTable;
 
     protected bool isAggro;
 
@@ -33,6 +35,7 @@ public abstract class EnemyBase : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        dropTable = GetComponent<EnemyDropTable>();
     }
 
     protected virtual void Start()
@@ -136,23 +139,31 @@ public abstract class EnemyBase : MonoBehaviour
     {
         hp = 0;
 
-        // dừng AI + animation
         StopMove();
         if (anim) anim.SetBool("Dead", true);
 
-        // khóa physics để không bị rơi / bay
         if (rb)
         {
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
-            rb.bodyType = RigidbodyType2D.Static;   // hoặc Kinematic
+            rb.bodyType = RigidbodyType2D.Static;
         }
 
-        // KHÔNG tắt collider chính (để còn đứng trên ground)
-        // nhưng có thể đổi layer để không chặn player nữa
-        gameObject.layer = LayerMask.NameToLayer("DeadEnemy"); // tạo layer này và disable collision với Player
+        gameObject.layer = LayerMask.NameToLayer("DeadEnemy");
 
-        Destroy(gameObject, 2f);
+        // thay vì Destroy delay, dùng coroutine
+        StartCoroutine(DieRoutine());
+    }
+
+    private IEnumerator DieRoutine()
+    {
+        // đợi animation chết xong (vd 2 giây)
+        yield return new WaitForSeconds(2f);
+
+        if (dropTable != null)
+            dropTable.TryDrop(transform.position);
+
+        Destroy(gameObject);
     }
 
     protected bool IsDead() => hp <= 0;

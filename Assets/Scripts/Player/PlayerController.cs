@@ -38,9 +38,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckRadius = 0.18f;
-    [SerializeField] private float doubleJumpForce = 14f;
-    [SerializeField] private float coyoteTime = 0.12f;
-    [SerializeField] private float jumpBufferTime = 0.12f;
+    [SerializeField] private float coyoteTime = 0.15f;
+    [SerializeField] private float jumpBufferTime = 0.15f;
+    [SerializeField] private float doubleJumpForce = 13f;
 
     private float coyoteTimer;
     private float jumpBufferTimer;
@@ -171,6 +171,9 @@ public class PlayerController : MonoBehaviour
         animator.SetBool(A_IsGround, isGrounded);
 
         // coyote time
+        bool wasGrounded = isGrounded;
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
         if (isGrounded)
         {
             coyoteTimer = coyoteTime;
@@ -181,8 +184,9 @@ public class PlayerController : MonoBehaviour
             coyoteTimer -= Time.deltaTime;
         }
 
-        // jump buffer
-        jumpBufferTimer -= Time.deltaTime;
+        if (jumpBufferTimer > 0f)
+            jumpBufferTimer -= Time.deltaTime;
+
         TryConsumeJumpBuffer();
 
         animator.SetFloat(A_Yvel, rb.linearVelocity.y);
@@ -232,16 +236,15 @@ public class PlayerController : MonoBehaviour
         if (jumpBufferTimer <= 0f) return;
         if (isDead || isDashing) return;
 
-        if (jumpCount == 0)
+        // Nhảy thường khi đang đứng đất hoặc còn coyote time
+        if (isGrounded || coyoteTimer > 0f)
         {
-            if (isGrounded || coyoteTimer > 0f)
-            {
-                DoJump(isFirstJump: true);
-                jumpBufferTimer = 0f;
-            }
+            DoJump(isFirstJump: true);
+            jumpBufferTimer = 0f;
             return;
         }
 
+        // Đang trên không thì cho nhảy tiếp nếu còn lượt
         if (jumpCount < maxJumpCount)
         {
             DoJump(isFirstJump: false);

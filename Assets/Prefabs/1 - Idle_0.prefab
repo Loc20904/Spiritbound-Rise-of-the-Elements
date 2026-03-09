@@ -472,7 +472,7 @@ MonoBehaviour:
   comboWindow: 0.35
   maxJumpCount: 2
   moveSpeed: 10
-  jumpForce: 35
+  jumpForce: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -547,7 +547,6 @@ MonoBehaviour:
   respawnDelay: 0.25
   respawnPoint: {fileID: 0}
   showDamageLog: 1
-  isKnockback: 0
 --- !u!114 &8114047626243343293
 MonoBehaviour:
   m_ObjectHideFlags: 0
