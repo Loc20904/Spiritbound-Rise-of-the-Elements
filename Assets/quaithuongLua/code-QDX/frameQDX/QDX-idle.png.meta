@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: c0584902064b2184da77de53aabaf1e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -658834729091454487
+    second: Qlua-danhxa_0
+  - first:
+      213: -6218307805862305078
+    second: Qlua-danhxa_1
+  - first:
+      213: -6447545967796072912
+    second: Qlua-danhxa_2
+  - first:
+      213: -460814462698297084
+    second: Qlua-danhxa_3
+  - first:
+      213: -2485413097501192025
+    second: Qlua-danhxa_4
+  - first:
+      213: -1214172594491378201
+    second: Qlua-danhxa_5
+  - first:
+      213: -388901523962872251
+    second: Qlua-danhxa_6
+  - first:
+      213: -6453001280806746132
+    second: Qlua-danhxa_7
+  - first:
+      213: 8084146188691410665
+    second: Qlua-danhxa_8
+  - first:
+      213: 7821355061627862988
+    second: Qlua-danhxa_9
+  - first:
+      213: -8851148714859299973
+    second: Qlua-danhxa_10
+  - first:
+      213: 1949505859479137297
+    second: Qlua-danhxa_11
+  - first:
+      213: 3205494146725584966
+    second: Qlua-danhxa_12
+  - first:
+      213: 8436688280588838566
+    second: Qlua-danhxa_13
+  - first:
+      213: -7749217002818857354
+    second: Qlua-danhxa_14
+  - first:
+      213: -9058066559766616292
+    second: Qlua-danhxa_15
+  - first:
+      213: -2749266096915483314
+    second: Qlua-danhxa_16
+  - first:
+      213: -2869146820778785212
+    second: Qlua-danhxa_17
+  - first:
+      213: 671471693989192427
+    second: Qlua-danhxa_18
+  - first:
+      213: 4697649529083130659
+    second: Qlua-danhxa_19
+  - first:
+      213: -2654411678308176386
+    second: Qlua-danhxa_20
+  - first:
+      213: -6622866627010234265
+    second: Qlua-danhxa_21
+  - first:
+      213: 2626163033189722063
+    second: Qlua-danhxa_22
+  - first:
+      213: -2376070268009121023
+    second: Qlua-danhxa_23
+  - first:
+      213: 5410615136828705959
+    second: Qlua-danhxa_24
+  - first:
+      213: -6121392888471507686
+    second: Qlua-danhxa_25
+  - first:
+      213: -5337172631506009572
+    second: Qlua-danhxa_26
+  - first:
+      213: 5069145372998334417
+    second: Qlua-danhxa_27
+  - first:
+      213: 3455335824490137781
+    second: Qlua-danhxa_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Qlua-danhxa_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 415
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e920d6fd495bd6f0800000000000000
+      internalID: -658834729091454487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 415
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e43845a17b586a0800000000000000
+      internalID: -6447545967796072912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_4
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 415
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a09653c4f9028dd0800000000000000
+      internalID: -2485413097501192025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_5
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 415
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5b3515574662fe0800000000000000
+      internalID: -1214172594491378201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 315
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eb59bdf185a9af0800000000000000
+      internalID: -388901523962872251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 315
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce78f5a46855276a0800000000000000
+      internalID: -6453001280806746132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_8
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 315
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee87418028a03070800000000000000
+      internalID: 8084146188691410665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 315
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf388e3df80b8c60800000000000000
+      internalID: 7821355061627862988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 215
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cebc110490e0b10800000000000000
+      internalID: 1949505859479137297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 215
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6e23daa43251570800000000000000
+      internalID: 8436688280588838566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_14
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 215
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676909b6130457490800000000000000
+      internalID: -7749217002818857354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_16
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 215
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45f3541d05a8d9d0800000000000000
+      internalID: -2749266096915483314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 115
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323f7448b57613140800000000000000
+      internalID: 4697649529083130659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 115
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768f34664e9d614a0800000000000000
+      internalID: -6622866627010234265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_22
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 115
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7298b5d51027420800000000000000
+      internalID: 2626163033189722063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_23
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 115
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bf2f12ea0860fd0800000000000000
+      internalID: -2376070268009121023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_26
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 15
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12c52ae4cd8ee5b0800000000000000
+      internalID: -5337172631506009572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qlua-danhxa_28
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 15
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b88a6e00a1d3ff20800000000000000
+      internalID: 3455335824490137781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0e515b4249277684485c88f83239d4d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Qlua-danhxa_0: -658834729091454487
+      Qlua-danhxa_1: -6218307805862305078
+      Qlua-danhxa_10: -8851148714859299973
+      Qlua-danhxa_11: 1949505859479137297
+      Qlua-danhxa_12: 3205494146725584966
+      Qlua-danhxa_13: 8436688280588838566
+      Qlua-danhxa_14: -7749217002818857354
+      Qlua-danhxa_15: -9058066559766616292
+      Qlua-danhxa_16: -2749266096915483314
+      Qlua-danhxa_17: -2869146820778785212
+      Qlua-danhxa_18: 671471693989192427
+      Qlua-danhxa_19: 4697649529083130659
+      Qlua-danhxa_2: -6447545967796072912
+      Qlua-danhxa_20: -2654411678308176386
+      Qlua-danhxa_21: -6622866627010234265
+      Qlua-danhxa_22: 2626163033189722063
+      Qlua-danhxa_23: -2376070268009121023
+      Qlua-danhxa_24: 5410615136828705959
+      Qlua-danhxa_25: -6121392888471507686
+      Qlua-danhxa_26: -5337172631506009572
+      Qlua-danhxa_27: 5069145372998334417
+      Qlua-danhxa_28: 3455335824490137781
+      Qlua-danhxa_3: -460814462698297084
+      Qlua-danhxa_4: -2485413097501192025
+      Qlua-danhxa_5: -1214172594491378201
+      Qlua-danhxa_6: -388901523962872251
+      Qlua-danhxa_7: -6453001280806746132
+      Qlua-danhxa_8: 8084146188691410665
+      Qlua-danhxa_9: 7821355061627862988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
