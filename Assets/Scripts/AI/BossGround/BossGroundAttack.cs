@@ -275,7 +275,7 @@ public class BossGroundAttack : BossAttackBase
 
                 // QUAN TRỌNG: Instantiate với parent là NULL (không làm con Boss)
                 // Để kiếm không bị ảnh hưởng bởi Scale của Boss
-                GameObject projObj = Instantiate(selectedSword, castPoint.position, Quaternion.identity, null);
+                GameObject projObj = Instantiate(selectedSword, castPoint.position, Quaternion.identity, skillHolder);
 
                 StunProjectile script = projObj.GetComponent<StunProjectile>();
                 if (script != null)
@@ -351,7 +351,7 @@ public class BossGroundAttack : BossAttackBase
         // --- BƯỚC 1: TRIỆU HỒI VFX GỒNG SKILL (1s) ---
         anim.SetTrigger("skillCast");
         // Nếu castUltiPrefab là VFX tại chỗ Boss, nên truyền transform.position
-        GameObject castUlti = Instantiate(castUltiPrefab, transform.position + new Vector3(0, 2, 0), Quaternion.identity);
+        GameObject castUlti = Instantiate(castUltiPrefab, transform.position + new Vector3(0, 2, 0), Quaternion.identity, skillHolder);
 
         yield return new WaitForSeconds(3f);
 
@@ -359,7 +359,7 @@ public class BossGroundAttack : BossAttackBase
         if (videoCutscenePrefab != null)
         {
             PlaySound(startBattle);
-            GameObject videoObj = Instantiate(videoCutscenePrefab);
+            GameObject videoObj = Instantiate(videoCutscenePrefab, skillHolder);
             yield return new WaitForSeconds(3.3f);
             Destroy(videoObj);
         }
@@ -379,7 +379,7 @@ public class BossGroundAttack : BossAttackBase
                 // Có thể cộng thêm một chút Random Y để các prefab không bị chồng khít lên nhau
                 Vector3 spawnPos = spawnUltiPoint.position;
 
-                GameObject summoned = Instantiate(randomPrefab, spawnPos, Quaternion.identity);
+                GameObject summoned = Instantiate(randomPrefab, spawnPos, Quaternion.identity, skillHolder);
 
                 // Gọi hàm di chuyển sang trái
                 StartCoroutine(MoveToLeft(summoned));
