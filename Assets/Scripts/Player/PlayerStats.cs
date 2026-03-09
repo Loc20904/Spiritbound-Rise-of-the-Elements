@@ -4,81 +4,113 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     [Header("Combat Stats")]
-    public int damage = 50;     // ✅ sức đánh
-    public int armor = 5;       // ✅ giáp (giảm sát thương)
-
-    [Header("Health")]
-    public int maxHP = 100;
-    public int currentHP;
+    public int damage = 50;
+    public int armor = 5;
 
     [Header("Respawn")]
-    public float respawnDelay = 5f;
+    public float respawnDelay = 2f;
+    [SerializeField] private Transform respawnPoint;
+
+    [Header("Hurt / i-frames")]
+    [SerializeField] private float hurtInvincibleTime = 0.35f;
+    private float nextHurtTime;
 
     private Animator anim;
-    private bool dead = false;
-
     private PlayerController controller;
+    private Rigidbody2D rb;
+
+    private PlayerHealth health;
+
+    private bool dead = false;
+    private bool respawning = false;
 
     private void Start()
     {
-        currentHP = maxHP;
+        health = GetComponent<PlayerHealth>();
         anim = GetComponent<Animator>();
         controller = GetComponent<PlayerController>();
+        rb = GetComponent<Rigidbody2D>();
+
+        if (health == null)
+            Debug.LogError("[PlayerStats] Missing PlayerHealth on this GameObject!");
     }
 
-    // Enemy gọi hàm này để gây sát thương lên player
+    private void Update()
+    {
+        if (dead || respawning) return;
+        if (health == null) return;
+
+        // ✅ chết bởi bất kỳ nguồn nào miễn HP về 0
+        if (health.CurrentHP <= 0)
+            OnDead();
+    }
+
     public void TakeDamage(int incomingDamage)
     {
-        if (dead) return;
+        if (dead || respawning) return;
+        if (health == null) return;
 
-        // ✅ tính sát thương sau khi trừ giáp
+        // i-frame chống hit liên tục
+        if (Time.time < nextHurtTime) return;
+        nextHurtTime = Time.time + hurtInvincibleTime;
+
         int finalDamage = Mathf.Max(incomingDamage - armor, 0);
 
-        currentHP -= finalDamage;
-        Debug.Log($"Player nhận damage: {finalDamage} | HP còn: {currentHP}");
+        // ✅ trừ máu qua PlayerHealth (không dùng currentHP trong PlayerStats nữa)
+        if (finalDamage > 0)
+            health.TakeDamage(finalDamage, DamageType.Boss);
 
-        if (currentHP <= 0)
-        {
-            Die();
-        }
+        Debug.Log($"[PlayerStats] Incoming:{incomingDamage} Armor:{armor} Final:{finalDamage} => HP {health.CurrentHP}/{health.MaxHP}");
+
+        controller?.TakeHit();
     }
 
-    private void Die()
+    private void OnDead()
     {
+        if (dead) return;
         dead = true;
-        currentHP = 0;
 
-        // bật anim chết
         if (anim != null)
-            anim.SetBool("IsDead", true);
+            anim.SetBool("Isdead", true);
 
-        // tắt điều khiển
         if (controller != null)
             controller.enabled = false;
 
-        // bắt đầu hồi sinh sau 5s
         StartCoroutine(RespawnRoutine());
     }
 
     private IEnumerator RespawnRoutine()
     {
+        respawning = true;
+
         yield return new WaitForSeconds(respawnDelay);
 
-        // hồi sinh
-        dead = false;
-        currentHP = maxHP;
+        // teleport về checkpoint
+        if (respawnPoint != null)
+            transform.position = respawnPoint.position;
 
-        // tắt trạng thái chết để quay lại idle/run
+        // reset velocity
+        if (rb != null)
+            rb.linearVelocity = Vector2.zero;
+
+        // ✅ hồi máu từ PlayerHealth
+        if (health != null)
+            health.ResetHealth();
+
+        // thoát animation chết
         if (anim != null)
-            anim.SetBool("IsDead", false);
+        {
+            anim.SetBool("Isdead", false);
+            anim.Play("Player_Idle", 0, 0f);
+        }
 
-        // bật lại điều khiển
         if (controller != null)
             controller.enabled = true;
 
-        // reset vận tốc nếu dùng Rigidbody2D
-        var rb = GetComponent<Rigidbody2D>();
-        if (rb != null)
-            rb.linearVelocity = Vector2.zero;
+        dead = false;
+        respawning = false;
+
+        // miễn nhiễm 0.5s sau spawn
+        nextHurtTime = Time.time + 0.5f;
     }
 }

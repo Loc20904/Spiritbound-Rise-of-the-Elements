@@ -1,0 +1,721 @@
+fileFormatVersion: 2
+guid: ec7c5e1f988cbec438b1d5e5bb32226c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3060470932657782137
+    second: QuaiBayDat_attack_0
+  - first:
+      213: -7112701869800256633
+    second: QuaiBayDat_attack_1
+  - first:
+      213: 6305432236944554918
+    second: QuaiBayDat_attack_2
+  - first:
+      213: -1470736046667398843
+    second: QuaiBayDat_attack_3
+  - first:
+      213: -4728727933773170977
+    second: QuaiBayDat_attack_4
+  - first:
+      213: -2724549935635812484
+    second: QuaiBayDat_attack_5
+  - first:
+      213: -5354579865265726386
+    second: QuaiBayDat_attack_6
+  - first:
+      213: -700695460589118325
+    second: QuaiBayDat_attack_7
+  - first:
+      213: 2363216343481047920
+    second: QuaiBayDat_attack_8
+  - first:
+      213: -2839179498706796816
+    second: QuaiBayDat_attack_9
+  - first:
+      213: -105759671287734942
+    second: QuaiBayDat_attack_10
+  - first:
+      213: 7758053039904794687
+    second: QuaiBayDat_attack_11
+  - first:
+      213: -3691097395344213272
+    second: QuaiBayDat_attack_12
+  - first:
+      213: 1988231320365358518
+    second: QuaiBayDat_attack_13
+  - first:
+      213: -8628507908853475258
+    second: QuaiBayDat_attack_14
+  - first:
+      213: 849431602275294831
+    second: QuaiBayDat_attack_15
+  - first:
+      213: -8932170027664607156
+    second: QuaiBayDat_attack_16
+  - first:
+      213: -226539834644873914
+    second: QuaiBayDat_attack_17
+  - first:
+      213: -3079429940637353587
+    second: QuaiBayDat_attack_18
+  - first:
+      213: 8192836489001590493
+    second: QuaiBayDat_attack_19
+  - first:
+      213: -8998392947862436360
+    second: QuaiBayDat_attack_20
+  - first:
+      213: -4915618493658486214
+    second: QuaiBayDat_attack_21
+  - first:
+      213: -8072543754651560858
+    second: QuaiBayDat_attack_22
+  - first:
+      213: -4949997269777500054
+    second: QuaiBayDat_attack_23
+  - first:
+      213: -1065694608131373486
+    second: QuaiBayDat_attack_24
+  - first:
+      213: 5102651524551962732
+    second: QuaiBayDat_attack_25
+  - first:
+      213: 6418347336888731981
+    second: QuaiBayDat_attack_26
+  - first:
+      213: -8384115121456156061
+    second: QuaiBayDat_attack_27
+  - first:
+      213: 4917675502570941236
+    second: QuaiBayDat_attack_28
+  - first:
+      213: -5845998818321662973
+    second: QuaiBayDat_attack_29
+  - first:
+      213: -7073806243357317773
+    second: QuaiBayDat_attack_30
+  - first:
+      213: -2146666024209774976
+    second: QuaiBayDat_attack_31
+  - first:
+      213: -4859282843571289505
+    second: QuaiBayDat_attack_32
+  - first:
+      213: 2254054449318146343
+    second: QuaiBayDat_attack_33
+  - first:
+      213: -2767488616164402803
+    second: QuaiBayDat_attack_34
+  - first:
+      213: -7072704264567627504
+    second: QuaiBayDat_attack_35
+  - first:
+      213: -4936291771611743297
+    second: QuaiBayDat_attack_36
+  - first:
+      213: 1528006675744571056
+    second: QuaiBayDat_attack_37
+  - first:
+      213: -8210289935640860446
+    second: QuaiBayDat_attack_38
+  - first:
+      213: 2184276793012203116
+    second: QuaiBayDat_attack_39
+  - first:
+      213: -589012529468842011
+    second: QuaiBayDat_attack_40
+  - first:
+      213: 1554452680944103021
+    second: QuaiBayDat_attack_41
+  - first:
+      213: 5027414180138953846
+    second: QuaiBayDat_attack_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 406
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782468dd6e50785d0800000000000000
+      internalID: -3060470932657782137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 406
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b8c49855b9a4d90800000000000000
+      internalID: -7112701869800256633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 407
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab706e3635618750800000000000000
+      internalID: 6305432236944554918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_3
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 408
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541070c9b55e69be0800000000000000
+      internalID: -1470736046667398843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 320
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6bbf38ffe206eb0800000000000000
+      internalID: -4728727933773170977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 322
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f2d91d444703ad0800000000000000
+      internalID: -2724549935635812484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 320
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c90697bf5b0b5b0800000000000000
+      internalID: -5354579865265726386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 309
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bd5985eb4dbc020800000000000000
+      internalID: 2363216343481047920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 201
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe720ed9453998d0800000000000000
+      internalID: -2839179498706796816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_10
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 199
+        width: 93
+        height: 93
+      alignment: 9
+      pivot: {x: 0.40150994, y: 0.47457457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d1559a324488ef0800000000000000
+      internalID: -105759671287734942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 97
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4749844, y: 0.4645389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f382a28c2242aab60800000000000000
+      internalID: 7758053039904794687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 99
+        height: 94
+      alignment: 9
+      pivot: {x: 0.46114472, y: 0.48716897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea7327a97696ccc0800000000000000
+      internalID: -3691097395344213272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 102
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bddead0add979b10800000000000000
+      internalID: 1988231320365358518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648d32fc5c1614880800000000000000
+      internalID: -8628507908853475258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e1c92ba89c9cb00800000000000000
+      internalID: 849431602275294831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 94
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48f8ab3fae8a0480800000000000000
+      internalID: -8932170027664607156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d348c783b2bdcf0800000000000000
+      internalID: -226539834644873914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89bb95d8caa345d0800000000000000
+      internalID: -3079429940637353587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde5cc5116dc2b170800000000000000
+      internalID: 8192836489001590493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiBayDat_attack_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 200
+        width: 87
+        height: 91
+      alignment: 9
+      pivot: {x: 0.43025658, y: 0.4644903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca6d58a35aa3504582e6b1d409d03e5
+      internalID: -756800778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b2e55f7575460b8409a390c3d0eaf48c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":100.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      QuaiBayDat_attack_0: -3060470932657782137
+      QuaiBayDat_attack_1: -7112701869800256633
+      QuaiBayDat_attack_10: -105759671287734942
+      QuaiBayDat_attack_11: 7758053039904794687
+      QuaiBayDat_attack_12: -3691097395344213272
+      QuaiBayDat_attack_13: 1988231320365358518
+      QuaiBayDat_attack_14: -8628507908853475258
+      QuaiBayDat_attack_15: 849431602275294831
+      QuaiBayDat_attack_16: -8932170027664607156
+      QuaiBayDat_attack_17: -226539834644873914
+      QuaiBayDat_attack_18: -3079429940637353587
+      QuaiBayDat_attack_19: 8192836489001590493
+      QuaiBayDat_attack_2: 6305432236944554918
+      QuaiBayDat_attack_3: -1470736046667398843
+      QuaiBayDat_attack_4: -4728727933773170977
+      QuaiBayDat_attack_5: -2724549935635812484
+      QuaiBayDat_attack_6: -5354579865265726386
+      QuaiBayDat_attack_7: 2363216343481047920
+      QuaiBayDat_attack_8: -2839179498706796816
+      QuaiBayDat_attack_9: -756800778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

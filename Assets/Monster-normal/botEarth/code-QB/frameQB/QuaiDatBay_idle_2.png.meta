@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: e96ae07efd0b5eb4d9e11075649c2c15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3797388811397932881
+    second: QuaiDatBay_idle_2_0
+  - first:
+      213: 3539079447335534726
+    second: QuaiDatBay_idle_2_1
+  - first:
+      213: -7921165371102527771
+    second: QuaiDatBay_idle_2_2
+  - first:
+      213: 742800968779229078
+    second: QuaiDatBay_idle_2_3
+  - first:
+      213: 5197531271247543473
+    second: QuaiDatBay_idle_2_4
+  - first:
+      213: -4149134545631675540
+    second: QuaiDatBay_idle_2_5
+  - first:
+      213: 9061063694868753620
+    second: QuaiDatBay_idle_2_6
+  - first:
+      213: 1918629888724937403
+    second: QuaiDatBay_idle_2_7
+  - first:
+      213: 714089138127696771
+    second: QuaiDatBay_idle_2_8
+  - first:
+      213: -923030155927799646
+    second: QuaiDatBay_idle_2_9
+  - first:
+      213: -5663947152021380392
+    second: QuaiDatBay_idle_2_10
+  - first:
+      213: 4390544849446644788
+    second: QuaiDatBay_idle_2_11
+  - first:
+      213: 4449129907830027591
+    second: QuaiDatBay_idle_2_12
+  - first:
+      213: 5975782985456009253
+    second: QuaiDatBay_idle_2_13
+  - first:
+      213: -5321180313677367137
+    second: QuaiDatBay_idle_2_14
+  - first:
+      213: 1385469949090271926
+    second: QuaiDatBay_idle_2_15
+  - first:
+      213: 8555132485176826679
+    second: QuaiDatBay_idle_2_16
+  - first:
+      213: 4392618318078733243
+    second: QuaiDatBay_idle_2_17
+  - first:
+      213: -8259898869313579325
+    second: QuaiDatBay_idle_2_18
+  - first:
+      213: -4107576563055215381
+    second: QuaiDatBay_idle_2_19
+  - first:
+      213: -3175528969758902698
+    second: QuaiDatBay_idle_2_20
+  - first:
+      213: 3774772304736324420
+    second: QuaiDatBay_idle_2_21
+  - first:
+      213: 6676174162271499781
+    second: QuaiDatBay_idle_2_22
+  - first:
+      213: 4297488452880429613
+    second: QuaiDatBay_idle_2_23
+  - first:
+      213: -6141396053653949219
+    second: QuaiDatBay_idle_2_24
+  - first:
+      213: -9159751288751934204
+    second: QuaiDatBay_idle_2_25
+  - first:
+      213: 4376628308641448188
+    second: QuaiDatBay_idle_2_26
+  - first:
+      213: 3627494615428605310
+    second: QuaiDatBay_idle_2_27
+  - first:
+      213: -2212333263068713427
+    second: QuaiDatBay_idle_2_28
+  - first:
+      213: 8869822169436720389
+    second: QuaiDatBay_idle_2_29
+  - first:
+      213: 4050038902921631705
+    second: QuaiDatBay_idle_2_30
+  - first:
+      213: 7349325497847954468
+    second: QuaiDatBay_idle_2_31
+  - first:
+      213: -7343433852638528425
+    second: QuaiDatBay_idle_2_32
+  - first:
+      213: 6374610013956116921
+    second: QuaiDatBay_idle_2_33
+  - first:
+      213: -4466197678540972641
+    second: QuaiDatBay_idle_2_34
+  - first:
+      213: -4443173857064775833
+    second: QuaiDatBay_idle_2_35
+  - first:
+      213: 1187928501561223563
+    second: QuaiDatBay_idle_2_36
+  - first:
+      213: -3870834956709726556
+    second: QuaiDatBay_idle_2_37
+  - first:
+      213: -1580197700097704952
+    second: QuaiDatBay_idle_2_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 316
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680025aa1065d1130800000000000000
+      internalID: 3539079447335534726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 316
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697e6eaab85fe4a00800000000000000
+      internalID: 742800968779229078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 315
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b72522d105b66c0800000000000000
+      internalID: -4149134545631675540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 317
+        width: 51
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5239783, y: 0.44740245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc27d34c6d5fbd70800000000000000
+      internalID: 9061063694868753620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 214
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383f018a944f8e900800000000000000
+      internalID: 714089138127696771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 208
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d22e29f21e9561b0800000000000000
+      internalID: -5663947152021380392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 209
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74576c3241c7ebd30800000000000000
+      internalID: 4449129907830027591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_8
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 208
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98757192be5726b0800000000000000
+      internalID: -5321180313677367137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 108
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50675d8570986ac50800000000000000
+      internalID: 6676174162271499781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_10
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 109
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd478f4e3d065caa0800000000000000
+      internalID: -6141396053653949219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 110
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405b30bbbb602e080800000000000000
+      internalID: -9159751288751934204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 111
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf00e722248ecbc30800000000000000
+      internalID: 4376628308641448188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d092ec440f71b70800000000000000
+      internalID: 8869822169436720389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 15
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cb2f51a9c0ef560800000000000000
+      internalID: 7349325497847954468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 16
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f0a5efaeca652c0800000000000000
+      internalID: -4443173857064775833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_idle_2_16
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 17
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b896e12adae5c7010800000000000000
+      internalID: 1187928501561223563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d529d0a0084274940bdffa7fab314133
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      1: -9159751288751934204
+      QuaiDatBay_idle_2_0: -3797388811397932881
+      QuaiDatBay_idle_2_1: 9061063694868753620
+      QuaiDatBay_idle_2_10: -6141396053653949219
+      QuaiDatBay_idle_2_11: -9159751288751934204
+      QuaiDatBay_idle_2_12: 4376628308641448188
+      QuaiDatBay_idle_2_13: 8869822169436720389
+      QuaiDatBay_idle_2_14: 7349325497847954468
+      QuaiDatBay_idle_2_15: -4443173857064775833
+      QuaiDatBay_idle_2_16: 1187928501561223563
+      QuaiDatBay_idle_2_17: 4392618318078733243
+      QuaiDatBay_idle_2_18: -8259898869313579325
+      QuaiDatBay_idle_2_19: -4107576563055215381
+      QuaiDatBay_idle_2_2: 3539079447335534726
+      QuaiDatBay_idle_2_20: -3175528969758902698
+      QuaiDatBay_idle_2_21: 3774772304736324420
+      QuaiDatBay_idle_2_23: 4297488452880429613
+      QuaiDatBay_idle_2_27: 3627494615428605310
+      QuaiDatBay_idle_2_28: -2212333263068713427
+      QuaiDatBay_idle_2_3: 742800968779229078
+      QuaiDatBay_idle_2_30: 4050038902921631705
+      QuaiDatBay_idle_2_32: -7343433852638528425
+      QuaiDatBay_idle_2_33: 6374610013956116921
+      QuaiDatBay_idle_2_34: -4466197678540972641
+      QuaiDatBay_idle_2_37: -3870834956709726556
+      QuaiDatBay_idle_2_38: -1580197700097704952
+      QuaiDatBay_idle_2_4: -4149134545631675540
+      QuaiDatBay_idle_2_5: 714089138127696771
+      QuaiDatBay_idle_2_6: -5663947152021380392
+      QuaiDatBay_idle_2_7: 4449129907830027591
+      QuaiDatBay_idle_2_8: -5321180313677367137
+      QuaiDatBay_idle_2_9: 6676174162271499781
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
