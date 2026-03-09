@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 4599d94562041934ea00932b95b0499f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8694367538788270400
+    second: BossWater_Ulti_0
+  - first:
+      213: 8586998923614399244
+    second: BossWater_Ulti_1
+  - first:
+      213: -5777008948527770718
+    second: BossWater_Ulti_2
+  - first:
+      213: 5268316401928653740
+    second: BossWater_Ulti_3
+  - first:
+      213: 8653581014188172297
+    second: BossWater_Ulti_4
+  - first:
+      213: 2171929064922514026
+    second: BossWater_Ulti_5
+  - first:
+      213: 1434706117763110852
+    second: BossWater_Ulti_6
+  - first:
+      213: 6263409059247800205
+    second: BossWater_Ulti_7
+  - first:
+      213: -8508753840709116937
+    second: BossWater_Ulti_8
+  - first:
+      213: 568519272828085392
+    second: BossWater_Ulti_9
+  - first:
+      213: -8783483553849794158
+    second: BossWater_Ulti_10
+  - first:
+      213: -486644861241482088
+    second: BossWater_Ulti_11
+  - first:
+      213: -1753467455303674357
+    second: BossWater_Ulti_12
+  - first:
+      213: 5805962002842438333
+    second: BossWater_Ulti_13
+  - first:
+      213: 6457181424274478434
+    second: BossWater_Ulti_14
+  - first:
+      213: 1901456001205852060
+    second: BossWater_Ulti_15
+  - first:
+      213: -8541436456214154813
+    second: BossWater_Ulti_16
+  - first:
+      213: -5768028140001646912
+    second: BossWater_Ulti_17
+  - first:
+      213: 8604228770123885624
+    second: BossWater_Ulti_18
+  - first:
+      213: -4718840563905484527
+    second: BossWater_Ulti_19
+  - first:
+      213: -5597445058486263230
+    second: BossWater_Ulti_20
+  - first:
+      213: -1255358476168433895
+    second: BossWater_Ulti_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossWater_Ulti_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3910
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce76d7c9c6675780800000000000000
+      internalID: -8694367538788270400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_1
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 3910
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ba2b076062b2770800000000000000
+      internalID: 8586998923614399244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_2
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 3910
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3dfbe18f0f3dfa0800000000000000
+      internalID: -5777008948527770718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3128
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab4255dad1dc1940800000000000000
+      internalID: 5268316401928653740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_4
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 3128
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90420c17512b71870800000000000000
+      internalID: 8653581014188172297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_5
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 3128
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a628d082afd342e10800000000000000
+      internalID: 2171929064922514026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2346
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7995adc9919e310800000000000000
+      internalID: 1434706117763110852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_7
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 2346
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fbd6bba591ce650800000000000000
+      internalID: 6263409059247800205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_8
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 2346
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbda439675dae980800000000000000
+      internalID: -8508753840709116937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1564
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094a1e83449c3e700800000000000000
+      internalID: 568519272828085392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_10
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1564
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2912c42ae3cca1680800000000000000
+      internalID: -8783483553849794158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_11
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 1564
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894aee9b3171f39f0800000000000000
+      internalID: -486644861241482088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 782
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b069a61c3ae6aa7e0800000000000000
+      internalID: -1753467455303674357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_13
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 782
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbac6d62eabe29050800000000000000
+      internalID: 5805962002842438333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_14
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 782
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26591243b448c9950800000000000000
+      internalID: 6457181424274478434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97d8e3a824536a10800000000000000
+      internalID: 1901456001205852060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_16
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 0
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1b8cb2cc8b67980800000000000000
+      internalID: -8541436456214154813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Ulti_17
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 0
+        width: 1522
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6aebc87f8d3ffa0800000000000000
+      internalID: -5768028140001646912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 79fd798855910604d8ca366eec25b0cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":6.0},"gridSpriteSize":{"x":1522.0,"y":782.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossWater_Ulti_0: -8694367538788270400
+      BossWater_Ulti_1: 8586998923614399244
+      BossWater_Ulti_10: -8783483553849794158
+      BossWater_Ulti_11: -486644861241482088
+      BossWater_Ulti_12: -1753467455303674357
+      BossWater_Ulti_13: 5805962002842438333
+      BossWater_Ulti_14: 6457181424274478434
+      BossWater_Ulti_15: 1901456001205852060
+      BossWater_Ulti_16: -8541436456214154813
+      BossWater_Ulti_17: -5768028140001646912
+      BossWater_Ulti_2: -5777008948527770718
+      BossWater_Ulti_3: 5268316401928653740
+      BossWater_Ulti_4: 8653581014188172297
+      BossWater_Ulti_5: 2171929064922514026
+      BossWater_Ulti_6: 1434706117763110852
+      BossWater_Ulti_7: 6263409059247800205
+      BossWater_Ulti_8: -8508753840709116937
+      BossWater_Ulti_9: 568519272828085392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1645 @@
+fileFormatVersion: 2
+guid: b9462df795519ec40b4cfc9fe2250502
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1095728296622924046
+    second: Lionheart_Blessing_effect (2)_0
+  - first:
+      213: 5390583792148055894
+    second: Lionheart_Blessing_effect (2)_1
+  - first:
+      213: -2547200687897546769
+    second: Lionheart_Blessing_effect (2)_2
+  - first:
+      213: -6002723112554923399
+    second: Lionheart_Blessing_effect (2)_3
+  - first:
+      213: -5036669206056768513
+    second: Lionheart_Blessing_effect (2)_4
+  - first:
+      213: -3455300037140475999
+    second: Lionheart_Blessing_effect (2)_5
+  - first:
+      213: -7074923854150760428
+    second: Lionheart_Blessing_effect (2)_6
+  - first:
+      213: -69862081463466522
+    second: Lionheart_Blessing_effect (2)_7
+  - first:
+      213: 7249735356211441354
+    second: Lionheart_Blessing_effect (2)_8
+  - first:
+      213: -2157062522066732094
+    second: Lionheart_Blessing_effect (2)_9
+  - first:
+      213: 8868478278052226580
+    second: Lionheart_Blessing_effect (2)_10
+  - first:
+      213: 4589123683949996166
+    second: Lionheart_Blessing_effect (2)_11
+  - first:
+      213: 1094641637873344964
+    second: Lionheart_Blessing_effect (2)_12
+  - first:
+      213: 1730493498026054903
+    second: Lionheart_Blessing_effect (2)_13
+  - first:
+      213: -5606635561378540628
+    second: Lionheart_Blessing_effect (2)_14
+  - first:
+      213: 3635228729926788229
+    second: Lionheart_Blessing_effect (2)_15
+  - first:
+      213: 8288377006358933906
+    second: Lionheart_Blessing_effect (2)_16
+  - first:
+      213: 384344750816244485
+    second: Lionheart_Blessing_effect (2)_17
+  - first:
+      213: -3985427292010632578
+    second: Lionheart_Blessing_effect (2)_18
+  - first:
+      213: -1897748067235386944
+    second: Lionheart_Blessing_effect (2)_19
+  - first:
+      213: 7539714827199089841
+    second: Lionheart_Blessing_effect (2)_20
+  - first:
+      213: -7890011268741571996
+    second: Lionheart_Blessing_effect (2)_21
+  - first:
+      213: 3493298329971998897
+    second: Lionheart_Blessing_effect (2)_22
+  - first:
+      213: 410324917045217421
+    second: Lionheart_Blessing_effect (2)_23
+  - first:
+      213: 1484790426012181693
+    second: Lionheart_Blessing_effect (2)_24
+  - first:
+      213: -1228710328484910414
+    second: Lionheart_Blessing_effect (2)_25
+  - first:
+      213: 3211681387532077238
+    second: Lionheart_Blessing_effect (2)_26
+  - first:
+      213: 6971092604008988032
+    second: Lionheart_Blessing_effect (2)_27
+  - first:
+      213: -2612996639831234554
+    second: Lionheart_Blessing_effect (2)_28
+  - first:
+      213: -6063390772928620567
+    second: Lionheart_Blessing_effect (2)_29
+  - first:
+      213: -6577627783780418876
+    second: Lionheart_Blessing_effect (2)_30
+  - first:
+      213: 4575190565051120295
+    second: Lionheart_Blessing_effect (2)_31
+  - first:
+      213: 8339952792445129647
+    second: Lionheart_Blessing_effect (2)_32
+  - first:
+      213: -1720350983873427582
+    second: Lionheart_Blessing_effect (2)_33
+  - first:
+      213: -6485187149429529928
+    second: Lionheart_Blessing_effect (2)_34
+  - first:
+      213: 1266900086626698101
+    second: Lionheart_Blessing_effect (2)_35
+  - first:
+      213: -8244188023181969837
+    second: Lionheart_Blessing_effect (2)_36
+  - first:
+      213: -4707802821968962603
+    second: Lionheart_Blessing_effect (2)_37
+  - first:
+      213: 2484732531853606630
+    second: Lionheart_Blessing_effect (2)_38
+  - first:
+      213: 8613991439353976889
+    second: Lionheart_Blessing_effect (2)_39
+  - first:
+      213: -4576339879555023661
+    second: Lionheart_Blessing_effect (2)_40
+  - first:
+      213: 3903143089629454660
+    second: Lionheart_Blessing_effect (2)_41
+  - first:
+      213: -3498682320933212280
+    second: Lionheart_Blessing_effect (2)_42
+  - first:
+      213: -7982468876963038581
+    second: Lionheart_Blessing_effect (2)_43
+  - first:
+      213: 7896260250707934028
+    second: Lionheart_Blessing_effect (2)_44
+  - first:
+      213: -6785979446350215839
+    second: Lionheart_Blessing_effect (2)_45
+  - first:
+      213: -1430764177251874700
+    second: Lionheart_Blessing_effect (2)_46
+  - first:
+      213: 8600892105764836835
+    second: Lionheart_Blessing_effect (2)_47
+  - first:
+      213: 5439787390742165973
+    second: Lionheart_Blessing_effect (2)_48
+  - first:
+      213: -8216993559076782811
+    second: Lionheart_Blessing_effect (2)_49
+  - first:
+      213: 4153228050300892048
+    second: Lionheart_Blessing_effect (2)_50
+  - first:
+      213: 1283176673344902704
+    second: Lionheart_Blessing_effect (2)_51
+  - first:
+      213: 4716896296440880214
+    second: Lionheart_Blessing_effect (2)_52
+  - first:
+      213: -3244847144588930079
+    second: Lionheart_Blessing_effect (2)_53
+  - first:
+      213: -9048637142503917313
+    second: Lionheart_Blessing_effect (2)_54
+  - first:
+      213: -5826997383521526033
+    second: Lionheart_Blessing_effect (2)_55
+  - first:
+      213: 2335278480996517127
+    second: Lionheart_Blessing_effect (2)_56
+  - first:
+      213: -8309714933550753506
+    second: Lionheart_Blessing_effect (2)_57
+  - first:
+      213: -6543614134716106342
+    second: Lionheart_Blessing_effect (2)_58
+  - first:
+      213: 5671602945439149753
+    second: Lionheart_Blessing_effect (2)_59
+  - first:
+      213: 7792884930185474687
+    second: Lionheart_Blessing_effect (2)_60
+  - first:
+      213: 1266061995002091222
+    second: Lionheart_Blessing_effect (2)_61
+  - first:
+      213: -1445948505323147588
+    second: Lionheart_Blessing_effect (2)_62
+  - first:
+      213: 3540447413114543405
+    second: Lionheart_Blessing_effect (2)_63
+  - first:
+      213: 4964009162174579545
+    second: Lionheart_Blessing_effect (2)_64
+  - first:
+      213: 5821630248398375416
+    second: Lionheart_Blessing_effect (2)_65
+  - first:
+      213: 4502534410512061633
+    second: Lionheart_Blessing_effect (2)_66
+  - first:
+      213: -8498553016447243528
+    second: Lionheart_Blessing_effect (2)_67
+  - first:
+      213: 8432884502242661098
+    second: Lionheart_Blessing_effect (2)_68
+  - first:
+      213: -7224158201274992387
+    second: Lionheart_Blessing_effect (2)_69
+  - first:
+      213: 3489304080006401928
+    second: Lionheart_Blessing_effect (2)_70
+  - first:
+      213: -7415170752318307744
+    second: Lionheart_Blessing_effect (2)_71
+  - first:
+      213: -3275277648173844268
+    second: Lionheart_Blessing_effect (2)_72
+  - first:
+      213: -5179910943552795303
+    second: Lionheart_Blessing_effect (2)_73
+  - first:
+      213: 8623494814130329753
+    second: Lionheart_Blessing_effect (2)_74
+  - first:
+      213: 6287692043049023037
+    second: Lionheart_Blessing_effect (2)_75
+  - first:
+      213: 4153359080287003876
+    second: Lionheart_Blessing_effect (2)_76
+  - first:
+      213: -4157678069799531727
+    second: Lionheart_Blessing_effect (2)_77
+  - first:
+      213: -5911106843099767403
+    second: Lionheart_Blessing_effect (2)_78
+  - first:
+      213: 5226569636209507528
+    second: Lionheart_Blessing_effect (2)_79
+  - first:
+      213: 5011011539093822162
+    second: Lionheart_Blessing_effect (2)_80
+  - first:
+      213: 2854856905371446143
+    second: Lionheart_Blessing_effect (2)_81
+  - first:
+      213: -512128622259672511
+    second: Lionheart_Blessing_effect (2)_82
+  - first:
+      213: 5196069196733862818
+    second: Lionheart_Blessing_effect (2)_83
+  - first:
+      213: -8635499931463317834
+    second: Lionheart_Blessing_effect (2)_84
+  - first:
+      213: -3541112357201382065
+    second: Lionheart_Blessing_effect (2)_85
+  - first:
+      213: 9121324487020223460
+    second: Lionheart_Blessing_effect (2)_86
+  - first:
+      213: -9094469571406929977
+    second: Lionheart_Blessing_effect (2)_87
+  - first:
+      213: 6423246844194263182
+    second: Lionheart_Blessing_effect (2)_88
+  - first:
+      213: -4685478543054130369
+    second: Lionheart_Blessing_effect (2)_89
+  - first:
+      213: 8067203157370203222
+    second: Lionheart_Blessing_effect (2)_90
+  - first:
+      213: 8723078621538291531
+    second: Lionheart_Blessing_effect (2)_91
+  - first:
+      213: 5585454842837982800
+    second: Lionheart_Blessing_effect (2)_92
+  - first:
+      213: 5316909472089223059
+    second: Lionheart_Blessing_effect (2)_93
+  - first:
+      213: 8536795033672364582
+    second: Lionheart_Blessing_effect (2)_94
+  - first:
+      213: -1727177815850551280
+    second: Lionheart_Blessing_effect (2)_95
+  - first:
+      213: 311200301540134903
+    second: Lionheart_Blessing_effect (2)_96
+  - first:
+      213: -4749700220524446379
+    second: Lionheart_Blessing_effect (2)_97
+  - first:
+      213: -8318368443042082374
+    second: Lionheart_Blessing_effect (2)_98
+  - first:
+      213: 4776050908191901159
+    second: Lionheart_Blessing_effect (2)_99
+  - first:
+      213: -4878408730114245921
+    second: Lionheart_Blessing_effect (2)_100
+  - first:
+      213: -3487377694995644799
+    second: Lionheart_Blessing_effect (2)_101
+  - first:
+      213: -3216439837463689064
+    second: Lionheart_Blessing_effect (2)_102
+  - first:
+      213: -854832500316660249
+    second: Lionheart_Blessing_effect (2)_103
+  - first:
+      213: 6882516254164250827
+    second: Lionheart_Blessing_effect (2)_104
+  - first:
+      213: 7905825315223543313
+    second: Lionheart_Blessing_effect (2)_105
+  - first:
+      213: -5212421938427541630
+    second: Lionheart_Blessing_effect (2)_106
+  - first:
+      213: -2800631295980164391
+    second: Lionheart_Blessing_effect (2)_107
+  - first:
+      213: 852302358552194060
+    second: Lionheart_Blessing_effect (2)_108
+  - first:
+      213: -5963995060449141983
+    second: Lionheart_Blessing_effect (2)_109
+  - first:
+      213: 5929304133738319335
+    second: Lionheart_Blessing_effect (2)_110
+  - first:
+      213: -9222659950489652902
+    second: Lionheart_Blessing_effect (2)_111
+  - first:
+      213: 4551759479596433581
+    second: Lionheart_Blessing_effect (2)_112
+  - first:
+      213: -7170527913015931255
+    second: Lionheart_Blessing_effect (2)_113
+  - first:
+      213: 5248179305398251343
+    second: Lionheart_Blessing_effect (2)_114
+  - first:
+      213: -4589731852362130933
+    second: Lionheart_Blessing_effect (2)_115
+  - first:
+      213: 299536395521691709
+    second: Lionheart_Blessing_effect (2)_116
+  - first:
+      213: 6584508106916922141
+    second: Lionheart_Blessing_effect (2)_117
+  - first:
+      213: 9060339763294196146
+    second: Lionheart_Blessing_effect (2)_118
+  - first:
+      213: -1553958214249232910
+    second: Lionheart_Blessing_effect (2)_119
+  - first:
+      213: 3309974769377970641
+    second: Lionheart_Blessing_effect (2)_120
+  - first:
+      213: -6832985536158685657
+    second: Lionheart_Blessing_effect (2)_121
+  - first:
+      213: -1722658277700367772
+    second: Lionheart_Blessing_effect (2)_122
+  - first:
+      213: 3589857546897032846
+    second: Lionheart_Blessing_effect (2)_123
+  - first:
+      213: -655626480049088722
+    second: Lionheart_Blessing_effect (2)_124
+  - first:
+      213: 8800176984291338989
+    second: Lionheart_Blessing_effect (2)_125
+  - first:
+      213: 2159317466105459464
+    second: Lionheart_Blessing_effect (2)_126
+  - first:
+      213: 1034961999776860350
+    second: Lionheart_Blessing_effect (2)_127
+  - first:
+      213: -5671272858537993695
+    second: Lionheart_Blessing_effect (2)_128
+  - first:
+      213: 4232950677777156305
+    second: Lionheart_Blessing_effect (2)_129
+  - first:
+      213: -5659895908780839146
+    second: Lionheart_Blessing_effect (2)_130
+  - first:
+      213: -6507769003586819314
+    second: Lionheart_Blessing_effect (2)_131
+  - first:
+      213: 4281811474468331878
+    second: Lionheart_Blessing_effect (2)_132
+  - first:
+      213: -4474117897607265734
+    second: Lionheart_Blessing_effect (2)_133
+  - first:
+      213: -7094401099226541235
+    second: Lionheart_Blessing_effect (2)_134
+  - first:
+      213: 4477141234077744587
+    second: Lionheart_Blessing_effect (2)_135
+  - first:
+      213: -7635994036423619639
+    second: Lionheart_Blessing_effect (2)_136
+  - first:
+      213: 7781916421491867067
+    second: Lionheart_Blessing_effect (2)_137
+  - first:
+      213: 1715443437636469803
+    second: Lionheart_Blessing_effect (2)_138
+  - first:
+      213: 3430701354698391940
+    second: Lionheart_Blessing_effect (2)_139
+  - first:
+      213: -764292222740573501
+    second: Lionheart_Blessing_effect (2)_140
+  - first:
+      213: 463636366957009568
+    second: Lionheart_Blessing_effect (2)_141
+  - first:
+      213: -5653436015426101541
+    second: Lionheart_Blessing_effect (2)_142
+  - first:
+      213: -1141899423609905637
+    second: Lionheart_Blessing_effect (2)_143
+  - first:
+      213: 315768183549260465
+    second: Lionheart_Blessing_effect (2)_144
+  - first:
+      213: 606950926122391648
+    second: Lionheart_Blessing_effect (2)_145
+  - first:
+      213: 8332663033421452190
+    second: Lionheart_Blessing_effect (2)_146
+  - first:
+      213: 4612257454742819212
+    second: Lionheart_Blessing_effect (2)_147
+  - first:
+      213: 1769525524766632329
+    second: Lionheart_Blessing_effect (2)_148
+  - first:
+      213: -5025248827036519155
+    second: Lionheart_Blessing_effect (2)_149
+  - first:
+      213: -4844040128085908574
+    second: Lionheart_Blessing_effect (2)_150
+  - first:
+      213: -5089751930780737061
+    second: Lionheart_Blessing_effect (2)_151
+  - first:
+      213: 5807671626656677514
+    second: Lionheart_Blessing_effect (2)_152
+  - first:
+      213: -4228138427760840227
+    second: Lionheart_Blessing_effect (2)_153
+  - first:
+      213: 9001844798081105727
+    second: Lionheart_Blessing_effect (2)_154
+  - first:
+      213: -2866937821174550306
+    second: Lionheart_Blessing_effect (2)_155
+  - first:
+      213: -5674402358218265983
+    second: Lionheart_Blessing_effect (2)_156
+  - first:
+      213: -7952821802816579195
+    second: Lionheart_Blessing_effect (2)_157
+  - first:
+      213: -6918295919061475722
+    second: Lionheart_Blessing_effect (2)_158
+  - first:
+      213: 9058558448197977567
+    second: Lionheart_Blessing_effect (2)_159
+  - first:
+      213: 3873942716265709274
+    second: Lionheart_Blessing_effect (2)_160
+  - first:
+      213: -2191107305071865852
+    second: Lionheart_Blessing_effect (2)_161
+  - first:
+      213: 5945814504507092953
+    second: Lionheart_Blessing_effect (2)_162
+  - first:
+      213: -5196594820325090646
+    second: Lionheart_Blessing_effect (2)_163
+  - first:
+      213: -429650123505868446
+    second: Lionheart_Blessing_effect (2)_164
+  - first:
+      213: 8980279603870601078
+    second: Lionheart_Blessing_effect (2)_165
+  - first:
+      213: 2422507670779168076
+    second: Lionheart_Blessing_effect (2)_166
+  - first:
+      213: 2661567688579649903
+    second: Lionheart_Blessing_effect (2)_167
+  - first:
+      213: -4224484291230191869
+    second: Lionheart_Blessing_effect (2)_168
+  - first:
+      213: -6144042744762337343
+    second: Lionheart_Blessing_effect (2)_169
+  - first:
+      213: -8715819639843181164
+    second: Lionheart_Blessing_effect (2)_170
+  - first:
+      213: -6623617558079248710
+    second: Lionheart_Blessing_effect (2)_171
+  - first:
+      213: 62790482581302886
+    second: Lionheart_Blessing_effect (2)_172
+  - first:
+      213: -366775324843129666
+    second: Lionheart_Blessing_effect (2)_173
+  - first:
+      213: 1638783021541608871
+    second: Lionheart_Blessing_effect (2)_174
+  - first:
+      213: -7095949337080184415
+    second: Lionheart_Blessing_effect (2)_175
+  - first:
+      213: 1053710274722812268
+    second: Lionheart_Blessing_effect (2)_176
+  - first:
+      213: 5255811251379967710
+    second: Lionheart_Blessing_effect (2)_177
+  - first:
+      213: 6409455510496803218
+    second: Lionheart_Blessing_effect (2)_178
+  - first:
+      213: 6862196787903390647
+    second: Lionheart_Blessing_effect (2)_179
+  - first:
+      213: 4411123567216228043
+    second: Lionheart_Blessing_effect (2)_180
+  - first:
+      213: -4725823278606741202
+    second: Lionheart_Blessing_effect (2)_181
+  - first:
+      213: -4509563826123174263
+    second: Lionheart_Blessing_effect (2)_182
+  - first:
+      213: -6285245453412732512
+    second: Lionheart_Blessing_effect (2)_183
+  - first:
+      213: -612941693448969977
+    second: Lionheart_Blessing_effect (2)_184
+  - first:
+      213: 6289078017106318312
+    second: Lionheart_Blessing_effect (2)_185
+  - first:
+      213: 482516054416988584
+    second: Lionheart_Blessing_effect (2)_186
+  - first:
+      213: -4704119045531064117
+    second: Lionheart_Blessing_effect (2)_187
+  - first:
+      213: 6547559501498182732
+    second: Lionheart_Blessing_effect (2)_188
+  - first:
+      213: 7475666967658414337
+    second: Lionheart_Blessing_effect (2)_189
+  - first:
+      213: -2009065015755381132
+    second: Lionheart_Blessing_effect (2)_190
+  - first:
+      213: 6624032597826779571
+    second: Lionheart_Blessing_effect (2)_191
+  - first:
+      213: -5234985473247127592
+    second: Lionheart_Blessing_effect (2)_192
+  - first:
+      213: -6321768817361564150
+    second: Lionheart_Blessing_effect (2)_193
+  - first:
+      213: -7453411557492218030
+    second: Lionheart_Blessing_effect (2)_194
+  - first:
+      213: 2501566274446939464
+    second: Lionheart_Blessing_effect (2)_195
+  - first:
+      213: -8170307543903506748
+    second: Lionheart_Blessing_effect (2)_196
+  - first:
+      213: 8749305504802073346
+    second: Lionheart_Blessing_effect (2)_197
+  - first:
+      213: -8446116372166265443
+    second: Lionheart_Blessing_effect (2)_198
+  - first:
+      213: 3554664923210461435
+    second: Lionheart_Blessing_effect (2)_199
+  - first:
+      213: -1650173905340856941
+    second: Lionheart_Blessing_effect (2)_200
+  - first:
+      213: -5638552680920907456
+    second: Lionheart_Blessing_effect (2)_201
+  - first:
+      213: 5832891864742916548
+    second: Lionheart_Blessing_effect (2)_202
+  - first:
+      213: -144239439007989818
+    second: Lionheart_Blessing_effect (2)_203
+  - first:
+      213: 1575524051731831887
+    second: Lionheart_Blessing_effect (2)_204
+  - first:
+      213: 3316989854340857112
+    second: Lionheart_Blessing_effect (2)_205
+  - first:
+      213: 5732962463229676993
+    second: Lionheart_Blessing_effect (2)_206
+  - first:
+      213: -9198157537325284446
+    second: Lionheart_Blessing_effect (2)_207
+  - first:
+      213: 2125766011409569171
+    second: Lionheart_Blessing_effect (2)_208
+  - first:
+      213: 1302628576911743651
+    second: Lionheart_Blessing_effect (2)_209
+  - first:
+      213: 6998014836670378978
+    second: Lionheart_Blessing_effect (2)_210
+  - first:
+      213: 8342288932487037692
+    second: Lionheart_Blessing_effect (2)_211
+  - first:
+      213: 53847343810624753
+    second: Lionheart_Blessing_effect (2)_212
+  - first:
+      213: 6678221962384565548
+    second: Lionheart_Blessing_effect (2)_213
+  - first:
+      213: -7898878203091695733
+    second: Lionheart_Blessing_effect (2)_214
+  - first:
+      213: 8962080081782087700
+    second: Lionheart_Blessing_effect (2)_215
+  - first:
+      213: 3138056504017599569
+    second: Lionheart_Blessing_effect (2)_216
+  - first:
+      213: -5162317023956516605
+    second: Lionheart_Blessing_effect (2)_217
+  - first:
+      213: 2547858217593729398
+    second: Lionheart_Blessing_effect (2)_218
+  - first:
+      213: 3806997587011234011
+    second: Lionheart_Blessing_effect (2)_219
+  - first:
+      213: -6000791129067158699
+    second: Lionheart_Blessing_effect (2)_220
+  - first:
+      213: 3233567348136849639
+    second: Lionheart_Blessing_effect (2)_221
+  - first:
+      213: -5851555234732317759
+    second: Lionheart_Blessing_effect (2)_222
+  - first:
+      213: -2393549270401391685
+    second: Lionheart_Blessing_effect (2)_223
+  - first:
+      213: 52543788326483198
+    second: Lionheart_Blessing_effect (2)_224
+  - first:
+      213: 1020421539979066986
+    second: Lionheart_Blessing_effect (2)_225
+  - first:
+      213: -1295912295127731533
+    second: Lionheart_Blessing_effect (2)_226
+  - first:
+      213: -6157187889931693367
+    second: Lionheart_Blessing_effect (2)_227
+  - first:
+      213: -1580079887693934542
+    second: Lionheart_Blessing_effect (2)_228
+  - first:
+      213: -29938576283477393
+    second: Lionheart_Blessing_effect (2)_229
+  - first:
+      213: -442436153749498510
+    second: Lionheart_Blessing_effect (2)_230
+  - first:
+      213: 4839998633190618037
+    second: Lionheart_Blessing_effect (2)_231
+  - first:
+      213: 7437542865654402521
+    second: Lionheart_Blessing_effect (2)_232
+  - first:
+      213: 5919495799815189963
+    second: Lionheart_Blessing_effect (2)_233
+  - first:
+      213: 8123423141984863667
+    second: Lionheart_Blessing_effect (2)_234
+  - first:
+      213: -2861529677578819687
+    second: Lionheart_Blessing_effect (2)_235
+  - first:
+      213: -178527432354964281
+    second: Lionheart_Blessing_effect (2)_236
+  - first:
+      213: -8651730259246966416
+    second: Lionheart_Blessing_effect (2)_237
+  - first:
+      213: -6428789892919446972
+    second: Lionheart_Blessing_effect (2)_238
+  - first:
+      213: -5066858147002960099
+    second: Lionheart_Blessing_effect (2)_239
+  - first:
+      213: -1013961043799688946
+    second: Lionheart_Blessing_effect (2)_240
+  - first:
+      213: -350635566484434901
+    second: Lionheart_Blessing_effect (2)_241
+  - first:
+      213: -2702401278157495945
+    second: Lionheart_Blessing_effect (2)_242
+  - first:
+      213: -1597215851273624808
+    second: Lionheart_Blessing_effect (2)_243
+  - first:
+      213: -4637523076579905519
+    second: Lionheart_Blessing_effect (2)_244
+  - first:
+      213: -4974486160949552214
+    second: Lionheart_Blessing_effect (2)_245
+  - first:
+      213: -4426079372475248333
+    second: Lionheart_Blessing_effect (2)_246
+  - first:
+      213: -5501732372548810468
+    second: Lionheart_Blessing_effect (2)_247
+  - first:
+      213: 4014769912914600876
+    second: Lionheart_Blessing_effect (2)_248
+  - first:
+      213: 4857130749640711330
+    second: Lionheart_Blessing_effect (2)_249
+  - first:
+      213: 703872196045769206
+    second: Lionheart_Blessing_effect (2)_250
+  - first:
+      213: -2771523826121964069
+    second: Lionheart_Blessing_effect (2)_251
+  - first:
+      213: 8369925957836771445
+    second: Lionheart_Blessing_effect (2)_252
+  - first:
+      213: -9007795280430962241
+    second: Lionheart_Blessing_effect (2)_253
+  - first:
+      213: 6497245960604971884
+    second: Lionheart_Blessing_effect (2)_254
+  - first:
+      213: 4273118865601518462
+    second: Lionheart_Blessing_effect (2)_255
+  - first:
+      213: -7072362152841866977
+    second: Lionheart_Blessing_effect (2)_256
+  - first:
+      213: 1125433911940187245
+    second: Lionheart_Blessing_effect (2)_257
+  - first:
+      213: 1900492111620017133
+    second: Lionheart_Blessing_effect (2)_258
+  - first:
+      213: 2548530027804165881
+    second: Lionheart_Blessing_effect (2)_259
+  - first:
+      213: -2970842189869418921
+    second: Lionheart_Blessing_effect (2)_260
+  - first:
+      213: -5630657778929891741
+    second: Lionheart_Blessing_effect (2)_261
+  - first:
+      213: 1468515619182710507
+    second: Lionheart_Blessing_effect (2)_262
+  - first:
+      213: 1482010269175858543
+    second: Lionheart_Blessing_effect (2)_263
+  - first:
+      213: -6962310202142267835
+    second: Lionheart_Blessing_effect (2)_264
+  - first:
+      213: -3597201576334607279
+    second: Lionheart_Blessing_effect (2)_265
+  - first:
+      213: 265624421570541627
+    second: Lionheart_Blessing_effect (2)_266
+  - first:
+      213: -4325343797054227401
+    second: Lionheart_Blessing_effect (2)_267
+  - first:
+      213: -5796010838730836456
+    second: Lionheart_Blessing_effect (2)_268
+  - first:
+      213: -1400632054885790121
+    second: Lionheart_Blessing_effect (2)_269
+  - first:
+      213: 8814394388190081884
+    second: Lionheart_Blessing_effect (2)_270
+  - first:
+      213: 2923755335323513453
+    second: Lionheart_Blessing_effect (2)_271
+  - first:
+      213: -1094511265161700736
+    second: Lionheart_Blessing_effect (2)_272
+  - first:
+      213: 6992558114134518247
+    second: Lionheart_Blessing_effect (2)_273
+  - first:
+      213: 5085130666385285516
+    second: Lionheart_Blessing_effect (2)_274
+  - first:
+      213: -4555576820102169033
+    second: Lionheart_Blessing_effect (2)_275
+  - first:
+      213: -5324750764094838708
+    second: Lionheart_Blessing_effect (2)_276
+  - first:
+      213: -1953434289584036295
+    second: Lionheart_Blessing_effect (2)_277
+  - first:
+      213: 7113651364849930663
+    second: Lionheart_Blessing_effect (2)_278
+  - first:
+      213: -7130999483411458304
+    second: Lionheart_Blessing_effect (2)_279
+  - first:
+      213: 7554818354507979842
+    second: Lionheart_Blessing_effect (2)_280
+  - first:
+      213: 8012236173291878596
+    second: Lionheart_Blessing_effect (2)_281
+  - first:
+      213: -7930122359294933637
+    second: Lionheart_Blessing_effect (2)_282
+  - first:
+      213: -2510029118980871904
+    second: Lionheart_Blessing_effect (2)_283
+  - first:
+      213: -3249952122325232550
+    second: Lionheart_Blessing_effect (2)_284
+  - first:
+      213: 2625213808510526872
+    second: Lionheart_Blessing_effect (2)_285
+  - first:
+      213: 5792715639218413829
+    second: Lionheart_Blessing_effect (2)_286
+  - first:
+      213: 1155995498228535584
+    second: Lionheart_Blessing_effect (2)_287
+  - first:
+      213: -8313850809613219997
+    second: Lionheart_Blessing_effect (2)_288
+  - first:
+      213: 6566627559217563219
+    second: Lionheart_Blessing_effect (2)_289
+  - first:
+      213: -3337594898381199384
+    second: Lionheart_Blessing_effect (2)_290
+  - first:
+      213: -1416086476391232466
+    second: Lionheart_Blessing_effect (2)_291
+  - first:
+      213: -2472900182503135585
+    second: Lionheart_Blessing_effect (2)_292
+  - first:
+      213: 5209087527250647481
+    second: Lionheart_Blessing_effect (2)_293
+  - first:
+      213: 1874810255276433914
+    second: Lionheart_Blessing_effect (2)_294
+  - first:
+      213: 1158536979069309094
+    second: Lionheart_Blessing_effect (2)_295
+  - first:
+      213: 6814158470056983507
+    second: Lionheart_Blessing_effect (2)_296
+  - first:
+      213: -5055323664432791595
+    second: Lionheart_Blessing_effect (2)_297
+  - first:
+      213: -2268387187696056440
+    second: Lionheart_Blessing_effect (2)_298
+  - first:
+      213: 2751437404403898916
+    second: Lionheart_Blessing_effect (2)_299
+  - first:
+      213: 1599327913185492284
+    second: Lionheart_Blessing_effect (2)_300
+  - first:
+      213: 3968342245909985234
+    second: Lionheart_Blessing_effect (2)_301
+  - first:
+      213: 4653740299588225868
+    second: Lionheart_Blessing_effect (2)_302
+  - first:
+      213: -7525635835659229056
+    second: Lionheart_Blessing_effect (2)_303
+  - first:
+      213: 7407143625059319430
+    second: Lionheart_Blessing_effect (2)_304
+  - first:
+      213: 8976925355424286624
+    second: Lionheart_Blessing_effect (2)_305
+  - first:
+      213: 8088061207807257372
+    second: Lionheart_Blessing_effect (2)_306
+  - first:
+      213: -7956967806708823428
+    second: Lionheart_Blessing_effect (2)_307
+  - first:
+      213: 4065229284597213495
+    second: Lionheart_Blessing_effect (2)_308
+  - first:
+      213: 6228111044401164231
+    second: Lionheart_Blessing_effect (2)_309
+  - first:
+      213: 8709206791355999825
+    second: Lionheart_Blessing_effect (2)_310
+  - first:
+      213: -6862246055300620723
+    second: Lionheart_Blessing_effect (2)_311
+  - first:
+      213: -2424942053011011673
+    second: Lionheart_Blessing_effect (2)_312
+  - first:
+      213: -7369603356162863540
+    second: Lionheart_Blessing_effect (2)_313
+  - first:
+      213: -5699034288224584159
+    second: Lionheart_Blessing_effect (2)_314
+  - first:
+      213: -7491146543337328228
+    second: Lionheart_Blessing_effect (2)_315
+  - first:
+      213: -2866682534038429043
+    second: Lionheart_Blessing_effect (2)_316
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1200
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01ad82941fc43f00800000000000000
+      internalID: 1095728296622924046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1200
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65786fef5633fca40800000000000000
+      internalID: 5390583792148055894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1200
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef6c32587686acd0800000000000000
+      internalID: -2547200687897546769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1200
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97af227022b02bca0800000000000000
+      internalID: -6002723112554923399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb66d1ea082a1ab0800000000000000
+      internalID: -5036669206056768513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af09d55cee4c00d0800000000000000
+      internalID: -3455300037140475999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418086c3d32d0dd90800000000000000
+      internalID: -7074923854150760428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5c91b9eccc70ff0800000000000000
+      internalID: -69862081463466522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acea29e45eb3c9460800000000000000
+      internalID: 7249735356211441354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb77e590139012e0800000000000000
+      internalID: -2157062522066732094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4162295b10a231b70800000000000000
+      internalID: 8868478278052226580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688eb242da7dfaf30800000000000000
+      internalID: 4589123683949996166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1eacd15c2f03f00800000000000000
+      internalID: 1094641637873344964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f457fbfaa2f30810800000000000000
+      internalID: 1730493498026054903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca395f289aa3132b0800000000000000
+      internalID: -5606635561378540628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584a494054de27230800000000000000
+      internalID: 3635228729926788229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2913a8c39fa360370800000000000000
+      internalID: 8288377006358933906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_17
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50330b7b387755500800000000000000
+      internalID: 384344750816244485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_18
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a2f8d5efae0b8c0800000000000000
+      internalID: -3985427292010632578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c920430038d9a5e0800000000000000
+      internalID: -1897748067235386944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc82fe20b272a860800000000000000
+      internalID: 7539714827199089841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a54dcdd8c018290800000000000000
+      internalID: -7890011268741571996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_22
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b04274a250ba7030800000000000000
+      internalID: 3493298329971998897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_23
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88c8fa8654c1b500800000000000000
+      internalID: 410324917045217421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionheart_Blessing_effect (2)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db46b5496090b9410800000000000000
+      internalID: 1484790426012181693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 854bb0d7d7b967347bcd5b4d158d2d3b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":6.0},"gridSpriteSize":{"x":240.0,"y":240.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Lionheart_Blessing_effect (2)_0: 1095728296622924046
+      Lionheart_Blessing_effect (2)_1: 5390583792148055894
+      Lionheart_Blessing_effect (2)_10: 8868478278052226580
+      Lionheart_Blessing_effect (2)_11: 4589123683949996166
+      Lionheart_Blessing_effect (2)_12: 1094641637873344964
+      Lionheart_Blessing_effect (2)_13: 1730493498026054903
+      Lionheart_Blessing_effect (2)_14: -5606635561378540628
+      Lionheart_Blessing_effect (2)_15: 3635228729926788229
+      Lionheart_Blessing_effect (2)_16: 8288377006358933906
+      Lionheart_Blessing_effect (2)_17: 384344750816244485
+      Lionheart_Blessing_effect (2)_18: -3985427292010632578
+      Lionheart_Blessing_effect (2)_19: -1897748067235386944
+      Lionheart_Blessing_effect (2)_2: -2547200687897546769
+      Lionheart_Blessing_effect (2)_20: 7539714827199089841
+      Lionheart_Blessing_effect (2)_21: -7890011268741571996
+      Lionheart_Blessing_effect (2)_22: 3493298329971998897
+      Lionheart_Blessing_effect (2)_23: 410324917045217421
+      Lionheart_Blessing_effect (2)_24: 1484790426012181693
+      Lionheart_Blessing_effect (2)_3: -6002723112554923399
+      Lionheart_Blessing_effect (2)_4: -5036669206056768513
+      Lionheart_Blessing_effect (2)_5: -3455300037140475999
+      Lionheart_Blessing_effect (2)_6: -7074923854150760428
+      Lionheart_Blessing_effect (2)_7: -69862081463466522
+      Lionheart_Blessing_effect (2)_8: 7249735356211441354
+      Lionheart_Blessing_effect (2)_9: -2157062522066732094
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

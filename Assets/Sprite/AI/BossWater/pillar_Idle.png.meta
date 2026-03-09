@@ -1,0 +1,846 @@
+fileFormatVersion: 2
+guid: 3608f9e4acf215e4a9c6eb9f0a61a47c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3467892796262132019
+    second: pillar_Idle_0
+  - first:
+      213: -5250469709204271355
+    second: pillar_Idle_1
+  - first:
+      213: 1959547085067604407
+    second: pillar_Idle_2
+  - first:
+      213: 3495606114285161104
+    second: pillar_Idle_3
+  - first:
+      213: 4724022759236861321
+    second: pillar_Idle_4
+  - first:
+      213: 4225799526567092623
+    second: pillar_Idle_5
+  - first:
+      213: -8310985903317839033
+    second: pillar_Idle_6
+  - first:
+      213: 1061860671557515169
+    second: pillar_Idle_7
+  - first:
+      213: 3398586863635808442
+    second: pillar_Idle_8
+  - first:
+      213: 3275960615643056404
+    second: pillar_Idle_9
+  - first:
+      213: 6953747986473654019
+    second: pillar_Idle_10
+  - first:
+      213: 7637658621810372357
+    second: pillar_Idle_11
+  - first:
+      213: 6153847143627035542
+    second: pillar_Idle_12
+  - first:
+      213: -9115813076248715524
+    second: pillar_Idle_13
+  - first:
+      213: -2270443289402821422
+    second: pillar_Idle_14
+  - first:
+      213: -4985465144660034094
+    second: pillar_Idle_15
+  - first:
+      213: -2454405069028890956
+    second: pillar_Idle_16
+  - first:
+      213: 6246546056356180127
+    second: pillar_Idle_17
+  - first:
+      213: -2101447888996648596
+    second: pillar_Idle_18
+  - first:
+      213: -322939680622688329
+    second: pillar_Idle_19
+  - first:
+      213: -4084199547198583923
+    second: pillar_Idle_20
+  - first:
+      213: 4358352571124838107
+    second: pillar_Idle_21
+  - first:
+      213: -8546618087663369223
+    second: pillar_Idle_22
+  - first:
+      213: -8093366064211387404
+    second: pillar_Idle_23
+  - first:
+      213: -6562581315718225009
+    second: pillar_Idle_24
+  - first:
+      213: 5870843561579329712
+    second: pillar_Idle_25
+  - first:
+      213: 4763171483100843450
+    second: pillar_Idle_26
+  - first:
+      213: 2084948516618685271
+    second: pillar_Idle_27
+  - first:
+      213: -1378899180564374728
+    second: pillar_Idle_28
+  - first:
+      213: -4143317994969477780
+    second: pillar_Idle_29
+  - first:
+      213: 7147361888829511726
+    second: pillar_Idle_30
+  - first:
+      213: 2346503837365935454
+    second: pillar_Idle_31
+  - first:
+      213: -3298168294656056710
+    second: pillar_Idle_32
+  - first:
+      213: -4998763055082450522
+    second: pillar_Idle_33
+  - first:
+      213: 6371022039513976904
+    second: pillar_Idle_34
+  - first:
+      213: -2961676494982435732
+    second: pillar_Idle_35
+  - first:
+      213: 4747939160383636238
+    second: pillar_Idle_36
+  - first:
+      213: -5501897156453359524
+    second: pillar_Idle_37
+  - first:
+      213: 3348238094470354478
+    second: pillar_Idle_38
+  - first:
+      213: 1195701477580970309
+    second: pillar_Idle_39
+  - first:
+      213: -9053670937107985274
+    second: pillar_Idle_40
+  - first:
+      213: -4893554249770761674
+    second: pillar_Idle_41
+  - first:
+      213: 704141489869763771
+    second: pillar_Idle_42
+  - first:
+      213: 7882537446948677520
+    second: pillar_Idle_43
+  - first:
+      213: -4423089579658579163
+    second: pillar_Idle_44
+  - first:
+      213: -5033997913482338686
+    second: pillar_Idle_45
+  - first:
+      213: 7237880247429479886
+    second: pillar_Idle_46
+  - first:
+      213: 7159821345133730902
+    second: pillar_Idle_47
+  - first:
+      213: -7859606392511305367
+    second: pillar_Idle_48
+  - first:
+      213: 2914860680081781944
+    second: pillar_Idle_49
+  - first:
+      213: 6688808331752149831
+    second: pillar_Idle_50
+  - first:
+      213: 4118875409808389879
+    second: pillar_Idle_51
+  - first:
+      213: -4396334925719398578
+    second: pillar_Idle_52
+  - first:
+      213: 7056960458321945544
+    second: pillar_Idle_53
+  - first:
+      213: 5035895013621247693
+    second: pillar_Idle_54
+  - first:
+      213: -2088172608529704650
+    second: pillar_Idle_55
+  - first:
+      213: -6000919117985950961
+    second: pillar_Idle_56
+  - first:
+      213: -2702055155798887076
+    second: pillar_Idle_57
+  - first:
+      213: -3933316317985684721
+    second: pillar_Idle_58
+  - first:
+      213: 2377921466226288252
+    second: pillar_Idle_59
+  - first:
+      213: 8403416493170231934
+    second: pillar_Idle_60
+  - first:
+      213: 3866301582811105391
+    second: pillar_Idle_61
+  - first:
+      213: -5837330911653326822
+    second: pillar_Idle_62
+  - first:
+      213: -6772446773734002270
+    second: pillar_Idle_63
+  - first:
+      213: 5665579421068898817
+    second: pillar_Idle_64
+  - first:
+      213: 6645784222714916960
+    second: pillar_Idle_65
+  - first:
+      213: -6372681148334043878
+    second: pillar_Idle_66
+  - first:
+      213: -149219360404277119
+    second: pillar_Idle_67
+  - first:
+      213: 5800869820704217048
+    second: pillar_Idle_68
+  - first:
+      213: -3764746310531501969
+    second: pillar_Idle_69
+  - first:
+      213: 1951523795017107085
+    second: pillar_Idle_70
+  - first:
+      213: -60283868438975261
+    second: pillar_Idle_71
+  - first:
+      213: 6641216944413289279
+    second: pillar_Idle_72
+  - first:
+      213: 149918287163040931
+    second: pillar_Idle_73
+  - first:
+      213: -9145425135114711749
+    second: pillar_Idle_74
+  - first:
+      213: 1602470152570901307
+    second: pillar_Idle_75
+  - first:
+      213: 2365344257791220747
+    second: pillar_Idle_76
+  - first:
+      213: -3300019930831899992
+    second: pillar_Idle_77
+  - first:
+      213: 5972321526081488055
+    second: pillar_Idle_78
+  - first:
+      213: 4145847313086489604
+    second: pillar_Idle_79
+  - first:
+      213: -6514465492214806303
+    second: pillar_Idle_80
+  - first:
+      213: -8926886871265816509
+    second: pillar_Idle_81
+  - first:
+      213: -3981060770998486634
+    second: pillar_Idle_82
+  - first:
+      213: -6621711245471255159
+    second: pillar_Idle_83
+  - first:
+      213: 7338598245216522042
+    second: pillar_Idle_84
+  - first:
+      213: -2517564478013446654
+    second: pillar_Idle_85
+  - first:
+      213: 776134751662116199
+    second: pillar_Idle_86
+  - first:
+      213: -6295760621536231235
+    second: pillar_Idle_87
+  - first:
+      213: 2833762409316455873
+    second: pillar_Idle_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pillar_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6d8af10e19fdfc0800000000000000
+      internalID: -3467892796262132019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f4eee1e959227b0800000000000000
+      internalID: -5250469709204271355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b15b1611b5b13b10800000000000000
+      internalID: 1959547085067604407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a86ac8d33e28030800000000000000
+      internalID: 3495606114285161104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d7c2baba91f8140800000000000000
+      internalID: 4724022759236861321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81ab09b74e05aa30800000000000000
+      internalID: 4225799526567092623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743167bba5279ac80800000000000000
+      internalID: -8310985903317839033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7b421a7ac7cbe00800000000000000
+      internalID: 1061860671557515169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab04259feb43a2f20800000000000000
+      internalID: 3398586863635808442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4190399b2dc867d20800000000000000
+      internalID: 3275960615643056404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307995f73fca08060800000000000000
+      internalID: 6953747986473654019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fe4bcec0a6ef960800000000000000
+      internalID: 7637658621810372357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69311f56f5bd66550800000000000000
+      internalID: 6153847143627035542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe95570e402e7180800000000000000
+      internalID: -9115813076248715524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4b97c8bd3cd70e0800000000000000
+      internalID: -2270443289402821422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd72747dd110dab0800000000000000
+      internalID: -4985465144660034094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b66d9df79330fdd0800000000000000
+      internalID: -2454405069028890956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f903a3aea8030b650800000000000000
+      internalID: 6246546056356180127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c693c56674826d2e0800000000000000
+      internalID: -2101447888996648596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b74b9c4210b48bf0800000000000000
+      internalID: -322939680622688329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 44c9bc59d4a6c8b44bad79b6c5bcfcdb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":5.0},"gridSpriteSize":{"x":160.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      pillar_Idle_0: -3467892796262132019
+      pillar_Idle_1: -5250469709204271355
+      pillar_Idle_10: 6953747986473654019
+      pillar_Idle_11: 7637658621810372357
+      pillar_Idle_12: 6153847143627035542
+      pillar_Idle_13: -9115813076248715524
+      pillar_Idle_14: -2270443289402821422
+      pillar_Idle_15: -4985465144660034094
+      pillar_Idle_16: -2454405069028890956
+      pillar_Idle_17: 6246546056356180127
+      pillar_Idle_18: -2101447888996648596
+      pillar_Idle_19: -322939680622688329
+      pillar_Idle_2: 1959547085067604407
+      pillar_Idle_3: 3495606114285161104
+      pillar_Idle_4: 4724022759236861321
+      pillar_Idle_5: 4225799526567092623
+      pillar_Idle_6: -8310985903317839033
+      pillar_Idle_7: 1061860671557515169
+      pillar_Idle_8: 3398586863635808442
+      pillar_Idle_9: 3275960615643056404
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
