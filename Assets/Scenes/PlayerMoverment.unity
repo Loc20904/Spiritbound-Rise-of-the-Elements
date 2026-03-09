@@ -560,11 +560,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1368742126 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 426682178435481646, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-  m_PrefabInstance: {fileID: 7988263176941651074}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1447496950
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +638,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1794872540
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5508234056387091885, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_Name
+      value: QuaiNuocDanhgan_idle_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.528592
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.3763847
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217189362666099584, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
 --- !u!1 &1809536654
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,44 +970,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
       propertyPath: jumpForce
-      value: 35
+      value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-      propertyPath: climbCheck
-      value: 
-      objectReference: {fileID: 1368742126}
-    - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-      propertyPath: wallCheckLeft
-      value: 
-      objectReference: {fileID: 1368742126}
-    - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-      propertyPath: wallCheckRight
-      value: 
-      objectReference: {fileID: 1368742126}
-    - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-      propertyPath: wallCheckRadius
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-      propertyPath: attackActionName
-      value: Attack1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-      propertyPath: climbCheckRadius
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-      propertyPath: wallLayer.m_Bits
-      value: 4096
-      objectReference: {fileID: 0}
-    - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-      propertyPath: climbLayer.m_Bits
-      value: 4096
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205152771044737237, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 70c8a63b77058504489ff8bce0073d41, type: 2}
     - target: {fileID: 5740517143459870578, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -984,3 +1000,4 @@ SceneRoots:
   - {fileID: 7988263176941651074}
   - {fileID: 206817223}
   - {fileID: 89859485}
+  - {fileID: 1794872540}

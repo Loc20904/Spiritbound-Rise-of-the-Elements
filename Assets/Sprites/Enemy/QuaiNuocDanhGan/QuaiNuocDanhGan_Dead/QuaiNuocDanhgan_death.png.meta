@@ -249,7 +249,7 @@ TextureImporter:
         width: 48
         height: 75
       alignment: 9
-      pivot: {x: 0.6501498, y: 0.2634558}
+      pivot: {x: 0.5461995, y: 0.35215983}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,7 +271,7 @@ TextureImporter:
         width: 45
         height: 72
       alignment: 9
-      pivot: {x: 0.6232005, y: 0.2844001}
+      pivot: {x: 0.64784104, y: 0.34600025}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -293,7 +293,7 @@ TextureImporter:
         width: 48
         height: 72
       alignment: 9
-      pivot: {x: 0.707901, y: 0.26899973}
+      pivot: {x: 0.66170055, y: 0.30749977}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,11 +311,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 385
-        y: 375
+        y: 376
         width: 47
         height: 74
       alignment: 9
-      pivot: {x: 0.71232444, y: 0.26025927}
+      pivot: {x: 0.5471834, y: 0.2602597}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -333,11 +333,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 22
-        y: 253
-        width: 66
+        y: 252
+        width: 59
         height: 75
       alignment: 9
-      pivot: {x: 0.57560015, y: 0.3151998}
+      pivot: {x: 0.44959998, y: 0.4039034}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -355,11 +355,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 138
-        y: 253
+        y: 252
         width: 64
         height: 78
       alignment: 9
-      pivot: {x: 0.65592504, y: 0.3223075}
+      pivot: {x: 0.5433128, y: 0.3933845}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -381,7 +381,7 @@ TextureImporter:
         width: 69
         height: 81
       alignment: 9
-      pivot: {x: 0.6124874, y: 0.35626635}
+      pivot: {x: 0.5000009, y: 0.35626596}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -399,11 +399,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 257
-        y: 135
+        y: 133
         width: 62
         height: 85
       alignment: 9
-      pivot: {x: 0.6985911, y: 0.23258343}
+      pivot: {x: 0.5823458, y: 0.3043299}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -425,7 +425,7 @@ TextureImporter:
         width: 65
         height: 79
       alignment: 9
-      pivot: {x: 0.7090364, y: 0.45220685}
+      pivot: {x: 0.57256985, y: 0.32588756}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -443,11 +443,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
-        y: 134
+        y: 135
         width: 67
         height: 83
       alignment: 9
-      pivot: {x: 0.63239413, y: 0.2728959}
+      pivot: {x: 0.52482396, y: 0.35304996}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -469,7 +469,7 @@ TextureImporter:
         width: 58
         height: 85
       alignment: 9
-      pivot: {x: 0.6529386, y: 0.23910558}
+      pivot: {x: 0.55735224, y: 0.28476185}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -491,7 +491,7 @@ TextureImporter:
         width: 58
         height: 82
       alignment: 9
-      pivot: {x: 0.75833553, y: 0.13977106}
+      pivot: {x: 0.6340732, y: 0.22766392}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -508,12 +508,12 @@ TextureImporter:
       name: QuaiNuocDanhgan_death_41
       rect:
         serializedVersion: 2
-        x: 16
-        y: 14
+        x: 15
+        y: 13
         width: 59
         height: 84
       alignment: 9
-      pivot: {x: 0.7210314, y: 0.12812564}
+      pivot: {x: 0.56128895, y: 0.27992648}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -530,12 +530,12 @@ TextureImporter:
       name: QuaiNuocDanhgan_death_43
       rect:
         serializedVersion: 2
-        x: 137
-        y: 14
-        width: 60
+        x: 140
+        y: 13
+        width: 53
         height: 81
       alignment: 9
-      pivot: {x: 0.70723826, y: 0.13307327}
+      pivot: {x: 0.5316775, y: 0.2768065}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,8 +556,8 @@ TextureImporter:
         y: 14
         width: 59
         height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5751736, y: 0.7651478}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -579,7 +579,7 @@ TextureImporter:
         width: 59
         height: 23
       alignment: 9
-      pivot: {x: 0.71589017, y: 0.38132542}
+      pivot: {x: 0.5561477, y: 0.766996}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

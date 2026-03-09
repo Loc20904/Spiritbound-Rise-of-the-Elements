@@ -472,15 +472,15 @@ MonoBehaviour:
   comboWindow: 0.35
   maxJumpCount: 2
   moveSpeed: 10
-  jumpForce: 15
+  jumpForce: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   groundCheck: {fileID: 7047191315895413010}
   groundCheckRadius: 0.2
-  doubleJumpForce: 17
   coyoteTime: 0.12
   jumpBufferTime: 0.12
+  doubleJumpForce: 17
   dashSpeed: 25
   dashDuration: 0.14
   dashCooldown: 0.25
