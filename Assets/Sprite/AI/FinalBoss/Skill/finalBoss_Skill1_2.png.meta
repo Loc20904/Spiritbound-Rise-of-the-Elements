@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 8cb342522981b454689cd4c41861c679
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4795491120159549582
+    second: finalBoss_Skill1_2_0
+  - first:
+      213: 5975161083454778957
+    second: finalBoss_Skill1_2_1
+  - first:
+      213: 3391953627175462860
+    second: finalBoss_Skill1_2_2
+  - first:
+      213: 1231706080178783495
+    second: finalBoss_Skill1_2_3
+  - first:
+      213: 4392807956278443516
+    second: finalBoss_Skill1_2_4
+  - first:
+      213: -4444176641052123810
+    second: finalBoss_Skill1_2_5
+  - first:
+      213: -8467781723729832505
+    second: finalBoss_Skill1_2_6
+  - first:
+      213: -3502896357644576441
+    second: finalBoss_Skill1_2_7
+  - first:
+      213: 6337668077465065317
+    second: finalBoss_Skill1_2_8
+  - first:
+      213: 8306467000147430803
+    second: finalBoss_Skill1_2_9
+  - first:
+      213: -3178921484705506287
+    second: finalBoss_Skill1_2_10
+  - first:
+      213: 5045656501633304944
+    second: finalBoss_Skill1_2_11
+  - first:
+      213: -2945541362943146774
+    second: finalBoss_Skill1_2_12
+  - first:
+      213: -5265874572825257338
+    second: finalBoss_Skill1_2_13
+  - first:
+      213: 8011512579678404271
+    second: finalBoss_Skill1_2_14
+  - first:
+      213: 8479396434492151070
+    second: finalBoss_Skill1_2_15
+  - first:
+      213: -2207129017602579067
+    second: finalBoss_Skill1_2_16
+  - first:
+      213: 8902541199669171345
+    second: finalBoss_Skill1_2_17
+  - first:
+      213: 7779675642408735101
+    second: finalBoss_Skill1_2_18
+  - first:
+      213: -4456455666343192151
+    second: finalBoss_Skill1_2_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4256
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277995bdb3ef27db0800000000000000
+      internalID: -4795491120159549582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_48
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 4256
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e6f0ff8590ce250800000000000000
+      internalID: 5975161083454778957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_47
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 4256
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc724624ad3a21f20800000000000000
+      internalID: 3391953627175462860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_46
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 4256
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705ceb07726e71110800000000000000
+      internalID: 1231706080178783495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3192
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd7c78ef8366fc30800000000000000
+      internalID: 4392807956278443516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_44
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 3192
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ddff624ec1352c0800000000000000
+      internalID: -4444176641052123810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_43
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 3192
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5d981f2656c7a80800000000000000
+      internalID: -8467781723729832505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_42
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 3192
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749d5956256336fc0800000000000000
+      internalID: -3502896357644576441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2128
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56753adb98be3f750800000000000000
+      internalID: 6337668077465065317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_40
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2128
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dca422abf764370800000000000000
+      internalID: 8306467000147430803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_39
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 2128
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c554790c332e3d0800000000000000
+      internalID: -3178921484705506287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_38
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 2128
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0794e7eead5c50640800000000000000
+      internalID: 5045656501633304944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1064
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4cd8e8cb55f17d0800000000000000
+      internalID: -2945541362943146774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_36
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1064
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a1dfec9fadbe6b0800000000000000
+      internalID: -5265874572825257338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_35
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 1064
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faefd419e3c9e2f60800000000000000
+      internalID: 8011512579678404271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_34
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 1064
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e155e93a12edca570800000000000000
+      internalID: 8479396434492151070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58567543ad3be51e0800000000000000
+      internalID: -2207129017602579067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_32
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 0
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1949f8cad0e2c8b70800000000000000
+      internalID: 8902541199669171345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_31
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 9
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71188d37c5f6fb60800000000000000
+      internalID: 7779675642408735101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalBoss_Skill1_2_30
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 0
+        width: 1066
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9565ace2d7722c0800000000000000
+      internalID: -4456455666343192151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3c3bae7e86251d149a34db6419e0ba5e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":5.0},"gridSpriteSize":{"x":1066.0,"y":1064.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      finalBoss_Skill1_2_30: -4456455666343192151
+      finalBoss_Skill1_2_31: 7779675642408735101
+      finalBoss_Skill1_2_32: 8902541199669171345
+      finalBoss_Skill1_2_33: -2207129017602579067
+      finalBoss_Skill1_2_34: 8479396434492151070
+      finalBoss_Skill1_2_35: 8011512579678404271
+      finalBoss_Skill1_2_36: -5265874572825257338
+      finalBoss_Skill1_2_37: -2945541362943146774
+      finalBoss_Skill1_2_38: 5045656501633304944
+      finalBoss_Skill1_2_39: -3178921484705506287
+      finalBoss_Skill1_2_40: 8306467000147430803
+      finalBoss_Skill1_2_41: 6337668077465065317
+      finalBoss_Skill1_2_42: -3502896357644576441
+      finalBoss_Skill1_2_43: -8467781723729832505
+      finalBoss_Skill1_2_44: -4444176641052123810
+      finalBoss_Skill1_2_45: 4392807956278443516
+      finalBoss_Skill1_2_46: 1231706080178783495
+      finalBoss_Skill1_2_47: 3391953627175462860
+      finalBoss_Skill1_2_48: 5975161083454778957
+      finalBoss_Skill1_2_49: -4795491120159549582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

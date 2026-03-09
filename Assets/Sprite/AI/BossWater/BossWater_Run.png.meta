@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: a1b8e99c901ed6e4d8a0383ef5b13899
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2276399395934738990
+    second: BossWater_Run_0
+  - first:
+      213: 5854814763339874458
+    second: BossWater_Run_1
+  - first:
+      213: -6090537330439300492
+    second: BossWater_Run_2
+  - first:
+      213: -3981615096266312205
+    second: BossWater_Run_3
+  - first:
+      213: -4245446096130341555
+    second: BossWater_Run_4
+  - first:
+      213: 5508305062740299273
+    second: BossWater_Run_5
+  - first:
+      213: -3221118681254890139
+    second: BossWater_Run_6
+  - first:
+      213: -2272421372855245815
+    second: BossWater_Run_7
+  - first:
+      213: -2206186013573284004
+    second: BossWater_Run_8
+  - first:
+      213: 5755862835133811376
+    second: BossWater_Run_9
+  - first:
+      213: 5923058402940408402
+    second: BossWater_Run_10
+  - first:
+      213: -6268819973491852745
+    second: BossWater_Run_11
+  - first:
+      213: -1306224115252607403
+    second: BossWater_Run_12
+  - first:
+      213: -7500474057312290253
+    second: BossWater_Run_13
+  - first:
+      213: -4808108154287207975
+    second: BossWater_Run_14
+  - first:
+      213: 8649908364366918558
+    second: BossWater_Run_15
+  - first:
+      213: 4037544562512264273
+    second: BossWater_Run_16
+  - first:
+      213: 8924724761366732704
+    second: BossWater_Run_17
+  - first:
+      213: 8581052235466038534
+    second: BossWater_Run_18
+  - first:
+      213: -2402411262476015843
+    second: BossWater_Run_19
+  - first:
+      213: 2342958112430633275
+    second: BossWater_Run_20
+  - first:
+      213: -1609459427835013890
+    second: BossWater_Run_21
+  - first:
+      213: 4802161789542129542
+    second: BossWater_Run_22
+  - first:
+      213: 788677577101707423
+    second: BossWater_Run_23
+  - first:
+      213: 2780447174352717615
+    second: BossWater_Run_24
+  - first:
+      213: 2577160618625726523
+    second: BossWater_Run_25
+  - first:
+      213: -7595641376114449789
+    second: BossWater_Run_26
+  - first:
+      213: -5306847045818423983
+    second: BossWater_Run_27
+  - first:
+      213: 5931242423582989935
+    second: BossWater_Run_28
+  - first:
+      213: 764273355279869925
+    second: BossWater_Run_29
+  - first:
+      213: 3067535596914219398
+    second: BossWater_Run_30
+  - first:
+      213: -2454268849937243189
+    second: BossWater_Run_31
+  - first:
+      213: 197134640858304068
+    second: BossWater_Run_32
+  - first:
+      213: -6367091128660866701
+    second: BossWater_Run_33
+  - first:
+      213: -2842769298166631395
+    second: BossWater_Run_34
+  - first:
+      213: 2636364401397507925
+    second: BossWater_Run_35
+  - first:
+      213: -6148725648164308698
+    second: BossWater_Run_36
+  - first:
+      213: 2870213254356952004
+    second: BossWater_Run_37
+  - first:
+      213: -9082164875153858795
+    second: BossWater_Run_38
+  - first:
+      213: -7525572319676246398
+    second: BossWater_Run_39
+  - first:
+      213: 7461899935515445386
+    second: BossWater_Run_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossWater_Run_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5656e6fca9860e0800000000000000
+      internalID: -2276399395934738990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Run_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a900692d10b704150800000000000000
+      internalID: 5854814763339874458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Run_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ad8e721901a7ba0800000000000000
+      internalID: -6090537330439300492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Run_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5b6ba5a267eb8c0800000000000000
+      internalID: -3981615096266312205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Run_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d450517d4452515c0800000000000000
+      internalID: -4245446096130341555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Run_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e0f13354e617c40800000000000000
+      internalID: 5508305062740299273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Run_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5657d6820a94c43d0800000000000000
+      internalID: -3221118681254890139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_Run_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90425fa1dccb670e0800000000000000
+      internalID: -2272421372855245815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 632f0f32e8a220748a9d11afd39c522c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":200.0,"y":200.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossWater_Run_0: -2276399395934738990
+      BossWater_Run_1: 5854814763339874458
+      BossWater_Run_2: -6090537330439300492
+      BossWater_Run_3: -3981615096266312205
+      BossWater_Run_4: -4245446096130341555
+      BossWater_Run_5: 5508305062740299273
+      BossWater_Run_6: -3221118681254890139
+      BossWater_Run_7: -2272421372855245815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

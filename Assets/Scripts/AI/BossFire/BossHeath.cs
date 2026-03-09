@@ -6,6 +6,7 @@ public class BossHealth : MonoBehaviour
     public float maxHP = 100f;
     public float currentHP;
     public bool isInvulnerable = false;
+    public GameObject shieldVisual;
 
     // Sự kiện báo cho các script khác biết boss vừa mất bao nhiêu máu
     // float: lượng damage vừa nhận
@@ -41,7 +42,13 @@ public class BossHealth : MonoBehaviour
         }
     }
 
-    // Thêm vào trong class BossHealth
+    // Hàm để Manager gọi bật/tắt khiên
+    public void SetInvulnerable(bool state)
+    {
+        isInvulnerable = state;
+        if (shieldVisual) shieldVisual.SetActive(state);
+    }
+
     public void Heal(float amount)
     {
         currentHP += amount;

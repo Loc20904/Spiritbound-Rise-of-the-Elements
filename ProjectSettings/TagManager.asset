@@ -19,6 +19,7 @@ TagManager:
   - Ground+Wall
   - Player
   - Ground
+  - Boss
   - DeadEnemy
   - Obstacle
   - Bullet

@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 3f1dac8997b1dfc45847ae7a3688c57f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -443016228337450751
+    second: BossWater_CastUlti_0
+  - first:
+      213: 71366162723147280
+    second: BossWater_CastUlti_1
+  - first:
+      213: 6998602409311000169
+    second: BossWater_CastUlti_2
+  - first:
+      213: -1351519226089908613
+    second: BossWater_CastUlti_3
+  - first:
+      213: 5722575735081357253
+    second: BossWater_CastUlti_4
+  - first:
+      213: -4981972117462204371
+    second: BossWater_CastUlti_5
+  - first:
+      213: -8531731389908421894
+    second: BossWater_CastUlti_6
+  - first:
+      213: -60093483854153729
+    second: BossWater_CastUlti_7
+  - first:
+      213: 6129381826070965164
+    second: BossWater_CastUlti_8
+  - first:
+      213: 177648988003292510
+    second: BossWater_CastUlti_9
+  - first:
+      213: -6826076492309493218
+    second: BossWater_CastUlti_10
+  - first:
+      213: 7353763772597257800
+    second: BossWater_CastUlti_11
+  - first:
+      213: 3503970723562762261
+    second: BossWater_CastUlti_12
+  - first:
+      213: 1358182594104768617
+    second: BossWater_CastUlti_13
+  - first:
+      213: -1296705955160773565
+    second: BossWater_CastUlti_14
+  - first:
+      213: -6182147956128277499
+    second: BossWater_CastUlti_15
+  - first:
+      213: 3477764315473473274
+    second: BossWater_CastUlti_16
+  - first:
+      213: -2147758185844816372
+    second: BossWater_CastUlti_17
+  - first:
+      213: -2209815953776890050
+    second: BossWater_CastUlti_18
+  - first:
+      213: 6389019299931945638
+    second: BossWater_CastUlti_19
+  - first:
+      213: -1381220519042955574
+    second: BossWater_CastUlti_20
+  - first:
+      213: -2056045145290725424
+    second: BossWater_CastUlti_21
+  - first:
+      213: -8538922265672909702
+    second: BossWater_CastUlti_22
+  - first:
+      213: 999413433829861290
+    second: BossWater_CastUlti_23
+  - first:
+      213: 7214910309973328282
+    second: BossWater_CastUlti_24
+  - first:
+      213: -3597704398391234922
+    second: BossWater_CastUlti_25
+  - first:
+      213: -8865866262493767789
+    second: BossWater_CastUlti_26
+  - first:
+      213: -307991568537047711
+    second: BossWater_CastUlti_27
+  - first:
+      213: -7814981974299244536
+    second: BossWater_CastUlti_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossWater_CastUlti_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101863866171ad9f0800000000000000
+      internalID: -443016228337450751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 410
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e881a952b8df000800000000000000
+      internalID: 71366162723147280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 410
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966dc23afc7002160800000000000000
+      internalID: 6998602409311000169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 410
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76dccdac607e3de0800000000000000
+      internalID: -1351519226089908613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 410
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf4bc1cf4caa6f40800000000000000
+      internalID: 5722575735081357253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20c3c931ca7cdab0800000000000000
+      internalID: -4981972117462204371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 328
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af275710183399980800000000000000
+      internalID: -8531731389908421894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 328
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7be897b418a2ff0800000000000000
+      internalID: -60093483854153729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 328
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabe1b3cb40ff0550800000000000000
+      internalID: 6129381826070965164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_9
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 328
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55d4a830d2277200800000000000000
+      internalID: 177648988003292510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a8f3aa897e441a0800000000000000
+      internalID: -6826076492309493218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 246
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846cbc37031dd0660800000000000000
+      internalID: 7353763772597257800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 246
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510b359eeca90a030800000000000000
+      internalID: 3503970723562762261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 246
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968bbb59fdb39d210800000000000000
+      internalID: 1358182594104768617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 246
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c2284ddcc210ee0800000000000000
+      internalID: -1296705955160773565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c11163039943aa0800000000000000
+      internalID: -6182147956128277499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 164
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe635c0830834030800000000000000
+      internalID: 3477764315473473274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 164
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06484d2f41a132e0800000000000000
+      internalID: -2147758185844816372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_18
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 164
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f232029182551e0800000000000000
+      internalID: -2209815953776890050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_19
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 164
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aafe8be33b5aa850800000000000000
+      internalID: 6389019299931945638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6c6f5814be4dce0800000000000000
+      internalID: -1381220519042955574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 82
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7a7c075d57773e0800000000000000
+      internalID: -2056045145290725424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_22
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 82
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c74e5c077af7980800000000000000
+      internalID: -8538922265672909702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 82
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7ae231931aedd00800000000000000
+      internalID: 999413433829861290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_24
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 82
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91834063b2802460800000000000000
+      internalID: 7214910309973328282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_CastUlti_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ea70f39e2621ec0800000000000000
+      internalID: -3597704398391234922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8d82baceb0eb82545b81fb1038d9d520
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":6.0},"gridSpriteSize":{"x":101.0,"y":82.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossWater_CastUlti_0: -443016228337450751
+      BossWater_CastUlti_1: 71366162723147280
+      BossWater_CastUlti_10: -6826076492309493218
+      BossWater_CastUlti_11: 7353763772597257800
+      BossWater_CastUlti_12: 3503970723562762261
+      BossWater_CastUlti_13: 1358182594104768617
+      BossWater_CastUlti_14: -1296705955160773565
+      BossWater_CastUlti_15: -6182147956128277499
+      BossWater_CastUlti_16: 3477764315473473274
+      BossWater_CastUlti_17: -2147758185844816372
+      BossWater_CastUlti_18: -2209815953776890050
+      BossWater_CastUlti_19: 6389019299931945638
+      BossWater_CastUlti_2: 6998602409311000169
+      BossWater_CastUlti_20: -1381220519042955574
+      BossWater_CastUlti_21: -2056045145290725424
+      BossWater_CastUlti_22: -8538922265672909702
+      BossWater_CastUlti_23: 999413433829861290
+      BossWater_CastUlti_24: 7214910309973328282
+      BossWater_CastUlti_25: -3597704398391234922
+      BossWater_CastUlti_3: -1351519226089908613
+      BossWater_CastUlti_4: 5722575735081357253
+      BossWater_CastUlti_5: -4981972117462204371
+      BossWater_CastUlti_6: -8531731389908421894
+      BossWater_CastUlti_7: -60093483854153729
+      BossWater_CastUlti_8: 6129381826070965164
+      BossWater_CastUlti_9: 177648988003292510
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
