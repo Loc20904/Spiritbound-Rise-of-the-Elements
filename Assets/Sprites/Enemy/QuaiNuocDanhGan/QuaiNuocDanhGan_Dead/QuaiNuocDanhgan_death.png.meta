@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 7cf83915c5c32a944bf668d6f863e14b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8853270955239425291
+    second: QuaiNuocDanhgan_death_0
+  - first:
+      213: -7234796238768429880
+    second: QuaiNuocDanhgan_death_1
+  - first:
+      213: 5595540843866441046
+    second: QuaiNuocDanhgan_death_2
+  - first:
+      213: -2430414575570649291
+    second: QuaiNuocDanhgan_death_3
+  - first:
+      213: 2117458806962486106
+    second: QuaiNuocDanhgan_death_4
+  - first:
+      213: 3419496038472255940
+    second: QuaiNuocDanhgan_death_5
+  - first:
+      213: -8822010779653023797
+    second: QuaiNuocDanhgan_death_6
+  - first:
+      213: 2106953828940028236
+    second: QuaiNuocDanhgan_death_7
+  - first:
+      213: -6622493811240620383
+    second: QuaiNuocDanhgan_death_8
+  - first:
+      213: 760611011705633044
+    second: QuaiNuocDanhgan_death_9
+  - first:
+      213: -4577078115660961075
+    second: QuaiNuocDanhgan_death_10
+  - first:
+      213: -1631567505981348563
+    second: QuaiNuocDanhgan_death_11
+  - first:
+      213: 2825386858606329330
+    second: QuaiNuocDanhgan_death_12
+  - first:
+      213: -8892681649602798589
+    second: QuaiNuocDanhgan_death_13
+  - first:
+      213: 7235396242841889863
+    second: QuaiNuocDanhgan_death_14
+  - first:
+      213: 84739455668355674
+    second: QuaiNuocDanhgan_death_15
+  - first:
+      213: 6502577287211488765
+    second: QuaiNuocDanhgan_death_16
+  - first:
+      213: 787764635023707605
+    second: QuaiNuocDanhgan_death_17
+  - first:
+      213: -5534815415704860066
+    second: QuaiNuocDanhgan_death_18
+  - first:
+      213: 1156711456116757988
+    second: QuaiNuocDanhgan_death_19
+  - first:
+      213: 464010955505809153
+    second: QuaiNuocDanhgan_death_20
+  - first:
+      213: 5118018206336384761
+    second: QuaiNuocDanhgan_death_21
+  - first:
+      213: -1735743276843672112
+    second: QuaiNuocDanhgan_death_22
+  - first:
+      213: 6205631743633482352
+    second: QuaiNuocDanhgan_death_23
+  - first:
+      213: -1196047667779015751
+    second: QuaiNuocDanhgan_death_24
+  - first:
+      213: -5284579781772590273
+    second: QuaiNuocDanhgan_death_25
+  - first:
+      213: -6989289088758636336
+    second: QuaiNuocDanhgan_death_26
+  - first:
+      213: -3260480499349935997
+    second: QuaiNuocDanhgan_death_27
+  - first:
+      213: -2365526587323301786
+    second: QuaiNuocDanhgan_death_28
+  - first:
+      213: -4573418615673669378
+    second: QuaiNuocDanhgan_death_29
+  - first:
+      213: 7235280916630196746
+    second: QuaiNuocDanhgan_death_30
+  - first:
+      213: 6071306985693227845
+    second: QuaiNuocDanhgan_death_31
+  - first:
+      213: 3527802996667459807
+    second: QuaiNuocDanhgan_death_32
+  - first:
+      213: -733591658387326510
+    second: QuaiNuocDanhgan_death_33
+  - first:
+      213: -2088359530538275458
+    second: QuaiNuocDanhgan_death_34
+  - first:
+      213: 8792395057833755842
+    second: QuaiNuocDanhgan_death_35
+  - first:
+      213: 2559108771582671147
+    second: QuaiNuocDanhgan_death_36
+  - first:
+      213: 6304907746943620625
+    second: QuaiNuocDanhgan_death_37
+  - first:
+      213: 4922510473710513365
+    second: QuaiNuocDanhgan_death_38
+  - first:
+      213: -1479693652419333569
+    second: QuaiNuocDanhgan_death_39
+  - first:
+      213: -8695992175853490390
+    second: QuaiNuocDanhgan_death_40
+  - first:
+      213: 4725577476191196437
+    second: QuaiNuocDanhgan_death_41
+  - first:
+      213: 4420551250850355003
+    second: QuaiNuocDanhgan_death_42
+  - first:
+      213: -5671786717105217059
+    second: QuaiNuocDanhgan_death_43
+  - first:
+      213: -4264211203901709057
+    second: QuaiNuocDanhgan_death_44
+  - first:
+      213: -7924089911591180013
+    second: QuaiNuocDanhgan_death_45
+  - first:
+      213: -4757511675267213972
+    second: QuaiNuocDanhgan_death_46
+  - first:
+      213: -1219980617975848643
+    second: QuaiNuocDanhgan_death_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 375
+        width: 48
+        height: 75
+      alignment: 9
+      pivot: {x: 0.6501498, y: 0.2634558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fabbac09fcd22580800000000000000
+      internalID: -8853270955239425291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 375
+        width: 45
+        height: 72
+      alignment: 9
+      pivot: {x: 0.6232005, y: 0.2844001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c420e50727d89b90800000000000000
+      internalID: -7234796238768429880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 375
+        width: 48
+        height: 72
+      alignment: 9
+      pivot: {x: 0.707901, y: 0.26899973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ffd2602de654ed0800000000000000
+      internalID: -2430414575570649291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_4
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 375
+        width: 47
+        height: 74
+      alignment: 9
+      pivot: {x: 0.71232444, y: 0.26025927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b758fe099b26d10800000000000000
+      internalID: 2117458806962486106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 253
+        width: 66
+        height: 75
+      alignment: 9
+      pivot: {x: 0.57560015, y: 0.3151998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c98efb978d747f20800000000000000
+      internalID: 3419496038472255940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 253
+        width: 64
+        height: 78
+      alignment: 9
+      pivot: {x: 0.65592504, y: 0.3223075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc75d1adfebe19580800000000000000
+      internalID: -8822010779653023797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 252
+        width: 69
+        height: 81
+      alignment: 9
+      pivot: {x: 0.6124874, y: 0.35626635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c499e1428576d3d10800000000000000
+      internalID: 2106953828940028236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 135
+        width: 62
+        height: 85
+      alignment: 9
+      pivot: {x: 0.6985911, y: 0.23258343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a528291061e0d2100800000000000000
+      internalID: 84739455668355674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_16
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 255
+        width: 65
+        height: 79
+      alignment: 9
+      pivot: {x: 0.7090364, y: 0.45220685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df593c0379bcd3a50800000000000000
+      internalID: 6502577287211488765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 134
+        width: 67
+        height: 83
+      alignment: 9
+      pivot: {x: 0.63239413, y: 0.2728959}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd82ce5622645f030800000000000000
+      internalID: 3527802996667459807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 135
+        width: 58
+        height: 85
+      alignment: 9
+      pivot: {x: 0.6529386, y: 0.23910558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7de6f25218a403e0800000000000000
+      internalID: -2088359530538275458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_36
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 134
+        width: 58
+        height: 82
+      alignment: 9
+      pivot: {x: 0.75833553, y: 0.13977106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2975c77ed7c38320800000000000000
+      internalID: 2559108771582671147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 14
+        width: 59
+        height: 84
+      alignment: 9
+      pivot: {x: 0.7210314, y: 0.12812564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51596fa6daf949140800000000000000
+      internalID: 4725577476191196437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_43
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 14
+        width: 60
+        height: 81
+      alignment: 9
+      pivot: {x: 0.70723826, y: 0.13307327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd12a2df704c941b0800000000000000
+      internalID: -5671786717105217059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_45
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 14
+        width: 59
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319e953853af70290800000000000000
+      internalID: -7924089911591180013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_death_47
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 14
+        width: 59
+        height: 23
+      alignment: 9
+      pivot: {x: 0.71589017, y: 0.38132542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3120b87712c11fe0800000000000000
+      internalID: -1219980617975848643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 346f4093acc24324a8914026be2fb296
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      QuaiNuocDanhgan_death_0: -8853270955239425291
+      QuaiNuocDanhgan_death_1: -7234796238768429880
+      QuaiNuocDanhgan_death_10: -4577078115660961075
+      QuaiNuocDanhgan_death_11: -1631567505981348563
+      QuaiNuocDanhgan_death_12: 2825386858606329330
+      QuaiNuocDanhgan_death_13: -8892681649602798589
+      QuaiNuocDanhgan_death_14: 7235396242841889863
+      QuaiNuocDanhgan_death_15: 84739455668355674
+      QuaiNuocDanhgan_death_16: 6502577287211488765
+      QuaiNuocDanhgan_death_17: 787764635023707605
+      QuaiNuocDanhgan_death_18: -5534815415704860066
+      QuaiNuocDanhgan_death_19: 1156711456116757988
+      QuaiNuocDanhgan_death_2: 5595540843866441046
+      QuaiNuocDanhgan_death_20: 464010955505809153
+      QuaiNuocDanhgan_death_21: 5118018206336384761
+      QuaiNuocDanhgan_death_22: -1735743276843672112
+      QuaiNuocDanhgan_death_23: 6205631743633482352
+      QuaiNuocDanhgan_death_24: -1196047667779015751
+      QuaiNuocDanhgan_death_25: -5284579781772590273
+      QuaiNuocDanhgan_death_26: -6989289088758636336
+      QuaiNuocDanhgan_death_27: -3260480499349935997
+      QuaiNuocDanhgan_death_28: -2365526587323301786
+      QuaiNuocDanhgan_death_29: -4573418615673669378
+      QuaiNuocDanhgan_death_3: -2430414575570649291
+      QuaiNuocDanhgan_death_30: 7235280916630196746
+      QuaiNuocDanhgan_death_31: 6071306985693227845
+      QuaiNuocDanhgan_death_32: 3527802996667459807
+      QuaiNuocDanhgan_death_33: -733591658387326510
+      QuaiNuocDanhgan_death_34: -2088359530538275458
+      QuaiNuocDanhgan_death_35: 8792395057833755842
+      QuaiNuocDanhgan_death_36: 2559108771582671147
+      QuaiNuocDanhgan_death_37: 6304907746943620625
+      QuaiNuocDanhgan_death_38: 4922510473710513365
+      QuaiNuocDanhgan_death_39: -1479693652419333569
+      QuaiNuocDanhgan_death_4: 2117458806962486106
+      QuaiNuocDanhgan_death_40: -8695992175853490390
+      QuaiNuocDanhgan_death_41: 4725577476191196437
+      QuaiNuocDanhgan_death_42: 4420551250850355003
+      QuaiNuocDanhgan_death_43: -5671786717105217059
+      QuaiNuocDanhgan_death_44: -4264211203901709057
+      QuaiNuocDanhgan_death_45: -7924089911591180013
+      QuaiNuocDanhgan_death_46: -4757511675267213972
+      QuaiNuocDanhgan_death_47: -1219980617975848643
+      QuaiNuocDanhgan_death_5: 3419496038472255940
+      QuaiNuocDanhgan_death_6: -8822010779653023797
+      QuaiNuocDanhgan_death_7: 2106953828940028236
+      QuaiNuocDanhgan_death_8: -6622493811240620383
+      QuaiNuocDanhgan_death_9: 760611011705633044
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

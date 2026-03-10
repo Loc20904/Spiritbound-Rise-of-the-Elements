@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: 3e16bec0bbdb19a4586560dfe90f5d62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2701861339548752536
+    second: QuaiNuocDanhgan_run_0
+  - first:
+      213: 7269881466357467631
+    second: QuaiNuocDanhgan_run_1
+  - first:
+      213: -5601096783076662962
+    second: QuaiNuocDanhgan_run_2
+  - first:
+      213: 8921668990240418200
+    second: QuaiNuocDanhgan_run_3
+  - first:
+      213: -841753600661752206
+    second: QuaiNuocDanhgan_run_4
+  - first:
+      213: 503467896205087085
+    second: QuaiNuocDanhgan_run_5
+  - first:
+      213: -4860432429277959363
+    second: QuaiNuocDanhgan_run_6
+  - first:
+      213: 6132022796452073104
+    second: QuaiNuocDanhgan_run_7
+  - first:
+      213: 1276159575202815835
+    second: QuaiNuocDanhgan_run_8
+  - first:
+      213: -1299611610804021587
+    second: QuaiNuocDanhgan_run_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_run_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 257
+        width: 56
+        height: 75
+      alignment: 9
+      pivot: {x: 0.7895752, y: 0.30595988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a1a20c290fe7520800000000000000
+      internalID: 2701861339548752536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_run_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 255
+        width: 53
+        height: 77
+      alignment: 9
+      pivot: {x: 0.72751343, y: 0.32719997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9ce691daec3e460800000000000000
+      internalID: 7269881466357467631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_run_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 255
+        width: 53
+        height: 75
+      alignment: 9
+      pivot: {x: 0.7667403, y: 0.33922404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899e5e67da220db70800000000000000
+      internalID: 8921668990240418200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_run_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 135
+        width: 56
+        height: 76
+      alignment: 9
+      pivot: {x: 0.77472496, y: 0.33039695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276762c5f8d7154f0800000000000000
+      internalID: -841753600661752206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_run_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 135
+        width: 57
+        height: 77
+      alignment: 9
+      pivot: {x: 0.7990846, y: 0.32719976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d611e15526dacf600800000000000000
+      internalID: 503467896205087085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_run_6
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 137
+        width: 52
+        height: 75
+      alignment: 9
+      pivot: {x: 0.76387316, y: 0.3115037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b291e05764c8cb0800000000000000
+      internalID: -4860432429277959363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_run_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 17
+        width: 54
+        height: 74
+      alignment: 9
+      pivot: {x: 0.72463864, y: 0.29533258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f5dac4f54d5b110800000000000000
+      internalID: 1276159575202815835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiNuocDanhgan_run_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 17
+        width: 55
+        height: 74
+      alignment: 9
+      pivot: {x: 0.7948406, y: 0.32019404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da69d08202ad6fde0800000000000000
+      internalID: -1299611610804021587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 62948a1c1ad15574abbe8e65536976d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      QuaiNuocDanhgan_run_0: 2701861339548752536
+      QuaiNuocDanhgan_run_1: 7269881466357467631
+      QuaiNuocDanhgan_run_2: -5601096783076662962
+      QuaiNuocDanhgan_run_3: 8921668990240418200
+      QuaiNuocDanhgan_run_4: -841753600661752206
+      QuaiNuocDanhgan_run_5: 503467896205087085
+      QuaiNuocDanhgan_run_6: -4860432429277959363
+      QuaiNuocDanhgan_run_7: 6132022796452073104
+      QuaiNuocDanhgan_run_8: 1276159575202815835
+      QuaiNuocDanhgan_run_9: -1299611610804021587
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
