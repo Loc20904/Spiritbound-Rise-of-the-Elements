@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80d2b2f1719ff645a1b27a823670bbb, type: 3}
+  m_Name: IntroBossFire
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
+  requiredFlag: 
+  lines:
+  - characterName: 'Ignar '
+    characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: "Mortal\u2026\nYou dare enter the domain of flame."
+  - characterName: 'Ignar '
+    characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: "I can feel it\u2026\nYou seek the power of the elements."
+  - characterName: Hero
+    characterAvatar: {fileID: 848893757744257149, guid: 85eea4cd0200cdb4b80a27f9a05e710e, type: 3}
+    sentence: "My sister is dying.\nIf your power can save her\u2026 I will take
+      it."
+  - characterName: 'Ignar '
+    characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: "Hah\u2026\nThen prove that you are worthy."
+  - characterName: 'Ignar '
+    characterAvatar: {fileID: 1808019363076949581, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: Power belongs only to those who dare to destroy.

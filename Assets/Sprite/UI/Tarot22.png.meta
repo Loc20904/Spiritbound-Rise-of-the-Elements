@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 302dc428bbbd8d641a177b5e17e7ea5a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3233686053562691503
+    second: Tarot22_0
+  - first:
+      213: 7208372628730806385
+    second: Tarot22_1
+  - first:
+      213: 3839841135490588873
+    second: Tarot22_2
+  - first:
+      213: -3698597246623227540
+    second: Tarot22_3
+  - first:
+      213: 1948592010491230062
+    second: Tarot22_4
+  - first:
+      213: 6390955630623118945
+    second: Tarot22_5
+  - first:
+      213: 1004319294124203096
+    second: Tarot22_6
+  - first:
+      213: 3131004837564210599
+    second: Tarot22_7
+  - first:
+      213: 4495173472680838680
+    second: Tarot22_8
+  - first:
+      213: 6970659222385106028
+    second: Tarot22_9
+  - first:
+      213: -8667304483823848546
+    second: Tarot22_10
+  - first:
+      213: -4301797312960227590
+    second: Tarot22_11
+  - first:
+      213: 7337596730834546542
+    second: Tarot22_12
+  - first:
+      213: 6056112526137674204
+    second: Tarot22_13
+  - first:
+      213: 2685549645038645318
+    second: Tarot22_14
+  - first:
+      213: 4905241906305073164
+    second: Tarot22_15
+  - first:
+      213: -5773917242639929311
+    second: Tarot22_16
+  - first:
+      213: 1707626547549047307
+    second: Tarot22_17
+  - first:
+      213: -6729171767856938750
+    second: Tarot22_18
+  - first:
+      213: -5369661415392227117
+    second: Tarot22_19
+  - first:
+      213: -1384718760637553429
+    second: Tarot22_20
+  - first:
+      213: -4459306751668680226
+    second: Tarot22_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tarot22_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 709
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150d246caa3af13d0800000000000000
+      internalID: -3233686053562691503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 709
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1700628d6b8490460800000000000000
+      internalID: 7208372628730806385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 709
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c069da1b2bd94530800000000000000
+      internalID: 3839841135490588873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_3
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 709
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61e8c37661fbacc0800000000000000
+      internalID: -3698597246623227540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 709
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e677e750c1aca0b10800000000000000
+      internalID: 1948592010491230062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 472
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166d29a094c31b850800000000000000
+      internalID: 6390955630623118945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 472
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c185fa31f00fd00800000000000000
+      internalID: 1004319294124203096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_7
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 472
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad5b0d9f40937b20800000000000000
+      internalID: 3131004837564210599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 472
+        width: 128
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81686eaf470126e30800000000000000
+      internalID: 4495173472680838680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 472
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c909071a1ccb060800000000000000
+      internalID: 6970659222385106028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_10
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 472
+        width: 127
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9377894e7c87b780800000000000000
+      internalID: -8667304483823848546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 235
+        width: 128
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af69641c222fc44c0800000000000000
+      internalID: -4301797312960227590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 235
+        width: 128
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fe576b95164d560800000000000000
+      internalID: 7337596730834546542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 235
+        width: 128
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9ca308142ab0450800000000000000
+      internalID: 6056112526137674204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_14
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 235
+        width: 128
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640743b6c2df44520800000000000000
+      internalID: 2685549645038645318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_15
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 235
+        width: 128
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c008ca2568be21440800000000000000
+      internalID: 4905241906305073164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120b1fdfbdceedfa0800000000000000
+      internalID: -5773917242639929311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 128
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a00bf2c45b2b710800000000000000
+      internalID: 1707626547549047307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 128
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201cc480eed2d92a0800000000000000
+      internalID: -6729171767856938750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_19
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 128
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0dc6374612b75b0800000000000000
+      internalID: -5369661415392227117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_20
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 128
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4216eaf9d78cce0800000000000000
+      internalID: -1384718760637553429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarot22_21
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 0
+        width: 128
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed98942c22c5d12c0800000000000000
+      internalID: -4459306751668680226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tarot22_0: -3233686053562691503
+      Tarot22_1: 7208372628730806385
+      Tarot22_10: -8667304483823848546
+      Tarot22_11: -4301797312960227590
+      Tarot22_12: 7337596730834546542
+      Tarot22_13: 6056112526137674204
+      Tarot22_14: 2685549645038645318
+      Tarot22_15: 4905241906305073164
+      Tarot22_16: -5773917242639929311
+      Tarot22_17: 1707626547549047307
+      Tarot22_18: -6729171767856938750
+      Tarot22_19: -5369661415392227117
+      Tarot22_2: 3839841135490588873
+      Tarot22_20: -1384718760637553429
+      Tarot22_21: -4459306751668680226
+      Tarot22_3: -3698597246623227540
+      Tarot22_4: 1948592010491230062
+      Tarot22_5: 6390955630623118945
+      Tarot22_6: 1004319294124203096
+      Tarot22_7: 3131004837564210599
+      Tarot22_8: 4495173472680838680
+      Tarot22_9: 6970659222385106028
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

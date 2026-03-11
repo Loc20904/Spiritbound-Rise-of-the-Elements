@@ -19,11 +19,10 @@ public class PlayerAttackHitbox : MonoBehaviour
 
         int dmg = Mathf.RoundToInt(ph.Damage * damageMultiplier);
 
-        var enemyHealth = other.GetComponentInParent<EnemyHealth>();
-        if (enemyHealth != null)
+        EnemyBase enemy = other.GetComponentInParent<EnemyBase>();
+        if (enemy != null)
         {
-            enemyHealth.TakeDamage(dmg);
-            return;
+            enemy.TakeDamage(dmg);
         }
 
         other.SendMessage("TakeDamage", dmg, SendMessageOptions.DontRequireReceiver);

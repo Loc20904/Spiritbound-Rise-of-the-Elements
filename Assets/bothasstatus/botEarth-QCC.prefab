@@ -1,36 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4969376474956481442
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2133426553664552602}
-  m_Layer: 9
-  m_Name: obstacleCheck_CC
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2133426553664552602
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4969376474956481442}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.276, y: -0.08, z: 0}
-  m_LocalScale: {x: 0.7846874, y: 0.6425293, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7965067766276387459}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5658825485693131485
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,7 +78,7 @@ GameObject:
   - component: {fileID: 8988294677170323454}
   - component: {fileID: 2965083161312176296}
   - component: {fileID: 8472666135702855478}
-  m_Layer: 9
+  m_Layer: 3
   m_Name: botEarth-QCC
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -125,12 +94,11 @@ Transform:
   m_GameObject: {fileID: 8862108177158002733}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5154, y: 6.22, z: 0}
+  m_LocalPosition: {x: 9.05, y: -16.03, z: 0}
   m_LocalScale: {x: 7.167594, y: 8.300415, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8848430195717137761}
-  - {fileID: 2133426553664552602}
   - {fileID: 1674885108161934386}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -279,9 +247,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuaiAI_QCC
   moveSpeed: 2.5
-  jumpForce: 10
   groundCheck: {fileID: 8848430195717137761}
-  obstacleCheck: {fileID: 2133426553664552602}
+  obstacleCheck: {fileID: 0}
   edgeGroundCheck: {fileID: 1674885108161934386}
   checkRadius: 0.2
   groundCheckSize: {x: 3.7, y: 0.3}
@@ -291,10 +258,9 @@ MonoBehaviour:
     m_Bits: 64
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 1024
   patrolTime: 3
   idleTime: 2
-  jumpCooldown: 0.5
   idleFrames:
   - {fileID: -2662033856451630327, guid: 2d8082f24fa5c754e98f7a8214b7977f, type: 3}
   - {fileID: 2789675314938791904, guid: 2d8082f24fa5c754e98f7a8214b7977f, type: 3}
@@ -322,7 +288,6 @@ MonoBehaviour:
   - {fileID: 8734395396046822740, guid: 826d40301e3322f4fac4f66b9d2e414c, type: 3}
   - {fileID: -2190789106884110527, guid: 826d40301e3322f4fac4f66b9d2e414c, type: 3}
   - {fileID: 5924961902017898759, guid: 826d40301e3322f4fac4f66b9d2e414c, type: 3}
-  jumpFrame: {fileID: 1599270963769085014, guid: 826d40301e3322f4fac4f66b9d2e414c, type: 3}
   frameRate: 0.1
 --- !u!114 &8988294677170323454
 MonoBehaviour:
@@ -340,7 +305,7 @@ MonoBehaviour:
   detectHeight: 1
   playerLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   chaseTime: 2.5
   chaseSpeedMultiplier: 1.5
 --- !u!114 &2965083161312176296
@@ -359,7 +324,7 @@ MonoBehaviour:
   detectHeight: 1.6
   playerLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   earthKnockbackForce: 8
   earthKnockbackDuration: 0.2
   damage: 20
@@ -408,3 +373,4 @@ MonoBehaviour:
   - {fileID: 6360049242507414700, guid: 4577677f267ae1e40bdfbaabdbf26866, type: 3}
   - {fileID: 5058752297001173268, guid: 4577677f267ae1e40bdfbaabdbf26866, type: 3}
   deathFrameRate: 0.3
+  hitSound: {fileID: 0}
