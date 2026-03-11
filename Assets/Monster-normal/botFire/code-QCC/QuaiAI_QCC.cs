@@ -13,6 +13,7 @@ public class QuaiAI_QCC : MonoBehaviour
     public Vector2 groundCheckSize = new Vector2(0.8f, 0.2f);
     public Vector2 groundAheadcheck = new Vector2(0.8f, 0.2f);
     public LayerMask groundLayer;
+    
 
     [Header("Patrol / Idle")]
     public float patrolTime = 3f;
@@ -173,10 +174,15 @@ public class QuaiAI_QCC : MonoBehaviour
     void CheckEnvironment()
     {
         LayerMask mask = groundLayer ;
+
         bool isGrounded =
             Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0, mask);
+
         bool groundAhead =
             Physics2D.OverlapBox(edgeGroundCheck.position, groundAheadcheck, 0, mask);
+
+       
+
         if (!groundAhead && isGrounded)
         {
             if (chaseAI != null && chaseAI.IsChasing)
