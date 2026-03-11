@@ -140,13 +140,14 @@ public abstract class EnemyBase : MonoBehaviour
         hp = 0;
 
         StopMove();
-        if (anim) anim.SetBool("Dead", true);
-
+        //if (anim) anim.SetBool("Dead", true);
+        if (anim)
+            anim.Play("quainuocdanhgan_Dead", 0, 0f);
         if (rb)
         {
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
-            rb.bodyType = RigidbodyType2D.Static;
+            rb.simulated = false;
         }
 
         gameObject.layer = LayerMask.NameToLayer("DeadEnemy");

@@ -1,0 +1,582 @@
+fileFormatVersion: 2
+guid: 44ec8f52ed3ca3544b0c639631ca6e5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7320240449263951748
+    second: BossWater_idle_0
+  - first:
+      213: -7716132995450907358
+    second: BossWater_idle_1
+  - first:
+      213: 60783029720118453
+    second: BossWater_idle_2
+  - first:
+      213: -7258206836794844403
+    second: BossWater_idle_3
+  - first:
+      213: 4293151979994305786
+    second: BossWater_idle_4
+  - first:
+      213: 4246228204372622071
+    second: BossWater_idle_5
+  - first:
+      213: -1256938499216954852
+    second: BossWater_idle_6
+  - first:
+      213: -2715719962168722311
+    second: BossWater_idle_7
+  - first:
+      213: -5824857828054076280
+    second: BossWater_idle_8
+  - first:
+      213: 8912327400183965091
+    second: BossWater_idle_9
+  - first:
+      213: 4281284024211673814
+    second: BossWater_idle_10
+  - first:
+      213: 8562612831926954633
+    second: BossWater_idle_11
+  - first:
+      213: 549146285237103017
+    second: BossWater_idle_12
+  - first:
+      213: 4823377334405710371
+    second: BossWater_idle_13
+  - first:
+      213: -9187860590442812130
+    second: BossWater_idle_14
+  - first:
+      213: 3132727240332515081
+    second: BossWater_idle_15
+  - first:
+      213: 4017426980768653009
+    second: BossWater_idle_16
+  - first:
+      213: 8184304948849642771
+    second: BossWater_idle_17
+  - first:
+      213: -7293670582583954621
+    second: BossWater_idle_18
+  - first:
+      213: -7857183911178951023
+    second: BossWater_idle_19
+  - first:
+      213: 8340970507748506862
+    second: BossWater_idle_20
+  - first:
+      213: -1263819558626595780
+    second: BossWater_idle_21
+  - first:
+      213: 8135323498014350996
+    second: BossWater_idle_22
+  - first:
+      213: -3332110695354390182
+    second: BossWater_idle_23
+  - first:
+      213: 1046311535311146595
+    second: BossWater_idle_24
+  - first:
+      213: -1379875993818806022
+    second: BossWater_idle_25
+  - first:
+      213: 8848477835216797454
+    second: BossWater_idle_26
+  - first:
+      213: 5223317346401053679
+    second: BossWater_idle_27
+  - first:
+      213: -1905030829512720040
+    second: BossWater_idle_28
+  - first:
+      213: 8199872808314671577
+    second: BossWater_idle_29
+  - first:
+      213: 5022738061763047336
+    second: BossWater_idle_30
+  - first:
+      213: -4664057182529944481
+    second: BossWater_idle_31
+  - first:
+      213: -3024065593312638594
+    second: BossWater_idle_32
+  - first:
+      213: 7064527753191161546
+    second: BossWater_idle_33
+  - first:
+      213: 8897477363435952760
+    second: BossWater_idle_34
+  - first:
+      213: -1039941902586369835
+    second: BossWater_idle_35
+  - first:
+      213: -5460699970479897034
+    second: BossWater_idle_36
+  - first:
+      213: 5439391533088347053
+    second: BossWater_idle_37
+  - first:
+      213: 3931997971620519027
+    second: BossWater_idle_38
+  - first:
+      213: 1941487413363888285
+    second: BossWater_idle_39
+  - first:
+      213: 7456669098159527078
+    second: BossWater_idle_40
+  - first:
+      213: -7340878131705900368
+    second: BossWater_idle_41
+  - first:
+      213: -8734463572016581868
+    second: BossWater_idle_42
+  - first:
+      213: -117997812853072135
+    second: BossWater_idle_43
+  - first:
+      213: 7070365185615243439
+    second: BossWater_idle_44
+  - first:
+      213: 6280608473693828557
+    second: BossWater_idle_45
+  - first:
+      213: -2132788559999411974
+    second: BossWater_idle_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossWater_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fd2d087e7b69560800000000000000
+      internalID: 7320240449263951748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2255a762ce9cae490800000000000000
+      internalID: -7716132995450907358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4f6dee7d1f7d000800000000000000
+      internalID: 60783029720118453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b188a665ba54b90800000000000000
+      internalID: -7258206836794844403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4535ecaf6549b30800000000000000
+      internalID: 4293151979994305786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faffdced02adea30800000000000000
+      internalID: 4246228204372622071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a29a138157e8ee0800000000000000
+      internalID: -1256938499216954852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cfe793513df4ad0800000000000000
+      internalID: -2715719962168722311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884fea3baa2f92fa0800000000000000
+      internalID: -5824857828054076280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a522f90d82feab70800000000000000
+      internalID: 8912327400183965091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d211b5032d2a6b30800000000000000
+      internalID: 4281284024211673814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a2534010384d670800000000000000
+      internalID: 8562612831926954633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9684d03a5fe9700800000000000000
+      internalID: 549146285237103017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossWater_idle_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3224cea512410f240800000000000000
+      internalID: 4823377334405710371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0bd7844544fac004890d50655e69ac4d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":200.0,"y":200.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossWater_idle_0: 7320240449263951748
+      BossWater_idle_1: -7716132995450907358
+      BossWater_idle_10: 4281284024211673814
+      BossWater_idle_11: 8562612831926954633
+      BossWater_idle_12: 549146285237103017
+      BossWater_idle_13: 4823377334405710371
+      BossWater_idle_2: 60783029720118453
+      BossWater_idle_3: -7258206836794844403
+      BossWater_idle_4: 4293151979994305786
+      BossWater_idle_5: 4246228204372622071
+      BossWater_idle_6: -1256938499216954852
+      BossWater_idle_7: -2715719962168722311
+      BossWater_idle_8: -5824857828054076280
+      BossWater_idle_9: 8912327400183965091
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

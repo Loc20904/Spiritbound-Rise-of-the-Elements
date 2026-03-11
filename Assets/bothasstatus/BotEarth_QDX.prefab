@@ -32,13 +32,12 @@ Transform:
   m_GameObject: {fileID: 4964804138525488320}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.71, y: 5.58, z: 0}
+  m_LocalPosition: {x: 18.51399, y: -17.09043, z: 0}
   m_LocalScale: {x: 4.279335, y: 4.3836884, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3545481640005070469}
   - {fileID: 2951204248470832381}
-  - {fileID: 7756625226214092201}
   - {fileID: 3511739727765797238}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -187,9 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuaiAI
   moveSpeed: 2.5
-  jumpForce: 8
   groundCheck: {fileID: 2951204248470832381}
-  obstacleCheck: {fileID: 7756625226214092201}
   edgeGroundCheck: {fileID: 3511739727765797238}
   checkRadius: 0.05
   groundCheckSize: {x: 2.1, y: 0.2}
@@ -197,12 +194,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 128
   patrolTime: 3
   idleTime: 2
-  jumpCooldown: 0.5
   idleFrames:
   - {fileID: -1591288094563219658, guid: 1ded6bc8e19783541b83f606ae0b5052, type: 3}
   - {fileID: -1092589558230338868, guid: 1ded6bc8e19783541b83f606ae0b5052, type: 3}
@@ -225,7 +218,6 @@ MonoBehaviour:
   - {fileID: -3099190456500505767, guid: 366c4ebfcb80e554b92e2b5aa324c869, type: 3}
   - {fileID: 2241893146167429377, guid: 366c4ebfcb80e554b92e2b5aa324c869, type: 3}
   - {fileID: 8193261543434085779, guid: 366c4ebfcb80e554b92e2b5aa324c869, type: 3}
-  jumpFrame: {fileID: 4156616137760575964, guid: 366c4ebfcb80e554b92e2b5aa324c869, type: 3}
   frameRate: 0.1
 --- !u!114 &8915188140387716791
 MonoBehaviour:
@@ -412,37 +404,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.443, y: -0.011, z: 0}
-  m_LocalScale: {x: 1.3142978, y: 1.2166148, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3726981811381358970}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7468196630422512711
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7756625226214092201}
-  m_Layer: 9
-  m_Name: obstacleCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7756625226214092201
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7468196630422512711}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.267, y: -0.062, z: 0}
   m_LocalScale: {x: 1.3142978, y: 1.2166148, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
