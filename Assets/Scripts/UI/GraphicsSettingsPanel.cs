@@ -50,6 +50,8 @@ public class GraphicsSettingsPanel : MonoBehaviour
         options.Add(new TMP_Dropdown.OptionData("", sprite4K, Color.white));
         Debug.Log(sprite720);
         resolutionDropdown.AddOptions(options);
+        resolutionDropdown.value = 0;
+        resolutionDropdown.RefreshShownValue();
     }
 
     Sprite GetSpriteByIndex(int index)
@@ -75,6 +77,9 @@ public class GraphicsSettingsPanel : MonoBehaviour
         qualityDropdown.value = temp.qualityIndex;
         fullscreenToggle.isOn = temp.fullscreen;
         vSyncToggle.isOn = temp.vSync;
+
+        // set sprite đúng
+        resolutionDropdown.captionImage.sprite = GetSpriteByIndex(temp.resolutionIndex);
     }
 
     // ===== UI EVENTS =====
@@ -82,6 +87,9 @@ public class GraphicsSettingsPanel : MonoBehaviour
     public void OnResolutionChanged(int index)
     {
         SettingsManager.Instance.temp.resolutionIndex = index;
+
+        // đổi sprite hiển thị trên dropdown
+        resolutionDropdown.captionImage.sprite = resolutionDropdown.options[index].image;
     }
 
     public void OnQualityChanged(int index)
