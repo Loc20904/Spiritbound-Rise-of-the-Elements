@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2372525712372087149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4742929189168311781}
+  m_Layer: 9
+  m_Name: obstacleCheck_CC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4742929189168311781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372525712372087149}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.321, y: -0.03, z: 0}
+  m_LocalScale: {x: 0.8365685, y: 0.6211663, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3436852095524081711}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3180323591252685772
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,11 +94,12 @@ Transform:
   m_GameObject: {fileID: 5379199668674463847}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.51399, y: -17.09043, z: 0}
+  m_LocalPosition: {x: -5.88, y: 6.02, z: 0}
   m_LocalScale: {x: 6.723084, y: 8.585881, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8881399140537031892}
+  - {fileID: 4742929189168311781}
   - {fileID: 1499454768292376339}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -230,7 +262,6 @@ MonoBehaviour:
   - {fileID: 615485827241510736, guid: 280184d3659cf144c9010f8cc3bee600, type: 3}
   - {fileID: -2225331948748204838, guid: 280184d3659cf144c9010f8cc3bee600, type: 3}
   deathFrameRate: 0.1
-  hitSound: {fileID: 0}
 --- !u!114 &2566024975595323274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,8 +332,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuaiAI_DCC
   moveSpeed: 2.5
+  jumpForce: 8
   groundCheck: {fileID: 8881399140537031892}
-  obstacleCheck: {fileID: 0}
+  obstacleCheck: {fileID: 4742929189168311781}
   edgeGroundCheck: {fileID: 1499454768292376339}
   checkRadius: 0.2
   groundCheckSize: {x: 3.5, y: 1}
@@ -315,6 +347,7 @@ MonoBehaviour:
     m_Bits: 128
   patrolTime: 3
   idleTime: 2
+  jumpCooldown: 0.5
   idleFrames:
   - {fileID: -2617161707987407777, guid: ba64b409decd2304e828579a4f193eb7, type: 3}
   - {fileID: 6622548937198827451, guid: ba64b409decd2304e828579a4f193eb7, type: 3}
@@ -336,6 +369,7 @@ MonoBehaviour:
   - {fileID: -6402723194491419531, guid: a1d4da43fcdf86d4c8e0414fe591b25e, type: 3}
   - {fileID: -2954816633515190746, guid: a1d4da43fcdf86d4c8e0414fe591b25e, type: 3}
   - {fileID: -9146492645523184441, guid: a1d4da43fcdf86d4c8e0414fe591b25e, type: 3}
+  jumpFrame: {fileID: -2954816633515190746, guid: a1d4da43fcdf86d4c8e0414fe591b25e, type: 3}
   frameRate: 0.06
 --- !u!1 &6179144174343333823
 GameObject:

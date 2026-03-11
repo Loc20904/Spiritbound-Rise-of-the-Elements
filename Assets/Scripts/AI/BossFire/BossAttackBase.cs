@@ -7,8 +7,6 @@ public abstract class BossAttackBase : MonoBehaviour
     [Header("Base Stats")]
     public float attackRatePhase1 = 3f;
     public float attackRatePhase2 = 2.5f;
-    public float ultiReady = 0f;
-    public float ultimateThreshold = 30f;
 
     [Header("Base Audio")]
     public AudioClip castSound;
@@ -22,7 +20,6 @@ public abstract class BossAttackBase : MonoBehaviour
     protected Animator anim;
     protected Transform player;
     protected AudioSource audioSource; // Nếu cần dùng trực tiếp
-    public Transform skillHolder;
 
     protected virtual void Awake() // Dùng virtual để con có thể override nếu cần
     {
@@ -30,13 +27,6 @@ public abstract class BossAttackBase : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         if (GameObject.FindGameObjectWithTag("Player"))
             player = GameObject.FindGameObjectWithTag("Player").transform;
-
-        GameObject holderGo = GameObject.Find("BossSkillsHolder");
-        if (holderGo == null)
-        {
-            holderGo = new GameObject("BossSkillsHolder");
-        }
-        skillHolder = holderGo.transform;
     }
 
     public void SetPhase(bool phase2)
@@ -47,9 +37,6 @@ public abstract class BossAttackBase : MonoBehaviour
     public void Attack()
     {
         if (this.enabled == false || player == null) return;
-
-        routineUlti();
-
         if (Time.time < nextAttackTime) return;
 
         // Gọi Coroutine tấn công (Logic cụ thể sẽ nằm ở script con)
@@ -59,27 +46,8 @@ public abstract class BossAttackBase : MonoBehaviour
         nextAttackTime = Time.time + cooldown;
     }
 
-    public void routineUlti()
-    {
-        if (this.enabled == false || player == null) return;
-        if (ultiReady < ultimateThreshold)
-        {
-            ultiReady += Time.deltaTime;
-        }
-        else
-        {
-            if (isPhase2)
-            {
-                StartCoroutine(SkillUtimateUlti());
-                ultiReady = 0f;
-                return;
-            }
-        }
-    }
-
     // --- HÀM TRỪU TƯỢNG: Bắt buộc script con phải tự viết nội dung ---
     protected abstract IEnumerator PerformAttackRoutine();
-    protected abstract IEnumerator SkillUtimateUlti();
 
     // --- CÁC HÀM HỖ TRỢ DÙNG CHUNG (Helper) ---
     protected void PlaySound(AudioClip clip)
@@ -87,13 +55,6 @@ public abstract class BossAttackBase : MonoBehaviour
         if (clip != null && SFXPool.Instance != null)
         {
             SFXPool.Instance.Play(clip, soundVolume, Random.Range(0.9f, 1.1f));
-        }
-    }
-    protected void PlaySound(AudioClip clip, float volume)
-    {
-        if (clip != null && SFXPool.Instance != null)
-        {
-            SFXPool.Instance.Play(clip, volume, Random.Range(0.9f, 1.1f));
         }
     }
 

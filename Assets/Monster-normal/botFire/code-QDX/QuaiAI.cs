@@ -7,6 +7,7 @@ public class QuaiAI : MonoBehaviour
     
     [Header("Check Points")]
     public Transform groundCheck; // Điểm kiểm tra dưới chân xem có đang đứng trên đất không
+    public Transform obstacleCheck; // Điểm kiểm tra phía trước xem có vật cản(tường) không
     public Transform edgeGroundCheck; // Điểm kiểm tra phía trước xem có đất không (để tránh nhảy vực)
 
     public float checkRadius = 0.2f; // Bán kính kiểm tra cho obstacleCheck để phát hiện tường dễ hơn
@@ -15,7 +16,7 @@ public class QuaiAI : MonoBehaviour
 
     // Các lớp (layer) để AI nhận diện đâu là đất, đâu là vật cản
     public LayerMask groundLayer;
-
+    public LayerMask obstacleLayer;
 
     [Header("Patrol / Idle")]
     public float patrolTime = 3f; // Thời gian di chuyển tuần tra trước khi chuyển sang trạng thái đứng yên
@@ -169,17 +170,23 @@ public class QuaiAI : MonoBehaviour
         rb.linearVelocity = new Vector2(dir * moveSpeed, rb.linearVelocity.y);
     }
 
-    // ================= ENV CHECK (KIỂM     TRA MÔI TRƯỜNG) =================
+    // ================= ENV CHECK (KIỂM TRA MÔI TRƯỜNG) =================
     void CheckEnvironment()
     {
-        LayerMask mask = groundLayer;
+        LayerMask mask = groundLayer | obstacleLayer;
 
         // Các biến kiểm tra thực tế bằng tia (Raycast/Boxcast)
         bool isGrounded = Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0, mask);
-        
+        bool wallAhead = Physics2D.OverlapCircle(obstacleCheck.position, checkRadius, mask);
         bool groundAhead = Physics2D.OverlapBox(edgeGroundCheck.position, groundEdgeGroundcheck, 0, mask);
 
-        
+        //Nếu gặp ức tường phía trước thì quay đầu
+        if (wallAhead && isGrounded)
+        {
+            Flip();
+            return;
+        }
+
         // NẾU: Phía trước là vực (không có đất) VÀ Đang đứng trên đất
         if (!groundAhead && isGrounded)
         {
@@ -215,7 +222,7 @@ public class QuaiAI : MonoBehaviour
         bool isGrounded = Physics2D.OverlapCircle(
             groundCheck.position,
             checkRadius,
-            groundLayer
+            groundLayer | obstacleLayer
         );
 
         // Kiểm tra xem có đang di chuyển thực tế không (vận tốc x > 0.1)
@@ -275,6 +282,11 @@ public class QuaiAI : MonoBehaviour
         Gizmos.color = Color.green;
         if (groundCheck)
             Gizmos.DrawWireCube(groundCheck.position, groundCheckSize);
+
+        // Màu đỏ: Kiểm tra tường phía trước
+        Gizmos.color = Color.red;
+        if (obstacleCheck)
+            Gizmos.DrawWireSphere(obstacleCheck.position, checkRadius);
 
         // Màu xanh lơ: Kiểm tra vực phía trước
         Gizmos.color = Color.cyan;

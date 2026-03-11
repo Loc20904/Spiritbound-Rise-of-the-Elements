@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2423166532667229675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4019867650185545111}
+  m_Layer: 9
+  m_Name: obstacleCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4019867650185545111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2423166532667229675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.387, y: -0.127, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1852035462263907662}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3122115946880463892
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,12 +156,13 @@ Transform:
   m_GameObject: {fileID: 7943571883893613723}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.51399, y: -17.09043, z: 0}
+  m_LocalPosition: {x: -5.8428507, y: 12.325248, z: 0}
   m_LocalScale: {x: 5.6243224, y: 5.333256, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8190306617573877734}
   - {fileID: 5075918901978131686}
+  - {fileID: 4019867650185545111}
   - {fileID: 3693178522140671438}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -321,8 +353,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuaiAI
   moveSpeed: 2
+  jumpForce: 15
   groundCheck: {fileID: 5075918901978131686}
-  obstacleCheck: {fileID: 0}
+  obstacleCheck: {fileID: 4019867650185545111}
   edgeGroundCheck: {fileID: 3693178522140671438}
   checkRadius: 0.2
   groundCheckSize: {x: 3.5, y: 1}
@@ -335,6 +368,7 @@ MonoBehaviour:
     m_Bits: 1024
   patrolTime: 3
   idleTime: 2
+  jumpCooldown: 0.2
   idleFrames:
   - {fileID: -658834729091454487, guid: c0584902064b2184da77de53aabaf1e1, type: 3}
   - {fileID: -6447545967796072912, guid: c0584902064b2184da77de53aabaf1e1, type: 3}
@@ -363,6 +397,7 @@ MonoBehaviour:
   - {fileID: -5113680679496171468, guid: 31141ebfafbc42046960f68721265329, type: 3}
   - {fileID: 1083610421480460749, guid: 31141ebfafbc42046960f68721265329, type: 3}
   - {fileID: -8711477568339164760, guid: 31141ebfafbc42046960f68721265329, type: 3}
+  jumpFrame: {fileID: -8711477568339164760, guid: 31141ebfafbc42046960f68721265329, type: 3}
   frameRate: 0.1
 --- !u!114 &105853628183847031
 MonoBehaviour:
