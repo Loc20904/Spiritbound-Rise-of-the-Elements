@@ -1204,6 +1204,63 @@ MonoBehaviour:
   triggerEnemyCount: 2
   spawnPerWave: 5
   enableDebugLog: 1
+--- !u!1001 &1825233458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965067766276387459, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8862108177158002733, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
+      propertyPath: m_Name
+      value: botEarth-QCC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d9dac893495d8a0498a9b486f5826c2f, type: 3}
 --- !u!1 &1999115446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,3 +1432,4 @@ SceneRoots:
   - {fileID: 247382857}
   - {fileID: 1999115447}
   - {fileID: 7051437712327117681}
+  - {fileID: 1825233458}

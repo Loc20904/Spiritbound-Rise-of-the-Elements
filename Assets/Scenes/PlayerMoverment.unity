@@ -482,6 +482,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1146745160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5508234056387091885, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+  m_PrefabInstance: {fileID: 1794872540}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1146745167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146745160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4266a33f51b8ddd4eabf571dea169cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDropTable
+  dropChance: 0.58
+  drops:
+  - prefab: {fileID: 3455713322610723157, guid: 6cf6917be76776d4a85dcb81db12b65d, type: 3}
+    weight: 5
+    chance: 0
+    minAmount: 0
+    maxAmount: 0
+  - prefab: {fileID: 3455713322610723157, guid: 6cf6917be76776d4a85dcb81db12b65d, type: 3}
+    weight: 0
+    chance: 0
+    minAmount: 0
+    maxAmount: 0
+  - prefab: {fileID: 3455713322610723157, guid: 6cf6917be76776d4a85dcb81db12b65d, type: 3}
+    weight: 0
+    chance: 0
+    minAmount: 0
+    maxAmount: 0
+  randomOffset: {x: 0.25, y: 0.15}
 --- !u!1 &1185997907
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,6 +681,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3779558087060551432, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5508234056387091885, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
       propertyPath: m_Name
       value: QuaiNuocDanhgan_idle_1
@@ -693,7 +732,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5508234056387091885, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1146745167}
   m_SourcePrefab: {fileID: 100100000, guid: dc79af8e3437a8a4081f078a0ae84e64, type: 3}
 --- !u!1 &1809536654
 GameObject:
@@ -971,6 +1013,10 @@ PrefabInstance:
     - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
       propertyPath: jumpForce
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3975568027844240790, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
+      propertyPath: maxJumpCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5740517143459870578, guid: f1181003c7c5c9845a723420575d6a7f, type: 3}
       propertyPath: respawnPoint

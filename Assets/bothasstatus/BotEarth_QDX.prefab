@@ -187,7 +187,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::QuaiAI
   moveSpeed: 2.5
   groundCheck: {fileID: 2951204248470832381}
-  obstacleCheck: {fileID: 0}
   edgeGroundCheck: {fileID: 3511739727765797238}
   checkRadius: 0.05
   groundCheckSize: {x: 2.1, y: 0.2}
@@ -195,9 +194,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 128
   patrolTime: 3
   idleTime: 2
   idleFrames:
