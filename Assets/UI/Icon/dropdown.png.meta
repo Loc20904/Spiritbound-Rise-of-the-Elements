@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f07bb1067c9dc9e4cb7b013529fe3bca
+guid: 0661090ba6c1d204fb69ac98db538180
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2927300052655604038
-    second: Bang_trong_0
+      213: 8927853592754505089
+    second: dropdown_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bang_trong_0
+      name: dropdown_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 283
-        height: 250
+        x: 71
+        y: 175
+        width: 469
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 641058d63ebdf9820800000000000000
-      internalID: 2927300052655604038
+      spriteID: 185c3d27a8b16eb70800000000000000
+      internalID: 8927853592754505089
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bang_trong_0: 2927300052655604038
+      dropdown_0: 8927853592754505089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

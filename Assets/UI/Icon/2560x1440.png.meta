@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f07bb1067c9dc9e4cb7b013529fe3bca
+guid: 5733bd7f327fdb743ad0ad5e78c29ac8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2927300052655604038
-    second: Bang_trong_0
+      213: 1884716433628964634
+    second: 2560x1440_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bang_trong_0
+      name: 2560x1440_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 283
-        height: 250
+        width: 628
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 641058d63ebdf9820800000000000000
-      internalID: 2927300052655604038
+      spriteID: a17abc85c9bd72a10800000000000000
+      internalID: 1884716433628964634
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bang_trong_0: 2927300052655604038
+      2560x1440_0: 1884716433628964634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
