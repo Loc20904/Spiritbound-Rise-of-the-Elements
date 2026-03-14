@@ -35,6 +35,12 @@ public class FinalBossAttack : BossAttackBase
     public float worldMaxX = 12f;  // Tọa độ X bên phải cùng của map
     public int pillarCount = 5;    // Số lượng cột năng lượng
 
+    [Header("Ultimate: Chain Prison Settings")]
+    public GameObject ultiChainPrefab;    // Prefab sợi xích thực sự đâm ra
+    public int ultiChainCount = 6;        // Số lượng xích triệu hồi
+    public float ultiRadius = 3.5f;       // Bán kính xuất hiện quanh Player
+
+
     private bool isAttacking = false;
 
     // --- LOGIC CHÍNH ---
@@ -63,13 +69,6 @@ public class FinalBossAttack : BossAttackBase
     {
         yield return StartCoroutine(PerformAttackRoutine());
     }
-    // --- ULTIMATE: CHAIN PRISON ---
-    // --- ULTIMATE: CHAIN PRISON ---
-    [Header("Ultimate: Chain Prison Settings")]
-    public GameObject ultiChainPrefab;    // Prefab sợi xích thực sự đâm ra
-    public int ultiChainCount = 6;        // Số lượng xích triệu hồi
-    public float ultiRadius = 3.5f;       // Bán kính xuất hiện quanh Player
-    public AudioClip chainStrikeSFX;      // Âm thanh xích đâm
 
     protected override IEnumerator SkillUtimateUlti()
     {
@@ -93,7 +92,6 @@ public class FinalBossAttack : BossAttackBase
         // --- PHASE 2 & 3: Gọi xích ra ---
         if (ultiChainPrefab != null)
         {
-            PlaySound(chainStrikeSFX, 1.2f);
             for (int i = 0; i < ultiChainCount; i++)
             {
                 Vector3 direction = (playerPos - spawnPositions[i]).normalized;

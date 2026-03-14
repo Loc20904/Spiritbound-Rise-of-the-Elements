@@ -178,3 +178,5 @@ MonoBehaviour:
   pillarVisual: {fileID: 3250695956186012873}
   pillarCollider: {fileID: 2258214327346200173}
   aim: {fileID: 5131332667571073341}
+  breakSound: {fileID: 8300000, guid: a3406f102c37abc41b067aa985cb896b, type: 3}
+  breakSoundVolume: 0.5
