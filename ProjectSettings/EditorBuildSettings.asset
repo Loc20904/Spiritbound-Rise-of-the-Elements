@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/WaterEnemy.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/MapVolcano.unity
+    guid: a68fc20ad68ac9c44a5a8d1daabdc47b
+  - enabled: 1
+    path: Assets/Scenes/BossFireScene.unity
+    guid: 47e1b2afbfb2dcd4ca26dbcac8a7541a
+  - enabled: 1
+    path: Assets/Scenes/MapForest.unity
+    guid: 06080fb45367de94280c29d280278776
+  - enabled: 1
+    path: Assets/Scenes/BossGroundScene.unity
+    guid: 9680339b9d5fc4843b9bb9a6458d4037
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
