@@ -15,19 +15,19 @@ MonoBehaviour:
   requiredFlag: 
   lines:
   - characterName: Fortune
-    characterAvatar: {fileID: 0}
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
     sentence: "The threads of destiny are becoming clearer\u2026"
   - characterName: Fortune
-    characterAvatar: {fileID: 0}
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
     sentence: I see it now.
   - characterName: Fortune
-    characterAvatar: {fileID: 0}
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
     sentence: '{EMOJI} {TITLE}'
   - characterName: Fortune
-    characterAvatar: {fileID: 0}
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
     sentence: 'This blessing carries the following power: {EFFECT}'
   - characterName: Fortune
-    characterAvatar: {fileID: 0}
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
     sentence: 'Use it wisely, traveler.
 
       Fate favors those who understand their

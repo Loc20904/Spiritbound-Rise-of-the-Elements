@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltiChainController
   damage: 50
+  chainStrikeSFX: {fileID: 8300000, guid: f3967ff17779b7b4492d42c9f57a266a, type: 3}
 --- !u!212 &6292082668457136167
 SpriteRenderer:
   serializedVersion: 2

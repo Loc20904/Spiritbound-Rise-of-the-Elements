@@ -10,6 +10,8 @@ public class BossPillar : MonoBehaviour
     public GameObject pillarVisual; // Kéo Sprite/Model cái trụ vào đây
     public Collider2D pillarCollider; // Kéo Collider của trụ vào đây (để tắt va chạm khi vỡ)
     public Animator aim;
+    public AudioClip breakSound;
+    public float breakSoundVolume = 0.5f;
 
     public bool IsBroken { get; private set; } = false;
 
@@ -35,6 +37,8 @@ public class BossPillar : MonoBehaviour
     void BreakPillar()
     {
         IsBroken = true;
+        //Play audio break
+        PlaySound(breakSound);
 
         // Tắt hình ảnh và va chạm (giả vờ như đã biến mất)
         if (pillarVisual) pillarVisual.SetActive(false);
@@ -57,5 +61,13 @@ public class BossPillar : MonoBehaviour
         if (pillarCollider) pillarCollider.enabled = true;
 
         // Hiệu ứng hồi sinh (nếu có)
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        if (clip != null && SFXPool.Instance != null)
+        {
+            SFXPool.Instance.Play(clip, breakSoundVolume, Random.Range(0.9f, 1.1f));
+        }
     }
 }

@@ -66,7 +66,11 @@ public class BossCutsceneManager : MonoBehaviour
             bossMove.Stop();
             bossMove.enabled = false;
         }
-        if (FinalBossMove) FinalBossMove.stopMove();
+        if (FinalBossMove)
+        {
+            FinalBossMove.stopMove();
+            //FinalBossMove.enabled = false;
+        }
 
         bossAttack.ultiReady = 0f;
         bossAttack.StopAllCoroutines();
@@ -87,6 +91,7 @@ public class BossCutsceneManager : MonoBehaviour
         if (playerMovement) playerMovement.enabled = true;
         if (bossAttack) bossAttack.enabled = true;
         if (bossMove) bossMove.enabled = true;
+        //if (FinalBossMove) FinalBossMove.enabled = true;
         if (FinalBossMove) FinalBossMove.startMove();
 
         if (gameUI) gameUI.SetActive(true);
