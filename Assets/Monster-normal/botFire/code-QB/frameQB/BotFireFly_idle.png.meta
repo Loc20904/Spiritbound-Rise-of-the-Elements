@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: aad2567b7bbb426488bf9539fad6ce7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8863250496437415490
+    second: BotFireFly_idle_0
+  - first:
+      213: 6368687671816144814
+    second: BotFireFly_idle_1
+  - first:
+      213: -5810596760368973404
+    second: BotFireFly_idle_2
+  - first:
+      213: 7749599116429402758
+    second: BotFireFly_idle_3
+  - first:
+      213: 4225413816141066219
+    second: BotFireFly_idle_4
+  - first:
+      213: -7283948404498525362
+    second: BotFireFly_idle_5
+  - first:
+      213: 8391460955140181949
+    second: BotFireFly_idle_6
+  - first:
+      213: -7922037621642285387
+    second: BotFireFly_idle_7
+  - first:
+      213: -3167901104952653157
+    second: BotFireFly_idle_8
+  - first:
+      213: 5011272291973674731
+    second: BotFireFly_idle_9
+  - first:
+      213: -9005303864136853200
+    second: BotFireFly_idle_10
+  - first:
+      213: -1783018097005154064
+    second: BotFireFly_idle_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BotFireFly_idle_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 407
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb11b8c02a86ff480800000000000000
+      internalID: -8863250496437415490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 408
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7c20cd1bf126850800000000000000
+      internalID: 6368687671816144814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 410
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9fb25480d9c5fa0800000000000000
+      internalID: -5810596760368973404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 281
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682a476565b1c8b60800000000000000
+      internalID: 7749599116429402758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 282
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befad148a7fa3aa30800000000000000
+      internalID: 4225413816141066219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 282
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e439793a4873aea90800000000000000
+      internalID: -7283948404498525362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 152
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfc0b16745747470800000000000000
+      internalID: 8391460955140181949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 151
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be2bb081c44f0290800000000000000
+      internalID: -7922037621642285387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 149
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9acab3baba5904d0800000000000000
+      internalID: -3167901104952653157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 18
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be639d3499d9b8540800000000000000
+      internalID: 5011272291973674731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 17
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0399ba309dbb60380800000000000000
+      internalID: -9005303864136853200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotFireFly_idle_11
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 17
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f03ae3dc727147e0800000000000000
+      internalID: -1783018097005154064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BotFireFly_idle_0: -8863250496437415490
+      BotFireFly_idle_1: 6368687671816144814
+      BotFireFly_idle_10: -9005303864136853200
+      BotFireFly_idle_11: -1783018097005154064
+      BotFireFly_idle_2: -5810596760368973404
+      BotFireFly_idle_3: 7749599116429402758
+      BotFireFly_idle_4: 4225413816141066219
+      BotFireFly_idle_5: -7283948404498525362
+      BotFireFly_idle_6: 8391460955140181949
+      BotFireFly_idle_7: -7922037621642285387
+      BotFireFly_idle_8: -3167901104952653157
+      BotFireFly_idle_9: 5011272291973674731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

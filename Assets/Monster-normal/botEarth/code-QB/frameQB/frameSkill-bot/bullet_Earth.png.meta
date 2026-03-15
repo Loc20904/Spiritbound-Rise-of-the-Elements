@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 433716ee2f35ba54295787ed2ada1abd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3874191201319907526
+    second: bullet_Earth_0
+  - first:
+      213: -3147790698788617530
+    second: bullet_Earth_1
+  - first:
+      213: -1747529663503368264
+    second: bullet_Earth_2
+  - first:
+      213: 3194191071542698651
+    second: bullet_Earth_3
+  - first:
+      213: 566044319988444581
+    second: bullet_Earth_4
+  - first:
+      213: 4322538450108236811
+    second: bullet_Earth_5
+  - first:
+      213: 4932021457426521087
+    second: bullet_Earth_6
+  - first:
+      213: 5026931500958521815
+    second: bullet_Earth_7
+  - first:
+      213: -1561482128053158279
+    second: bullet_Earth_8
+  - first:
+      213: 8502905937105163724
+    second: bullet_Earth_9
+  - first:
+      213: -5374643032234331266
+    second: bullet_Earth_10
+  - first:
+      213: 5439336223194965389
+    second: bullet_Earth_11
+  - first:
+      213: 5404715318791960104
+    second: bullet_Earth_12
+  - first:
+      213: -6872233828423517498
+    second: bullet_Earth_13
+  - first:
+      213: -6244662367370686609
+    second: bullet_Earth_14
+  - first:
+      213: -6760922327082080326
+    second: bullet_Earth_15
+  - first:
+      213: 5547114570300281383
+    second: bullet_Earth_16
+  - first:
+      213: 7065598666115714948
+    second: bullet_Earth_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bullet_Earth_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 59
+        width: 307
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5197185, y: 0.49313983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0fd9a0f54e3c530800000000000000
+      internalID: 3874191201319907526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_Earth_1
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 66
+        width: 267
+        height: 377
+      alignment: 9
+      pivot: {x: 0.53306645, y: 0.4927941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ade90c5f4efad700800000000000000
+      internalID: 566044319988444581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_Earth_2
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 58
+        width: 309
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b044bae81ddbcfb30800000000000000
+      internalID: 4322538450108236811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 54fa49c2a13a7f843916a5a1e5264d2d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bullet_Earth_0: 3874191201319907526
+      bullet_Earth_1: 566044319988444581
+      bullet_Earth_10: -5374643032234331266
+      bullet_Earth_11: 5439336223194965389
+      bullet_Earth_12: 5404715318791960104
+      bullet_Earth_13: -6872233828423517498
+      bullet_Earth_14: -6244662367370686609
+      bullet_Earth_15: -6760922327082080326
+      bullet_Earth_16: 5547114570300281383
+      bullet_Earth_17: 7065598666115714948
+      bullet_Earth_2: 4322538450108236811
+      bullet_Earth_3: 3194191071542698651
+      bullet_Earth_6: 4932021457426521087
+      bullet_Earth_7: 5026931500958521815
+      bullet_Earth_8: -1561482128053158279
+      bullet_Earth_9: 8502905937105163724
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
