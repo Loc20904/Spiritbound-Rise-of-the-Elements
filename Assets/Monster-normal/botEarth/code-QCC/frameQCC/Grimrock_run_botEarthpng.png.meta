@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 826d40301e3322f4fac4f66b9d2e414c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3219309685396982589
+    second: Grimrock_run_botEarthpng_0
+  - first:
+      213: 5483530370924586855
+    second: Grimrock_run_botEarthpng_1
+  - first:
+      213: 398013479669752957
+    second: Grimrock_run_botEarthpng_2
+  - first:
+      213: 3011566365304591047
+    second: Grimrock_run_botEarthpng_3
+  - first:
+      213: 2002794998583872262
+    second: Grimrock_run_botEarthpng_4
+  - first:
+      213: 7041367445602723435
+    second: Grimrock_run_botEarthpng_5
+  - first:
+      213: -3253563338823921008
+    second: Grimrock_run_botEarthpng_6
+  - first:
+      213: 1599270963769085014
+    second: Grimrock_run_botEarthpng_7
+  - first:
+      213: -6012646181807479118
+    second: Grimrock_run_botEarthpng_8
+  - first:
+      213: -9082366823634463495
+    second: Grimrock_run_botEarthpng_9
+  - first:
+      213: 8734395396046822740
+    second: Grimrock_run_botEarthpng_10
+  - first:
+      213: -2190789106884110527
+    second: Grimrock_run_botEarthpng_11
+  - first:
+      213: 5924961902017898759
+    second: Grimrock_run_botEarthpng_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 256
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bcf0c2a194dac20800000000000000
+      internalID: 3219309685396982589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 256
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767a602c1d9691c40800000000000000
+      internalID: 5483530370924586855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 256
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d746887a627068500800000000000000
+      internalID: 398013479669752957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 255
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c29e7d37ab3bc920800000000000000
+      internalID: 3011566365304591047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 175
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b4580a07b5bcb10800000000000000
+      internalID: 2002794998583872262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 175
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6666209266f7b160800000000000000
+      internalID: 7041367445602723435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 175
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0929a27a16509d2d0800000000000000
+      internalID: -3253563338823921008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 175
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c8d0fd770c13610800000000000000
+      internalID: 1599270963769085014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6a14d672ace8ca0800000000000000
+      internalID: -6012646181807479118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_9
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 96
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4997d8e73f4f180800000000000000
+      internalID: -9082366823634463495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 96
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d9d2df55ec63970800000000000000
+      internalID: 8734395396046822740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 96
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14790622ae0c891e0800000000000000
+      internalID: -2190789106884110527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimrock_run_botEarthpng_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709ef754571b93250800000000000000
+      internalID: 5924961902017898759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grimrock_run_botEarthpng_0: 3219309685396982589
+      Grimrock_run_botEarthpng_1: 5483530370924586855
+      Grimrock_run_botEarthpng_10: 8734395396046822740
+      Grimrock_run_botEarthpng_11: -2190789106884110527
+      Grimrock_run_botEarthpng_12: 5924961902017898759
+      Grimrock_run_botEarthpng_2: 398013479669752957
+      Grimrock_run_botEarthpng_3: 3011566365304591047
+      Grimrock_run_botEarthpng_4: 2002794998583872262
+      Grimrock_run_botEarthpng_5: 7041367445602723435
+      Grimrock_run_botEarthpng_6: -3253563338823921008
+      Grimrock_run_botEarthpng_7: 1599270963769085014
+      Grimrock_run_botEarthpng_8: -6012646181807479118
+      Grimrock_run_botEarthpng_9: -9082366823634463495
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

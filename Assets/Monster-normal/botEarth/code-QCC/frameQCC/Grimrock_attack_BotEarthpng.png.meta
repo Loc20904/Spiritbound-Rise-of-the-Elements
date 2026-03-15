@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: 5e7034ac775179049b7e2c417cb8c829
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 624887922867421023
+    second: Grimrock_attack_BotEarthpng_0
+  - first:
+      213: 8340268884490515075
+    second: Grimrock_attack_BotEarthpng_1
+  - first:
+      213: -1918983047859194759
+    second: Grimrock_attack_BotEarthpng_2
+  - first:
+      213: 4137586908237532551
+    second: Grimrock_attack_BotEarthpng_3
+  - first:
+      213: -2280256621091528420
+    second: Grimrock_attack_BotEarthpng_4
+  - first:
+      213: -4070287930975224199
+    second: Grimrock_attack_BotEarthpng_5
+  - first:
+      213: 8155345956439983540
+    second: Grimrock_attack_BotEarthpng_6
+  - first:
+      213: 4112476684133551014
+    second: Grimrock_attack_BotEarthpng_7
+  - first:
+      213: -4916115391836197606
+    second: Grimrock_attack_BotEarthpng_8
+  - first:
+      213: -1067168202470324145
+    second: Grimrock_attack_BotEarthpng_9
+  - first:
+      213: 8560649851267690832
+    second: Grimrock_attack_BotEarthpng_10
+  - first:
+      213: -6176249976688083376
+    second: Grimrock_attack_BotEarthpng_11
+  - first:
+      213: 7394359879523261726
+    second: Grimrock_attack_BotEarthpng_12
+  - first:
+      213: 8239462001722242460
+    second: Grimrock_attack_BotEarthpng_13
+  - first:
+      213: -4105330912166568115
+    second: Grimrock_attack_BotEarthpng_14
+  - first:
+      213: 1518231646744145082
+    second: Grimrock_attack_BotEarthpng_15
+  - first:
+      213: 5772740308301114470
+    second: Grimrock_attack_BotEarthpng_16
+  - first:
+      213: 3947198334805658402
+    second: Grimrock_attack_BotEarthpng_17
+  - first:
+      213: 6691396034688044685
+    second: Grimrock_attack_BotEarthpng_18
+  - first:
+      213: 4597624090880977704
+    second: Grimrock_attack_BotEarthpng_19
+  - first:
+      213: 31464988173364888
+    second: Grimrock_attack_BotEarthpng_20
+  - first:
+      213: 162172247263855350
+    second: Grimrock_attack_BotEarthpng_21
+  - first:
+      213: -3434512509370764851
+    second: Grimrock_attack_BotEarthpng_22
+  - first:
+      213: -5496660008817041667
+    second: Grimrock_attack_BotEarthpng_23
+  - first:
+      213: -5580165907822040558
+    second: Grimrock_attack_BotEarthpng_24
+  - first:
+      213: 1033742336020697865
+    second: Grimrock_attack_BotEarthpng_25
+  - first:
+      213: -6876248994329363422
+    second: Grimrock_attack_BotEarthpng_26
+  - first:
+      213: 2096937091513245553
+    second: Grimrock_attack_BotEarthpng_27
+  - first:
+      213: 6983466414580487228
+    second: Grimrock_attack_BotEarthpng_28
+  - first:
+      213: -2601045266836486674
+    second: Grimrock_attack_BotEarthpng_29
+  - first:
+      213: -4112533173308666585
+    second: Grimrock_attack_BotEarthpng_30
+  - first:
+      213: 7205135718422025991
+    second: Grimrock_attack_BotEarthpng_31
+  - first:
+      213: 3917194435396238387
+    second: Grimrock_attack_BotEarthpng_32
+  - first:
+      213: -8071786966414910181
+    second: Grimrock_attack_BotEarthpng_33
+  - first:
+      213: -7402911193365061211
+    second: Grimrock_attack_BotEarthpng_34
+  - first:
+      213: 4562062647953203963
+    second: Grimrock_attack_BotEarthpng_35
+  - first:
+      213: -6652098618037278876
+    second: Grimrock_attack_BotEarthpng_36
+  - first:
+      213: -5909668219054710810
+    second: Grimrock_attack_BotEarthpng_37
+  - first:
+      213: 9032397377491001187
+    second: Grimrock_attack_BotEarthpng_38
+  - first:
+      213: -1747569085184646528
+    second: Grimrock_attack_BotEarthpng_39
+  - first:
+      213: -8346810177359180076
+    second: Grimrock_attack_BotEarthpng_40
+  - first:
+      213: 4536360362920073371
+    second: Grimrock_attack_BotEarthpng_41
+  - first:
+      213: 8253977777786474462
+    second: Grimrock_attack_BotEarthpng_42
+  - first:
+      213: -2896088353054377351
+    second: Grimrock_attack_BotEarthpng_43
+  - first:
+      213: -1585220324964406235
+    second: Grimrock_attack_BotEarthpng_44
+  - first:
+      213: 7515125255407761541
+    second: Grimrock_attack_BotEarthpng_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 255
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fb1fa414c0ca800800000000000000
+      internalID: 624887922867421023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 255
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382fc4f9c569eb370800000000000000
+      internalID: 8340268884490515075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 255
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9743b5ec5176e55e0800000000000000
+      internalID: -1918983047859194759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 255
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d0ec40f59ab6930800000000000000
+      internalID: 4137586908237532551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 175
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c116b173fa6ea50e0800000000000000
+      internalID: -2280256621091528420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 175
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e79ac21be6387c0800000000000000
+      internalID: -4070287930975224199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 175
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5060240fb9d2170800000000000000
+      internalID: 8155345956439983540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 175
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab4bd061c3721930800000000000000
+      internalID: 4112476684133551014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 94
+        width: 70
+        height: 42
+      alignment: 9
+      pivot: {x: 0.47884572, y: 0.45769137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1de5ca091376cbb0800000000000000
+      internalID: -4916115391836197606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 83
+        width: 74
+        height: 72
+      alignment: 9
+      pivot: {x: 0.43812665, y: 0.48963472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051bf47fea98dc670800000000000000
+      internalID: 8560649851267690832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 80
+        width: 75
+        height: 77
+      alignment: 9
+      pivot: {x: 0.47250184, y: 0.50347495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d5268222b0e9660800000000000000
+      internalID: 7394359879523261726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 80
+        width: 75
+        height: 77
+      alignment: 9
+      pivot: {x: 0.45434406, y: 0.45978376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f91ee494fe607c0800000000000000
+      internalID: -4105330912166568115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 73
+        height: 78
+      alignment: 9
+      pivot: {x: 0.42993906, y: 0.48052865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a166bfed73934990800000000000000
+      internalID: -7402911193365061211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 73
+        height: 79
+      alignment: 9
+      pivot: {x: 0.44968393, y: 0.5099874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f55832f85895d70800000000000000
+      internalID: 9032397377491001187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f894bc6eebc4fbb42b69ccf9a0b3bb28
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1: 624887922867421023
+      10: 8560649851267690832
+      11: 7394359879523261726
+      12: -4105330912166568115
+      13: -7402911193365061211
+      14: 9032397377491001187
+      2: 8340268884490515075
+      3: -1918983047859194759
+      4: 4137586908237532551
+      5: -2280256621091528420
+      6: -4070287930975224199
+      7: 8155345956439983540
+      8: 4112476684133551014
+      9: -4916115391836197606
+      Grimrock_attack_BotEarthpng_11: -6176249976688083376
+      Grimrock_attack_BotEarthpng_13: 8239462001722242460
+      Grimrock_attack_BotEarthpng_15: 1518231646744145082
+      Grimrock_attack_BotEarthpng_16: 5772740308301114470
+      Grimrock_attack_BotEarthpng_17: 3947198334805658402
+      Grimrock_attack_BotEarthpng_18: 6691396034688044685
+      Grimrock_attack_BotEarthpng_19: 4597624090880977704
+      Grimrock_attack_BotEarthpng_20: 31464988173364888
+      Grimrock_attack_BotEarthpng_21: 162172247263855350
+      Grimrock_attack_BotEarthpng_22: -3434512509370764851
+      Grimrock_attack_BotEarthpng_23: -5496660008817041667
+      Grimrock_attack_BotEarthpng_24: -5580165907822040558
+      Grimrock_attack_BotEarthpng_25: 1033742336020697865
+      Grimrock_attack_BotEarthpng_26: -6876248994329363422
+      Grimrock_attack_BotEarthpng_27: 2096937091513245553
+      Grimrock_attack_BotEarthpng_28: 6983466414580487228
+      Grimrock_attack_BotEarthpng_29: -2601045266836486674
+      Grimrock_attack_BotEarthpng_30: -4112533173308666585
+      Grimrock_attack_BotEarthpng_31: 7205135718422025991
+      Grimrock_attack_BotEarthpng_32: 3917194435396238387
+      Grimrock_attack_BotEarthpng_33: -8071786966414910181
+      Grimrock_attack_BotEarthpng_35: 4562062647953203963
+      Grimrock_attack_BotEarthpng_36: -6652098618037278876
+      Grimrock_attack_BotEarthpng_37: -5909668219054710810
+      Grimrock_attack_BotEarthpng_39: -1747569085184646528
+      Grimrock_attack_BotEarthpng_40: -8346810177359180076
+      Grimrock_attack_BotEarthpng_41: 4536360362920073371
+      Grimrock_attack_BotEarthpng_42: 8253977777786474462
+      Grimrock_attack_BotEarthpng_43: -2896088353054377351
+      Grimrock_attack_BotEarthpng_44: -1585220324964406235
+      Grimrock_attack_BotEarthpng_45: 7515125255407761541
+      Grimrock_attack_BotEarthpng_9: -1067168202470324145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

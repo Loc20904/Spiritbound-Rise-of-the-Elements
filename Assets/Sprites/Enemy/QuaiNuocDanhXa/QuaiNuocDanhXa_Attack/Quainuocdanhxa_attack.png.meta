@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: 78395db4db698de449920f99949caf5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2911607016471365265
+    second: Quainuocdanhxa_attack_0
+  - first:
+      213: -2035514786392435641
+    second: Quainuocdanhxa_attack_1
+  - first:
+      213: -1822422134771708708
+    second: Quainuocdanhxa_attack_2
+  - first:
+      213: -4395795635509720534
+    second: Quainuocdanhxa_attack_3
+  - first:
+      213: -4580791537690375986
+    second: Quainuocdanhxa_attack_4
+  - first:
+      213: 2504237680393248170
+    second: Quainuocdanhxa_attack_5
+  - first:
+      213: -1023951168533457388
+    second: Quainuocdanhxa_attack_6
+  - first:
+      213: 8394453998127505013
+    second: Quainuocdanhxa_attack_7
+  - first:
+      213: -5933952863118874540
+    second: Quainuocdanhxa_attack_8
+  - first:
+      213: 2476640068158253808
+    second: Quainuocdanhxa_attack_9
+  - first:
+      213: 8189124441139937301
+    second: Quainuocdanhxa_attack_10
+  - first:
+      213: -4795740880147395344
+    second: Quainuocdanhxa_attack_11
+  - first:
+      213: -8311313141410702485
+    second: Quainuocdanhxa_attack_12
+  - first:
+      213: -5148684034131934620
+    second: Quainuocdanhxa_attack_13
+  - first:
+      213: -5660745507582115127
+    second: Quainuocdanhxa_attack_14
+  - first:
+      213: 173655019013059714
+    second: Quainuocdanhxa_attack_15
+  - first:
+      213: 3686887192273849344
+    second: Quainuocdanhxa_attack_16
+  - first:
+      213: 6289553983797924264
+    second: Quainuocdanhxa_attack_17
+  - first:
+      213: 2814697156568073703
+    second: Quainuocdanhxa_attack_18
+  - first:
+      213: -4454755174649297985
+    second: Quainuocdanhxa_attack_19
+  - first:
+      213: 1165565540317689902
+    second: Quainuocdanhxa_attack_20
+  - first:
+      213: -6625109164990776379
+    second: Quainuocdanhxa_attack_21
+  - first:
+      213: -7926864046108873992
+    second: Quainuocdanhxa_attack_22
+  - first:
+      213: -7929749980315894218
+    second: Quainuocdanhxa_attack_23
+  - first:
+      213: 2692332567326676529
+    second: Quainuocdanhxa_attack_24
+  - first:
+      213: 5768960240933362721
+    second: Quainuocdanhxa_attack_25
+  - first:
+      213: -8324706588901816792
+    second: Quainuocdanhxa_attack_26
+  - first:
+      213: 1891586385215868492
+    second: Quainuocdanhxa_attack_27
+  - first:
+      213: -4642142931408275312
+    second: Quainuocdanhxa_attack_28
+  - first:
+      213: -4555400234991463611
+    second: Quainuocdanhxa_attack_29
+  - first:
+      213: 8336912185390612926
+    second: Quainuocdanhxa_attack_30
+  - first:
+      213: -7764558915327896552
+    second: Quainuocdanhxa_attack_31
+  - first:
+      213: -2015779086302183285
+    second: Quainuocdanhxa_attack_32
+  - first:
+      213: -1529425336584188470
+    second: Quainuocdanhxa_attack_33
+  - first:
+      213: -1386027877801363767
+    second: Quainuocdanhxa_attack_34
+  - first:
+      213: 4833990524501453184
+    second: Quainuocdanhxa_attack_35
+  - first:
+      213: -3867260840524280600
+    second: Quainuocdanhxa_attack_36
+  - first:
+      213: -3663288164142512304
+    second: Quainuocdanhxa_attack_37
+  - first:
+      213: 5918567280852746894
+    second: Quainuocdanhxa_attack_38
+  - first:
+      213: 1083203844837412209
+    second: Quainuocdanhxa_attack_39
+  - first:
+      213: 1963926697918464349
+    second: Quainuocdanhxa_attack_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 415
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1968f46b72b186820800000000000000
+      internalID: 2911607016471365265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 414
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744160e161660c3e0800000000000000
+      internalID: -2035514786392435641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 413
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc8f1a59b475b6e0800000000000000
+      internalID: -1822422134771708708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 412
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a0b30d82ffef2c0800000000000000
+      internalID: -4395795635509720534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 412
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416973c56d13ac1f0800000000000000
+      internalID: -1023951168533457388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 312
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa621b250bce5220800000000000000
+      internalID: 2476640068158253808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 312
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bdd2dabb848ac80800000000000000
+      internalID: -8311313141410702485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 312
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46247dc56233c88b0800000000000000
+      internalID: -5148684034131934620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 312
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c20ea8e3fdf071b0800000000000000
+      internalID: -5660745507582115127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 311
+        width: 86
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c8b6e0e547a2330800000000000000
+      internalID: 3686887192273849344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 211
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb3a86d052ee04a0800000000000000
+      internalID: -6625109164990776379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 211
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa6ddcf52f1ef190800000000000000
+      internalID: -7926864046108873992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 204
+        width: 90
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136d8b494361d5520800000000000000
+      internalID: 2692332567326676529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_32
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 204
+        width: 75
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b800c4fd9938604e0800000000000000
+      internalID: -2015779086302183285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_33
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 211
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdca6672c366cae0800000000000000
+      internalID: -1529425336584188470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_35
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 110
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089638c35c8c51340800000000000000
+      internalID: 4833990524501453184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 109
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec85c251cab45ac0800000000000000
+      internalID: -3867260840524280600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 109
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057846ad2d2692dc0800000000000000
+      internalID: -3663288164142512304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_38
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 109
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e824a728599f22250800000000000000
+      internalID: 5918567280852746894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_39
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 110
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d0fd66820580f00800000000000000
+      internalID: 1083203844837412209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quainuocdanhxa_attack_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 12
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51065a2de4414b10800000000000000
+      internalID: 1963926697918464349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8d2dd911890f9ec4189762f4228ce058
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Quainuocdanhxa_attack_0: 2911607016471365265
+      Quainuocdanhxa_attack_1: -2035514786392435641
+      Quainuocdanhxa_attack_10: 8189124441139937301
+      Quainuocdanhxa_attack_11: -4795740880147395344
+      Quainuocdanhxa_attack_12: -8311313141410702485
+      Quainuocdanhxa_attack_13: -5148684034131934620
+      Quainuocdanhxa_attack_14: -5660745507582115127
+      Quainuocdanhxa_attack_15: 173655019013059714
+      Quainuocdanhxa_attack_16: 3686887192273849344
+      Quainuocdanhxa_attack_17: 6289553983797924264
+      Quainuocdanhxa_attack_18: 2814697156568073703
+      Quainuocdanhxa_attack_19: -4454755174649297985
+      Quainuocdanhxa_attack_2: -1822422134771708708
+      Quainuocdanhxa_attack_20: 1165565540317689902
+      Quainuocdanhxa_attack_21: -6625109164990776379
+      Quainuocdanhxa_attack_22: -7926864046108873992
+      Quainuocdanhxa_attack_23: -7929749980315894218
+      Quainuocdanhxa_attack_24: 2692332567326676529
+      Quainuocdanhxa_attack_25: 5768960240933362721
+      Quainuocdanhxa_attack_26: -8324706588901816792
+      Quainuocdanhxa_attack_27: 1891586385215868492
+      Quainuocdanhxa_attack_28: -4642142931408275312
+      Quainuocdanhxa_attack_29: -4555400234991463611
+      Quainuocdanhxa_attack_3: -4395795635509720534
+      Quainuocdanhxa_attack_30: 8336912185390612926
+      Quainuocdanhxa_attack_31: -7764558915327896552
+      Quainuocdanhxa_attack_32: -2015779086302183285
+      Quainuocdanhxa_attack_33: -1529425336584188470
+      Quainuocdanhxa_attack_34: -1386027877801363767
+      Quainuocdanhxa_attack_35: 4833990524501453184
+      Quainuocdanhxa_attack_36: -3867260840524280600
+      Quainuocdanhxa_attack_37: -3663288164142512304
+      Quainuocdanhxa_attack_38: 5918567280852746894
+      Quainuocdanhxa_attack_39: 1083203844837412209
+      Quainuocdanhxa_attack_4: -4580791537690375986
+      Quainuocdanhxa_attack_40: 1963926697918464349
+      Quainuocdanhxa_attack_5: 2504237680393248170
+      Quainuocdanhxa_attack_6: -1023951168533457388
+      Quainuocdanhxa_attack_7: 8394453998127505013
+      Quainuocdanhxa_attack_8: -5933952863118874540
+      Quainuocdanhxa_attack_9: 2476640068158253808
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
