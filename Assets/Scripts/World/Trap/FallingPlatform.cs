@@ -17,7 +17,6 @@ public class FallingPlatform : MonoBehaviour
             StartCoroutine(StartFall());
         }
     }
-
     private IEnumerator StartFall()
     {
         falling = true;
@@ -26,7 +25,6 @@ public class FallingPlatform : MonoBehaviour
 
         rb.bodyType = RigidbodyType2D.Dynamic; // Make the platform fall
         //Destroy(gameObject, destroyDelay); // Destroy the platform after a delay
-
         Invoke("Respawn", 2f);
     }
 
