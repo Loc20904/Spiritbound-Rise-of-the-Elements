@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 945b1b48943db6d4c85e2b9d54c53001
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3336134084752171666
+    second: QuaiDatBay_run_0
+  - first:
+      213: 6422190583959606314
+    second: QuaiDatBay_run_1
+  - first:
+      213: 2937258580741957137
+    second: QuaiDatBay_run_2
+  - first:
+      213: -8142087205580587187
+    second: QuaiDatBay_run_3
+  - first:
+      213: 2404801084076522094
+    second: QuaiDatBay_run_4
+  - first:
+      213: 7324075292563833605
+    second: QuaiDatBay_run_5
+  - first:
+      213: -2111079868669018455
+    second: QuaiDatBay_run_6
+  - first:
+      213: 5598751830389425889
+    second: QuaiDatBay_run_7
+  - first:
+      213: -162459615105951589
+    second: QuaiDatBay_run_8
+  - first:
+      213: -9123105100293664091
+    second: QuaiDatBay_run_9
+  - first:
+      213: -3042334879818254189
+    second: QuaiDatBay_run_10
+  - first:
+      213: 1359523627711199484
+    second: QuaiDatBay_run_11
+  - first:
+      213: -8329591823980615195
+    second: QuaiDatBay_run_12
+  - first:
+      213: 7508894286169362462
+    second: QuaiDatBay_run_13
+  - first:
+      213: 5760660187888383838
+    second: QuaiDatBay_run_14
+  - first:
+      213: -4597566935587120670
+    second: QuaiDatBay_run_15
+  - first:
+      213: 6011814858968953432
+    second: QuaiDatBay_run_16
+  - first:
+      213: -1822816939064173327
+    second: QuaiDatBay_run_17
+  - first:
+      213: -8189666554003149577
+    second: QuaiDatBay_run_18
+  - first:
+      213: 8081762370805099831
+    second: QuaiDatBay_run_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QuaiDatBay_run_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 219
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fbd1d33de710f80800000000000000
+      internalID: -8142087205580587187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_run_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 220
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6afad348d19f5120800000000000000
+      internalID: 2404801084076522094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_run_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 220
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5038b798ca754a560800000000000000
+      internalID: 7324075292563833605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_run_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 122
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8f97d498ffdd210800000000000000
+      internalID: 1359523627711199484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_run_12
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 122
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e923af3e58576c80800000000000000
+      internalID: -8329591823980615195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_run_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 120
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10d517c193f43860800000000000000
+      internalID: 7508894286169362462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_run_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 19
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcaebbe8a5785e80800000000000000
+      internalID: -8189666554003149577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuaiDatBay_run_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 18
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73de4f6ae00382070800000000000000
+      internalID: 8081762370805099831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9c18085cdce32b644837096a9a32a658
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      QuaiDatBay_run_0: -3336134084752171666
+      QuaiDatBay_run_1: 6422190583959606314
+      QuaiDatBay_run_10: -3042334879818254189
+      QuaiDatBay_run_11: 1359523627711199484
+      QuaiDatBay_run_12: -8329591823980615195
+      QuaiDatBay_run_13: 7508894286169362462
+      QuaiDatBay_run_14: 5760660187888383838
+      QuaiDatBay_run_15: -4597566935587120670
+      QuaiDatBay_run_16: 6011814858968953432
+      QuaiDatBay_run_17: -1822816939064173327
+      QuaiDatBay_run_18: -8189666554003149577
+      QuaiDatBay_run_19: 8081762370805099831
+      QuaiDatBay_run_2: 2937258580741957137
+      QuaiDatBay_run_3: -8142087205580587187
+      QuaiDatBay_run_4: 2404801084076522094
+      QuaiDatBay_run_5: 7324075292563833605
+      QuaiDatBay_run_6: -2111079868669018455
+      QuaiDatBay_run_7: 5598751830389425889
+      QuaiDatBay_run_8: -162459615105951589
+      QuaiDatBay_run_9: -9123105100293664091
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

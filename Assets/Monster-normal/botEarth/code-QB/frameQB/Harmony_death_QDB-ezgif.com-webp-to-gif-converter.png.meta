@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 82bac6cc2b60c174aa2e1e4f3859d09b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6332601480572385269
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_0
+  - first:
+      213: -3266750666926224866
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_1
+  - first:
+      213: 6662388430679998374
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_2
+  - first:
+      213: -3281866697075093561
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_3
+  - first:
+      213: 2292472403079803353
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_4
+  - first:
+      213: -5349665679729715089
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_5
+  - first:
+      213: 6213347110124906799
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_6
+  - first:
+      213: -7371349271537701350
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_7
+  - first:
+      213: -6124958429013083616
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_8
+  - first:
+      213: -4444798043261803492
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_9
+  - first:
+      213: -824797492710454694
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_10
+  - first:
+      213: 4603602025224541826
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_11
+  - first:
+      213: 5357354141914079396
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_12
+  - first:
+      213: -190907883778976787
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_13
+  - first:
+      213: 4318013388422577281
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_14
+  - first:
+      213: -6760349575898626174
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_15
+  - first:
+      213: -6697271373514534625
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_16
+  - first:
+      213: 7108159339060461624
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_17
+  - first:
+      213: 5586526204902116134
+    second: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 225
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f689c94786b22c5b0800000000000000
+      internalID: -5349665679729715089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 221
+        width: 33
+        height: 62
+      alignment: 9
+      pivot: {x: 0.50907993, y: 0.4999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29e135e64e3a3650800000000000000
+      internalID: 6213347110124906799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 222
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e29a284e4b3b990800000000000000
+      internalID: -7371349271537701350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 114
+        width: 43
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5393503, y: 0.73178726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a4c53ec0bbd84f0800000000000000
+      internalID: -824797492710454694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 114
+        width: 41
+        height: 73
+      alignment: 9
+      pivot: {x: 0.52063537, y: 0.70860875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28617c8a6a743ef30800000000000000
+      internalID: 4603602025224541826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 114
+        width: 44
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5288422, y: 0.7259925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287891be0e96e22a0800000000000000
+      internalID: -6760349575898626174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_16
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 14
+        width: 44
+        height: 64
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.6850677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1116416b238e03a0800000000000000
+      internalID: -6697271373514534625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 14
+        width: 39
+        height: 64
+      alignment: 9
+      pivot: {x: 0.56507874, y: 0.69828665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830039b124145a260800000000000000
+      internalID: 7108159339060461624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harmony_death_QDB-ezgif.com-webp-to-gif-converter_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 14
+        width: 37
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5914612, y: 0.7048961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b0a931cf3578d40800000000000000
+      internalID: 5586526204902116134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ef3f5e35d905f1247b166e8f01b388b5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_0: 6332601480572385269
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_1: -3266750666926224866
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_10: -824797492710454694
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_11: 4603602025224541826
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_12: 5357354141914079396
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_13: -190907883778976787
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_14: 4318013388422577281
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_15: -6760349575898626174
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_16: -6697271373514534625
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_17: 7108159339060461624
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_18: 5586526204902116134
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_2: 6662388430679998374
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_3: -3281866697075093561
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_4: 2292472403079803353
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_5: -5349665679729715089
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_6: 6213347110124906799
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_7: -7371349271537701350
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_8: -6124958429013083616
+      Harmony_death_QDB-ezgif.com-webp-to-gif-converter_9: -4444798043261803492
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

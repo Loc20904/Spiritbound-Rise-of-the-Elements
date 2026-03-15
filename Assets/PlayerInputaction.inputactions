@@ -22,21 +22,21 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
-                    "name": "Attack2",
+                    "name": "Jump",
                     "type": "Button",
-                    "id": "749b3fcc-3406-4de9-ad02-f8250dabb563",
+                    "id": "272a5471-dda0-4c66-b457-9eed16a8fe41",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Jump",
+                    "name": "Dash",
                     "type": "Button",
-                    "id": "272a5471-dda0-4c66-b457-9eed16a8fe41",
+                    "id": "84675670-f441-427f-9fa5-5750235c7439",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -167,28 +167,6 @@
                 },
                 {
                     "name": "",
-                    "id": "3441feb3-3ece-4c7c-88d1-d607e4b6be04",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Attack1",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2c2e2c45-142b-42a6-bf9d-4188a23a09b8",
-                    "path": "<Keyboard>/k",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Attack2",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "2891e643-95ad-4352-bb44-6e67a09cc96e",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -211,12 +189,23 @@
                 },
                 {
                     "name": "",
-                    "id": "27f7cde2-2741-4d41-ba67-525c582fcd5f",
+                    "id": "0ec47407-e5fa-4a1c-aff3-fa094956f9e3",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "429ad269-152c-4e2b-9a6d-bc7af32de912",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
