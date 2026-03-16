@@ -169,7 +169,7 @@ public class QuaiAI : MonoBehaviour
         rb.linearVelocity = new Vector2(dir * moveSpeed, rb.linearVelocity.y);
     }
 
-    // ================= ENV CHECK (KIỂM     TRA MÔI TRƯỜNG) =================
+    // ================= ENV CHECK (KIỂM TRA MÔI TRƯỜNG) =================
     void CheckEnvironment()
     {
         LayerMask mask = groundLayer;
@@ -245,7 +245,7 @@ public class QuaiAI : MonoBehaviour
             frameIndex = (frameIndex + 1) % runFrames.Length; // Lặp lại các khung hình chạy
         }
 
-        sr.sprite = runFrames[frameIndex];
+        sr.sprite = runFrames[frameIndex]; //
     }
 
     void UpdateIdleAnimation()
