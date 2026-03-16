@@ -135,12 +135,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArrowBullet
   speed: 8
   damage: 2
-  lifeTime: 5
+  lifeTime: 1
   damagePerTick: 2
   burnDuration: 3
   tickRate: 0.5
   earthKnockbackForce: 8
-  earthKnockbackDuration: 0.2
+  earthKnockbackDuration: 0
   elementType: 2
 --- !u!61 &259140296872598207
 BoxCollider2D:

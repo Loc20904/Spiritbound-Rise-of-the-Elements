@@ -183,6 +183,11 @@ public class QuaiAI : MonoBehaviour
         // Gặp tường -> quay đầu
         if (hitWall)
         {
+            if (chaseAI != null && chaseAI.IsChasing)
+            {
+                chaseAI.StopChase();
+                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            }
             Flip();
             return;
         }
