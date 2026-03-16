@@ -190,6 +190,37 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 8
+--- !u!1 &4326878304810229936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7128795720218451681}
+  m_Layer: 7
+  m_Name: SWordBullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7128795720218451681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326878304810229936}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.187, y: 0.014, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2406459946757148698}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4848934283101846202
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +326,7 @@ Transform:
   - {fileID: 513968987810817181}
   - {fileID: 4940773889735759969}
   - {fileID: 426682178435481646}
+  - {fileID: 7128795720218451681}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7778290957863160612
@@ -469,10 +501,15 @@ MonoBehaviour:
   jumpActionName: Jump
   dashActionName: Dash
   attackActionName: Attack1
+  skillKActionName: Attack2
   comboWindow: 0.35
+  slashProjectilePrefab: {fileID: 2855233078533295471, guid: 1b6096e8b387ba04f945a951d415de4c, type: 3}
+  projectileSpawnPoint: {fileID: 7128795720218451681}
+  slashDamage: 2
+  skillKCooldown: 2
   maxJumpCount: 2
   moveSpeed: 10
-  jumpForce: 20
+  jumpForce: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
