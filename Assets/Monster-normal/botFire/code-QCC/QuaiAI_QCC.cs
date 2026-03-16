@@ -8,10 +8,11 @@ public class QuaiAI_QCC : MonoBehaviour
     [Header("Check Points")]
     public Transform groundCheck;
     public Transform edgeGroundCheck;
-
+    public Transform wallCheck;
     public float checkRadius = 0.2f;
     public Vector2 groundCheckSize = new Vector2(0.8f, 0.2f);
     public Vector2 groundAheadcheck = new Vector2(0.8f, 0.2f);
+    public Vector2 wallCheckSize = new Vector2(0.2f, 0.8f);
     public LayerMask groundLayer;
     
 
@@ -180,9 +181,13 @@ public class QuaiAI_QCC : MonoBehaviour
 
         bool groundAhead =
             Physics2D.OverlapBox(edgeGroundCheck.position, groundAheadcheck, 0, mask);
+        bool hitWall = Physics2D.OverlapBox(wallCheck.position, wallCheckSize, 0, mask); // kiểm tra tường
 
-       
-
+        if (hitWall)
+        {
+            Flip();
+            return;
+        }
         if (!groundAhead && isGrounded)
         {
             if (chaseAI != null && chaseAI.IsChasing)
@@ -278,5 +283,9 @@ public class QuaiAI_QCC : MonoBehaviour
         Gizmos.color = Color.cyan;
         if (edgeGroundCheck)
             Gizmos.DrawWireCube(edgeGroundCheck.position, groundAheadcheck);
+        
+        Gizmos.color = Color.red;
+        if (wallCheck)
+            Gizmos.DrawWireCube(wallCheck.position, wallCheckSize);
     }
 }
