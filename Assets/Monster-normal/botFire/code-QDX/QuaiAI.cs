@@ -8,11 +8,11 @@ public class QuaiAI : MonoBehaviour
     [Header("Check Points")]
     public Transform groundCheck; // Điểm kiểm tra dưới chân xem có đang đứng trên đất không
     public Transform edgeGroundCheck; // Điểm kiểm tra phía trước xem có đất không (để tránh nhảy vực)
-
+    public Transform wallCheck;
     public float checkRadius = 0.2f; // Bán kính kiểm tra cho obstacleCheck để phát hiện tường dễ hơn
     public Vector2 groundCheckSize = new Vector2(0.8f, 0.2f); // Kích thước hộp kiểm tra dưới chân để phát hiện đất tốt hơn
     public Vector2 groundEdgeGroundcheck = new Vector2(0.8f, 0.2f); // Kích thước hộp kiểm tra phía trước để phát hiện đất (tránh nhảy vực)
-
+    public Vector2 wallCheckSize = new Vector2(0.2f, 0.8f);
     // Các lớp (layer) để AI nhận diện đâu là đất, đâu là vật cản
     public LayerMask groundLayer;
 
@@ -178,8 +178,14 @@ public class QuaiAI : MonoBehaviour
         bool isGrounded = Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0, mask);
         
         bool groundAhead = Physics2D.OverlapBox(edgeGroundCheck.position, groundEdgeGroundcheck, 0, mask);
-
-        
+        bool hitWall = Physics2D.OverlapBox(wallCheck.position, wallCheckSize, 0, mask); // kiểm tra tường
+         
+        // Gặp tường -> quay đầu
+        if (hitWall)
+        {
+            Flip();
+            return;
+        }
         // NẾU: Phía trước là vực (không có đất) VÀ Đang đứng trên đất
         if (!groundAhead && isGrounded)
         {
@@ -280,5 +286,9 @@ public class QuaiAI : MonoBehaviour
         Gizmos.color = Color.cyan;
         if (edgeGroundCheck)
             Gizmos.DrawWireCube(edgeGroundCheck.position, groundEdgeGroundcheck);
+
+        Gizmos.color = Color.red;
+        if (wallCheck)
+            Gizmos.DrawWireCube(wallCheck.position, wallCheckSize);
     }
 }

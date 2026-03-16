@@ -12,6 +12,8 @@
 
         [Header("Hit Sound")]
         public AudioClip hitSound;   // kéo file sound vào đây trong Inspector
+        [Header("Death Sound")]
+        public AudioClip deathSound;
         AudioSource audioSource;
 
         bool isDead;
@@ -141,9 +143,16 @@
                 audioSource.PlayOneShot(hitSound);
             }
         }
-
+        public void PlayDeathSound()
+        {
+            if (deathSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(deathSound);
+            }
+        }
     IEnumerator DeathAnimation()
         {
+            PlayDeathSound();
             for (int i = 0; i < deathFrames.Length; i++)
             {
                 sr.sprite = deathFrames[i];

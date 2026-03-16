@@ -340,6 +340,7 @@ MonoBehaviour:
   - {fileID: 2696151480769657254, guid: a4259ee5f6ab47c4e927e80a74a68b0f, type: 3}
   deathFrameRate: 0.08
   hitSound: {fileID: 8300000, guid: 72603cd4575e34c45ba93e2da6387e95, type: 3}
+  deathSound: {fileID: 8300000, guid: 380de0307c350a847883995659d79154, type: 3}
 --- !u!114 &4838703313428673740
 MonoBehaviour:
   m_ObjectHideFlags: 0
