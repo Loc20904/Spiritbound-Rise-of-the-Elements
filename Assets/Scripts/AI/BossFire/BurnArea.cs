@@ -11,10 +11,16 @@ public class EnvironmentBurn : MonoBehaviour
     private bool isBurning = false;
 
     private Transform player;
+    private PlayerStats playerStats;
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+            playerStats = playerObj.GetComponent<PlayerStats>();
+        }
         StartCoroutine(BurnRoutine());
     }
 
@@ -38,9 +44,8 @@ public class EnvironmentBurn : MonoBehaviour
         {
             if (player != null)
             {
-                // Gây sát thương
-                //player.SendMessage("TakeDamage", damageTick, SendMessageOptions.DontRequireReceiver);
-                Debug.Log("Player burn");
+                // Gây sát thương theo từng tick
+                playerStats?.TakeDamage((int)damageTick);
             }
             yield return new WaitForSeconds(tickInterval);
         }

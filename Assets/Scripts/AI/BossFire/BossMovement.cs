@@ -76,8 +76,8 @@ public class BossMovement : MonoBehaviour
 
         if (accumulatedDamage >= damageThreshold)
         {
+            accumulatedDamage = 0f; // ĐỔI THÀNH RESET VỀ 0
             StartCoroutine(TeleportRoutine());
-            accumulatedDamage -= damageThreshold;
         }
     }
 
@@ -125,6 +125,8 @@ public class BossMovement : MonoBehaviour
 
     void LookAtPlayer()
     {
+        if (player == null) return; // THÊM DÒNG NÀY ĐỂ BẢO VỆ
+
         if (player.position.x > transform.position.x)
             transform.localScale = new Vector3(-1, 1, 1);
         else
