@@ -505,7 +505,7 @@ MonoBehaviour:
   comboWindow: 0.35
   slashProjectilePrefab: {fileID: 2855233078533295471, guid: 1b6096e8b387ba04f945a951d415de4c, type: 3}
   projectileSpawnPoint: {fileID: 7128795720218451681}
-  slashDamage: 2
+  slashDamage: 100
   skillKCooldown: 2
   maxJumpCount: 2
   moveSpeed: 10
