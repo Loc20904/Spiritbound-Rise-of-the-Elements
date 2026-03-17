@@ -31,10 +31,19 @@ public class SlashProjectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) return;
+
         EnemyBase enemy = other.GetComponentInParent<EnemyBase>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
+            Destroy(gameObject);
+            return;
+        }
+
+        other.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
+
+        if (((1 << other.gameObject.layer) & LayerMask.GetMask("Enemy", "Boss")) != 0)
+        {
             Destroy(gameObject);
             return;
         }

@@ -432,7 +432,7 @@ public class PlayerController : MonoBehaviour
     private void OnSkillK(InputAction.CallbackContext ctx)
     {
         if (isDead || isDashing || isClimbing) return;
-        if (attackLocked) return;
+        //if (attackLocked) return;
         if (!canUseSkillK) return;
 
         comboStep = 0;
