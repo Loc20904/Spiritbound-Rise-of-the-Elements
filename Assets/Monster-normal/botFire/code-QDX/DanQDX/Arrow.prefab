@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7204597452161665329}
   - component: {fileID: 4598586114979970367}
   - component: {fileID: 3864958130764557156}
-  - component: {fileID: -3632739240146963519}
+  - component: {fileID: 2878537558093422106}
   m_Layer: 12
   m_Name: Arrow
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!114 &3864958130764557156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
   earthKnockbackForce: 8
   earthKnockbackDuration: 0.2
   elementType: 1
---- !u!61 &-3632739240146963519
+--- !u!61 &2878537558093422106
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
