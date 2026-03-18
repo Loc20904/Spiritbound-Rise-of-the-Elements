@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4688704538754089426}
   - component: {fileID: 4738513481724973580}
   - component: {fileID: 2611742775950081779}
+  - component: {fileID: 3487356227210044501}
   m_Layer: 0
   m_Name: Rune_earth 1_0
   m_TagString: Untagged
@@ -114,3 +115,50 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3487356227210044501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7120552797169842682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da47374687d66048b878e057bbcc30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldItem
+  itemData:
+    itemName: 
+    icon: {fileID: 0}
+    animationFrames:
+    - {fileID: -7793022700219321915, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -8442448740899103613, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 6480291066179216906, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 6332877372600487975, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 5523242012505013235, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -2719885051100479264, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 733414007, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 883293412, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 219601266, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -2041786254, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 467075299, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -410891882, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -678819865, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 1057769700, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1369404076, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1103362194, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1841507316, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -165407210, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -874601413, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1635513767, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1858595749, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 1499937976, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 1051672698, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 110146574, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1888519248, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 406923756, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1058604527, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 445533947, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -255195713, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 1679333098, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    animationSpeed: 0.1

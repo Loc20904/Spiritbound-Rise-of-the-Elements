@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7314360398049745414}
   - component: {fileID: 1754460848315007773}
+  - component: {fileID: 6913943081273916160}
   m_Layer: 0
   m_Name: fc122_0
   m_TagString: Untagged
@@ -91,3 +92,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &6913943081273916160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3767546529778321462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da47374687d66048b878e057bbcc30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldItem
+  itemData:
+    itemName: Potion
+    icon: {fileID: 3335094842527789464, guid: 13c137506a6a4ca4d9a949efeba9eeaa, type: 3}
+    animationFrames: []
+    animationSpeed: 0.1
