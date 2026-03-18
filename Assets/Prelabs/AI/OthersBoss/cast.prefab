@@ -124,7 +124,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -168,3 +168,4 @@ MonoBehaviour:
   stunDuration: 2
   stunEffect: {fileID: 0}
   SFX: {fileID: 8300000, guid: ee4ca0cb5d2ac604a8653ba9c3c12a3b, type: 3}
+  damege: 10

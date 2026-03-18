@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class BossPillar : MonoBehaviour
 {
     [Header("Stats")]
     public float maxHealth = 200f;
-    private float currentHealth;
+    [SerializeField] private float currentHealth;
 
     [Header("Visuals")]
     public GameObject pillarVisual; // Kéo Sprite/Model cái trụ vào đây
@@ -20,6 +20,7 @@ public class BossPillar : MonoBehaviour
 
     void Start()
     {
+        currentHealth = maxHealth;
         Revive();
     }
 
