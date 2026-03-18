@@ -13,18 +13,31 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private string jumpActionName = "Jump";
     [SerializeField] private string dashActionName = "Dash";
     [SerializeField] private string attackActionName = "Attack1"; // CHỈ 1 phím J
+    [SerializeField] private string skillKActionName = "Attack2"; // K
 
     // InputActions
     private InputAction moveAction;
     private InputAction jumpAction;
     private InputAction dashAction;
     private InputAction attackAction;
+    private InputAction skillKAction;
 
     [Header("Combo (1 phím J)")]
     [SerializeField] private float comboWindow = 0.35f; // thời gian cho phép bấm lần 2
     private int comboStep = 0;        // 0: chưa đánh, 1: đã đánh hit 1
     private float comboTimer = 0f;    // đếm ngược cửa sổ combo
     private bool attackLocked = false; // khóa spam (mở bằng Animation Event)
+
+
+    [Header("Skill K - Slash Projectile")]
+    [SerializeField] private GameObject slashProjectilePrefab;
+    [SerializeField] private Transform projectileSpawnPoint;
+    [SerializeField] private int slashDamage = 2;
+    [SerializeField] private float skillKCooldown = 0.5f;
+
+    private bool canUseSkillK = true;
+    private bool pendingSlashShot = false; // dùng cho animation event
+
 
     [Header("Double Jump")]
     [SerializeField] private int maxJumpCount = 2;
@@ -67,6 +80,9 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+
+    [Header("Chaos / Debuff")]
+    private bool isReversed = false; // Cờ theo dõi trạng thái đảo ngược
 
     private Vector2 moveInput;
     private int facing = 1;
@@ -118,6 +134,7 @@ public class PlayerController : MonoBehaviour
         jumpAction = map.FindAction(jumpActionName, true);
         dashAction = map.FindAction(dashActionName, true);
         attackAction = map.FindAction(attackActionName, true);
+        skillKAction = map.FindAction(skillKActionName, true);   // K
     }
 
     private void OnEnable()
@@ -126,10 +143,12 @@ public class PlayerController : MonoBehaviour
         jumpAction.Enable();
         dashAction.Enable();
         attackAction.Enable();
+        skillKAction.Enable();
 
         jumpAction.performed += OnJump;
         dashAction.performed += OnDash;
         attackAction.performed += OnAttack; // chỉ 1 phím
+        skillKAction.performed += OnSkillK;   // K bắn kiếm khí
     }
 
     private void OnDisable()
@@ -137,11 +156,13 @@ public class PlayerController : MonoBehaviour
         jumpAction.performed -= OnJump;
         dashAction.performed -= OnDash;
         attackAction.performed -= OnAttack;
+        skillKAction.performed -= OnSkillK;
 
         moveAction.Disable();
         jumpAction.Disable();
         dashAction.Disable();
         attackAction.Disable();
+        skillKAction.Disable();
     }
 
     private void Update()
@@ -149,6 +170,12 @@ public class PlayerController : MonoBehaviour
         if (isDead) return;
 
         moveInput = moveAction.ReadValue<Vector2>();
+
+        // NGAY TẠI ĐÂY: Nếu dính debuff Chaos, bẻ ngược mũi tên (nhân với -1)
+        if (isReversed)
+        {
+            moveInput = new Vector2(-moveInput.x, moveInput.y);
+        }
 
         // ===== Combo timer =====
         if (comboTimer > 0f)
@@ -268,6 +295,7 @@ public class PlayerController : MonoBehaviour
 
         jumpCount++;
         coyoteTimer = 0f;
+        //Debug.Log("asds" + jumpCount);
     }
 
     // ===== Dash =====
@@ -357,7 +385,6 @@ public class PlayerController : MonoBehaviour
     {
         if (isDead || isDashing || isClimbing) return;
 
-        // Nếu đang lock mà đã đánh hit 1 rồi -> cho phép queue hit 2
         if (attackLocked)
         {
             if (comboStep == 1 && comboTimer > 0f)
@@ -373,13 +400,14 @@ public class PlayerController : MonoBehaviour
 
             attackLocked = true;
             queueSecondHit = false;
+            pendingSlashShot = false;
 
             animator.SetTrigger(T_Attack1);
             GetComponent<PlayerAttack>()?.PlayAttack(AttackType.J);
             return;
         }
 
-        // Hit 2 (K) - nếu bạn bấm sau khi đã unlock
+        // Hit 2 (J lần 2 -> K cận chiến)
         if (comboStep == 1 && comboTimer > 0f)
         {
             comboStep = 0;
@@ -387,6 +415,7 @@ public class PlayerController : MonoBehaviour
 
             attackLocked = true;
             queueSecondHit = false;
+            pendingSlashShot = false;
 
             animator.SetTrigger(T_Attack2);
             GetComponent<PlayerAttack>()?.PlayAttack(AttackType.K);
@@ -397,7 +426,6 @@ public class PlayerController : MonoBehaviour
     {
         attackLocked = false;
 
-        // Nếu trong lúc đánh J bạn đã bấm thêm J -> tự chuyển sang K
         if (queueSecondHit && comboStep == 1 && comboTimer > 0f)
         {
             queueSecondHit = false;
@@ -405,11 +433,62 @@ public class PlayerController : MonoBehaviour
             comboTimer = 0f;
 
             attackLocked = true;
+            pendingSlashShot = false;
 
             animator.SetTrigger(T_Attack2);
             GetComponent<PlayerAttack>()?.PlayAttack(AttackType.K);
         }
     }
+    private void OnSkillK(InputAction.CallbackContext ctx)
+    {
+        if (isDead || isDashing || isClimbing) return;
+        //if (attackLocked) return;
+        if (!canUseSkillK) return;
+
+        comboStep = 0;
+        comboTimer = 0f;
+        queueSecondHit = false;
+
+        attackLocked = true;
+        pendingSlashShot = true;
+
+        animator.SetTrigger(T_Attack2); // dùng anim chém K
+        StartCoroutine(SkillKCooldownRoutine());
+    }
+
+    private IEnumerator SkillKCooldownRoutine()
+    {
+        canUseSkillK = false;
+        yield return new WaitForSeconds(skillKCooldown);
+        canUseSkillK = true;
+    }
+
+    // Animation Event: đặt đúng frame chém ra kiếm khí
+    public void Anim_FireSlashProjectile()
+    {
+        if (!pendingSlashShot) return;
+
+        pendingSlashShot = false;
+
+        if (slashProjectilePrefab == null || projectileSpawnPoint == null)
+        {
+            Debug.LogWarning("Thiếu slashProjectilePrefab hoặc projectileSpawnPoint");
+            return;
+        }
+
+        GameObject go = Instantiate(
+            slashProjectilePrefab,
+            projectileSpawnPoint.position,
+            Quaternion.identity
+        );
+
+        SlashProjectile projectile = go.GetComponent<SlashProjectile>();
+        if (projectile != null)
+        {
+            projectile.Init(facing, slashDamage);
+        }
+    }
+
 
     // Dash hit enemy -> DashAttack
     public void OnDashHit(GameObject enemy)
@@ -438,7 +517,50 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;
     }
+
+    public void StopMove()
+    {
+        // 1. Dừng ngay lập tức các Coroutine đang chạy (đặc biệt là CoDash)
+        StopAllCoroutines();
+
+        // 2. Reset vận tốc và input
+        moveInput = Vector2.zero;
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.gravityScale = defaultGravity; // Trả lại trọng lực lỡ đang leo tường/thang
+        }
+
+        // 3. Reset các biến trạng thái di chuyển
+        isDashing = false;
+        isClimbing = false;
+        canDash = true;
+        jumpBufferTimer = 0f;
+        coyoteTimer = 0f;
+
+        // 4. Reset trạng thái tấn công (tránh kẹt combo)
+        comboStep = 0;
+        comboTimer = 0f;
+        attackLocked = false;
+        queueSecondHit = false;
+
+        // 5. Ép Animator cập nhật về trạng thái Idle đứng im
+        if (animator != null)
+        {
+            animator.SetBool(A_IsRunning, false);
+            animator.SetBool(A_IsDashing, false);
+            animator.SetBool(A_IsClimbing, false);
+            animator.SetFloat(A_Yvel, 0f);
+        }
+    }
+
+    // Cấp quyền cho ChaosMechanic bật/tắt trạng thái đảo ngược
+    public void SetReverseControl(bool state)
+    {
+        isReversed = state;
+    }
 }
+
 
 public interface IDamageable
 {

@@ -1,6 +1,6 @@
-﻿using UnityEditor.Experimental.GraphView;
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
+
 public abstract class EnemyBase : MonoBehaviour
 {
     [Header("Target")]
@@ -11,14 +11,18 @@ public abstract class EnemyBase : MonoBehaviour
     public float moveSpeed = 2.5f;
 
     [Header("Vision / Aggro")]
-    public float visionRange = 6f;     // vào tầm này mới bắt đầu đuổi
-    public float loseRange = 8f;       // ra quá tầm này thì bỏ đuổi (nên > visionRange)
+    public float visionRange = 6f;
+    public float loseRange = 8f;
     public bool requireLineOfSight = false;
-    public LayerMask obstacleMask;     // layer tường/ground để raycast (nếu dùng LOS)
+    public LayerMask obstacleMask;
 
     [Header("Attack")]
     public float attackRange = 1.2f;
     public float attackCooldown = 1.0f;
+
+    [Header("Death Animation")]
+    public string deadAnimName = "quainuocdanhgan_Dead"; // mặc định cho melee
+    public float deathDelay = 2f;
 
     protected float hp;
     protected float lastAttackTime;
@@ -53,7 +57,6 @@ public abstract class EnemyBase : MonoBehaviour
 
         float dist = Vector2.Distance(transform.position, target.position);
 
-        // 1) Cập nhật aggro theo tầm nhìn
         if (!isAggro)
         {
             if (dist <= visionRange && HasSight())
@@ -66,7 +69,7 @@ public abstract class EnemyBase : MonoBehaviour
         }
         else
         {
-            if (dist >= loseRange) // mất mục tiêu
+            if (dist >= loseRange)
             {
                 isAggro = false;
                 StopMove();
@@ -74,7 +77,6 @@ public abstract class EnemyBase : MonoBehaviour
             }
         }
 
-        // 2) Đang aggro thì chạy AI thường
         Tick(dist);
     }
 
@@ -87,7 +89,7 @@ public abstract class EnemyBase : MonoBehaviour
         float dist = dir.magnitude;
 
         RaycastHit2D hit = Physics2D.Raycast(origin, dir.normalized, dist, obstacleMask);
-        return hit.collider == null; // không bị tường che
+        return hit.collider == null;
     }
 
     protected abstract void Tick(float distToTarget);
@@ -97,7 +99,7 @@ public abstract class EnemyBase : MonoBehaviour
     protected void TriggerAttack()
     {
         lastAttackTime = Time.time;
-        anim.SetTrigger("Attack");
+        if (anim) anim.SetTrigger("Attack");
     }
 
     protected void MoveTowardTarget()
@@ -107,7 +109,6 @@ public abstract class EnemyBase : MonoBehaviour
 
         if (dir.x != 0)
         {
-            // Flip cả enemy -> mọi child (hitPoint) sẽ lật theo
             Vector3 s = transform.localScale;
             s.x = Mathf.Abs(s.x) * (dir.x > 0 ? 1 : -1);
             transform.localScale = s;
@@ -115,9 +116,10 @@ public abstract class EnemyBase : MonoBehaviour
 
         SetSpeedAnim(rb.linearVelocity.magnitude);
     }
+
     protected void StopMove()
     {
-        rb.linearVelocity = Vector2.zero;
+        if (rb) rb.linearVelocity = Vector2.zero;
         SetSpeedAnim(0f);
     }
 
@@ -132,7 +134,7 @@ public abstract class EnemyBase : MonoBehaviour
 
         hp -= dmg;
         if (hp <= 0) Die();
-        else isAggro = true; // bị đánh thì aggro luôn (tuỳ bạn)
+        else isAggro = true;
     }
 
     protected virtual void Die()
@@ -140,25 +142,25 @@ public abstract class EnemyBase : MonoBehaviour
         hp = 0;
 
         StopMove();
-        if (anim) anim.SetBool("Dead", true);
+
+        if (anim && !string.IsNullOrEmpty(deadAnimName))
+            anim.Play(deadAnimName, 0, 0f);
 
         if (rb)
         {
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
-            rb.bodyType = RigidbodyType2D.Static;
+            rb.simulated = false;
         }
 
         gameObject.layer = LayerMask.NameToLayer("DeadEnemy");
 
-        // thay vì Destroy delay, dùng coroutine
         StartCoroutine(DieRoutine());
     }
 
     private IEnumerator DieRoutine()
     {
-        // đợi animation chết xong (vd 2 giây)
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(deathDelay);
 
         if (dropTable != null)
             dropTable.TryDrop(transform.position);
@@ -175,5 +177,4 @@ public abstract class EnemyBase : MonoBehaviour
         Gizmos.color = Color.gray;
         Gizmos.DrawWireSphere(transform.position, loseRange);
     }
-   
 }

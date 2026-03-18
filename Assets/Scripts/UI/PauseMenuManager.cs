@@ -217,6 +217,7 @@ public class PauseMenuManager : MonoBehaviour
 
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(target);
+        Debug.Log("Selected: " + target.name);
     }
 
     public void QuitGame()

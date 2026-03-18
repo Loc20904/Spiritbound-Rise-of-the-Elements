@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80d2b2f1719ff645a1b27a823670bbb, type: 3}
+  m_Name: Remaind
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
+  requiredFlag: 
+  lines:
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: "The threads of destiny are becoming clearer\u2026"
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: I see it now.
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: '{EMOJI} {TITLE}'
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: 'This blessing carries the following power: {EFFECT}'
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: 'Use it wisely, traveler.
+
+      Fate favors those who understand their
+      own strength.'

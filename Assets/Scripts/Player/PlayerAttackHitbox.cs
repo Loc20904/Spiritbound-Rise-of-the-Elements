@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class PlayerAttackHitbox : MonoBehaviour
 {
@@ -14,16 +14,16 @@ public class PlayerAttackHitbox : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //Debug.Log(other.tag+" "+other.layer);
         if (((1 << other.gameObject.layer) & enemyLayer) == 0) return;
         if (ph == null) return;
 
         int dmg = Mathf.RoundToInt(ph.Damage * damageMultiplier);
 
-        var enemyHealth = other.GetComponentInParent<EnemyHealth>();
-        if (enemyHealth != null)
+        EnemyBase enemy = other.GetComponentInParent<EnemyBase>();
+        if (enemy != null)
         {
-            enemyHealth.TakeDamage(dmg);
-            return;
+            enemy.TakeDamage(dmg);
         }
 
         other.SendMessage("TakeDamage", dmg, SendMessageOptions.DontRequireReceiver);

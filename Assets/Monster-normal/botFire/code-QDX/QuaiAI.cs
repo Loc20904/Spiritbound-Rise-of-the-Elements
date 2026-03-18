@@ -7,16 +7,15 @@ public class QuaiAI : MonoBehaviour
     
     [Header("Check Points")]
     public Transform groundCheck; // Điểm kiểm tra dưới chân xem có đang đứng trên đất không
-    public Transform obstacleCheck; // Điểm kiểm tra phía trước xem có vật cản(tường) không
     public Transform edgeGroundCheck; // Điểm kiểm tra phía trước xem có đất không (để tránh nhảy vực)
-
+    public Transform wallCheck;
     public float checkRadius = 0.2f; // Bán kính kiểm tra cho obstacleCheck để phát hiện tường dễ hơn
     public Vector2 groundCheckSize = new Vector2(0.8f, 0.2f); // Kích thước hộp kiểm tra dưới chân để phát hiện đất tốt hơn
     public Vector2 groundEdgeGroundcheck = new Vector2(0.8f, 0.2f); // Kích thước hộp kiểm tra phía trước để phát hiện đất (tránh nhảy vực)
-
+    public Vector2 wallCheckSize = new Vector2(0.2f, 0.8f);
     // Các lớp (layer) để AI nhận diện đâu là đất, đâu là vật cản
     public LayerMask groundLayer;
-    public LayerMask obstacleLayer;
+
 
     [Header("Patrol / Idle")]
     public float patrolTime = 3f; // Thời gian di chuyển tuần tra trước khi chuyển sang trạng thái đứng yên
@@ -173,20 +172,25 @@ public class QuaiAI : MonoBehaviour
     // ================= ENV CHECK (KIỂM TRA MÔI TRƯỜNG) =================
     void CheckEnvironment()
     {
-        LayerMask mask = groundLayer | obstacleLayer;
+        LayerMask mask = groundLayer;
 
         // Các biến kiểm tra thực tế bằng tia (Raycast/Boxcast)
         bool isGrounded = Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0, mask);
-        bool wallAhead = Physics2D.OverlapCircle(obstacleCheck.position, checkRadius, mask);
+        
         bool groundAhead = Physics2D.OverlapBox(edgeGroundCheck.position, groundEdgeGroundcheck, 0, mask);
-
-        //Nếu gặp ức tường phía trước thì quay đầu
-        if (wallAhead && isGrounded)
+        bool hitWall = Physics2D.OverlapBox(wallCheck.position, wallCheckSize, 0, mask); // kiểm tra tường
+         
+        // Gặp tường -> quay đầu
+        if (hitWall)
         {
+            if (chaseAI != null && chaseAI.IsChasing)
+            {
+                chaseAI.StopChase();
+                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            }
             Flip();
             return;
         }
-
         // NẾU: Phía trước là vực (không có đất) VÀ Đang đứng trên đất
         if (!groundAhead && isGrounded)
         {
@@ -222,7 +226,7 @@ public class QuaiAI : MonoBehaviour
         bool isGrounded = Physics2D.OverlapCircle(
             groundCheck.position,
             checkRadius,
-            groundLayer | obstacleLayer
+            groundLayer
         );
 
         // Kiểm tra xem có đang di chuyển thực tế không (vận tốc x > 0.1)
@@ -252,7 +256,7 @@ public class QuaiAI : MonoBehaviour
             frameIndex = (frameIndex + 1) % runFrames.Length; // Lặp lại các khung hình chạy
         }
 
-        sr.sprite = runFrames[frameIndex];
+        sr.sprite = runFrames[frameIndex]; //
     }
 
     void UpdateIdleAnimation()
@@ -283,14 +287,13 @@ public class QuaiAI : MonoBehaviour
         if (groundCheck)
             Gizmos.DrawWireCube(groundCheck.position, groundCheckSize);
 
-        // Màu đỏ: Kiểm tra tường phía trước
-        Gizmos.color = Color.red;
-        if (obstacleCheck)
-            Gizmos.DrawWireSphere(obstacleCheck.position, checkRadius);
-
         // Màu xanh lơ: Kiểm tra vực phía trước
         Gizmos.color = Color.cyan;
         if (edgeGroundCheck)
             Gizmos.DrawWireCube(edgeGroundCheck.position, groundEdgeGroundcheck);
+
+        Gizmos.color = Color.red;
+        if (wallCheck)
+            Gizmos.DrawWireCube(wallCheck.position, wallCheckSize);
     }
 }

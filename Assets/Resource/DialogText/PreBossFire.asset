@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80d2b2f1719ff645a1b27a823670bbb, type: 3}
+  m_Name: PreBossFire
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
+  requiredFlag: 
+  lines:
+  - characterName: 'Ignar '
+    characterAvatar: {fileID: 560843599045547779, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: "Impressive\u2026\nYour strength is real."
+  - characterName: 'Ignar '
+    characterAvatar: {fileID: 560843599045547779, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: Now answer me this.
+  - characterName: 'Ignar '
+    characterAvatar: {fileID: 560843599045547779, guid: 3e51b0965ba498645bdbeff46e65b8e2, type: 3}
+    sentence: "Do you seek my power\u2026\nor my protection?"

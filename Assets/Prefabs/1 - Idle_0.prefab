@@ -94,7 +94,7 @@ MonoBehaviour:
   damageMultiplier: 1
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 520
 --- !u!1 &3129320576453246645
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,6 +190,37 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 8
+--- !u!1 &4326878304810229936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7128795720218451681}
+  m_Layer: 7
+  m_Name: SWordBullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7128795720218451681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326878304810229936}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.187, y: 0.014, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2406459946757148698}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4848934283101846202
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,6 +302,7 @@ GameObject:
   - component: {fileID: 5740517143459870578}
   - component: {fileID: 8114047626243343293}
   - component: {fileID: 7543504959949512459}
+  - component: {fileID: 2182576377568196297}
   m_Layer: 7
   m_Name: 1 - Idle_0
   m_TagString: Player
@@ -295,6 +327,7 @@ Transform:
   - {fileID: 513968987810817181}
   - {fileID: 4940773889735759969}
   - {fileID: 426682178435481646}
+  - {fileID: 7128795720218451681}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7778290957863160612
@@ -469,7 +502,12 @@ MonoBehaviour:
   jumpActionName: Jump
   dashActionName: Dash
   attackActionName: Attack1
+  skillKActionName: Attack2
   comboWindow: 0.35
+  slashProjectilePrefab: {fileID: 2855233078533295471, guid: 1b6096e8b387ba04f945a951d415de4c, type: 3}
+  projectileSpawnPoint: {fileID: 7128795720218451681}
+  slashDamage: 100
+  skillKCooldown: 2
   maxJumpCount: 2
   moveSpeed: 10
   jumpForce: 15
@@ -478,9 +516,9 @@ MonoBehaviour:
     m_Bits: 64
   groundCheck: {fileID: 7047191315895413010}
   groundCheckRadius: 0.2
-  doubleJumpForce: 17
   coyoteTime: 0.12
   jumpBufferTime: 0.12
+  doubleJumpForce: 17
   dashSpeed: 25
   dashDuration: 0.14
   dashCooldown: 0.25
@@ -539,7 +577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a3cf52e7738c3b4080c843f452ea1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  damage: 50
+  damage: 1
   maxHP: 100
   currentHP: 100
   armor: 5
@@ -572,3 +610,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamagePopupSpawner
   damagePopupPrefab: {fileID: 519264100586841917, guid: 34921628a605dc843adea37d38734e21, type: 3}
+--- !u!114 &2182576377568196297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6259202293136093979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8791f58083bc402448ad8817fa907cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  damage: 50
+  armor: 5
+  respawnDelay: 2
+  respawnPoint: {fileID: 0}
+  hurtInvincibleTime: 0.35

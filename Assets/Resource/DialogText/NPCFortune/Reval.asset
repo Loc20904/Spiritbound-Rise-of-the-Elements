@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80d2b2f1719ff645a1b27a823670bbb, type: 3}
+  m_Name: Reval
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
+  requiredFlag: 
+  lines:
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: "Ah\u2026 you return."
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: The currents of fate are still moving around you.
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: 'Remember what I revealed to you:
+
+      {EMOJI} {TITLE}'
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: Do not forget its power.
+  - characterName: Fortune
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
+    sentence: Even the smallest gift from fate can change the course of destiny.

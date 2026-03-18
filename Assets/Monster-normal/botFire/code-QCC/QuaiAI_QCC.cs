@@ -7,14 +7,14 @@ public class QuaiAI_QCC : MonoBehaviour
     
     [Header("Check Points")]
     public Transform groundCheck;
-    public Transform obstacleCheck;
     public Transform edgeGroundCheck;
-
+    public Transform wallCheck;
     public float checkRadius = 0.2f;
     public Vector2 groundCheckSize = new Vector2(0.8f, 0.2f);
     public Vector2 groundAheadcheck = new Vector2(0.8f, 0.2f);
+    public Vector2 wallCheckSize = new Vector2(0.2f, 0.8f);
     public LayerMask groundLayer;
-    public LayerMask obstacleLayer;
+    
 
     [Header("Patrol / Idle")]
     public float patrolTime = 3f;
@@ -174,23 +174,20 @@ public class QuaiAI_QCC : MonoBehaviour
     // ================= ENV CHECK =================
     void CheckEnvironment()
     {
-        LayerMask mask = groundLayer | obstacleLayer;
+        LayerMask mask = groundLayer ;
 
         bool isGrounded =
             Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0, mask);
 
-        bool wallAhead =
-            Physics2D.OverlapCircle(obstacleCheck.position, checkRadius, mask);
-
         bool groundAhead =
             Physics2D.OverlapBox(edgeGroundCheck.position, groundAheadcheck, 0, mask);
+        bool hitWall = Physics2D.OverlapBox(wallCheck.position, wallCheckSize, 0, mask); // kiểm tra tường
 
-        if (wallAhead && isGrounded )
+        if (hitWall)
         {
-           Flip();
-           return;
+            Flip();
+            return;
         }
-
         if (!groundAhead && isGrounded)
         {
             if (chaseAI != null && chaseAI.IsChasing)
@@ -215,17 +212,7 @@ public class QuaiAI_QCC : MonoBehaviour
         transform.localScale = s;
     }
 
-    // ⭐ chạm player → quay đầu
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        if (!col.collider.CompareTag("Player"))
-            return;
-
-        bool playerRight = col.transform.position.x > transform.position.x;
-
-        if (playerRight != facingRight)
-            Flip();
-    }
+    
 
     // ================= ANIMATION =================
     void UpdateAnimation()
@@ -233,7 +220,7 @@ public class QuaiAI_QCC : MonoBehaviour
         bool isGrounded = Physics2D.OverlapCircle(
             groundCheck.position,
             checkRadius,
-            groundLayer | obstacleLayer
+            groundLayer
         );
 
         bool isMoving = Mathf.Abs(rb.linearVelocity.x) > 0.1f;
@@ -292,12 +279,13 @@ public class QuaiAI_QCC : MonoBehaviour
         if (groundCheck)
             Gizmos.DrawWireCube(groundCheck.position, groundCheckSize);
 
-        Gizmos.color = Color.red;
-        if (obstacleCheck)
-            Gizmos.DrawWireSphere(obstacleCheck.position, checkRadius + 0.5f);
 
         Gizmos.color = Color.cyan;
         if (edgeGroundCheck)
             Gizmos.DrawWireCube(edgeGroundCheck.position, groundAheadcheck);
+        
+        Gizmos.color = Color.red;
+        if (wallCheck)
+            Gizmos.DrawWireCube(wallCheck.position, wallCheckSize);
     }
 }

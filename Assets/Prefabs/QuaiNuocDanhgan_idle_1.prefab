@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 5153047153884622111}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.007, y: -0.007, z: 0}
+  m_LocalPosition: {x: 0.197, y: 0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42,9 +42,10 @@ GameObject:
   - component: {fileID: 7217189362666099584}
   - component: {fileID: 7757863034157599678}
   - component: {fileID: 4596645088440793328}
+  - component: {fileID: 3779558087060551432}
   - component: {fileID: 3980432950455893775}
   - component: {fileID: 832579964005391273}
-  - component: {fileID: 3779558087060551432}
+  - component: {fileID: 6945839540129687211}
   m_Layer: 3
   m_Name: QuaiNuocDanhgan_idle_1
   m_TagString: Untagged
@@ -61,7 +62,7 @@ Transform:
   m_GameObject: {fileID: 5508234056387091885}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4682, y: 0.0112, z: 0}
+  m_LocalPosition: {x: 2.98, y: 0.35, z: 0}
   m_LocalScale: {x: 6.872173, y: 5.3205333, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -173,6 +174,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.57, y: 0.78}
   m_EdgeRadius: 0
+--- !u!50 &3779558087060551432
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5508234056387091885}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!95 &3980432950455893775
 Animator:
   serializedVersion: 7
@@ -208,10 +236,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMelee
   target: {fileID: 0}
-  maxHP: 20
+  maxHP: 100
   moveSpeed: 2.5
-  visionRange: 10
-  loseRange: 14
+  visionRange: 6
+  loseRange: 8
   requireLineOfSight: 0
   obstacleMask:
     serializedVersion: 2
@@ -220,34 +248,27 @@ MonoBehaviour:
   attackCooldown: 1
   damage: 50
   hitPoint: {fileID: 4033902643893331541}
-  hitRadius: 3
+  hitRadius: 2
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
---- !u!50 &3779558087060551432
-Rigidbody2D:
-  serializedVersion: 5
+--- !u!114 &6945839540129687211
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5508234056387091885}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4266a33f51b8ddd4eabf571dea169cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDropTable
+  dropChance: 1
+  drops:
+  - prefab: {fileID: 7120552797169842682, guid: 2c4fe9289338e1f47bcbec7638458b13, type: 3}
+    weight: 100
+    chance: 1
+    minAmount: 1
+    maxAmount: 1
+  randomOffset: {x: 0.25, y: 0.15}

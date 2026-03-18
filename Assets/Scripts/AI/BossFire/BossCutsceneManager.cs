@@ -1,75 +1,130 @@
-﻿using UnityEngine;
-using UnityEngine.Playables; // Thư viện cần thiết cho Timeline
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.Playables;
 
 public class BossCutsceneManager : MonoBehaviour
 {
     [Header("Timelines")]
     public PlayableDirector introTimeline;
     public PlayableDirector phase2Timeline;
+    public PlayableDirector DeathTimeline;
 
     [Header("UI")]
-    public GameObject gameUI; // Thanh máu, nút bấm... (Tắt đi cho đẹp khi chiếu phim)
+    public GameObject gameUI;
 
     [Header("Controllers")]
-    public MonoBehaviour playerMovement; // Script di chuyển của Player
-    public BossAttackBase bossAttack;     // Script tấn công của Boss
-    public BossHealth bossHealth;        // Để bật bất tử khi chuyển phase
+    public PlayerController playerMovement;
+    public BossAttackBase bossAttack;
+    public BossGroundMovement bossMove;
+    public FinalBossMovement FinalBossMove;
+    public BossHealth bossHealth;
+    public Transform skillHolder;
 
-    private void Start()
+    // [MỚI] Biến để theo dõi xem Cutscene nào đang được chiếu
+    private PlayableDirector currentPlayingDirector;
+
+    // [MỚI] Lắng nghe nút Space để Skip
+    void Update()
     {
-        // Tự động chạy Intro khi vào game
+        if (currentPlayingDirector != null && currentPlayingDirector.state == PlayState.Playing)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                // 1. Tua nhanh thời gian của Timeline đến đúng giây cuối cùng
+                currentPlayingDirector.time = currentPlayingDirector.duration;
+
+                // 2. Ép Unity tính toán và áp dụng ngay lập tức trạng thái ở frame cuối này
+                currentPlayingDirector.Evaluate();
+
+                // 3. Bây giờ mới chính thức dừng phim (sẽ tự động gọi OnCutsceneFinished)
+                currentPlayingDirector.Stop();
+            }
+        }
+    }
+
+    public IEnumerator PlayIntroCutsceneRoutine()
+    {
         if (introTimeline != null)
         {
             PlayCutscene(introTimeline);
+
+            // Bắt vòng lặp đợi cho đến khi Timeline chạy xong hoàn toàn (hoặc bị ép Stop)
+            while (introTimeline.state == PlayState.Playing)
+            {
+                yield return null;
+            }
         }
     }
 
     public void PlayPhase2Cutscene()
     {
-        if (phase2Timeline != null)
+        if (phase2Timeline != null) PlayCutscene(phase2Timeline);
+    }
+
+    public IEnumerator PlayDeathCutscene()
+    {
+        if (DeathTimeline != null)
         {
-            PlayCutscene(phase2Timeline);
+            PlayCutscene(DeathTimeline);
+            while (DeathTimeline.state == PlayState.Playing) yield return null;
         }
     }
 
     void PlayCutscene(PlayableDirector director)
     {
-        // 1. Dừng điều khiển của người chơi và Boss
-        if (playerMovement) playerMovement.enabled = false;
+        if (skillHolder != null)
+        {
+            foreach (Transform child in skillHolder) Destroy(child.gameObject);
+        }
+
+        // Khóa điều khiển
+
+        if (playerMovement)
+        {
+            //playerMovement.StopMove();
+            playerMovement.enabled = false;
+        }
         if (bossAttack) bossAttack.enabled = false;
+        if (bossMove)
+        {
+            bossMove.Stop();
+            bossMove.enabled = false;
+        }
+        if (FinalBossMove)
+        {
+            FinalBossMove.stopMove();
+            //FinalBossMove.enabled = false;
+        }
 
-        // 2. QUAN TRỌNG: Dừng ngay mọi luồng bắn đạn đang chờ (Coroutine)
+        bossAttack.ultiReady = 0f;
         bossAttack.StopAllCoroutines();
-
-        // 3. Nếu Boss dùng Invoke (hẹn giờ), hủy luôn
         bossAttack.CancelInvoke();
 
-        // 2. Tắt UI game
         if (gameUI) gameUI.SetActive(false);
-
-        // 3. Bật bất tử cho Boss (tránh việc Player đánh lén khi Boss đang gào thét)
         if (bossHealth) bossHealth.isInvulnerable = true;
 
-        // 4. Chạy Timeline
-        director.Play();
+        // [MỚI] Gán cutscene này làm cutscene hiện tại đang chạy
+        currentPlayingDirector = director;
 
-        // 5. Đăng ký sự kiện: Khi chạy xong thì làm gì?
+        director.Play();
         director.stopped += OnCutsceneFinished;
     }
 
     void OnCutsceneFinished(PlayableDirector director)
     {
-        // Hủy đăng ký sự kiện để tránh lỗi
         director.stopped -= OnCutsceneFinished;
 
-        // 1. Trả lại điều khiển
+        // [MỚI] Reset lại biến báo hiệu không có phim nào đang chiếu
+        currentPlayingDirector = null;
+
+        // Trả lại điều khiển sau khi hết phim
         if (playerMovement) playerMovement.enabled = true;
         if (bossAttack) bossAttack.enabled = true;
+        if (bossMove) bossMove.enabled = true;
+        //if (FinalBossMove) FinalBossMove.enabled = true;
+        if (FinalBossMove) FinalBossMove.startMove();
 
-        // 2. Bật lại UI
         if (gameUI) gameUI.SetActive(true);
-
-        // 3. Tắt bất tử
         if (bossHealth) bossHealth.isInvulnerable = false;
     }
 }

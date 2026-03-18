@@ -46,7 +46,6 @@ public class BossGroundMovement : MonoBehaviour
         if (anim != null)
         {
             // Chỉ tính là đang di chuyển nếu vận tốc X đáng kể và KHÔNG phải đang dash
-            // (Dùng rb.velocity nếu Unity bản cũ, dùng rb.linearVelocity nếu Unity 6)
             bool moving = Mathf.Abs(rb.linearVelocity.x) > 0.1f && !isDashing;
             anim.SetBool("isMoving", moving);
         }
@@ -89,14 +88,34 @@ public class BossGroundMovement : MonoBehaviour
         HandleFlip(dirX);
     }
 
+    [Header("Contact Damage")]
+    public int contactDamage = 10;
+    public float damageCooldown = 1f; // Khoảng thời gian giữa 2 lần mất máu (ví dụ: 1 giây)
+    private float lastDamageTime; // Lưu lại thời điểm gây sát thương lần cuối
     // Thêm hàm này để xử lý khi boss lỡ ủi trúng player thì dừng ngay không đẩy tiếp
     void OnCollisionStay2D(Collision2D collision)
     {
         // Nếu va chạm với Player và KHÔNG phải đang Dash
-        if (collision.gameObject.CompareTag("Player") && !isDashing)
+        if (collision.gameObject.CompareTag("Player") && isDashing)
         {
-            // Dừng ngay lập tức
+            // 1. Dừng ngay lập tức (Code cũ của bạn)
             Stop();
+
+            // 2. TÍCH HỢP XỬ LÝ SÁT THƯƠNG
+            // Kiểm tra xem đã qua thời gian Cooldown kể từ lần đánh trước chưa?
+            if (Time.time >= lastDamageTime + damageCooldown)
+            {
+                // Tìm script máu của Player (nhớ đổi tên PlayerHealth thành tên script của bạn)
+                PlayerHealth pHealth = collision.gameObject.GetComponent<PlayerHealth>();
+
+                if (pHealth != null)
+                {
+                    pHealth.TakeDamage(contactDamage);
+
+                    // Cập nhật lại mốc thời gian vừa gây sát thương
+                    lastDamageTime = Time.time;
+                }
+            }
         }
     }
 
@@ -146,7 +165,6 @@ public class BossGroundMovement : MonoBehaviour
         // Chỉ xử lý nếu Boss ĐANG DASH và va chạm với PLAYER
         if (isDashing && collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Boss húc trúng Player!");
 
             Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
 
