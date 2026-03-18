@@ -10272,6 +10272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossDialogue
   isFirstBoss: 0
+  nextSceneName: FinalBossScene
   introDialogue: {fileID: 11400000, guid: 3c77967a06be55748a898f1dcdf73b1c, type: 2}
   preChoiceDialogue: {fileID: 0}
   killDialogue: {fileID: 11400000, guid: 13716929bcc6e8841a9a30f600bd6915, type: 2}

@@ -1,11 +1,16 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossDialogue : MonoBehaviour
 {
     [Header("Boss Settings")]
     [Tooltip("Tick vào đây NẾU ĐÂY LÀ BOSS ĐẦU TIÊN (Boss quyết định Route của game)")]
     public bool isFirstBoss = false;
+
+    [Header("Scene Transition")]
+    [Tooltip("Tên Scene sẽ chuyển tới sau khi đánh bại Boss")]
+    public string nextSceneName;
 
     [Header("Boss Dialogues")]
     public DialogueSequence introDialogue;     // (MỚI) Thoại khi vừa chạm mặt Boss
@@ -108,6 +113,9 @@ public class BossDialogue : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
         Destroy(gameObject);
+
+        // Chuyển sang Scene tiếp theo sau khi đánh bại Boss
+        LoadNextScene();
     }
 
     IEnumerator ExecuteAllyPath(bool isFirstBoss)
@@ -121,7 +129,9 @@ public class BossDialogue : MonoBehaviour
         if (anim) anim.SetTrigger("Recover");
 
         yield return new WaitForSeconds(3f);
-        Debug.Log("Chuyển Scene đồng minh/hòa bình...");
+
+        // Chuyển sang Scene tiếp theo sau khi đánh bại Boss
+        LoadNextScene();
     }
 
     // Các hàm phát thoại phụ trợ (Giữ nguyên)
@@ -141,5 +151,27 @@ public class BossDialogue : MonoBehaviour
     {
         if (mercyDialogue != null && DialogueUIManager.Instance != null)
             yield return StartCoroutine(DialogueUIManager.Instance.PlayDialogueRoutine(mercyDialogue));
+    }
+
+    // --- CHUYỂN SCENE SAU KHI ĐÁNH BẠI BOSS ---
+    private void LoadNextScene()
+    {
+        if (string.IsNullOrEmpty(nextSceneName))
+        {
+            Debug.LogWarning("BossDialogue: nextSceneName chưa được gán! Không thể chuyển Scene.");
+            return;
+        }
+
+        Debug.Log($"Chuyển sang Scene: {nextSceneName}");
+
+        if (SceneController.Instance != null)
+        {
+            SceneController.Instance.LoadScene(nextSceneName);
+        }
+        else
+        {
+            // Phòng trường hợp SceneController chưa tồn tại
+            SceneManager.LoadScene(nextSceneName);
+        }
     }
 }

@@ -1082,84 +1082,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &244295040
+--- !u!1 &244295040 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2638701943862332577, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+  m_PrefabInstance: {fileID: 7275826200551639781}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 244295042}
-  - component: {fileID: 244295041}
-  m_Layer: 0
-  m_Name: Bounary
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!68 &244295041
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 244295040}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -11.64288, y: 5.880063}
-  - {x: -11.483162, y: -5.3679333}
-  - {x: 13.819097, y: -5.283869}
-  - {x: 13.706673, y: 5.810213}
-  - {x: -11.483305, y: 5.870199}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
---- !u!4 &244295042
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 244295040}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3815, y: -0.2925, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &304398007
 GameObject:
   m_ObjectHideFlags: 0
@@ -8000,6 +7927,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e5925402f6f5044a0ff7e884bce8d0, type: 3}
+--- !u!1001 &7275826200551639781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.3815
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2925
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575067384707946452, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2638701943862332577, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
+      propertyPath: m_Name
+      value: Bounary
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0bc03e523c95abb43ba16051f08be849, type: 3}
 --- !u!1 &7927739891563643128 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7872335646049176987, guid: d5aba98a5e38d024fa687fe44ed82bd7, type: 3}
@@ -8029,6 +8013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossDialogue
   isFirstBoss: 0
+  nextSceneName: MapIce
   introDialogue: {fileID: 11400000, guid: 12bc1aecccf3d464793fcd9df489caad, type: 2}
   preChoiceDialogue: {fileID: 0}
   killDialogue: {fileID: 11400000, guid: afb3e2d647deac642a059185db1b8fb5, type: 2}
@@ -8087,7 +8072,7 @@ SceneRoots:
   - {fileID: 2071320866}
   - {fileID: 55243718}
   - {fileID: 1829407122}
-  - {fileID: 244295042}
+  - {fileID: 7275826200551639781}
   - {fileID: 219630893}
   - {fileID: 315979613}
   - {fileID: 1757202874}

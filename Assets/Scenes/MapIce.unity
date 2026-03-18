@@ -664,7 +664,7 @@ Transform:
   m_GameObject: {fileID: 559350164}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 261.75058, y: -43.75137, z: -10}
+  m_LocalPosition: {x: 261.7003, y: -43.751514, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12147,6 +12147,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4023669381760748330, guid: 131c37c9ac6c9bc43b1983a40fbeca08, type: 3}
+      propertyPath: sceneToLoad
+      value: BossWaterScene
+      objectReference: {fileID: 0}
     - target: {fileID: 4658674843385680711, guid: 131c37c9ac6c9bc43b1983a40fbeca08, type: 3}
       propertyPath: m_Name
       value: FinishPoint

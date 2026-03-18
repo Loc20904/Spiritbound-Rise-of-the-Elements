@@ -1,5 +1,6 @@
-﻿using System.Collections; // Nhớ có thư viện này để dùng IEnumerator
+using System.Collections; // Nhớ có thư viện này để dùng IEnumerator
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossController : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class BossController : MonoBehaviour
 
     public BossCutsceneManager cutsceneManager;
     private bool hasPlayedPhase2Cutscene = false;
+
+    [Header("Scene Transition (Phòng khi không có BossDialogue)")]
+    [Tooltip("Tên Scene tiếp theo, chỉ dùng khi không gắn BossDialogue")]
+    public string nextSceneName;
 
     // (MỚI) Biến cờ khóa Boss lúc đang đọc thoại đầu game
     private bool isBattleStarted = false;
@@ -140,7 +145,29 @@ public class BossController : MonoBehaviour
         else
         {
             // Code đề phòng nếu bạn quên gắn script BossDialogue
-            if (cutsceneManager != null) cutsceneManager.PlayDeathCutscene();
+            StartCoroutine(DeathWithoutDialogueRoutine());
+        }
+    }
+
+    // Coroutine xử lý chết khi không có BossDialogue
+    IEnumerator DeathWithoutDialogueRoutine()
+    {
+        if (cutsceneManager != null)
+            yield return StartCoroutine(cutsceneManager.PlayDeathCutscene());
+
+        yield return new WaitForSeconds(1.5f);
+
+        // Chuyển sang Scene tiếp theo
+        if (!string.IsNullOrEmpty(nextSceneName))
+        {
+            if (SceneController.Instance != null)
+                SceneController.Instance.LoadScene(nextSceneName);
+            else
+                SceneManager.LoadScene(nextSceneName);
+        }
+        else
+        {
+            Debug.LogWarning("BossController: nextSceneName chưa được gán!");
         }
     }
 }

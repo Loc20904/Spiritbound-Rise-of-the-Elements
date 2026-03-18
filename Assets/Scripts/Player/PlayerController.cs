@@ -295,6 +295,7 @@ public class PlayerController : MonoBehaviour
 
         jumpCount++;
         coyoteTimer = 0f;
+        //Debug.Log("asds" + jumpCount);
     }
 
     // ===== Dash =====
