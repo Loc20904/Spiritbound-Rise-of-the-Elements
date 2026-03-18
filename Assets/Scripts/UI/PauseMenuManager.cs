@@ -46,6 +46,8 @@ public class PauseMenuManager : MonoBehaviour
     private float escCooldown = 0.2f;
     private float lastEscTime = -1f;
 
+    public GameObject player;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -218,6 +220,16 @@ public class PauseMenuManager : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(target);
         Debug.Log("Selected: " + target.name);
+    }
+
+    public void SaveGame()
+    {
+        var health = player.GetComponent<PlayerHealth>();
+
+        SaveSystem.SaveGame(
+            player.transform.position,
+            health.CurrentHP
+        );
     }
 
     public void QuitGame()
