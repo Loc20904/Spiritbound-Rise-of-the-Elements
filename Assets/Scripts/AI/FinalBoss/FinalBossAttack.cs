@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 
 public class FinalBossAttack : BossAttackBase
@@ -34,6 +34,14 @@ public class FinalBossAttack : BossAttackBase
     public float worldMinX = -12f; // Tọa độ X bên trái cùng của map
     public float worldMaxX = 12f;  // Tọa độ X bên phải cùng của map
     public int pillarCount = 5;    // Số lượng cột năng lượng
+    public int darkPillarDamage = 40; // Sát thương cột tối (chỉnh trong Inspector)
+    public int dragonDamage = 30;     // Sát thương cắn rồng (chỉnh trong Inspector)
+
+    [Header("Ultimate: Chain Prison Settings")]
+    public GameObject ultiChainPrefab;    // Prefab sợi xích thực sự đâm ra
+    public int ultiChainCount = 6;        // Số lượng xích triệu hồi
+    public float ultiRadius = 3.5f;       // Bán kính xuất hiện quanh Player
+
 
     private bool isAttacking = false;
 
@@ -63,13 +71,6 @@ public class FinalBossAttack : BossAttackBase
     {
         yield return StartCoroutine(PerformAttackRoutine());
     }
-    // --- ULTIMATE: CHAIN PRISON ---
-    // --- ULTIMATE: CHAIN PRISON ---
-    [Header("Ultimate: Chain Prison Settings")]
-    public GameObject ultiChainPrefab;    // Prefab sợi xích thực sự đâm ra
-    public int ultiChainCount = 6;        // Số lượng xích triệu hồi
-    public float ultiRadius = 3.5f;       // Bán kính xuất hiện quanh Player
-    public AudioClip chainStrikeSFX;      // Âm thanh xích đâm
 
     protected override IEnumerator SkillUtimateUlti()
     {
@@ -93,7 +94,6 @@ public class FinalBossAttack : BossAttackBase
         // --- PHASE 2 & 3: Gọi xích ra ---
         if (ultiChainPrefab != null)
         {
-            PlaySound(chainStrikeSFX, 1.2f);
             for (int i = 0; i < ultiChainCount; i++)
             {
                 Vector3 direction = (playerPos - spawnPositions[i]).normalized;
@@ -176,13 +176,13 @@ public class FinalBossAttack : BossAttackBase
                 if (finalBoss_Skill2_3 != null)
                 {
 
-                    GameObject dragon = Instantiate(finalBoss_Skill2_3, spawnPos + new Vector3(0, 1.8f, 0), Quaternion.identity, skillHolder);
+                    GameObject dragon = Instantiate(finalBoss_Skill2_3, spawnPos + new Vector3(0, 1.4f, 0), Quaternion.identity, skillHolder);
 
                     // Xử lý gây sát thương (nếu script dragon cắn có logic sát thương riêng)
-                    HandleDragonDamage(spawnPos, 2f);
+                    StartCoroutine(HandleDragonDamage(spawnPos, 2f, 1f));
 
                 }
-                yield return new WaitForSeconds(0.5f); // Delay giữa các lần cắn
+                yield return new WaitForSeconds(1f); // Delay giữa các lần cắn
             }
         }
     }
@@ -278,8 +278,7 @@ public class FinalBossAttack : BossAttackBase
         Collider2D hit = Physics2D.OverlapCircle(pos, radius, playerLayer);
         if (hit != null)
         {
-            Debug.Log("<color=purple>Final Boss:</color> Player trúng lời nguyền hắc ám!");
-            // hit.GetComponent<PlayerHealth>()?.TakeDamage(40);
+            hit.GetComponent<PlayerStats>()?.TakeDamage(darkPillarDamage);
         }
     }
 
@@ -297,13 +296,14 @@ public class FinalBossAttack : BossAttackBase
         }
     }
 
-    private void HandleDragonDamage(Vector3 pos, float radius)
+    private IEnumerator HandleDragonDamage(Vector3 pos, float radius, float delay)
     {
+        yield return new WaitForSeconds(delay);
+
         Collider2D hit = Physics2D.OverlapCircle(pos, radius, playerLayer);
         if (hit != null)
         {
-            // hit.GetComponent<PlayerHealth>()?.TakeDamage(damage);
-            Debug.Log("Player bị rồng cắn!");
+            hit.GetComponent<PlayerStats>()?.TakeDamage(dragonDamage);
         }
     }
 

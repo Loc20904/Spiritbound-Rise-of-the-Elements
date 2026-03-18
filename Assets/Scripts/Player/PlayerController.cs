@@ -81,6 +81,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
+    [Header("Chaos / Debuff")]
+    private bool isReversed = false; // Cờ theo dõi trạng thái đảo ngược
+
     private Vector2 moveInput;
     private int facing = 1;
 
@@ -167,6 +170,12 @@ public class PlayerController : MonoBehaviour
         if (isDead) return;
 
         moveInput = moveAction.ReadValue<Vector2>();
+
+        // NGAY TẠI ĐÂY: Nếu dính debuff Chaos, bẻ ngược mũi tên (nhân với -1)
+        if (isReversed)
+        {
+            moveInput = new Vector2(-moveInput.x, moveInput.y);
+        }
 
         // ===== Combo timer =====
         if (comboTimer > 0f)
@@ -507,7 +516,50 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;
     }
+
+    public void StopMove()
+    {
+        // 1. Dừng ngay lập tức các Coroutine đang chạy (đặc biệt là CoDash)
+        StopAllCoroutines();
+
+        // 2. Reset vận tốc và input
+        moveInput = Vector2.zero;
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.gravityScale = defaultGravity; // Trả lại trọng lực lỡ đang leo tường/thang
+        }
+
+        // 3. Reset các biến trạng thái di chuyển
+        isDashing = false;
+        isClimbing = false;
+        canDash = true;
+        jumpBufferTimer = 0f;
+        coyoteTimer = 0f;
+
+        // 4. Reset trạng thái tấn công (tránh kẹt combo)
+        comboStep = 0;
+        comboTimer = 0f;
+        attackLocked = false;
+        queueSecondHit = false;
+
+        // 5. Ép Animator cập nhật về trạng thái Idle đứng im
+        if (animator != null)
+        {
+            animator.SetBool(A_IsRunning, false);
+            animator.SetBool(A_IsDashing, false);
+            animator.SetBool(A_IsClimbing, false);
+            animator.SetFloat(A_Yvel, 0f);
+        }
+    }
+
+    // Cấp quyền cho ChaosMechanic bật/tắt trạng thái đảo ngược
+    public void SetReverseControl(bool state)
+    {
+        isReversed = state;
+    }
 }
+
 
 public interface IDamageable
 {

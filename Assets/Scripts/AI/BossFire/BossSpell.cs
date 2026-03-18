@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class BossSpell : MonoBehaviour
 {
@@ -29,7 +29,8 @@ public class BossSpell : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Trừ máu player ở đây...
+            // Gây sát thương cho Player
+            other.GetComponent<PlayerStats>()?.TakeDamage((int)damage);
 
             // Xử lý đẩy lùi
             Rigidbody2D playerRb = other.GetComponent<Rigidbody2D>();
@@ -43,10 +44,10 @@ public class BossSpell : MonoBehaviour
 
             Hit(); // Gọi hàm va chạm
         }
-        else if (other.CompareTag("Ground") || other.CompareTag("Wall"))
-        {
-            Hit(); // Gọi hàm va chạm
-        }
+        //else if (other.CompareTag("Ground+Wall"))
+        //{
+        //    Hit(); // Gọi hàm va chạm
+        //}
     }
 
     void Hit()

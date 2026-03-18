@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 
 public class UltiChainController : MonoBehaviour
@@ -10,6 +10,7 @@ public class UltiChainController : MonoBehaviour
 
     // Yêu cầu Prefab xích phải có một Collider2D (VD: BoxCollider2D) và đã tick vào ô "Is Trigger"
     private Collider2D chainCollider;
+    public AudioClip chainStrikeSFX;      // Âm thanh xích đâm
 
     void Awake()
     {
@@ -45,7 +46,7 @@ public class UltiChainController : MonoBehaviour
             //Debug.Log("<color=red>Player dính Xích!</color>");
 
             // Lấy script máu của player và trừ máu
-            // collision.GetComponent<PlayerHealth>()?.TakeDamage(damage);
+            collision.GetComponent<PlayerStats>()?.TakeDamage(damage);
 
             // Nếu có hiệu ứng trói/stun, gọi ở đây
             // collision.GetComponent<PlayerMovement>()?.Stun(1.5f);
@@ -64,8 +65,15 @@ public class UltiChainController : MonoBehaviour
     public void delay()
     {
         StartCoroutine(delayCoroutine());
-    }
 
+    }
+    public void PlaySound()
+    {
+        if (chainStrikeSFX != null && SFXPool.Instance != null)
+        {
+            SFXPool.Instance.Play(chainStrikeSFX, 1, Random.Range(0.9f, 1.1f));
+        }
+    }
     public IEnumerator delayCoroutine()
     {
         // 1. Chỉnh tốc độ Animator về 0 -> Animation lập tức đóng băng tại frame hiện tại

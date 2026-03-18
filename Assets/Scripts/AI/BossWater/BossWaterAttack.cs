@@ -104,12 +104,12 @@ public class BossWaterAttack : BossAttackBase
         if (isPhase2)
         {
             // Tăng tần suất AOE và Summon
-            if (rand < 0.4f)
+            if (rand < 0.3f)
             {
                 yield return StartCoroutine(SkillHydroPump()); // 40% Vòi rồng
                 skillPerformed = true;
             }
-            else if (rand < 0.7f)
+            else if (rand < 0.6f)
             {
                 yield return StartCoroutine(SkillGeyserAttack()); // 30% Cột nước
                 skillPerformed = true;
@@ -123,12 +123,12 @@ public class BossWaterAttack : BossAttackBase
         // --- PHASE 1 (Cơ bản) ---
         else
         {
-            if (rand < 0.2f)
+            if (rand < 0.3f)
             {
                 yield return StartCoroutine(SkillHydroPump()); // 60% Vòi rồng
                 skillPerformed = true;
             }
-            else if (rand < 0.9f)
+            else if (rand < 0.7f)
             {
                 yield return StartCoroutine(SkillGeyserAttack()); // 30% Cột nước
                 skillPerformed = true;

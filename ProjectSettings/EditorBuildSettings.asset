@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: 079947866d79edc48aa4d1b5735359e0
+  - enabled: 1
+    path: Assets/Scenes/FortuneScene.unity
+    guid: 59df066987f5ed743b324eb82558b847
+  - enabled: 1
     path: Assets/Scenes/MapVolcano.unity
     guid: a68fc20ad68ac9c44a5a8d1daabdc47b
   - enabled: 1

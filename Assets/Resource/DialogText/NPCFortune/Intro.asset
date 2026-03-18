@@ -15,12 +15,12 @@ MonoBehaviour:
   requiredFlag: 
   lines:
   - characterName: Fortune
-    characterAvatar: {fileID: 0}
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
     sentence: "Ah\u2026 a wandering soul approaches.\nThe winds of fate have been
       whispering about you."
   - characterName: Fortune
-    characterAvatar: {fileID: 0}
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
     sentence: "I can see fragments of your future\u2026\npower, choices, and consequences."
   - characterName: Fortune
-    characterAvatar: {fileID: 0}
+    characterAvatar: {fileID: -8599450235378033011, guid: 73e4b707697ee434b8ed5dc20aca2eec, type: 3}
     sentence: If you wish, I can reveal the strength hidden within your journey.

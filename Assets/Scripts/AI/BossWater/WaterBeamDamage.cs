@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class WaterBeamDamage : MonoBehaviour
 {
@@ -15,8 +15,7 @@ public class WaterBeamDamage : MonoBehaviour
         if (collision.CompareTag("Player") && Time.time >= nextDamageTime)
         {
             // 1. Gây Damage
-            // Lưu ý: Thay "TakeDamage" bằng tên hàm trong script máu của Player bạn
-            collision.SendMessage("TakeDamage", damagePerSecond * tickRate, SendMessageOptions.DontRequireReceiver);
+            collision.GetComponent<PlayerStats>()?.TakeDamage((int)(damagePerSecond * tickRate));
 
             // 2. Đẩy lùi Player (Knockback) - Tạo cảm giác tia nước mạnh
             Rigidbody2D pRb = collision.GetComponent<Rigidbody2D>();

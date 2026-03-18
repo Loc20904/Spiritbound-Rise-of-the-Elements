@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5131332667571073341}
   - component: {fileID: 2258214327346200173}
   - component: {fileID: 3374359851265870102}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -178,3 +178,5 @@ MonoBehaviour:
   pillarVisual: {fileID: 3250695956186012873}
   pillarCollider: {fileID: 2258214327346200173}
   aim: {fileID: 5131332667571073341}
+  breakSound: {fileID: 8300000, guid: a3406f102c37abc41b067aa985cb896b, type: 3}
+  breakSoundVolume: 0.5
