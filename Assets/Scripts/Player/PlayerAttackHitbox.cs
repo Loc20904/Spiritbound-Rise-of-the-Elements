@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class PlayerAttackHitbox : MonoBehaviour
 {
@@ -14,6 +14,7 @@ public class PlayerAttackHitbox : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //Debug.Log(other.tag+" "+other.layer);
         if (((1 << other.gameObject.layer) & enemyLayer) == 0) return;
         if (ph == null) return;
 

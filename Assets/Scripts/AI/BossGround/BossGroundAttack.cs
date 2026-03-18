@@ -33,7 +33,7 @@ public class BossGroundAttack : BossAttackBase
 
     [Header("Skill 1: Shield (Phase 2)")]
     public GameObject shieldVFX;
-    public float healPercent = 5f;
+    public float healPercent = 15f;
 
     [Header("Skill 2: Stun Spell (Phase 2)")]
     public GameObject stunProjectilePrefab;
@@ -107,6 +107,8 @@ public class BossGroundAttack : BossAttackBase
     {
         if (isBusy) yield break;
         isBusy = true;
+
+        //anim.SetTrigger("isIdle");
 
         bool actionDone = false;
         float distToPlayer = Vector2.Distance(transform.position, player.position);
@@ -186,7 +188,10 @@ public class BossGroundAttack : BossAttackBase
     // ---------------------------------------------------------
     // SKILLS IMPLEMENTATION
     // ---------------------------------------------------------
-
+    [Header("Damage")]
+    public int damageHit1 = 10;
+    public int damageHit2 = 15;
+    public int damageHit3 = 25; // Hit 3 thường đau nhất
     IEnumerator MeleeCombo()
     {
         movement.SetMove(false); // Khóa di chuyển
@@ -195,17 +200,20 @@ public class BossGroundAttack : BossAttackBase
         movement.FacePlayer();
         anim.SetTrigger("attack1");
         yield return new WaitForSeconds(attack1Duration); // Chờ tay
+        PerformHit(damageHit1);
         anim.ResetTrigger("attack1");
 
         // --- HIT 2 ---
         movement.FacePlayer(); // Quay mặt lại cho chuẩn hướng
         anim.SetTrigger("attack2");
+        PerformHit(damageHit2);
         yield return new WaitForSeconds(attack2Duration); // Chờ tay
         anim.ResetTrigger("attack2");
 
         // --- HIT 3 ---
         movement.FacePlayer();
         anim.SetTrigger("attack3");
+        PerformHit(damageHit3);
         yield return new WaitForSeconds(attack3Duration); // Chờ tay
         anim.ResetTrigger("attack3");
 
@@ -342,6 +350,8 @@ public class BossGroundAttack : BossAttackBase
     //    Gizmos.DrawWireSphere(attackPoint.position, meleeRange);
     //}
 
+    public Vector3 spawnUltiCutScenePosition;
+
     protected override IEnumerator SkillUtimateUlti()
     {
         isBusy = true;
@@ -359,7 +369,7 @@ public class BossGroundAttack : BossAttackBase
         if (videoCutscenePrefab != null)
         {
             PlaySound(startBattle);
-            GameObject videoObj = Instantiate(videoCutscenePrefab, skillHolder);
+            GameObject videoObj = Instantiate(videoCutscenePrefab, spawnUltiCutScenePosition, Quaternion.identity, skillHolder);
             yield return new WaitForSeconds(3.3f);
             Destroy(videoObj);
         }
@@ -419,5 +429,65 @@ public class BossGroundAttack : BossAttackBase
         }
 
         if (obj != null) Destroy(obj);
+    }
+
+    // ---------------------------------------------------------
+    // CLEAN UP (Ngăn kẹt Animation / Logic khi vào Cutscene)
+    // ---------------------------------------------------------
+    private void OnDisable()
+    {
+        // 1. Ép Boss về Idle
+        if (anim != null)
+        {
+            // Tắt mọi trigger đang dở dang
+            anim.ResetTrigger("attack1");
+            anim.ResetTrigger("attack2");
+            anim.ResetTrigger("attack3");
+            anim.ResetTrigger("dashPrepare");
+            anim.ResetTrigger("dashGo");
+            anim.ResetTrigger("skillCast");
+
+            // Ép bật Idle lên
+            anim.SetTrigger("isIdle");
+
+            // (Tùy chọn) Nếu bạn dùng Bool để đánh dấu Idle thì thêm:
+            // anim.SetBool("isMoving", false); 
+        }
+
+        // 2. Mở khóa các biến trạng thái
+        isBusy = false;
+
+        // 3. Đảm bảo hàm StopAllCoroutines được gọi 
+        // (Nếu ở script CutsceneManager bạn chưa gọi)
+        StopAllCoroutines();
+
+        // 4. Mở lại script di chuyển để không bị liệt chân sau khi xem phim xong
+        if (movement != null)
+        {
+            movement.SetMove(true);
+            movement.Stop(); // Đứng lại
+        }
+
+        // 5. Tắt VFX nếu đang bật dở
+        if (shieldVFX != null) shieldVFX.SetActive(false);
+    }
+
+    private void PerformHit(int damage)
+    {
+        if (attackPoint == null) return;
+
+        // Quét một vòng tròn tại attackPoint, tìm tất cả những vật có Layer là playerLayer
+        Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackPoint.position, meleeRange, playerLayer);
+
+        foreach (Collider2D player in hitPlayers)
+        {
+            // Gọi hàm trừ máu từ script PlayerHealth hoặc PlayerStats của bạn
+            PlayerStats health = player.GetComponent<PlayerStats>();
+            if (health != null)
+            {
+                health.TakeDamage(damage);
+                // Có thể thêm hiệu ứng máu me, âm thanh đánh trúng ở đây
+            }
+        }
     }
 }

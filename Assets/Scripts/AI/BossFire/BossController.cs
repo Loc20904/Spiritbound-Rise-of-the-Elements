@@ -8,8 +8,11 @@ public class BossController : MonoBehaviour
     BossAttackBase attack;
     BossMovement movement;
     BossGroundMovement groundMovement;
+    FinalBossMovement finalBossMovement;
     Animator anim;
     BossDialogue bossDialogue; // Script lo liệu phần thoại
+    private ChaosMechanic chaosMechanic; // Script lo liệu phần Hư Không (Final Boss)
+    private EnvironmentBurn environmentBurn; // Script lo liệu phần cháy môi trường (Final Boss)
 
     public bool isFinalBoss = false;
 
@@ -28,6 +31,13 @@ public class BossController : MonoBehaviour
         groundMovement = GetComponent<BossGroundMovement>();
         anim = GetComponent<Animator>();
         bossDialogue = GetComponent<BossDialogue>();
+        if (isFinalBoss)
+        {
+            finalBossMovement = GetComponent<FinalBossMovement>();
+            chaosMechanic = GetComponent<ChaosMechanic>();
+        }
+        environmentBurn = GetComponent<EnvironmentBurn>();
+
     }
 
     void Start()
@@ -58,6 +68,7 @@ public class BossController : MonoBehaviour
             groundMovement.Stop();
             groundMovement.enabled = false;
         }
+        if (finalBossMovement) finalBossMovement.stopMove();
 
         // 2. PHÁT THOẠI INTRO
         if (bossDialogue != null)
@@ -70,8 +81,15 @@ public class BossController : MonoBehaviour
         if (attack) attack.enabled = true;
         if (movement) movement.enabled = true;
         if (groundMovement) groundMovement.enabled = true;
+        if (finalBossMovement) finalBossMovement.startMove();
 
         isBattleStarted = true;
+
+        //setup enviroment
+        if (isFinalBoss && chaosMechanic != null)
+            StartCoroutine(chaosMechanic.ChaosLoopRoutine());
+        if (environmentBurn != null)
+            environmentBurn.startBurn();
     }
 
     void Update()
@@ -103,6 +121,12 @@ public class BossController : MonoBehaviour
 
     void OnBossDeath()
     {
+        if (isFinalBoss && chaosMechanic != null)
+            chaosMechanic.StopChaos();
+        if (environmentBurn != null)
+            environmentBurn.stopBurn();
+
+
         // Chuyển quyền xử lý cái chết cho BossDialogue
         if (bossDialogue != null)
         {

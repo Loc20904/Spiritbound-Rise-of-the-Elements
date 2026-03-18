@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
 public class StunProjectile : MonoBehaviour
@@ -66,8 +66,8 @@ public class StunProjectile : MonoBehaviour
 
             if (other.CompareTag("Player"))
             {
-                // Gây damage logic ở đây
-                Debug.Log("Kiếm đâm trúng Player!");
+                // Gây sát thương cho Player
+                other.GetComponent<PlayerStats>()?.TakeDamage((int)damage);
             }
 
             if (hitVFX != null) Instantiate(hitVFX, transform.position, Quaternion.identity);

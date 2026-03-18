@@ -5,22 +5,14 @@ public class StunObject : MonoBehaviour
     public float stunDuration = 2f;
     public GameObject stunEffect;
     public AudioClip SFX;
+    public int damege = 10;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (SFX) PlaySound(SFX);
         if (other.CompareTag("Player"))
         {
-
-            //PlayerController playerScript = other.GetComponent<PlayerController>();
-
-            //    if (playerScript != null)
-            //    {
-            //        playerScript.ApplyStun(stunDuration, stunEffect);
-            //    }
-
-            //    Destroy(gameObject);
-            //}
+            other.GetComponent<PlayerStats>().TakeDamage(10);
         }
     }
     protected void PlaySound(AudioClip clip)

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 
 namespace Assets.Scripts.AI.FinalBoss
@@ -8,6 +8,7 @@ namespace Assets.Scripts.AI.FinalBoss
         [Header("Settings")]
         public float delayBeforeExplosion = 3f;
         public float explosionRadius = 3f;
+        public int explosionDamage = 30;  // Sát thương vụ nổ (chỉnh trong Inspector)
         public LayerMask playerLayer;
 
         [Header("Effects")]
@@ -56,8 +57,7 @@ namespace Assets.Scripts.AI.FinalBoss
             Collider2D hit = Physics2D.OverlapCircle(transform.position, explosionRadius, playerLayer);
             if (hit != null)
             {
-                // Giả sử script Player có hàm TakeDamage
-                // hit.GetComponent<IHealth>()?.TakeDamage(30);
+                hit.GetComponent<PlayerStats>()?.TakeDamage(explosionDamage);
             }
         }
 

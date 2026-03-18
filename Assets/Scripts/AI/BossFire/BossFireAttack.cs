@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -16,6 +16,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
     public GameObject sunBulletPrefab; // Đạn bắn ra từ "Mặt trời"
     public GameObject BoomVFX;
     public AudioClip BoomSFX;
+    public int supernovaDamage = 50;   // Sát thương vụ nổ Supernova
 
     public float rotateSpeed = 1000f;   // Tốc độ xoay của tia đạn
 
@@ -238,8 +239,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
         Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(center, radius, playerLayer);
         foreach (Collider2D p in hitPlayers)
         {
-            // p.GetComponent<PlayerHealth>()?.TakeDamage(50); // Sát thương cực lớn
-            Debug.Log("Player bị nổ tung bởi Supernova!");
+            p.GetComponent<PlayerStats>()?.TakeDamage(supernovaDamage);
         }
     }
 

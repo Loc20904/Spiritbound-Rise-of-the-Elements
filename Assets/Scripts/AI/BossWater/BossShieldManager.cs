@@ -9,7 +9,7 @@ public class BossShieldManager : MonoBehaviour
     public List<BossPillar> pillars;    // Kéo 2 cái Trụ vào đây
 
     [Header("Settings")]
-    public float respawnTime = 10f;     // Thời gian hồi trụ (10s)
+    public float respawnTime = 5f;     // Thời gian hồi trụ (10s)
 
     private bool isRespawning = false;
 

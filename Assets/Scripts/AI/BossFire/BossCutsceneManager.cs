@@ -13,23 +13,42 @@ public class BossCutsceneManager : MonoBehaviour
     public GameObject gameUI;
 
     [Header("Controllers")]
-    public MonoBehaviour playerMovement;
+    public PlayerController playerMovement;
     public BossAttackBase bossAttack;
     public BossGroundMovement bossMove;
     public FinalBossMovement FinalBossMove;
     public BossHealth bossHealth;
     public Transform skillHolder;
 
-    // ĐÃ XÓA HÀM START TỰ ĐỘNG CHẠY Ở ĐÂY
+    // [MỚI] Biến để theo dõi xem Cutscene nào đang được chiếu
+    private PlayableDirector currentPlayingDirector;
 
-    // (MỚI) Biến hàm chiếu Intro thành Coroutine để hệ thống có thể chờ
+    // [MỚI] Lắng nghe nút Space để Skip
+    void Update()
+    {
+        if (currentPlayingDirector != null && currentPlayingDirector.state == PlayState.Playing)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                // 1. Tua nhanh thời gian của Timeline đến đúng giây cuối cùng
+                currentPlayingDirector.time = currentPlayingDirector.duration;
+
+                // 2. Ép Unity tính toán và áp dụng ngay lập tức trạng thái ở frame cuối này
+                currentPlayingDirector.Evaluate();
+
+                // 3. Bây giờ mới chính thức dừng phim (sẽ tự động gọi OnCutsceneFinished)
+                currentPlayingDirector.Stop();
+            }
+        }
+    }
+
     public IEnumerator PlayIntroCutsceneRoutine()
     {
         if (introTimeline != null)
         {
             PlayCutscene(introTimeline);
 
-            // Bắt vòng lặp đợi cho đến khi Timeline chạy xong hoàn toàn
+            // Bắt vòng lặp đợi cho đến khi Timeline chạy xong hoàn toàn (hoặc bị ép Stop)
             while (introTimeline.state == PlayState.Playing)
             {
                 yield return null;
@@ -59,14 +78,23 @@ public class BossCutsceneManager : MonoBehaviour
         }
 
         // Khóa điều khiển
-        if (playerMovement) playerMovement.enabled = false;
+
+        if (playerMovement)
+        {
+            //playerMovement.StopMove();
+            playerMovement.enabled = false;
+        }
         if (bossAttack) bossAttack.enabled = false;
         if (bossMove)
         {
             bossMove.Stop();
             bossMove.enabled = false;
         }
-        if (FinalBossMove) FinalBossMove.stopMove();
+        if (FinalBossMove)
+        {
+            FinalBossMove.stopMove();
+            //FinalBossMove.enabled = false;
+        }
 
         bossAttack.ultiReady = 0f;
         bossAttack.StopAllCoroutines();
@@ -74,6 +102,9 @@ public class BossCutsceneManager : MonoBehaviour
 
         if (gameUI) gameUI.SetActive(false);
         if (bossHealth) bossHealth.isInvulnerable = true;
+
+        // [MỚI] Gán cutscene này làm cutscene hiện tại đang chạy
+        currentPlayingDirector = director;
 
         director.Play();
         director.stopped += OnCutsceneFinished;
@@ -83,10 +114,14 @@ public class BossCutsceneManager : MonoBehaviour
     {
         director.stopped -= OnCutsceneFinished;
 
+        // [MỚI] Reset lại biến báo hiệu không có phim nào đang chiếu
+        currentPlayingDirector = null;
+
         // Trả lại điều khiển sau khi hết phim
         if (playerMovement) playerMovement.enabled = true;
         if (bossAttack) bossAttack.enabled = true;
         if (bossMove) bossMove.enabled = true;
+        //if (FinalBossMove) FinalBossMove.enabled = true;
         if (FinalBossMove) FinalBossMove.startMove();
 
         if (gameUI) gameUI.SetActive(true);
