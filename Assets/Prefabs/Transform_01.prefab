@@ -182,6 +182,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d001908dcbae1594f895112d4998b99b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  moveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 94c91512-2f9b-4221-98c5-41d1c08c94a4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  jumpAction:
+    m_Name: Jump
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f80d29c4-8ee6-4595-a36f-8411b0aff264
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  dashAction:
+    m_Name: Dash
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: be442d31-3de5-456f-afe0-38513f938fa3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   moveSpeed: 10
   jumpForce: 25
   groundLayer:
@@ -226,6 +253,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f229b4dad2604644bd47d0fcb8d040c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  attackAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4907abb1-302c-4494-9ea4-4a3faa558e49
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  runAttackDisableTime: 0.5
+  runAttackDashForce: 15
+  runAttackDashDuration: 0.1
 --- !u!1 &7454286080799304204
 GameObject:
   m_ObjectHideFlags: 0
