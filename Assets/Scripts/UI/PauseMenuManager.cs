@@ -1,6 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
-using System.Collections;
 
 public class PauseMenuManager : MonoBehaviour
 {
@@ -231,6 +231,12 @@ public class PauseMenuManager : MonoBehaviour
             health.CurrentHP
         );
     }
+
+    public void menuQuit()
+    {
+        SceneController.Instance.LoadScene("MainMenuScene");
+    }
+
 
     public void QuitGame()
     {

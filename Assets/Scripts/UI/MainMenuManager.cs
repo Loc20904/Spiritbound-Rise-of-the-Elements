@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
@@ -25,8 +25,8 @@ public class MainMenuManager : MonoBehaviour
         Time.timeScale = 1f; // 🔥 đảm bảo game không bị freeze
         AudioListener.pause = false;
 
-        PlayerPrefs.SetString(lastSceneKey, "GameScene"); // tên scene gameplay
-        SceneManager.LoadScene("GameScene");
+        PlayerPrefs.SetString(lastSceneKey, "IntroScene"); // tên scene gameplay
+        SceneManager.LoadScene("IntroScene");
     }
 
     public void ResumeGame()
@@ -34,7 +34,7 @@ public class MainMenuManager : MonoBehaviour
         Time.timeScale = 1f;
         AudioListener.pause = false;
 
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("IntroScene");
     }
 
     public void QuitGame()
