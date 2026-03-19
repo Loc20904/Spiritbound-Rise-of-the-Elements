@@ -39,6 +39,8 @@ public class PlayerHealth : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         controller = GetComponent<PlayerController>();
+
+        LoadPlayer();
     }
 
     // ================= TAKE DAMAGE =================
@@ -181,6 +183,21 @@ public class PlayerHealth : MonoBehaviour
 
         if (showDamageLog)
             Debug.Log($"[PlayerHealth] Reset HP: {currentHP}/{maxHP}");
+    }
+
+    void LoadPlayer()
+    {
+        var data = SaveSystem.LoadGame();
+
+        if (data == null) return;
+
+        // 🔥 SET POSITION
+        transform.position = new Vector3(data.playerX, data.playerY, 0);
+
+        // 🔥 SET HP
+        currentHP = data.playerHP;
+
+        Debug.Log("Player Loaded!");
     }
 }
 
