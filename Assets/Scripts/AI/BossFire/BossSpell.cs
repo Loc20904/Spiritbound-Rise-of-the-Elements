@@ -44,10 +44,10 @@ public class BossSpell : MonoBehaviour
 
             Hit(); // Gọi hàm va chạm
         }
-        else if (other.CompareTag("Ground+Wall"))
-        {
-            Hit(); // Gọi hàm va chạm
-        }
+        //else if (other.CompareTag("Ground+Wall"))
+        //{
+        //    Hit(); // Gọi hàm va chạm
+        //}
     }
 
     void Hit()

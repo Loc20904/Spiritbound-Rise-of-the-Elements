@@ -32,10 +32,18 @@ public class SlashProjectile : MonoBehaviour
     {
         if (other.CompareTag("Player")) return;
 
-        IDamageable damageable = other.GetComponent<IDamageable>();
-        if (damageable != null)
+        EnemyBase enemy = other.GetComponentInParent<EnemyBase>();
+        if (enemy != null)
         {
-            damageable.TakeDamage(damage);
+            enemy.TakeDamage(damage);
+            Destroy(gameObject);
+            return;
+        }
+
+        other.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
+
+        if (((1 << other.gameObject.layer) & LayerMask.GetMask("Enemy", "Boss")) != 0)
+        {
             Destroy(gameObject);
             return;
         }

@@ -1,6 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
-using System.Collections;
 
 public class PauseMenuManager : MonoBehaviour
 {
@@ -45,6 +45,8 @@ public class PauseMenuManager : MonoBehaviour
 
     private float escCooldown = 0.2f;
     private float lastEscTime = -1f;
+
+    public GameObject player;
 
     void Update()
     {
@@ -219,6 +221,22 @@ public class PauseMenuManager : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(target);
         Debug.Log("Selected: " + target.name);
     }
+
+    public void SaveGame()
+    {
+        var health = player.GetComponent<PlayerHealth>();
+
+        SaveSystem.SaveGame(
+            player.transform.position,
+            health.CurrentHP
+        );
+    }
+
+    public void menuQuit()
+    {
+        SceneController.Instance.LoadScene("MainMenuScene");
+    }
+
 
     public void QuitGame()
     {

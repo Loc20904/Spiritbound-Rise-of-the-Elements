@@ -295,6 +295,7 @@ public class PlayerController : MonoBehaviour
 
         jumpCount++;
         coyoteTimer = 0f;
+        //Debug.Log("asds" + jumpCount);
     }
 
     // ===== Dash =====
@@ -441,7 +442,7 @@ public class PlayerController : MonoBehaviour
     private void OnSkillK(InputAction.CallbackContext ctx)
     {
         if (isDead || isDashing || isClimbing) return;
-        if (attackLocked) return;
+        //if (attackLocked) return;
         if (!canUseSkillK) return;
 
         comboStep = 0;
