@@ -38,6 +38,7 @@ public class InventoryUI : MonoBehaviour
 
     public void NextPage()
     {
+        //Debug.Log("jashdkjhaks");
         int totalPages = InventoryManager.Instance.TotalPages();
 
         if (InventoryManager.Instance.currentPage < totalPages - 1)
