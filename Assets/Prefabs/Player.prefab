@@ -1,5 +1,101 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &288024966241954983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6215920816557341788}
+  - component: {fileID: 8425437448283443986}
+  - component: {fileID: 5973613994940584056}
+  m_Layer: 0
+  m_Name: PunchHitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6215920816557341788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288024966241954983}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.94, y: 0.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 119216828653861772}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &8425437448283443986
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288024966241954983}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.5283203, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.0566406, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &5973613994940584056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288024966241954983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda138a392936c6418488921c04bdddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDamageDealer
+  damageAmount: 50
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  isSingleHit: 1
 --- !u!1 &1531621743860423240
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,7 +108,8 @@ GameObject:
   - component: {fileID: 3313569145174308025}
   - component: {fileID: 7631207275098082012}
   - component: {fileID: 8927582736737811467}
-  m_Layer: 7
+  - component: {fileID: 5394588137606854194}
+  m_Layer: 0
   m_Name: Fire_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,6 +258,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.6875, y: 6.3125}
   m_EdgeRadius: 0
+--- !u!114 &5394588137606854194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531621743860423240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda138a392936c6418488921c04bdddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDamageDealer
+  damageAmount: 200
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  isSingleHit: 1
 --- !u!1 &2498519741884376054
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +406,7 @@ Transform:
   - {fileID: 5202006414611280963}
   - {fileID: 6483782127790496231}
   - {fileID: 5025459154939918764}
+  - {fileID: 6215920816557341788}
   m_Father: {fileID: 8921421746221561793}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6716749011222084797
@@ -539,6 +654,8 @@ MonoBehaviour:
   runAttackDisableTime: 0.5
   runAttackDashForce: 15
   runAttackDashDuration: 0.1
+  normalAttackHitbox: {fileID: 288024966241954983}
+  normalAttackDuration: 0.3
   idleStateName: Transform01_Idle
   runStateName: Transform01_Run
   skillWindupTime: 0.5
@@ -989,6 +1106,7 @@ GameObject:
   - component: {fileID: 1537786816205769741}
   - component: {fileID: 4172706559150194170}
   - component: {fileID: 6767172660171552058}
+  - component: {fileID: 6888286736551549052}
   m_Layer: 0
   m_Name: Fire_K
   m_TagString: Untagged
@@ -1138,6 +1256,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.9375, y: 1.4375}
   m_EdgeRadius: 0
+--- !u!114 &6888286736551549052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471258820909149596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda138a392936c6418488921c04bdddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDamageDealer
+  damageAmount: 100
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  isSingleHit: 1
 --- !u!1 &8505480436671056660
 GameObject:
   m_ObjectHideFlags: 0

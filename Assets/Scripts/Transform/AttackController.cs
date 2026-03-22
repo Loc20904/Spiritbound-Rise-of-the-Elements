@@ -16,7 +16,13 @@ public class AttackController : MonoBehaviour
     public float runAttackDisableTime = 0.5f; // Đổi từ 30f (quá dài) xuống thời gian hợp lý hơn
     public float runAttackDashForce = 15f;    // Lực lướt tới khi tấn công
     public float runAttackDashDuration = 0.1f; // Thời gian lướt trước khi ra đòn
-    
+
+    [Header("Normal Attack Hitbox J")]
+    [Tooltip("Kéo object chứa BoxCollider chém thường vào đây")]
+    public GameObject normalAttackHitbox;
+    [Tooltip("Thời gian tồn tại của nhát chém thường (giây)")]
+    public float normalAttackDuration = 0.3f;
+
     [Header("Form Animation States")]
     public string idleStateName = "Transform01_Idle";
     public string runStateName = "Transform01_Run";
@@ -84,9 +90,10 @@ public class AttackController : MonoBehaviour
         skillActionL?.Disable();
         isAttackLocked = false; // BẮT BUỘC: Reset lại lock nếu form bị tắt (transform sang form khác)
         
-        // Tắt luôn lửa nếu đang phun dở mà bị đổi form (Dành cho Cách 2)
+        // Tắt luôn lửa và kiếm nếu đang xài dở mà bị đổi form
         if (skillHitboxK != null) skillHitboxK.SetActive(false); 
         if (skillHitboxL != null) skillHitboxL.SetActive(false); 
+        if (normalAttackHitbox != null) normalAttackHitbox.SetActive(false);
     }
 
     void Update()
@@ -248,11 +255,26 @@ public class AttackController : MonoBehaviour
         else
         {
             // Đang đứng yên HOẶC Đang nhảy trên không -> chỉ chạy Attack bình thường
-            if (animator != null)
-            {
-                animator.SetTrigger("tAttack");
-            }
+            StartCoroutine(CoNormalAttack());
         }
+    }
+
+    private IEnumerator CoNormalAttack()
+    {
+        // Gọi Animation chém
+        if (animator != null)
+        {
+            animator.SetTrigger("tAttack");
+        }
+
+        // Bật hitbox chém
+        if (normalAttackHitbox != null) normalAttackHitbox.SetActive(true);
+
+        // Chờ đúng thời lượng chém (vd 0.3s)
+        yield return new WaitForSeconds(normalAttackDuration);
+
+        // Rút kiếm, tắt hitbox
+        if (normalAttackHitbox != null) normalAttackHitbox.SetActive(false);
     }
 
     private IEnumerator CoRunAttack()
@@ -264,6 +286,9 @@ public class AttackController : MonoBehaviour
         {
             animator.SetTrigger("tRunAttack");
         }
+
+        // MỚI THÊM: Bật kiếm lên lúc đang lao tới
+        if (normalAttackHitbox != null) normalAttackHitbox.SetActive(true);
 
         if (rb != null)
         {
@@ -287,6 +312,9 @@ public class AttackController : MonoBehaviour
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             rb.gravityScale = originalGravity;
         }
+
+        // MỚI THÊM: Sau khi lao tới chém xong (hết Duration lướt), tắt kiếm đi
+        if (normalAttackHitbox != null) normalAttackHitbox.SetActive(false);
 
         // BƯỚC 3: Chờ nốt thời gian tung đòn (sau khi trừ hao thời gian đã dùng để lướt)
         float remainingWait = runAttackDisableTime - runAttackDashDuration;
