@@ -9,36 +9,84 @@ public class AttackController : MonoBehaviour
 
     [Header("Input")]
     public InputAction attackAction;
+    public InputAction skillAction;
+    public InputAction skillActionL;
 
     [Header("Attack Settings")]
     public float runAttackDisableTime = 0.5f; // Đổi từ 30f (quá dài) xuống thời gian hợp lý hơn
     public float runAttackDashForce = 15f;    // Lực lướt tới khi tấn công
     public float runAttackDashDuration = 0.1f; // Thời gian lướt trước khi ra đòn
+    
+    [Header("Form Animation States")]
+    public string idleStateName = "Transform01_Idle";
+    public string runStateName = "Transform01_Run";
+
+    // Khai báo biến khoá đòn đánh
     private bool isAttackLocked = false;
+
+    [Header("Skill 1 (Nhấn K)")]
+    public float skillWindupTime = 0.5f; // Thời gian Natsu há miệng (Vd vạch 0:30 = 0.5 giây)
+    public float skillFireDuration = 1.0f; // Thời gian lửa cháy để thu đòn
+
+    [Tooltip("Cách 1: Nếu lửa là đạn bay ra ngoài. Kéo Prefab lửa vào đây")]
+    public GameObject firePrefab;
+    public Transform firePoint;
+
+    [Tooltip("Cách 2: Nếu lửa dính liền trên người. Kéo cục lửa GameObject vào đây")]
+    public GameObject skillHitboxK; // Kéo cái AttackHitBox[K] ở thư mục con vào đây nhé!
+
+    [Header("Skill 2 (Nhấn L)")]
+    public float skillL_WindupTime = 0.5f; 
+    public float skillL_FireDuration = 1.0f; 
+
+    [Tooltip("Cách 1: Kéo Prefab skill L vào đây")]
+    public GameObject firePrefabL;
+    public Transform firePointL;
+
+    [Tooltip("Cách 2: Kéo GameObject skill L vào đây")]
+    public GameObject skillHitboxL; 
 
     private void Awake()
     {
+        // Đề phòng inspector đang lưu giá trị cũ (30s)
+        runAttackDisableTime = Mathf.Min(runAttackDisableTime, 1f); 
+
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+
         if (attackAction == null || attackAction.bindings.Count == 0)
         {
             attackAction = new InputAction("Attack", binding: "<Keyboard>/j");
+        }
+
+        if (skillAction == null || skillAction.bindings.Count == 0)
+        {
+            skillAction = new InputAction("Skill", binding: "<Keyboard>/k");
+        }
+
+        if (skillActionL == null || skillActionL.bindings.Count == 0)
+        {
+            skillActionL = new InputAction("SkillL", binding: "<Keyboard>/l");
         }
     }
 
     private void OnEnable()
     {
         attackAction?.Enable();
+        skillAction?.Enable();
+        skillActionL?.Enable();
     }
 
     private void OnDisable()
     {
         attackAction?.Disable();
+        skillAction?.Disable();
+        skillActionL?.Disable();
         isAttackLocked = false; // BẮT BUỘC: Reset lại lock nếu form bị tắt (transform sang form khác)
-    }
-
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
+        
+        // Tắt luôn lửa nếu đang phun dở mà bị đổi form (Dành cho Cách 2)
+        if (skillHitboxK != null) skillHitboxK.SetActive(false); 
+        if (skillHitboxL != null) skillHitboxL.SetActive(false); 
     }
 
     void Update()
@@ -48,7 +96,141 @@ public class AttackController : MonoBehaviour
         {
             PerformAttack();
         }
+
+        // Nhấn K để dùng Skill và chưa bị khóa
+        if (skillAction != null && skillAction.WasPressedThisFrame() && !isAttackLocked)
+        {
+            PerformSkill();
+        }
+
+        // Nhấn L để dùng Skill 2 và chưa bị khóa
+        if (skillActionL != null && skillActionL.WasPressedThisFrame() && !isAttackLocked)
+        {
+            PerformSkillL();
+        }
     }
+
+    private void PerformSkill()
+    {
+        // Kiểm tra xem có đang nhảy không
+        bool isJumping = animator != null && animator.GetBool("isJumping");
+        
+        if (!isJumping && animator != null)
+        {
+            // Khoá các input khác lại
+            isAttackLocked = true; 
+            
+            // Yêu cầu Animator phát clip phun lửa
+            animator.SetTrigger("tSkill"); 
+
+            // Phát thủ công và chờ lửa bằng Coroutine:
+            StartCoroutine(CoSkillWait());
+        }
+    }
+
+    private IEnumerator CoSkillWait()
+    {
+        // 1. Chờ clip Skill chạy đến ngưng ở frame cuối cùng
+        yield return new WaitForSeconds(skillWindupTime);
+
+        // (Đã xoá lệnh đóng băng animator.speed, để nhân vật tự đứng im ở frame cuối cùng nhờ LoopTime=false)
+
+        // 2. Khạc lửa ra
+        if (skillHitboxK != null)
+        {
+            skillHitboxK.SetActive(true); 
+        }
+        else if (firePrefab != null && firePoint != null)
+        {
+            Instantiate(firePrefab, firePoint.position, transform.rotation);
+        }
+
+        // 3. Lửa cháy trong mồm
+        yield return new WaitForSeconds(skillFireDuration);
+
+        // 4. Rút lửa
+        if (skillHitboxK != null)
+        {
+            skillHitboxK.SetActive(false);
+        }
+
+        // 5. Ép Natsu về trạng thái Chạy/Đứng bình thường
+        if (animator != null)
+        {
+            if (rb != null && Mathf.Abs(rb.linearVelocity.x) > 0.1f)
+            {
+                animator.Play(runStateName); 
+            }
+            else
+            {
+                animator.Play(idleStateName); 
+            }
+        }
+
+        // 6. Mở nút khóa
+        isAttackLocked = false; 
+    }
+
+    private void PerformSkillL()
+    {
+        // Kiểm tra xem có đang nhảy không
+        bool isJumping = animator != null && animator.GetBool("isJumping");
+        
+        if (!isJumping && animator != null)
+        {
+            // Khoá các input khác lại
+            isAttackLocked = true; 
+            
+            // Yêu cầu Animator phát clip Skill 2
+            animator.SetTrigger("tSkillL"); 
+
+            // Phát thủ công và chờ lửa bằng Coroutine:
+            StartCoroutine(CoSkillWaitL());
+        }
+    }
+
+    private IEnumerator CoSkillWaitL()
+    {
+        // 1. Chờ clip Skill chạy đến ngưng ở frame cuối cùng
+        yield return new WaitForSeconds(skillL_WindupTime);
+
+        // 3. Khạc lửa ra
+        if (skillHitboxL != null)
+        {
+            skillHitboxL.SetActive(true); 
+        }
+        else if (firePrefabL != null && firePointL != null)
+        {
+            Instantiate(firePrefabL, firePointL.position, transform.rotation);
+        }
+
+        // 4. Lửa cháy trong mồm
+        yield return new WaitForSeconds(skillL_FireDuration);
+
+        // 5. Rút lửa
+        if (skillHitboxL != null)
+        {
+            skillHitboxL.SetActive(false);
+        }
+
+        // 6. Ép Natsu về trạng thái Chạy/Đứng bình thường
+        if (animator != null)
+        {
+            if (rb != null && Mathf.Abs(rb.linearVelocity.x) > 0.1f)
+            {
+                animator.Play(runStateName); 
+            }
+            else
+            {
+                animator.Play(idleStateName); 
+            }
+        }
+
+        // 7. Mở nút khóa
+        isAttackLocked = false; 
+    }
+
+
 
     private void PerformAttack()
     {

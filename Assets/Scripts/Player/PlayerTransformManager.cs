@@ -7,8 +7,6 @@ public class PlayerTransformManager : MonoBehaviour
     [Header("Forms")]
     public Transform normalTarget;
     public GameObject fireForm;
-    public GameObject powerForm;
-    public GameObject specialForm;
 
     [Header("Camera")]
     public CinemachineCamera cineCam;
@@ -34,8 +32,6 @@ public class PlayerTransformManager : MonoBehaviour
     {
         // Unparent forms so disabling playerRoot's children later doesn't disable them
         if (fireForm != null) { fireForm.transform.SetParent(null); fireForm.SetActive(false); }
-        if (powerForm != null) { powerForm.transform.SetParent(null); powerForm.SetActive(false); }
-        if (specialForm != null) { specialForm.transform.SetParent(null); specialForm.SetActive(false); }
 
         currentTarget = playerRoot.transform;
         UpdateCameraTarget(currentTarget);
@@ -43,23 +39,17 @@ public class PlayerTransformManager : MonoBehaviour
 
     [Header("Input Actions")]
     public InputAction transformToFireAction = new InputAction("TransformFire", binding: "<Keyboard>/q");
-    public InputAction transformToPowerAction = new InputAction("TransformPower", binding: "<Keyboard>/e");
-    public InputAction transformToSpecialAction = new InputAction("TransformSpecial", binding: "<Keyboard>/c");
     public InputAction revertToNormalAction = new InputAction("RevertNormal", binding: "<Keyboard>/r");
 
     private void OnEnable()
     {
         transformToFireAction.Enable();
-        transformToPowerAction.Enable();
-        transformToSpecialAction.Enable();
         revertToNormalAction.Enable();
     }
 
     private void OnDisable()
     {
         transformToFireAction.Disable();
-        transformToPowerAction.Disable();
-        transformToSpecialAction.Disable();
         revertToNormalAction.Disable();
     }
 
@@ -70,8 +60,6 @@ public class PlayerTransformManager : MonoBehaviour
         if (isTransforming) return;
 
         if (transformToFireAction.WasPressedThisFrame()) StartCoroutine(SwitchToFormCoroutine(fireForm));
-        if (transformToPowerAction.WasPressedThisFrame()) StartCoroutine(SwitchToFormCoroutine(powerForm));
-        if (transformToSpecialAction.WasPressedThisFrame()) StartCoroutine(SwitchToFormCoroutine(specialForm));
         if (revertToNormalAction.WasPressedThisFrame()) StartCoroutine(BackToNormalCoroutine());
     }
 
@@ -114,8 +102,9 @@ public class PlayerTransformManager : MonoBehaviour
         var newTc = newForm.GetComponent<TransformController>();
         if (newTc != null)
         {
+            newTc.enabled = true; // Phòng hờ script bị tắt nhầm ở inspector
             newTc.PlayTransformAnimation();
-            yield return new WaitForSeconds(newTc.transformAnimTime);
+            yield return new WaitForSeconds(Mathf.Min(newTc.transformAnimTime, 1f));
         }
 
         isTransforming = false;
@@ -130,8 +119,9 @@ public class PlayerTransformManager : MonoBehaviour
         var tc = currentExtraForm.GetComponent<TransformController>();
         if (tc != null)
         {
+            tc.enabled = true; // Đảm bảo gọi được
             tc.PlayTransformAnimation();
-            yield return new WaitForSeconds(tc.transformAnimTime);
+            yield return new WaitForSeconds(Mathf.Min(tc.transformAnimTime, 1f));
         }
 
         Vector3 oldPos = currentTarget != null ? currentTarget.position : playerRoot.transform.position;

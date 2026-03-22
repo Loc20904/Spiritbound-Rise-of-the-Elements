@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   attackAction:
-    m_Name: 
+    m_Name: Attack
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 4907abb1-302c-4494-9ea4-4a3faa558e49
@@ -262,9 +262,39 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  skillAction:
+    m_Name: Skill
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b84b441e-78a8-4972-ba42-a831afc35143
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  skillActionL:
+    m_Name: Skill Action L
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2a267165-5695-453b-ba08-be7f8da86ffc
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   runAttackDisableTime: 0.5
   runAttackDashForce: 15
   runAttackDashDuration: 0.1
+  idleStateName: Transform01_Idle
+  runStateName: Transform01_Run
+  skillWindupTime: 0.5
+  skillFireDuration: 1
+  firePrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  skillHitboxK: {fileID: 0}
+  skillL_WindupTime: 0.5
+  skillL_FireDuration: 1
+  firePrefabL: {fileID: 0}
+  firePointL: {fileID: 0}
+  skillHitboxL: {fileID: 0}
 --- !u!1 &7454286080799304204
 GameObject:
   m_ObjectHideFlags: 0
