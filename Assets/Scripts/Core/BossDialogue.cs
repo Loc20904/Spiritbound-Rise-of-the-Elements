@@ -156,6 +156,7 @@ public class BossDialogue : MonoBehaviour
     // --- CHUYỂN SCENE SAU KHI ĐÁNH BẠI BOSS ---
     private void LoadNextScene()
     {
+
         if (string.IsNullOrEmpty(nextSceneName))
         {
             Debug.LogWarning("BossDialogue: nextSceneName chưa được gán! Không thể chuyển Scene.");

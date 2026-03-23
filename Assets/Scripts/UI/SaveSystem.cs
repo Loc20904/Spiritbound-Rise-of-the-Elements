@@ -7,18 +7,20 @@ public class SaveData
     public float playerX;
     public float playerY;
     public int playerHP;
+    public string currentScene;
 }
 
 public class SaveSystem
 {
     private static string path = Application.persistentDataPath + "/save.json";
 
-    public static void SaveGame(Vector3 playerPos, int hp)
+    public static void SaveGame(Vector3 playerPos, int hp, string sceneName)
     {
         SaveData data = new SaveData();
         data.playerX = playerPos.x;
         data.playerY = playerPos.y;
         data.playerHP = hp;
+        data.currentScene = sceneName;
 
         string json = JsonUtility.ToJson(data, true);
         File.WriteAllText(path, json);
@@ -41,5 +43,14 @@ public class SaveSystem
     public static bool HasSave()
     {
         return File.Exists(path);
+    }
+
+    public static void DeleteSave()
+    {
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+            Debug.Log("Save file deleted!");
+        }
     }
 }

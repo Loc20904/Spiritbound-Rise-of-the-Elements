@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a23fe9b07648dbb449f6cc6f770cf5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHP: 200
+  maxHP: 50
   deathFrames:
   - {fileID: 849769383195589001, guid: a4259ee5f6ab47c4e927e80a74a68b0f, type: 3}
   - {fileID: -8165545218425372084, guid: a4259ee5f6ab47c4e927e80a74a68b0f, type: 3}

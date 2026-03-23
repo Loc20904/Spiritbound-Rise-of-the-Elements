@@ -139,6 +139,7 @@ public class BossController : MonoBehaviour
             if (attack) attack.enabled = false;
             if (movement) movement.enabled = false;
             if (groundMovement) groundMovement.enabled = false;
+            if (finalBossMovement) finalBossMovement.stopMove();
 
             StartCoroutine(bossDialogue.DecisionRoutine());
         }
@@ -147,6 +148,8 @@ public class BossController : MonoBehaviour
             // Code đề phòng nếu bạn quên gắn script BossDialogue
             StartCoroutine(DeathWithoutDialogueRoutine());
         }
+
+        //cutsceneManager.PlayDeathCutscene();
     }
 
     // Coroutine xử lý chết khi không có BossDialogue

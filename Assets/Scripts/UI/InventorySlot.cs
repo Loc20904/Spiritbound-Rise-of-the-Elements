@@ -1,7 +1,7 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
-using System.Collections;
+using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour,
     IPointerEnterHandler,
@@ -35,12 +35,20 @@ public class InventorySlot : MonoBehaviour,
 
     public int slotIndex;
 
+    private float lastClickTime;
+    private float doubleClickTime = 0.3f;
+
     void Awake()
     {
         frame.sprite = emptyFrame;
         itemIcon.enabled = false;
 
         canvas = GetComponentInParent<Canvas>();
+        // ❗ FIX: nếu không tìm thấy canvas
+        if (canvas == null)
+        {
+            canvas = FindObjectOfType<Canvas>();
+        }
         canvasGroup = gameObject.AddComponent<CanvasGroup>();
 
         // ✅ lấy InventoryUI 1 lần duy nhất
@@ -130,12 +138,29 @@ public class InventorySlot : MonoBehaviour,
 
     public void OnPointerClick(PointerEventData eventData)
     {
+
+        float time = Time.time;
+
+        // 👉 DOUBLE CLICK
+        if (time - lastClickTime < doubleClickTime)
+        {
+            OnDoubleClick();
+        }
+
+        lastClickTime = time;
         isSelected = !isSelected;
 
         frame.color = isSelected ? selectedColor : normalColor;
 
         // 🔥 giữ scale khi selected
         transform.localScale = isSelected ? Vector3.one * 1.15f : Vector3.one;
+    }
+
+    void OnDoubleClick()
+    {
+        if (currentItem == null) return;
+
+        StartCoroutine(UseAndRemove());
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -145,7 +170,8 @@ public class InventorySlot : MonoBehaviour,
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        transform.SetParent(originalParent);
+        if (originalParent != null)
+            transform.SetParent(originalParent);
         transform.localPosition = Vector3.zero;
 
         LayoutElement layout = GetComponent<LayoutElement>();
@@ -179,7 +205,7 @@ public class InventorySlot : MonoBehaviour,
         if (to >= items.Count)
         {
             // ❗ KHÔNG remove → chỉ swap với null
-            items.Add(null); // mở rộng list nếu cần
+            return; // mở rộng list nếu cần
         }
 
         // đảm bảo to nằm trong list
@@ -189,6 +215,29 @@ public class InventorySlot : MonoBehaviour,
         Item temp = items[to];
         items[to] = items[from];
         items[from] = temp;
+
+        inventoryUI.Refresh();
+    }
+
+    IEnumerator UseEffect()
+    {
+        Vector3 originalScale = itemIcon.transform.localScale;
+
+        // phóng to + fade
+        itemIcon.transform.localScale = originalScale * 1.2f;
+        itemIcon.color = new Color(1, 1, 1, 0.5f);
+
+        yield return new WaitForSeconds(0.15f);
+
+        itemIcon.transform.localScale = originalScale;
+        itemIcon.color = Color.white;
+    }
+
+    IEnumerator UseAndRemove()
+    {
+        yield return StartCoroutine(UseEffect());
+
+        InventoryManager.Instance.UseItem(slotIndex);
 
         inventoryUI.Refresh();
     }

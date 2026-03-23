@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 1f915775b8c2d1f4480b4169505e89d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7299654521306048773
+    second: Natsu-RunAttack_0
+  - first:
+      213: -4825145785787242279
+    second: Natsu-RunAttack_1
+  - first:
+      213: 4701115481771223896
+    second: Natsu-RunAttack_2
+  - first:
+      213: -8243200992499829580
+    second: Natsu-RunAttack_3
+  - first:
+      213: 335573822207076866
+    second: Natsu-RunAttack_4
+  - first:
+      213: 4521767566412268822
+    second: Natsu-RunAttack_5
+  - first:
+      213: -9089297462842319967
+    second: Natsu-RunAttack_6
+  - first:
+      213: -666189891552781187
+    second: Natsu-RunAttack_7
+  - first:
+      213: -697877734398546771
+    second: Natsu-RunAttack_8
+  - first:
+      213: 3001330423633607988
+    second: Natsu-RunAttack_9
+  - first:
+      213: -3868557740394053795
+    second: Natsu-RunAttack_10
+  - first:
+      213: 2961120586273651603
+    second: Natsu-RunAttack_11
+  - first:
+      213: 8244691399163619986
+    second: Natsu-RunAttack_12
+  - first:
+      213: -8404780364402776843
+    second: Natsu-RunAttack_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Natsu-RunAttack_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf69a7a53ea62ba90800000000000000
+      internalID: -7299654521306048773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8ada8f873a90db0800000000000000
+      internalID: -4825145785787242279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b20138f97bd3140800000000000000
+      internalID: 4701115481771223896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_3
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b476e52f544a9d80800000000000000
+      internalID: -8243200992499829580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_4
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 0
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20aa2940d9238a400800000000000000
+      internalID: 335573822207076866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_5
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615c2e0f4ab80ce30800000000000000
+      internalID: 4521767566412268822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_6
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 0
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab9c6d5d145cd180800000000000000
+      internalID: -9089297462842319967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_7
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 0
+        width: 97
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c5a01c2d731c6f0800000000000000
+      internalID: -666189891552781187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 97
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac2588e5e3a056f0800000000000000
+      internalID: -697877734398546771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 0
+        width: 97
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43df04a5e1ed6a920800000000000000
+      internalID: 3001330423633607988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_10
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 0
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f79ba4b3f105ac0800000000000000
+      internalID: -3868557740394053795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_11
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 0
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bffe90c73081920800000000000000
+      internalID: 2961120586273651603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 62
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aadd135270b6270800000000000000
+      internalID: 8244691399163619986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsu-RunAttack_12
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 0
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4289cf9c83c5b80800000000000000
+      internalID: -8404780364402776843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21cd856773e122b489323f1b882bbbf7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      0: 8244691399163619986
+      Natsu-RunAttack_0: -7299654521306048773
+      Natsu-RunAttack_1: -4825145785787242279
+      Natsu-RunAttack_10: -3868557740394053795
+      Natsu-RunAttack_11: 2961120586273651603
+      Natsu-RunAttack_12: -8404780364402776843
+      Natsu-RunAttack_2: 4701115481771223896
+      Natsu-RunAttack_3: -8243200992499829580
+      Natsu-RunAttack_4: 335573822207076866
+      Natsu-RunAttack_5: 4521767566412268822
+      Natsu-RunAttack_6: -9089297462842319967
+      Natsu-RunAttack_7: -666189891552781187
+      Natsu-RunAttack_8: -697877734398546771
+      Natsu-RunAttack_9: 3001330423633607988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

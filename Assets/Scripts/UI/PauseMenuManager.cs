@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -228,7 +228,8 @@ public class PauseMenuManager : MonoBehaviour
 
         SaveSystem.SaveGame(
             player.transform.position,
-            health.CurrentHP
+            health.CurrentHP,
+            UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
         );
     }
 
