@@ -20,7 +20,7 @@ public abstract class BossAttackBase : MonoBehaviour
 
     // References
     protected Animator anim;
-    protected Transform player;
+    public Transform player;
     protected AudioSource audioSource; // Nếu cần dùng trực tiếp
     public Transform skillHolder;
 
@@ -28,9 +28,11 @@ public abstract class BossAttackBase : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
-        if (GameObject.FindGameObjectWithTag("Player"))
-            player = GameObject.FindGameObjectWithTag("Player").transform;
-
+        if (player == null)
+        {
+            if (GameObject.FindGameObjectWithTag("Player"))
+                player = GameObject.FindGameObjectWithTag("Player").transform;
+        }
         GameObject holderGo = GameObject.Find("BossSkillsHolder");
         if (holderGo == null)
         {

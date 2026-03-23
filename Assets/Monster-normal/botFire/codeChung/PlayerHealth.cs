@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -185,6 +185,17 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log($"[PlayerHealth] Reset HP: {currentHP}/{maxHP}");
     }
 
+    public void Heal(int amount)
+    {
+        if (dead || respawning) return;
+
+        currentHP += amount;
+        if (currentHP > maxHP) currentHP = maxHP;
+
+        if (showDamageLog)
+            Debug.Log($"[PlayerHealth] Healed for {amount}. HP: {currentHP}/{maxHP}");
+    }
+
     void LoadPlayer()
     {
         var data = SaveSystem.LoadGame();
@@ -192,7 +203,7 @@ public class PlayerHealth : MonoBehaviour
         if (data == null) return;
 
         // 🔥 SET POSITION
-        transform.position = new Vector3(data.playerX, data.playerY, 0);
+        //transform.position = new Vector3(data.playerX, data.playerY, 0);
 
         // 🔥 SET HP
         currentHP = data.playerHP;

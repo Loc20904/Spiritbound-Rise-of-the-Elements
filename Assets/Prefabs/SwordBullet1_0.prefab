@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlashProjectile
   speed: 12
   lifeTime: 1.2
-  damage: 100
+  damage: 20
 --- !u!61 &818590496309385011
 BoxCollider2D:
   m_ObjectHideFlags: 0

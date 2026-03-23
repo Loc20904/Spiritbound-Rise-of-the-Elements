@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMelee
   target: {fileID: 0}
-  maxHP: 100
+  maxHP: 20
   moveSpeed: 2.5
   visionRange: 6
   loseRange: 8
@@ -246,6 +246,8 @@ MonoBehaviour:
     m_Bits: 1024
   attackRange: 2.5
   attackCooldown: 1
+  deadAnimName: quainuocdanhgan_Dead
+  deathDelay: 2
   damage: 50
   hitPoint: {fileID: 4033902643893331541}
   hitRadius: 2

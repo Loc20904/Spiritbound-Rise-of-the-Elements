@@ -174,7 +174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d97598d467997b4bad674b63b563a76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossPillar
-  maxHealth: 200
+  maxHealth: 20
+  currentHealth: 0
   pillarVisual: {fileID: 3250695956186012873}
   pillarCollider: {fileID: 2258214327346200173}
   aim: {fileID: 5131332667571073341}

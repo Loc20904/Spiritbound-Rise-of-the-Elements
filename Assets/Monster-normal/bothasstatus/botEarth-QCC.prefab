@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 6667291004855698291}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.337, y: -0.136, z: 0}
+  m_LocalPosition: {x: 0.337, y: -0.119, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a23fe9b07648dbb449f6cc6f770cf5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHP: 200
+  maxHP: 20
   deathFrames:
   - {fileID: -3994498297315194286, guid: 4577677f267ae1e40bdfbaabdbf26866, type: 3}
   - {fileID: -2648886646536919661, guid: 4577677f267ae1e40bdfbaabdbf26866, type: 3}
