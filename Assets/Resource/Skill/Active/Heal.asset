@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288f2a65b9c4e684ca50aec82e2daa74, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: Assembly-CSharp::HealSkill
+  skillName: Heal
+  type: 0
+  icon: {fileID: 4589123683949996166, guid: b9462df795519ec40b4cfc9fe2250502, type: 3}
+  description: restore HP
+  isUnlocked: 0
+  unlockConditions:
+  - {fileID: 11400000, guid: 3d74424bcae62084987df6cbc74ed6e2, type: 2}
+  cooldown: 1
+  healAmount: 30
+  healEffectPrefab: {fileID: 0}

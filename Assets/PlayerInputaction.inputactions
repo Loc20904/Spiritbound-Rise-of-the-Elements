@@ -50,6 +50,42 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Skill_U",
+                    "type": "Button",
+                    "id": "a1b2c3d4-e5f6-47g8-h9i0-j1k2l3m4n5o6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Skill_I",
+                    "type": "Button",
+                    "id": "b2c3d4e5-f6g7-48h9-i0j1-k2l3m4n5o6p7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Skill_O",
+                    "type": "Button",
+                    "id": "c3d4e5f6-g7h8-49i0-j1k2-l3m4n5o6p7q8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Skill_P",
+                    "type": "Button",
+                    "id": "d4e5f6g7-h8i9-40j1-k2l3-m4n5o6p7q8r9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -226,6 +262,50 @@
                     "processors": "",
                     "groups": "",
                     "action": "Attack2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "61f2a652-gcfg-5d8g-c7g2-4fceb95ec832",
+                    "path": "<Keyboard>/u",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skill_U",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "72g3b763-hdhg-6e9h-d8h3-5gdfc96fd943",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skill_I",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "83h4c874-ieia-7f0i-e9i4-6hedg97ge054",
+                    "path": "<Keyboard>/o",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skill_O",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94i5d985-jfjb-8g1j-f0j5-7ifeh98hf165",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skill_P",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

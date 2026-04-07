@@ -96,6 +96,37 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 264
   isSingleHit: 1
+--- !u!1 &553728477949590795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6788628307963659893}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6788628307963659893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553728477949590795}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1, y: 0.055, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8921421746221561793}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1531621743860423240
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,6 +751,8 @@ GameObject:
   - component: {fileID: 1681591660940224236}
   - component: {fileID: 2063413967000697387}
   - component: {fileID: 2982103121117094843}
+  - component: {fileID: 4990719122429170975}
+  - component: {fileID: -2115978806774975589}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -740,6 +773,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6788628307963659893}
   - {fileID: 2684511118564326091}
   - {fileID: 602197129663317627}
   - {fileID: 3041083155231171092}
@@ -914,7 +948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc33c0e7638e8845936be760f911b8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions: {fileID: -944628639613478452, guid: 2ef93bcdc0daa5649a8bb55829fee226, type: 3}
+  actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   actionMapName: Player
   moveActionName: Move
   jumpActionName: Jump
@@ -926,8 +960,8 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 8506246803427866030}
   slashDamage: 20
   skillKCooldown: 2
-  maxJumpCount: 2
-  moveSpeed: 10
+  maxJumpCount: 1
+  _moveSpeed: 6
   jumpForce: 15
   groundLayer:
     serializedVersion: 2
@@ -941,6 +975,7 @@ MonoBehaviour:
   dashDuration: 0.14
   dashCooldown: 0.25
   stopXAfterDash: 1
+  doubleTapTimeThreshold: 0.25
   wallLayer:
     serializedVersion: 2
     m_Bits: 4096
@@ -992,15 +1027,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 8234703889604176796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a3cf52e7738c3b4080c843f452ea1e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 25bd8652096647e4fba75c4743257975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  damage: 1
+  damage: 50
   maxHP: 100
-  currentHP: 100
+  _currentHP: 0
   armor: 5
   hurtInvincibleTime: 0.35
-  respawnDelay: 0.25
+  respawnDelay: 2
   respawnPoint: {fileID: 0}
   showDamageLog: 1
 --- !u!114 &5805560122087151466
@@ -1012,7 +1047,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8234703889604176796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb1d416945e89464b93e29c7db776f0b, type: 3}
+  m_Script: {fileID: 11500000, guid: ca32f7ba914537c4aa9b7c0ec8f74bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerFireDOT
 --- !u!114 &1681591660940224236
@@ -1040,8 +1075,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8791f58083bc402448ad8817fa907cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  damage: 50
-  armor: 5
+  _damage: 50
+  _armor: 5
   respawnDelay: 2
   respawnPoint: {fileID: 0}
   hurtInvincibleTime: 0.35
@@ -1094,6 +1129,41 @@ MonoBehaviour:
       m_Action: RevertNormal
       m_Flags: 0
     m_Flags: 0
+--- !u!114 &4990719122429170975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234703889604176796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6f80ef377f49445a43933aee7ccd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillManager
+  allSkills:
+  - {fileID: 11400000, guid: bf3345902a84e144094348fa36b23a28, type: 2}
+  - {fileID: 11400000, guid: 7c3a48a8cc61a8f4998d5aa1d33a5609, type: 2}
+  - {fileID: 11400000, guid: 4a837129f14a9ec408f7d0b3f2a591bd, type: 2}
+  - {fileID: 11400000, guid: 27ac1a3fdeb7c624c9ec2663c02bd9fc, type: 2}
+  - {fileID: 11400000, guid: 2e39ebe75d9e7aa40b4ddeb06893edda, type: 2}
+  - {fileID: 11400000, guid: 6f4e1cffb0da26f4d828276780a9dffb, type: 2}
+  - {fileID: 11400000, guid: 7066caae4e029584fb0cd3b211e1bf63, type: 2}
+  activeSkills: []
+  passiveSkills: []
+--- !u!114 &-2115978806774975589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234703889604176796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe1466d462927e4eb51433b1f68dead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillSlotManager
+  actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
 --- !u!1 &8471258820909149596
 GameObject:
   m_ObjectHideFlags: 0

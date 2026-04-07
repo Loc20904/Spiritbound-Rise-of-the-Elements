@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6963b383c2af74dabfde52994ab0b4, type: 3}
+  m_Name: Traveler
+  m_EditorClassIdentifier: Assembly-CSharp::SkillSO
+  skillName: Traveler
+  type: 1
+  icon: {fileID: 5301390665416654818, guid: 920e9df2dc4088b4f9ccb0302524c84c, type: 3}
+  description: This is long journey hero. Speed +20%
+  isUnlocked: 0
+  unlockConditions:
+  - {fileID: 11400000, guid: 3d74424bcae62084987df6cbc74ed6e2, type: 2}

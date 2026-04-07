@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6963b383c2af74dabfde52994ab0b4, type: 3}
+  m_Name: BigHand
+  m_EditorClassIdentifier: Assembly-CSharp::SkillSO
+  skillName: Big hand
+  type: 1
+  icon: {fileID: 5362266442303231115, guid: 93885af3e11ba564693d29fed86d743e, type: 3}
+  description: You are big boy hero. Speed -10%
+  isUnlocked: 0
+  unlockConditions:
+  - {fileID: 11400000, guid: a0ae6734d90fbdb4a8b6b6edbba6e1ce, type: 2}
+  cooldown: 1

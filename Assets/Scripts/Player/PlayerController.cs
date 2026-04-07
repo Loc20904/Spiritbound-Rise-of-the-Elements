@@ -44,7 +44,21 @@ public class PlayerController : MonoBehaviour
     private int jumpCount;
 
     [Header("Move")]
-    [SerializeField] private float moveSpeed = 6f;
+    [SerializeField] private float _moveSpeed = 6f;
+
+    public float moveSpeed
+    {
+        get => _moveSpeed;
+        set
+        {
+            if (_moveSpeed != value) // Chỉ báo động nếu giá trị THỰC SỰ thay đổi
+            {
+                _moveSpeed = value;
+                playerStats.ForceTriggerStatsChange();
+            }
+        }
+    }
+
 
     [Header("Jump")]
     [SerializeField] private float jumpForce = 12f;
@@ -64,6 +78,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float dashCooldown = 0.25f;
     [SerializeField] private bool stopXAfterDash = true;
 
+    [Header("Double Tap Dash")]
+    [SerializeField] private float doubleTapTimeThreshold = 0.25f; // Thời gian tối đa giữa 2 lần nhấn (giây)
+    private float lastTapTime_Right = -10f;
+    private float lastTapTime_Left = -10f;
+    private bool wasRightPressed = false;
+    private bool wasLeftPressed = false;
+
     [Header("Climb / Wall")]
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private Transform wallCheckRight;
@@ -80,6 +101,8 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private PlayerStats playerStats;
+    private SkillSlotManager skillSlotManager;
 
     [Header("Chaos / Debuff")]
     private bool isReversed = false; // Cờ theo dõi trạng thái đảo ngược
@@ -114,11 +137,25 @@ public class PlayerController : MonoBehaviour
 
     //dùng để knockback hoặc các hiệu ứng khác cần tương tác với PlayerHealth 
     PlayerHealth playerHealth;
+
+    public int getSpeed()
+    {
+        return (int)moveSpeed;
+    }
+
+    public bool IsDead => isDead;
+    public bool IsDashing => isDashing;
+    public float GetFacingDirection() => facing;
+
+
     private void Awake()
     {
+        playerStats = GetComponent<PlayerStats>();
         rb = GetComponent<Rigidbody2D>();
         playerHealth = GetComponent<PlayerHealth>(); //gọi PlayerHealth để sau này có thể tương tác (vd: knockback khi hit)
         animator = GetComponent<Animator>();
+        skillSlotManager = GetComponent<SkillSlotManager>();
+
         defaultGravity = rb.gravityScale;
 
         if (actions == null)
@@ -177,6 +214,8 @@ public class PlayerController : MonoBehaviour
             moveInput = new Vector2(-moveInput.x, moveInput.y);
         }
 
+        HandleDoubleTapDash();
+
         // ===== Combo timer =====
         if (comboTimer > 0f)
         {
@@ -225,6 +264,56 @@ public class PlayerController : MonoBehaviour
         animator.SetBool(A_isLooking, looking);
 
         HandleClimb();
+    }
+
+    private void HandleDoubleTapDash()
+    {
+        // Chúng ta dựa vào moveInput.x (giá trị đã được tính toán, kể cả khi bị đảo ngược bởi isReversed)
+        float moveX = moveInput.x;
+
+        // --- Kiểm tra bên PHẢI ---
+        if (moveX > 0.5f) // Người chơi đang giữ phím sang phải
+        {
+            if (!wasRightPressed) // Chỉ tính lần đầu tiên nhấn xuống (Edge Detection)
+            {
+                if (Time.time - lastTapTime_Right < doubleTapTimeThreshold)
+                {
+                    TryStartDash();
+                    lastTapTime_Right = -10f; // Reset để không bị dash liên tục
+                }
+                else
+                {
+                    lastTapTime_Right = Time.time;
+                }
+            }
+            wasRightPressed = true;
+        }
+        else
+        {
+            wasRightPressed = false;
+        }
+
+        // --- Kiểm tra bên TRÁI ---
+        if (moveX < -0.5f) // Người chơi đang giữ phím sang trái
+        {
+            if (!wasLeftPressed)
+            {
+                if (Time.time - lastTapTime_Left < doubleTapTimeThreshold)
+                {
+                    TryStartDash();
+                    lastTapTime_Left = -10f;
+                }
+                else
+                {
+                    lastTapTime_Left = Time.time;
+                }
+            }
+            wasLeftPressed = true;
+        }
+        else
+        {
+            wasLeftPressed = false;
+        }
     }
 
     private void FixedUpdate()
@@ -300,6 +389,11 @@ public class PlayerController : MonoBehaviour
 
     // ===== Dash =====
     private void OnDash(InputAction.CallbackContext ctx)
+    {
+        TryStartDash();
+    }
+
+    private void TryStartDash()
     {
         if (isDead) return;
         if (!canDash || isDashing) return;

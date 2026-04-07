@@ -1,11 +1,43 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    // CÁI CHUÔNG BÁO ĐỘNG: Bất cứ khi nào chỉ số đổi, event này sẽ reo lên
+    public event Action OnStatsChanged;
+
     [Header("Combat Stats")]
-    public int damage = 50;
-    public int armor = 5;
+    // 1. Giấu biến thật đi (backing field), dùng SerializeField để vẫn chỉnh được trên Inspector
+    [SerializeField] private int _damage = 50;
+    [SerializeField] private int _armor = 5;
+
+    // 2. Tạo "cánh cửa" (Property) để truy cập và theo dõi thay đổi
+    public int Damage
+    {
+        get => _damage;
+        set
+        {
+            if (_damage != value) // Chỉ báo động nếu giá trị THỰC SỰ thay đổi
+            {
+                _damage = value;
+                OnStatsChanged?.Invoke(); // Rung chuông!
+            }
+        }
+    }
+
+    public int Armor
+    {
+        get => _armor;
+        set
+        {
+            if (_armor != value)
+            {
+                _armor = value;
+                OnStatsChanged?.Invoke(); // Rung chuông!
+            }
+        }
+    }
 
     [Header("Respawn")]
     public float respawnDelay = 2f;
@@ -24,6 +56,21 @@ public class PlayerStats : MonoBehaviour
     private bool dead = false;
     private bool respawning = false;
 
+    // Lấy tốc độ từ Controller. 
+    // LƯU Ý: Nếu tốc độ bên Controller bị đổi, bạn cũng cần gọi OnStatsChanged?.Invoke()
+    public int getSpeed()
+    {
+        if (controller != null)
+            return controller.getSpeed(); // Giả sử controller.getSpeed() trả về int
+        return 0;
+    }
+
+    // Hàm tiện ích để ép gọi check thủ công (ví dụ khi vừa load game xong)
+    public void ForceTriggerStatsChange()
+    {
+        OnStatsChanged?.Invoke();
+    }
+
     private void Start()
     {
         health = GetComponent<PlayerHealth>();
@@ -40,27 +87,24 @@ public class PlayerStats : MonoBehaviour
         if (dead || respawning) return;
         if (health == null) return;
 
-        // ✅ chết bởi bất kỳ nguồn nào miễn HP về 0
-        if (health.CurrentHP <= 0)
+        if (health.currentHP <= 0)
             OnDead();
     }
 
     public void TakeDamage(int incomingDamage)
     {
-        if (dead || respawning) return;
-        if (health == null) return;
+        if (dead || respawning || health == null) return;
 
-        // i-frame chống hit liên tục
         if (Time.time < nextHurtTime) return;
         nextHurtTime = Time.time + hurtInvincibleTime;
 
-        int finalDamage = Mathf.Max(incomingDamage - armor, 0);
+        // Dùng biến _armor bên trong class
+        int finalDamage = Mathf.Max(incomingDamage - _armor, 0);
 
-        // ✅ trừ máu qua PlayerHealth (không dùng currentHP trong PlayerStats nữa)
         if (finalDamage > 0)
             health.TakeDamage(finalDamage, DamageType.Boss);
 
-        Debug.Log($"[PlayerStats] Incoming:{incomingDamage} Armor:{armor} Final:{finalDamage} => HP {health.CurrentHP}/{health.MaxHP}");
+        Debug.Log($"[PlayerStats] Incoming:{incomingDamage} Armor:{_armor} Final:{finalDamage}");
 
         controller?.TakeHit();
     }
@@ -70,11 +114,8 @@ public class PlayerStats : MonoBehaviour
         if (dead) return;
         dead = true;
 
-        if (anim != null)
-            anim.SetBool("Isdead", true);
-
-        if (controller != null)
-            controller.enabled = false;
+        if (anim != null) anim.SetBool("Isdead", true);
+        if (controller != null) controller.enabled = false;
 
         StartCoroutine(RespawnRoutine());
     }
@@ -82,35 +123,35 @@ public class PlayerStats : MonoBehaviour
     private IEnumerator RespawnRoutine()
     {
         respawning = true;
-
         yield return new WaitForSeconds(respawnDelay);
 
-        // teleport về checkpoint
-        if (respawnPoint != null)
-            transform.position = respawnPoint.position;
+        if (respawnPoint != null) transform.position = respawnPoint.position;
+        if (rb != null) rb.linearVelocity = Vector2.zero;
+        if (health != null) health.ResetHealth();
 
-        // reset velocity
-        if (rb != null)
-            rb.linearVelocity = Vector2.zero;
-
-        // ✅ hồi máu từ PlayerHealth
-        if (health != null)
-            health.ResetHealth();
-
-        // thoát animation chết
         if (anim != null)
         {
             anim.SetBool("Isdead", false);
             anim.Play("Player_Idle", 0, 0f);
         }
 
-        if (controller != null)
-            controller.enabled = true;
+        if (controller != null) controller.enabled = true;
 
         dead = false;
         respawning = false;
-
-        // miễn nhiễm 0.5s sau spawn
         nextHurtTime = Time.time + 0.5f;
+    }
+
+    // Hàm này được Unity tự động gọi mỗi khi có giá trị thay đổi trên Inspector
+    private void OnValidate()
+    {
+        // Chúng ta chỉ nên rung chuông nếu game ĐANG CHẠY (Play mode).
+        // Nếu game chưa chạy (đang thiết kế) mà rung chuông thì sẽ bị lỗi (NullReference)
+        // vì SkillManager và các script khác chưa được khởi tạo.
+        if (Application.isPlaying)
+        {
+            // Gọi hàm ép rung chuông mà chúng ta đã tạo ở bài trước
+            ForceTriggerStatsChange();
+        }
     }
 }

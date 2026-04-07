@@ -228,7 +228,7 @@ public class PauseMenuManager : MonoBehaviour
 
         SaveSystem.SaveGame(
             player.transform.position,
-            health.CurrentHP,
+            health.currentHP,
             UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
         );
     }

@@ -18,6 +18,12 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    public void SetSpeedMultiplier(float multiplier)
+    {
+        speedMultiplier = multiplier;
+        Debug.Log($"[PlayerMove] Speed multiplier set to: {speedMultiplier:F2}x");
+    }
+
     void Update()
     {
         // Nhận input từ bàn phím / gamepad

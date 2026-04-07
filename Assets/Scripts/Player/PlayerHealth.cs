@@ -8,7 +8,20 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("Health")]
     public int maxHP = 100;
-    [SerializeField] private int currentHP;
+    [SerializeField] private int _currentHP;
+
+    public int currentHP
+    {
+        get => _currentHP;
+        set
+        {
+            if (_currentHP != value) // Chỉ báo động nếu giá trị THỰC SỰ thay đổi
+            {
+                _currentHP = value;
+                stats.ForceTriggerStatsChange(); // Rung chuông để các hệ thống khác biết HP đã thay đổi
+            }
+        }
+    }
 
     [Header("Defense")]
     public int armor = 5;
@@ -27,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private PlayerController controller;
+    private PlayerStats stats;
 
     public bool isKnockback { get; private set; }
 
@@ -35,6 +49,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
+        stats = GetComponent<PlayerStats>();
         currentHP = maxHP;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -170,12 +185,12 @@ public class PlayerHealth : MonoBehaviour
     }
 
     // ================= PUBLIC =================
-    public int CurrentHP => currentHP;
-    public int MaxHP => maxHP;
-    public float HealthPercent => maxHP > 0 ? (float)currentHP / maxHP : 0f;
+    //public int _currentHP => _currentHP;
+    //public int MaxHP => maxHP;
+    public float HealthPercent => maxHP > 0 ? (float)_currentHP / maxHP : 0f;
 
     // ✅ expose damage nếu script khác muốn lấy
-    public int Damage => damage;
+    //public int Damage => damage;
 
     public void ResetHealth()
     {
@@ -194,6 +209,11 @@ public class PlayerHealth : MonoBehaviour
 
         if (showDamageLog)
             Debug.Log($"[PlayerHealth] Healed for {amount}. HP: {currentHP}/{maxHP}");
+    }
+
+    public void Heal(float amount)
+    {
+        Heal((int)amount);
     }
 
     void LoadPlayer()

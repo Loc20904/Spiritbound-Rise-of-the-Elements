@@ -1,5 +1,5 @@
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
 public class PlayerHPNumber : MonoBehaviour
 {
@@ -16,6 +16,6 @@ public class PlayerHPNumber : MonoBehaviour
     {
         if (playerHealth == null) return;
 
-        hpText.text = playerHealth.CurrentHP.ToString();
+        hpText.text = playerHealth.currentHP.ToString();
     }
 }

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc949d8cbead4744801bbd39686ee4d, type: 3}
+  m_Name: IceSpike
+  m_EditorClassIdentifier: Assembly-CSharp::IceSpikeSkill
+  skillName: ice attack
+  type: 0
+  icon: {fileID: 177648988003292510, guid: 3f1dac8997b1dfc45847ae7a3688c57f, type: 3}
+  description: ice coming
+  isUnlocked: 0
+  unlockConditions:
+  - {fileID: 11400000, guid: a0ae6734d90fbdb4a8b6b6edbba6e1ce, type: 2}
+  cooldown: 1
+  iceSpikePrefab: {fileID: 5125735061885973589, guid: 7a7c8579f48247348babadc3dd2c87ac, type: 3}
+  spikeCount: 3
+  spawnRadius: 2
