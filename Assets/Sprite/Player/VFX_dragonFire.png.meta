@@ -1,0 +1,657 @@
+fileFormatVersion: 2
+guid: 0c314aef1d08ba2478ddce9c72f72a09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7621152690111790753
+    second: VFX_dragonFire_0
+  - first:
+      213: 2143595716517710275
+    second: VFX_dragonFire_1
+  - first:
+      213: -4542714128975780670
+    second: VFX_dragonFire_2
+  - first:
+      213: -1562147728408553934
+    second: VFX_dragonFire_3
+  - first:
+      213: 5026859228930339931
+    second: VFX_dragonFire_4
+  - first:
+      213: 4926173106051558718
+    second: VFX_dragonFire_5
+  - first:
+      213: -7095013612192665715
+    second: VFX_dragonFire_6
+  - first:
+      213: 6049929578129154334
+    second: VFX_dragonFire_7
+  - first:
+      213: -6200065649171817356
+    second: VFX_dragonFire_8
+  - first:
+      213: -3972444840155860392
+    second: VFX_dragonFire_9
+  - first:
+      213: -5760909578685222916
+    second: VFX_dragonFire_10
+  - first:
+      213: -8991816925985794188
+    second: VFX_dragonFire_11
+  - first:
+      213: 6926647561868367479
+    second: VFX_dragonFire_12
+  - first:
+      213: -6061360803700151505
+    second: VFX_dragonFire_13
+  - first:
+      213: -3347273437156027073
+    second: VFX_dragonFire_14
+  - first:
+      213: 8164040004754522219
+    second: VFX_dragonFire_15
+  - first:
+      213: 540690605449238057
+    second: VFX_dragonFire_16
+  - first:
+      213: -6667338577196542547
+    second: VFX_dragonFire_17
+  - first:
+      213: -7133386816847099376
+    second: VFX_dragonFire_18
+  - first:
+      213: -2001693190278639774
+    second: VFX_dragonFire_19
+  - first:
+      213: -4110218163339163519
+    second: VFX_dragonFire_20
+  - first:
+      213: -2686843845274865483
+    second: VFX_dragonFire_21
+  - first:
+      213: 1307768567825445468
+    second: VFX_dragonFire_22
+  - first:
+      213: 4775460937646381063
+    second: VFX_dragonFire_23
+  - first:
+      213: 1019071810079479236
+    second: VFX_dragonFire_24
+  - first:
+      213: 1157937504974180429
+    second: VFX_dragonFire_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX_dragonFire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6760
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51cfd6c10a3c3690800000000000000
+      internalID: -7621152690111790753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_1
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 6760
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9461962f49fbd10800000000000000
+      internalID: 2143595716517710275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_2
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 6760
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4204a619905f0c0800000000000000
+      internalID: -4542714128975780670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_3
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 6760
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2365689eae2225ae0800000000000000
+      internalID: -1562147728408553934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5070
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b547944d5ddf2c540800000000000000
+      internalID: 5026859228930339931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_5
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 5070
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d294807584d5440800000000000000
+      internalID: 4926173106051558718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_6
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 5070
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fe1b0f5b2798d90800000000000000
+      internalID: -7095013612192665715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_7
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 5070
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11648cb5eaa5f350800000000000000
+      internalID: 6049929578129154334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3380
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c13053421f4f9a0800000000000000
+      internalID: -6200065649171817356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_9
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 3380
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8523dacf67a0fd8c0800000000000000
+      internalID: -3972444840155860392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_10
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 3380
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff6253c2432d00b0800000000000000
+      internalID: -5760909578685222916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_11
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 3380
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47795418526a63380800000000000000
+      internalID: -8991816925985794188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1690
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7765d713245602060800000000000000
+      internalID: 6926647561868367479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_13
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1690
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2be9f7a678b1eba0800000000000000
+      internalID: -6061360803700151505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_14
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 1690
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35d6342b881c81d0800000000000000
+      internalID: -3347273437156027073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_15
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 1690
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dffab95decc664cb1e01108c7696df
+      internalID: -1165988393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b06151edc794d4dbc81c93acdb97d8
+      internalID: -1245183416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_17
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 0
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5889b2367e60fae4cac5628a53780670
+      internalID: -962567441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_18
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 0
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7a08708a18a6e4b8dc540be3ad3f0e
+      internalID: 1479186123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_dragonFire_19
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 0
+        width: 1690
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa62a87af9085445ab97f042971e278
+      internalID: 1601911339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1b983ee11129d9a48924f49ca3c88056
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":5.0},"gridSpriteSize":{"x":1690.0,"y":1690.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      VFX_dragonFire_0: -7621152690111790753
+      VFX_dragonFire_1: 2143595716517710275
+      VFX_dragonFire_10: -5760909578685222916
+      VFX_dragonFire_11: -8991816925985794188
+      VFX_dragonFire_12: 6926647561868367479
+      VFX_dragonFire_13: -6061360803700151505
+      VFX_dragonFire_14: -3347273437156027073
+      VFX_dragonFire_15: -1165988393
+      VFX_dragonFire_16: -1245183416
+      VFX_dragonFire_17: -962567441
+      VFX_dragonFire_18: 1479186123
+      VFX_dragonFire_19: 1601911339
+      VFX_dragonFire_2: -4542714128975780670
+      VFX_dragonFire_3: -1562147728408553934
+      VFX_dragonFire_4: 5026859228930339931
+      VFX_dragonFire_5: 4926173106051558718
+      VFX_dragonFire_6: -7095013612192665715
+      VFX_dragonFire_7: 6049929578129154334
+      VFX_dragonFire_8: -6200065649171817356
+      VFX_dragonFire_9: -3972444840155860392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

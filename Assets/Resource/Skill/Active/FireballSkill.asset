@@ -20,5 +20,9 @@ MonoBehaviour:
   unlockConditions:
   - {fileID: 11400000, guid: a0ae6734d90fbdb4a8b6b6edbba6e1ce, type: 2}
   cooldown: 1
-  fireballPrefab: {fileID: 3171551015218902307, guid: 71a485d704799094f9d90954019eca28, type: 3}
-  fireballSpeed: 15
+  dragonPrefab: {fileID: 5942791524921851952, guid: 55e27ead97a4a1748be0077797f058f8, type: 3}
+  dragonSpeed: 25
+  castTime: 1.5
+  VFXCharging: {fileID: 2217500484500656612, guid: 6b70c164f3c332045afe0bd124fb7a99, type: 3}
+  soundCharging: {fileID: 0}
+  soundDragonRoar: {fileID: 8300000, guid: 8139837c81b798646bc2b88c84efae08, type: 3}

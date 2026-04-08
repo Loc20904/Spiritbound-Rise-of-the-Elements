@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: 5f827fc6e1378344890d7a9cd7a3dab3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3136001447794594255
+    second: VFX_fireBalll_0
+  - first:
+      213: 432590095359801054
+    second: VFX_fireBalll_1
+  - first:
+      213: -2492617854759445572
+    second: VFX_fireBalll_2
+  - first:
+      213: 5454542070299095111
+    second: VFX_fireBalll_3
+  - first:
+      213: -8658109327621368156
+    second: VFX_fireBalll_4
+  - first:
+      213: -1905391522799544302
+    second: VFX_fireBalll_5
+  - first:
+      213: -7604641449404415960
+    second: VFX_fireBalll_6
+  - first:
+      213: 4313919688179527816
+    second: VFX_fireBalll_7
+  - first:
+      213: -4670448382378780423
+    second: VFX_fireBalll_8
+  - first:
+      213: 6289423504717059337
+    second: VFX_fireBalll_9
+  - first:
+      213: 2631595403053223677
+    second: VFX_fireBalll_10
+  - first:
+      213: 4614282013878561987
+    second: VFX_fireBalll_11
+  - first:
+      213: -2603530819354573498
+    second: VFX_fireBalll_12
+  - first:
+      213: 2904063245796349975
+    second: VFX_fireBalll_13
+  - first:
+      213: 2960150937725200400
+    second: VFX_fireBalll_14
+  - first:
+      213: -1287211650701998259
+    second: VFX_fireBalll_15
+  - first:
+      213: -3945033837457016672
+    second: VFX_fireBalll_16
+  - first:
+      213: -4120627352369533596
+    second: VFX_fireBalll_17
+  - first:
+      213: 6389772559562304628
+    second: VFX_fireBalll_18
+  - first:
+      213: -2846603431204567972
+    second: VFX_fireBalll_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX_fireBalll_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2670
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ea7196c4faa74d0800000000000000
+      internalID: -3136001447794594255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_1
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 2670
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6f547566ed00600800000000000000
+      internalID: 432590095359801054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_2
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 2670
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb544e7441786dd0800000000000000
+      internalID: -2492617854759445572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_3
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2670
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740f9901d1d62bb40800000000000000
+      internalID: 5454542070299095111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_4
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 2670
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6d1ac607738d780800000000000000
+      internalID: -8658109327621368156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1780
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2181e755180be85e0800000000000000
+      internalID: -1905391522799544302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_6
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1780
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820c90494e2e67690800000000000000
+      internalID: -7604641449404415960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_7
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1780
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880318ba91f1edb30800000000000000
+      internalID: 4313919688179527816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_8
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1780
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8d38af0fb3f2fb0800000000000000
+      internalID: -4670448382378780423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_9
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1780
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90517a0da55884750800000000000000
+      internalID: 6289423504717059337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 890
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfec987831e458420800000000000000
+      internalID: 2631595403053223677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 890
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cca4ba4b09390040800000000000000
+      internalID: 4614282013878561987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_12
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 890
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645c69e83866edbd0800000000000000
+      internalID: -2603530819354573498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_13
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 890
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71895fab22e4d4820800000000000000
+      internalID: 2904063245796349975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_14
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 890
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01866a42891941920800000000000000
+      internalID: 2960150937725200400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47c929d2d7e22ee0800000000000000
+      internalID: -1287211650701998259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_fireBalll_16
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 696
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a87a7360ac6049c0800000000000000
+      internalID: -3945033837457016672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5643666360b7de4419715daeac54dc5e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":4.0},"gridSpriteSize":{"x":696.0,"y":890.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      VFX_fireBalll_0: -3136001447794594255
+      VFX_fireBalll_1: 432590095359801054
+      VFX_fireBalll_10: 2631595403053223677
+      VFX_fireBalll_11: 4614282013878561987
+      VFX_fireBalll_12: -2603530819354573498
+      VFX_fireBalll_13: 2904063245796349975
+      VFX_fireBalll_14: 2960150937725200400
+      VFX_fireBalll_15: -1287211650701998259
+      VFX_fireBalll_16: -3945033837457016672
+      VFX_fireBalll_2: -2492617854759445572
+      VFX_fireBalll_3: 5454542070299095111
+      VFX_fireBalll_4: -8658109327621368156
+      VFX_fireBalll_5: -1905391522799544302
+      VFX_fireBalll_6: -7604641449404415960
+      VFX_fireBalll_7: 4313919688179527816
+      VFX_fireBalll_8: -4670448382378780423
+      VFX_fireBalll_9: 6289423504717059337
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

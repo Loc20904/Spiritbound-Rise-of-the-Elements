@@ -7,46 +7,72 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Skill System/Active Skills/Fireball")]
 public class FireballSkill : SkillSO
 {
-    [SerializeField] private GameObject fireballPrefab;
-    [SerializeField] private float fireballSpeed = 15f;
-    [SerializeField] private AudioClip soundEffect;
-    [SerializeField] private AudioClip soundFireEffect;
+    [Header("Dragon Settings")]
+    [SerializeField] private GameObject dragonPrefab; // Khối chưởng rồng khổng lồ
+    [SerializeField] private float dragonSpeed = 18f; // Rồng bay rất nhanh
+    [SerializeField] private float castTime = 1f;   // Thời gian tụ lực trước khi bắn
 
-    // ❌ Xóa dòng này đi, không lưu Transform trong SO nữa
-    // [SerializeField] private Transform spawnPoint; 
+    [Header("Effects")]
+    [SerializeField] private GameObject VFXCharging;   // Hiệu ứng tụ năng lượng (cháy quanh người)
+    [SerializeField] private AudioClip soundCharging;  // Tiếng tụ khí
+    [SerializeField] private AudioClip soundDragonRoar; // Tiếng rồng gầm khi bắn
 
     public override IEnumerator Activate(GameObject player)
     {
-        if (fireballPrefab == null)
+        if (dragonPrefab == null)
         {
-            Debug.LogError("FireballSkill: fireballPrefab chưa được gán!");
-            return null;
+            Debug.LogError("FireDragonAttack: dragonPrefab chưa được gán!");
+            yield break;
         }
 
-        // ✅ TÌM SPAWN POINT TỪ PLAYER
-        // Tìm một vật thể con tên là "SpawnPoint" nằm trong Player
-        Transform spawnPoint = player.transform.Find("SpawnPoint");
+        PlayerController controller = player.GetComponent<PlayerController>();
 
-        // Nếu quên chưa tạo SpawnPoint thì lấy luôn vị trí của Player làm gốc
-        if (spawnPoint == null)
+        // --- GIAI ĐOẠN 1: TỤ LỰC ---
+        Debug.Log("[Fire Dragon] Đang tụ năng lượng...");
+
+        if (soundCharging != null) SFXPool.Instance.Play(soundCharging, volume: 0.8f, pitch: 1f);
+
+        GameObject chargingVFX = null;
+        if (VFXCharging != null)
         {
-            Debug.LogWarning("Không tìm thấy vật thể con tên 'SpawnPoint' trong Player, bắn từ tâm Player!");
-            spawnPoint = player.transform;
+            chargingVFX = Instantiate(VFXCharging, player.transform.position + new Vector3(-0.1f, 1f, 0), Quaternion.identity, player.transform);
         }
 
-        // Tạo fireball tại vị trí vừa tìm được
-        GameObject fireball = Instantiate(fireballPrefab, spawnPoint.position, Quaternion.identity);
-        Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
+        // Có thể thêm code ép Player đứng im ở đây: controller.SetMovement(false);
 
-        // Xác định hướng bắn dựa vào direction của player
-        float direction = player.GetComponent<PlayerController>()?.GetFacingDirection() ?? 1f;
+        // Chờ tụ lực xong (Ví dụ: 1.5 giây)
+        yield return new WaitForSeconds(castTime);
 
+
+        // --- GIAI ĐOẠN 2: LONG GẦM (BẮN) ---
+        Debug.Log("[Fire Dragon] BẮN!!");
+
+        // Hủy hiệu ứng tụ lực
+        if (chargingVFX != null) Destroy(chargingVFX);
+
+        if (soundDragonRoar != null) SFXPool.Instance.Play(soundDragonRoar, volume: 0.5f, pitch: 1f);
+        yield return new WaitForSeconds(0.2f);
+        Transform spawnPoint = player.transform.Find("SpawnPoint") ?? player.transform;
+        float direction = controller?.GetFacingDirection() ?? 1f;
+
+        // Đẻ ra chưởng rồng
+        GameObject dragon = Instantiate(dragonPrefab, spawnPoint.position, Quaternion.identity);
+        Rigidbody2D rb = dragon.GetComponent<Rigidbody2D>();
+
+        // Xoay chiều con rồng
+        if (direction < 0)
+        {
+            Vector3 scale = dragon.transform.localScale;
+            scale.x *= -1;
+            dragon.transform.localScale = scale;
+        }
+
+        // Tốc độ bay
         if (rb != null)
         {
-            rb.linearVelocity = new Vector2(direction * fireballSpeed, 0f);
+            rb.linearVelocity = new Vector2(direction * dragonSpeed, 0f);
         }
 
-        Debug.Log($"Fireball activated at {spawnPoint.position}, direction: {direction}");
-        return null;
+        // Trả lại quyền di chuyển cho Player ở đây: controller.SetMovement(true);
     }
 }
