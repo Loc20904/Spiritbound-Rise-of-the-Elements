@@ -177,6 +177,21 @@ public class SkillSlotManager : MonoBehaviour
             return;
         }
 
+        // Nếu gán skill và skill đó đã tồn tại ở slot khác, clear slot cũ
+        if (skill != null)
+        {
+            for (int i = 0; i < skillSlots.Length; i++)
+            {
+                if (i != slotIndex && skillSlots[i].assignedSkill == skill)
+                {
+                    skillSlots[i].assignedSkill = null;
+                    skillSlots[i].cooldownRemaining = 0f;
+                    OnSkillSlotChanged?.Invoke(i);
+                    Debug.Log($"[SkillSlotManager] Cleared skill '{skill.skillName}' từ slot {i}");
+                }
+            }
+        }
+
         skillSlots[slotIndex].assignedSkill = skill;
         skillSlots[slotIndex].cooldownRemaining = 0f;
         OnSkillSlotChanged?.Invoke(slotIndex);
@@ -226,7 +241,7 @@ public class SkillSlotManager : MonoBehaviour
 
         // Activate skill
         Debug.Log($"[SkillSlotManager] ✓ Ativando skill '{slot.assignedSkill.skillName}' no slot {slotIndex}!");
-        slot.assignedSkill.Activate(gameObject);
+        StartCoroutine(slot.assignedSkill.Activate(gameObject));
         slot.UseCooldown();
         OnSkillUsed?.Invoke(slotIndex);
         Debug.Log($"Sử dụng skill: {slot.assignedSkill.skillName}");

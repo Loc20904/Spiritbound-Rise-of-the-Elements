@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public enum SkillType { Active, Passive }
@@ -22,9 +23,10 @@ public class SkillSO : ScriptableObject
     [Header("Active Skill Settings")]
     [SerializeField] public float cooldown = 1f; // Cooldown cho active skill
 
-    public virtual void Activate(GameObject player)
+    public virtual IEnumerator Activate(GameObject player)
     {
         Debug.Log($"Kỹ năng {name} đã được kích hoạt, nhưng chưa có logic cụ thể!");
+        return null;
     }
 
     // Hàm kiểm tra xem kỹ năng đã đủ điều kiện mở chưa
@@ -38,7 +40,7 @@ public class SkillSO : ScriptableObject
             if (!condition.IsMet(stats)) return false;
         }
 
-        //isUnlocked = true;
+        isUnlocked = true;
         Debug.Log($"Đã mở khóa kỹ năng: {skillName}!");
         return true;
     }

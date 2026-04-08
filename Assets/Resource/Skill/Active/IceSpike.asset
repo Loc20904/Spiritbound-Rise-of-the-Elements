@@ -16,10 +16,10 @@ MonoBehaviour:
   type: 0
   icon: {fileID: 177648988003292510, guid: 3f1dac8997b1dfc45847ae7a3688c57f, type: 3}
   description: ice coming
-  isUnlocked: 0
+  isUnlocked: 1
   unlockConditions:
   - {fileID: 11400000, guid: a0ae6734d90fbdb4a8b6b6edbba6e1ce, type: 2}
-  cooldown: 1
+  cooldown: 4
   iceSpikePrefab: {fileID: 5125735061885973589, guid: 7a7c8579f48247348babadc3dd2c87ac, type: 3}
   spikeCount: 3
   spawnRadius: 2

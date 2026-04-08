@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -9,13 +10,13 @@ public class HealSkill : SkillSO
     [SerializeField] private float healAmount = 30f;
     [SerializeField] private GameObject healEffectPrefab;
 
-    public override void Activate(GameObject player)
+    public override IEnumerator Activate(GameObject player)
     {
         PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth == null)
         {
             Debug.LogError("HealSkill: PlayerHealth not found!");
-            return;
+            return null;
         }
 
         // Phục hồi máu
@@ -28,5 +29,6 @@ public class HealSkill : SkillSO
         }
 
         Debug.Log($"Heal activated! Restored {healAmount} HP");
+        return null;
     }
 }

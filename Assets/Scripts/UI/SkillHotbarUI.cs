@@ -18,6 +18,7 @@ public class SkillHotbarUI : MonoBehaviour
     }
 
     [SerializeField] private SlotUI[] slotUIs = new SlotUI[4];
+    [SerializeField] private SkillSelectionPanel skillSelectionPanel; // Reference to panel
     public SkillSlotManager skillSlotManager;
     public SkillManager skillManager;
 
@@ -26,6 +27,10 @@ public class SkillHotbarUI : MonoBehaviour
         // Tìm SkillSlotManager từ player
         //skillSlotManager = FindObjectOfType<SkillSlotManager>();
         //skillManager = FindObjectOfType<SkillManager>();
+
+        // Tìm SkillSelectionPanel nếu không assign
+        if (skillSelectionPanel == null)
+            skillSelectionPanel = FindObjectOfType<SkillSelectionPanel>();
 
         if (skillSlotManager == null)
         {
@@ -38,6 +43,11 @@ public class SkillHotbarUI : MonoBehaviour
             Debug.LogError("[SkillHotbarUI] SkillManager không tìm thấy!");
             return;
         }
+
+        if (skillSelectionPanel == null)
+        {
+            Debug.LogWarning("[SkillHotbarUI] SkillSelectionPanel không tìm thấy - click slot sẽ rotaciona thay vì mở panel!");
+        }
     }
 
     private void OnEnable()
@@ -48,19 +58,31 @@ public class SkillHotbarUI : MonoBehaviour
             skillSlotManager.OnSkillUsed += OnSkillUsed;
 
             // Cập nhật tất cả các slot khi bật UI
-            for (int i = 0; i < 4; i++)
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    UpdateSlotDisplay(i);
+
+            //    // Setup button click để chuyển skill
+            //    int slotIndex = i; // Capture for closure
+            //    var slotTransform = slotUIs[i].skillIcon.transform.parent;
+            //    Button slotButton = slotTransform.GetComponent<Button>();
+            //    if (slotButton == null)
+            //        slotButton = slotTransform.gameObject.AddComponent<Button>();
+
+            //    slotButton.onClick.RemoveAllListeners();
+            //    slotButton.onClick.AddListener(() => OnSlotClicked(slotIndex));
+            //}
+
+            if (skillManager != null && skillManager.activeSkills.Count > 0)
             {
-                UpdateSlotDisplay(i);
-
-                // Setup button click để chuyển skill
-                int slotIndex = i; // Capture for closure
-                var slotTransform = slotUIs[i].skillIcon.transform.parent;
-                Button slotButton = slotTransform.GetComponent<Button>();
-                if (slotButton == null)
-                    slotButton = slotTransform.gameObject.AddComponent<Button>();
-
-                slotButton.onClick.RemoveAllListeners();
-                slotButton.onClick.AddListener(() => OnSlotClicked(slotIndex));
+                int temp = 0;
+                foreach (var skill in skillManager.activeSkills)
+                {
+                    slotUIs[temp].skillIcon.sprite = skill.icon;
+                    skillSlotManager.AssignSkillToSlot(temp, skill);
+                    temp++;
+                    if (temp > 4) break; // Chỉ gán tối đa 4 skills vào hotbar
+                }
             }
 
             if (skillManager != null)
@@ -143,9 +165,9 @@ public class SkillHotbarUI : MonoBehaviour
 
     private void OnSkillUsed(int slotIndex)
     {
-        // Có thể thêm effect animation ở đây
-        Debug.Log($"[SkillHotbarUI] Skill used at slot {slotIndex}");
+
     }
+
 
     private void OnSkillUnlocked(SkillSO skill)
     {
@@ -164,7 +186,24 @@ public class SkillHotbarUI : MonoBehaviour
         };
     }
 
-    private void OnSlotClicked(int slotIndex)
+    public void OnSlotClicked(int slotIndex)
+    {
+        Debug.Log($"[SkillHotbarUI] Slot {slotIndex} clicked!");
+
+        // Nếu có panel, mở nó
+        if (skillSelectionPanel != null)
+        {
+            skillSelectionPanel.OpenPanelForSlot(slotIndex);
+            Debug.Log($"[SkillHotbarUI] Mở selection panel cho slot {slotIndex}");
+            return;
+        }
+
+        // Fallback: Rotaciona skills nếu panel không tồn tại
+        Debug.Log("[SkillHotbarUI] Panel không tồn tại, rotaciona skills...");
+        RotateSkillInSlot(slotIndex);
+    }
+
+    private void RotateSkillInSlot(int slotIndex)
     {
         if (skillManager == null)
         {

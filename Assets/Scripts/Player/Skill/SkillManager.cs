@@ -21,6 +21,7 @@ public class SkillManager : MonoBehaviour
     {
         playerStats = GetComponent<PlayerStats>();
         skillSlotManager = GetComponent<SkillSlotManager>();
+        setUpSkill();
     }
 
     private void OnEnable()
@@ -54,12 +55,27 @@ public class SkillManager : MonoBehaviour
                 {
                     SortSkillIntoLists(skill);
                     OnSkillUnlocked?.Invoke(skill);
-                    
+
                     // Auto-assign active skills vào các slot trống
                     if (skill.type == SkillType.Active && skillSlotManager != null)
                     {
                         AutoAssignSkillToEmptySlot(skill);
                     }
+                }
+            }
+        }
+    }
+
+    public void setUpSkill()
+    {
+        foreach (var skill in allSkills)
+        {
+            if (skill.isUnlocked)
+            {
+                SortSkillIntoLists(skill);
+                if (skill.type == SkillType.Active && skillSlotManager != null)
+                {
+                    AutoAssignSkillToEmptySlot(skill);
                 }
             }
         }

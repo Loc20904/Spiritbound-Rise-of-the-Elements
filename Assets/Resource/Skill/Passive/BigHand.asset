@@ -16,7 +16,7 @@ MonoBehaviour:
   type: 1
   icon: {fileID: 5362266442303231115, guid: 93885af3e11ba564693d29fed86d743e, type: 3}
   description: You are big boy hero. Speed -10%
-  isUnlocked: 0
+  isUnlocked: 1
   unlockConditions:
   - {fileID: 11400000, guid: a0ae6734d90fbdb4a8b6b6edbba6e1ce, type: 2}
   cooldown: 1

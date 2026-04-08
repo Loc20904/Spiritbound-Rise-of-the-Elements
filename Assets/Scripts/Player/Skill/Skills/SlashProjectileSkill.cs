@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -11,19 +12,19 @@ public class SlashProjectileSkill : SkillSO
     [SerializeField] private Transform projectileSpawnPoint;
     [SerializeField] private int slashDamage = 2;
 
-    public override void Activate(GameObject player)
+    public override IEnumerator Activate(GameObject player)
     {
         if (slashProjectilePrefab == null || projectileSpawnPoint == null)
         {
             Debug.LogError("SlashProjectileSkill: Prefab hoặc spawn point chưa được gán!");
-            return;
+            return null;
         }
 
         PlayerController pc = player.GetComponent<PlayerController>();
         if (pc == null)
         {
             Debug.LogError("SlashProjectileSkill: PlayerController not found!");
-            return;
+            return null;
         }
 
         // Tạo kiếm khí projectile
@@ -40,5 +41,6 @@ public class SlashProjectileSkill : SkillSO
         //}
 
         Debug.Log($"SlashProjectileSkill activated! Damage: {slashDamage}, Direction: {facingDirection}");
+        return null;
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -10,12 +11,12 @@ public class IceSpikeSkill : SkillSO
     [SerializeField] private int spikeCount = 3;
     [SerializeField] private float spawnRadius = 2f;
 
-    public override void Activate(GameObject player)
+    public override IEnumerator Activate(GameObject player)
     {
         if (iceSpikePrefab == null)
         {
             Debug.LogError("IceSpikeSkill: iceSpikePrefab chưa được gán!");
-            return;
+            return null;
         }
 
         Vector3 playerPos = player.transform.position;
@@ -31,5 +32,6 @@ public class IceSpikeSkill : SkillSO
         }
 
         Debug.Log($"Ice Spikes activated: {spikeCount} spikes spawned around {playerPos}");
+        return null;
     }
 }

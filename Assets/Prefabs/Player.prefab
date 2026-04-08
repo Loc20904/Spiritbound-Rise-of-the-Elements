@@ -1149,6 +1149,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2e39ebe75d9e7aa40b4ddeb06893edda, type: 2}
   - {fileID: 11400000, guid: 6f4e1cffb0da26f4d828276780a9dffb, type: 2}
   - {fileID: 11400000, guid: 7066caae4e029584fb0cd3b211e1bf63, type: 2}
+  - {fileID: 11400000, guid: 610475572a775e446b5d10eb04075567, type: 2}
   activeSkills: []
   passiveSkills: []
 --- !u!114 &-2115978806774975589

@@ -16,10 +16,9 @@ MonoBehaviour:
   type: 0
   icon: {fileID: -2897410619757586913, guid: 589d195bacfa5d44ea8ccdbdf87a1761, type: 3}
   description: hot hot hot
-  isUnlocked: 0
+  isUnlocked: 1
   unlockConditions:
   - {fileID: 11400000, guid: a0ae6734d90fbdb4a8b6b6edbba6e1ce, type: 2}
   cooldown: 1
   fireballPrefab: {fileID: 3171551015218902307, guid: 71a485d704799094f9d90954019eca28, type: 3}
   fireballSpeed: 15
-  spawnPoint: {fileID: 0}

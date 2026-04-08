@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -8,16 +9,18 @@ public class FireballSkill : SkillSO
 {
     [SerializeField] private GameObject fireballPrefab;
     [SerializeField] private float fireballSpeed = 15f;
+    [SerializeField] private AudioClip soundEffect;
+    [SerializeField] private AudioClip soundFireEffect;
 
     // ❌ Xóa dòng này đi, không lưu Transform trong SO nữa
     // [SerializeField] private Transform spawnPoint; 
 
-    public override void Activate(GameObject player)
+    public override IEnumerator Activate(GameObject player)
     {
         if (fireballPrefab == null)
         {
             Debug.LogError("FireballSkill: fireballPrefab chưa được gán!");
-            return;
+            return null;
         }
 
         // ✅ TÌM SPAWN POINT TỪ PLAYER
@@ -44,5 +47,6 @@ public class FireballSkill : SkillSO
         }
 
         Debug.Log($"Fireball activated at {spawnPoint.position}, direction: {direction}");
+        return null;
     }
 }

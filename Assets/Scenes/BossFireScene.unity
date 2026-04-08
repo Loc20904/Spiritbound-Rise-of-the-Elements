@@ -3062,51 +3062,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f37794d30296e8e4c9c5be23cee5aa90, type: 3}
---- !u!1 &688836157
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 688836159}
-  - component: {fileID: 688836158}
-  m_Layer: 0
-  m_Name: SFXPoll
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &688836158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688836157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce18cbe54ce86004e9f9f836df1424ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  poolSize: 12
---- !u!4 &688836159
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688836157}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.47730878, y: 0.84855336, z: 0.018279867}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &711541742
 GameObject:
   m_ObjectHideFlags: 0
@@ -7330,6 +7285,63 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &1443537127781663802
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.47730878
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.84855336
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.018279867
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781400417814829892, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5114096240521346079, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
+      propertyPath: m_Name
+      value: SFXPoll
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fa7c9841db456064695ec5bfdc3a95d5, type: 3}
 --- !u!114 &3924589710735724489 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7768015034203273977, guid: 050b4496d0ff6d44399017979f03c52e, type: 3}
@@ -7782,7 +7794,7 @@ SceneRoots:
   - {fileID: 1797927616}
   - {fileID: 897956778}
   - {fileID: 5629578408871608215}
-  - {fileID: 688836159}
+  - {fileID: 1443537127781663802}
   - {fileID: 1816098050}
   - {fileID: 460470209}
   - {fileID: 1689881616}

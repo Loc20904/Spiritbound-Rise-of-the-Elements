@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -14,18 +15,19 @@ public class DashStrikeSkill : SkillSO
     private bool isDashing = false;
     private float dashTimer = 0f;
 
-    public override void Activate(GameObject player)
+    public override IEnumerator Activate(GameObject player)
     {
         PlayerController pc = player.GetComponent<PlayerController>();
         if (pc == null)
         {
             Debug.LogError("DashStrikeSkill: PlayerController not found!");
-            return;
+            return null;
         }
 
         // Thực hiện dash strike
         Debug.Log($"Dash Strike activated!");
         // Bạn có thể gọi một coroutine hoặc phương thức trong PlayerController để xử lý dash strike
         // Hoặc có thể bỏ logic vào đây
+        return null;
     }
 }
