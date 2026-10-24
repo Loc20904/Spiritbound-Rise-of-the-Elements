@@ -1,0 +1,1648 @@
+{
+  "date": "2026-10-24",
+  "editorVersion": "6000.3.3f1",
+  "assetFilesMoved": 2506,
+  "assetFilesDeleted": 144,
+  "deletedAssetBytes": 5853651,
+  "buildScenesBefore": [
+    {
+      "path": "Assets/Scenes/IntroScene.unity",
+      "enabled": true,
+      "guid": "079947866d79edc48aa4d1b5735359e0"
+    },
+    {
+      "path": "Assets/Scenes/FortuneScene.unity",
+      "enabled": true,
+      "guid": "59df066987f5ed743b324eb82558b847"
+    },
+    {
+      "path": "Assets/Scenes/MapVolcano.unity",
+      "enabled": true,
+      "guid": "a68fc20ad68ac9c44a5a8d1daabdc47b"
+    },
+    {
+      "path": "Assets/Scenes/BossFireScene.unity",
+      "enabled": true,
+      "guid": "47e1b2afbfb2dcd4ca26dbcac8a7541a"
+    },
+    {
+      "path": "Assets/Scenes/MapForest.unity",
+      "enabled": true,
+      "guid": "06080fb45367de94280c29d280278776"
+    },
+    {
+      "path": "Assets/Scenes/BossGroundScene.unity",
+      "enabled": true,
+      "guid": "9680339b9d5fc4843b9bb9a6458d4037"
+    },
+    {
+      "path": "Assets/Scenes/CreditsScene.unity",
+      "enabled": true,
+      "guid": "523a3489af46acb4281d704d50ab1484"
+    },
+    {
+      "path": "Assets/Scenes/MainMenuScene.unity",
+      "enabled": true,
+      "guid": "4a376366a0f612d45b1c9d4f5a741d55"
+    },
+    {
+      "path": "Assets/Scenes/MapIce.unity",
+      "enabled": true,
+      "guid": "8609161acc5f6d043949637a172cf14e"
+    },
+    {
+      "path": "Assets/Scenes/BossWaterScene.unity",
+      "enabled": true,
+      "guid": "3c76467998d0f0d43b2a6b079106b202"
+    },
+    {
+      "path": "Assets/Scenes/FinalBossScene.unity",
+      "enabled": true,
+      "guid": "0f2dee4b68ccc38409c5bb64c9be67fa"
+    }
+  ],
+  "sceneChecksBefore": [
+    {
+      "path": "Assets/Scenes/IntroScene.unity",
+      "rootObjects": 8,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/FortuneScene.unity",
+      "rootObjects": 20,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/MapVolcano.unity",
+      "rootObjects": 75,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/BossFireScene.unity",
+      "rootObjects": 28,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/MapForest.unity",
+      "rootObjects": 19,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/BossGroundScene.unity",
+      "rootObjects": 40,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/CreditsScene.unity",
+      "rootObjects": 4,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/MainMenuScene.unity",
+      "rootObjects": 5,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/MapIce.unity",
+      "rootObjects": 23,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/BossWaterScene.unity",
+      "rootObjects": 27,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/Scenes/FinalBossScene.unity",
+      "rootObjects": 32,
+      "missingScripts": 0
+    }
+  ],
+  "sceneChecksAfter": [
+    {
+      "path": "Assets/_Project/Scenes/IntroScene.unity",
+      "rootObjects": 8,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/FortuneScene.unity",
+      "rootObjects": 20,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/MapVolcano.unity",
+      "rootObjects": 75,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/BossFireScene.unity",
+      "rootObjects": 28,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/MapForest.unity",
+      "rootObjects": 19,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/BossGroundScene.unity",
+      "rootObjects": 40,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/CreditsScene.unity",
+      "rootObjects": 4,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/MainMenuScene.unity",
+      "rootObjects": 5,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/MapIce.unity",
+      "rootObjects": 23,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/BossWaterScene.unity",
+      "rootObjects": 27,
+      "missingScripts": 0
+    },
+    {
+      "path": "Assets/_Project/Scenes/FinalBossScene.unity",
+      "rootObjects": 32,
+      "missingScripts": 0
+    }
+  ],
+  "prefabValidation": {
+    "prefabCount": 112,
+    "missingScripts": [],
+    "compiling": false
+  },
+  "projectSettingsPathUpdates": [
+    {
+      "setting": "templateDefaultScene",
+      "before": "Assets/Scenes/SampleScene.unity",
+      "after": "Assets/_Sandbox/Scenes/SampleScene.unity"
+    }
+  ],
+  "fileValidation": {
+    "retainedFilesVerified": 2547,
+    "assetGuidsVerified": 2547,
+    "scriptsVerified": 118,
+    "errors": [],
+    "newDanglingGuidReferences": [],
+    "filesWithChangedSize": [],
+    "assetRootFolders": [
+      "TextMesh Pro",
+      "_Project",
+      "_Sandbox"
+    ]
+  },
+  "operations": [
+    {
+      "op": "delete",
+      "source": "Assets/TextMesh Pro/Examples & Extras",
+      "reason": "Unused vendor demo scenes, scripts and assets; no incoming references or C# dependencies."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/.gitkeep",
+      "reason": "Empty placeholder in a populated folder."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Scripts/UI/.gitkeep",
+      "reason": "Empty placeholder in a populated folder."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Scripts/World/.gitkeep",
+      "reason": "Empty placeholder in a populated folder."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Prelabs/UI/.gitkeep",
+      "reason": "Empty placeholder in a populated folder."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Animation/AI/.gitkeep",
+      "reason": "Empty placeholder in a populated folder."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Animation/Core/.gitkeep",
+      "reason": "Empty placeholder in a populated folder."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Animation/UI/.gitkeep",
+      "reason": "Empty placeholder in a populated folder."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Animation/World/.gitkeep",
+      "reason": "Empty placeholder in a populated folder."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Hanhvi",
+      "reason": "Empty folder with no incoming references."
+    },
+    {
+      "op": "move",
+      "source": "Assets/Scripts",
+      "destination": "Assets/_Project/Scripts"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Animation",
+      "destination": "Assets/_Project/Art/Animations"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prelabs",
+      "destination": "Assets/_Project/Prefabs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Resource",
+      "destination": "Assets/_Project/Data"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Scenes",
+      "destination": "Assets/_Project/Scenes"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Settings",
+      "destination": "Assets/_Project/Settings"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sound",
+      "destination": "Assets/_Project/Audio"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sprite",
+      "destination": "Assets/_Project/Art/Sprites"
+    },
+    {
+      "op": "move",
+      "source": "Assets/UI",
+      "destination": "Assets/_Project/Art/Sprites/UI/HUD"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sprites/Backround",
+      "destination": "Assets/_Project/Art/Tilemaps/Backgrounds"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sprites/Player",
+      "destination": "Assets/_Project/Art/Sprites/Player/Base"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sprites/Player_Fall",
+      "destination": "Assets/_Project/Art/Sprites/Player/Fall"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sprites/Enemy",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Water"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sprites/Bullet",
+      "destination": "Assets/_Project/Art/Sprites/Projectiles/Enemy"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sprites/SwordBullet",
+      "destination": "Assets/_Project/Art/Sprites/Projectiles/Player"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sprites/Transform",
+      "destination": "Assets/_Project/Art/Sprites/Player/Transform"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Sprites/VatPham",
+      "destination": "Assets/_Project/Art/Sprites/Items"
+    },
+    {
+      "op": "move",
+      "source": "Assets/matdat",
+      "destination": "Assets/_Project/Art/Sprites/World/Platforms"
+    },
+    {
+      "op": "move",
+      "source": "Assets/SFX (Soundbot)",
+      "destination": "Assets/_Project/Audio/Enemies/Common"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Recovery",
+      "destination": "Assets/_Sandbox/Recovery"
+    },
+    {
+      "op": "move",
+      "source": "Assets/SEN/MonsterF.unity",
+      "destination": "Assets/_Sandbox/Scenes/MonsterF.unity"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scenes/CombatScene.unity",
+      "destination": "Assets/_Sandbox/Scenes/CombatScene.unity"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scenes/Inventory.unity",
+      "destination": "Assets/_Sandbox/Scenes/Inventory.unity"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scenes/MapBossFire.unity",
+      "destination": "Assets/_Sandbox/Scenes/MapBossFire.unity"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scenes/Menu.unity",
+      "destination": "Assets/_Sandbox/Scenes/Menu.unity"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scenes/PlayerMoverment.unity",
+      "destination": "Assets/_Sandbox/Scenes/PlayerMoverment.unity"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scenes/SampleScene.unity",
+      "destination": "Assets/_Sandbox/Scenes/SampleScene.unity"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scenes/WaterEnemy.unity",
+      "destination": "Assets/_Sandbox/Scenes/WaterEnemy.unity"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Settings/Lit2DSceneTemplate.scenetemplate",
+      "destination": "Assets/_Sandbox/SceneTemplates/Lit2DSceneTemplate.scenetemplate"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Settings/Scenes",
+      "destination": "Assets/_Sandbox/SceneTemplates/Scenes"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Settings/Renderer2D.asset",
+      "destination": "Assets/_Project/Settings/Rendering/Renderer2D.asset"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Settings/UniversalRP.asset",
+      "destination": "Assets/_Project/Settings/Rendering/UniversalRP.asset"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Sprites/UI/TarotIntro.mp4",
+      "destination": "Assets/_Project/Video/UI/TarotIntro.mp4"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Sprites/Core/CutScene/CutScene1.mp4",
+      "destination": "Assets/_Project/Video/Core/CutScene/CutScene1.mp4"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Sprites/Core/CutScene/CutScene2.mp4",
+      "destination": "Assets/_Project/Video/Core/CutScene/CutScene2.mp4"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Sprites/Core/CutScene/CutScene3.mp4",
+      "destination": "Assets/_Project/Video/Core/CutScene/CutScene3.mp4"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Sprites/Core/CutScene/CutScene4.mp4",
+      "destination": "Assets/_Project/Video/Core/CutScene/CutScene4.mp4"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Sprites/Core/CutScene/CutScene5.mp4",
+      "destination": "Assets/_Project/Video/Core/CutScene/CutScene5.mp4"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Sprites/Core/CutScene/CutScene6.mp4",
+      "destination": "Assets/_Project/Video/Core/CutScene/CutScene6.mp4"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Sprites/AI/FinalBoss/CutScene/IntroPhase2.mp4",
+      "destination": "Assets/_Project/Video/AI/FinalBoss/CutScene/IntroPhase2.mp4"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Audio/Core/CutScene/CutSceneIntroGameTimeline.playable",
+      "destination": "Assets/_Project/Art/Animations/Core/CutScene/CutSceneIntroGameTimeline.playable"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Audio/AI/JackSparrow/background_Ship.png",
+      "destination": "Assets/_Project/Art/Sprites/AI/JackSparrow/background_Ship.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Audio/AI/JackSparrow/Game Boy Advance - Pirates of the Caribbean_ Dead Man's Chest - Miscellaneous - Jack Sparrow.png",
+      "destination": "Assets/_Project/Art/Sprites/AI/JackSparrow/Game Boy Advance - Pirates of the Caribbean_ Dead Man's Chest - Miscellaneous - Jack Sparrow.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Audio/AI/JackSparrow/IntroJackSparrow.mp4",
+      "destination": "Assets/_Project/Video/AI/JackSparrow/IntroJackSparrow.mp4"
+    },
+    {
+      "op": "move",
+      "source": "Assets/1 - Idle_0.controller",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/1 - Idle_0.controller"
+    },
+    {
+      "op": "move",
+      "source": "Assets/DefaultVolumeProfile.asset",
+      "destination": "Assets/_Project/Settings/Rendering/DefaultVolumeProfile.asset"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Earth_Rune.anim",
+      "destination": "Assets/_Project/Art/Animations/Items/Earth_Rune.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/FireRune.anim",
+      "destination": "Assets/_Project/Art/Animations/Items/FireRune.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/FireRune_0.controller",
+      "destination": "Assets/_Project/Art/Animations/Items/FireRune_0.controller"
+    },
+    {
+      "op": "move",
+      "source": "Assets/FortuneNPC.controller",
+      "destination": "Assets/_Project/Art/Animations/AI/NPC/FortuneNPC.controller"
+    },
+    {
+      "op": "move",
+      "source": "Assets/InputSystem_Actions.inputactions",
+      "destination": "Assets/_Project/Input/InputSystem_Actions.inputactions"
+    },
+    {
+      "op": "move",
+      "source": "Assets/MainAudioMixer.mixer",
+      "destination": "Assets/_Project/Audio/Mixers/MainAudioMixer.mixer"
+    },
+    {
+      "op": "move",
+      "source": "Assets/New Tile Palette.prefab",
+      "destination": "Assets/_Project/Art/Tilemaps/Palettes/New Tile Palette.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/NPC_Fortuner.anim",
+      "destination": "Assets/_Project/Art/Animations/AI/NPC/NPC_Fortuner.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/PlayerInputaction.inputactions",
+      "destination": "Assets/_Project/Input/PlayerInputaction.inputactions"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Attack_1.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Attack_1.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Attack_3.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Attack_3.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Climb.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Climb.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Dash.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Dash.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Dash_Attack.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Dash_Attack.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Death.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Death.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Fall.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Fall.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Hit.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Hit.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Idle.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Idle.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Idle_Attack.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Idle_Attack.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Jump.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Jump.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Jump_Down_Attack.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Jump_Down_Attack.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Jump_up_attack.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Jump_up_attack.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Mid_Air.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Mid_Air.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Run.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Run.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Player_Spetial_Dash.anim",
+      "destination": "Assets/_Project/Art/Animations/Player/Base/Player_Spetial_Dash.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/quainuocdanhgan_attack.anim",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/quainuocdanhgan_attack.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/quainuocdanhgan_Dead.anim",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/quainuocdanhgan_Dead.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/quainuocdanhgan_idle.anim",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/quainuocdanhgan_idle.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/QuaiNuocDanhgan_idle_1.controller",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/QuaiNuocDanhgan_idle_1.controller"
+    },
+    {
+      "op": "move",
+      "source": "Assets/quainuocdanhgan_run.anim",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/quainuocdanhgan_run.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Rune_earth 1_0.controller",
+      "destination": "Assets/_Project/Art/Animations/Items/Rune_earth 1_0.controller"
+    },
+    {
+      "op": "move",
+      "source": "Assets/UniversalRenderPipelineGlobalSettings.asset",
+      "destination": "Assets/_Project/Settings/Rendering/UniversalRenderPipelineGlobalSettings.asset"
+    },
+    {
+      "op": "move",
+      "source": "Assets/WaterEnemyRanged.controller",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/WaterEnemyRanged.controller"
+    },
+    {
+      "op": "move",
+      "source": "Assets/WaterEnemyRanged_Attack.anim",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/WaterEnemyRanged_Attack.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/WaterEnemyRanged_Dead.anim",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/WaterEnemyRanged_Dead.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/WaterEnemyRanged_Idle.anim",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/WaterEnemyRanged_Idle.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/WaterEnemyRanged_Run.anim",
+      "destination": "Assets/_Project/Art/Animations/AI/Enemies/Water/WaterEnemyRanged_Run.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/WaterRune.anim",
+      "destination": "Assets/_Project/Art/Animations/Items/WaterRune.anim"
+    },
+    {
+      "op": "move",
+      "source": "Assets/WaterRune_0.controller",
+      "destination": "Assets/_Project/Art/Animations/Items/WaterRune_0.controller"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/World/Trap/SceneController.cs",
+      "destination": "Assets/_Project/Scripts/Core/SceneController.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/World/Trap",
+      "destination": "Assets/_Project/Scripts/World/Traps"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/Enemy/WaterEnemy",
+      "destination": "Assets/_Project/Scripts/Enemy/Water"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/Enemy/Bulet",
+      "destination": "Assets/_Project/Scripts/Enemy/Projectiles"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/Dropvatpham",
+      "destination": "Assets/_Project/Scripts/Items/Loot"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/SwordBullet",
+      "destination": "Assets/_Project/Scripts/Player/Projectiles"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/Transform",
+      "destination": "Assets/_Project/Scripts/Player/Transformation"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/UI/ItemTester.cs",
+      "destination": "Assets/_Project/Scripts/Debug/ItemTester.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/Player/FortuneTellerNPC.cs",
+      "destination": "Assets/_Project/Scripts/AI/NPC/FortuneTellerNPC.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/Core/CutScene/UncialAntiqua-Regular SDF.asset",
+      "destination": "Assets/_Project/Art/Fonts/UncialAntiqua-Regular SDF.asset"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/Core/CutScene/UncialAntiqua-Regular.ttf",
+      "destination": "Assets/_Project/Art/Fonts/UncialAntiqua-Regular.ttf"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/AI/BossGround/ShakeCameraSignal.signal",
+      "destination": "Assets/_Project/Art/Animations/AI/BossGround/ShakeCameraSignal.signal"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/IceMaterial.physicsMaterial2D",
+      "destination": "Assets/_Project/Physics/Materials/IceMaterial.physicsMaterial2D"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/NoFriction.physicsMaterial2D",
+      "destination": "Assets/_Project/Physics/Materials/NoFriction.physicsMaterial2D"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Scripts/Player/player.physicsMaterial2D",
+      "destination": "Assets/_Project/Physics/Materials/player.physicsMaterial2D"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Prefabs/AI/OthersBoss/Slippery.physicsMaterial2D",
+      "destination": "Assets/_Project/Physics/Materials/Slippery.physicsMaterial2D"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/BotEarth-Fly.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Earth/BotEarth-Fly.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/botEarth-QCC 1.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Earth/botEarth-QCC 1.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/BotEarth_QDX.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Earth/BotEarth_QDX.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/BotFireFly.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Fire/BotFireFly.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/BêJump_0.prefab",
+      "destination": "Assets/_Project/Prefabs/World/BêJump_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/CheckPoint.prefab",
+      "destination": "Assets/_Project/Prefabs/World/CheckPoint.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/DamagePopup.prefab",
+      "destination": "Assets/_Project/Prefabs/UI/Combat/DamagePopup.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/FallTrap.prefab",
+      "destination": "Assets/_Project/Prefabs/World/FallTrap.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/FinishPoint.prefab",
+      "destination": "Assets/_Project/Prefabs/World/FinishPoint.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/Game Manager.prefab",
+      "destination": "Assets/_Project/Prefabs/Core/Game Manager.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/Lava.prefab",
+      "destination": "Assets/_Project/Prefabs/World/Lava.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/PlatformFall.prefab",
+      "destination": "Assets/_Project/Prefabs/World/PlatformFall.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/Platform_0.prefab",
+      "destination": "Assets/_Project/Prefabs/World/Platform_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/Projectile.prefab",
+      "destination": "Assets/_Project/Prefabs/Projectiles/Projectile.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/QL-CanChien_Enemy 1.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Fire/QL-CanChien_Enemy 1.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/Qlua-danhxa_Enemy.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Fire/Qlua-danhxa_Enemy.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/Spike.prefab",
+      "destination": "Assets/_Project/Prefabs/World/Spike.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/spikeAbove.prefab",
+      "destination": "Assets/_Project/Prefabs/World/spikeAbove.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/StartRespawn.prefab",
+      "destination": "Assets/_Project/Prefabs/Core/StartRespawn.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefab/TrapBanDan_0.prefab",
+      "destination": "Assets/_Project/Prefabs/World/TrapBanDan_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/1 - Idle_0.prefab",
+      "destination": "Assets/_Project/Prefabs/Player/1 - Idle_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/AudioManger.prefab",
+      "destination": "Assets/_Project/Prefabs/Audio/AudioManger.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/fc121_0.prefab",
+      "destination": "Assets/_Project/Prefabs/World/fc121_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/fc122_0.prefab",
+      "destination": "Assets/_Project/Prefabs/World/fc122_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/fc123_0.prefab",
+      "destination": "Assets/_Project/Prefabs/World/fc123_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/fc569_0.prefab",
+      "destination": "Assets/_Project/Prefabs/World/fc569_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/FireRune_0.prefab",
+      "destination": "Assets/_Project/Prefabs/Items/FireRune_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/Ground.prefab",
+      "destination": "Assets/_Project/Prefabs/World/Ground.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/Player.prefab",
+      "destination": "Assets/_Project/Prefabs/Player/Player.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/QuaiNuocDanhgan_idle_1.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Water/QuaiNuocDanhgan_idle_1.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/Rune_earth 1_0.prefab",
+      "destination": "Assets/_Project/Prefabs/Items/Rune_earth 1_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/SwordBullet1_0.prefab",
+      "destination": "Assets/_Project/Prefabs/Projectiles/SwordBullet1_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/WaterBulet.prefab",
+      "destination": "Assets/_Project/Prefabs/Projectiles/WaterBulet.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/WaterEnemyRanged.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Water/WaterEnemyRanged.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Prefabs/WaterRune_0.prefab",
+      "destination": "Assets/_Project/Prefabs/Items/WaterRune_0.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/bothasstatus/BotEarth-Fly.prefab",
+      "destination": "Assets/_Project/Prefabs/Variants/StatusEffects/BotEarth-Fly.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/bothasstatus/botEarth-QCC.prefab",
+      "destination": "Assets/_Project/Prefabs/Variants/StatusEffects/botEarth-QCC.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/bothasstatus/BotEarth_QDX.prefab",
+      "destination": "Assets/_Project/Prefabs/Variants/StatusEffects/BotEarth_QDX.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/bothasstatus/BotFireFly.prefab",
+      "destination": "Assets/_Project/Prefabs/Variants/StatusEffects/BotFireFly.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/bothasstatus/Player.prefab",
+      "destination": "Assets/_Project/Prefabs/Variants/StatusEffects/Player.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/bothasstatus/QL-CanChien_Enemy 1.prefab",
+      "destination": "Assets/_Project/Prefabs/Variants/StatusEffects/QL-CanChien_Enemy 1.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/bothasstatus/Qlua-danhxa_Enemy.prefab",
+      "destination": "Assets/_Project/Prefabs/Variants/StatusEffects/Qlua-danhxa_Enemy.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QCC/EnemyChaseAI_QCC.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Fire/Melee/EnemyChaseAI_QCC.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QCC/EnemyMeleeAttack.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Fire/Melee/EnemyMeleeAttack.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QCC/QuaiAI_QCC.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Fire/Melee/QuaiAI_QCC.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/ArrowBullet.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Fire/Ranged/ArrowBullet.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/EnemyChaseAI.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Fire/Ranged/EnemyChaseAI.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/EnemyRangedAttack.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Fire/Ranged/EnemyRangedAttack.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/QuaiAI.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Fire/Ranged/QuaiAI.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/codeChung/EnemyHealth.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Common/EnemyHealth.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/codeChung/EnemySpawner.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Common/EnemySpawner.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/codeChung/PlayerFireDOT.cs",
+      "destination": "Assets/_Project/Scripts/Player/PlayerFireDOT.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/codeChung/PlayerHealth.cs",
+      "destination": "Assets/_Project/Scripts/Player/PlayerHealth.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/codeChung/PlayerSimpleTest.cs",
+      "destination": "Assets/_Project/Scripts/Debug/PlayerSimpleTest.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/codeChung/HieuUngDot/DamagePopup.cs",
+      "destination": "Assets/_Project/Scripts/UI/Combat/DamagePopup.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/codeChung/HieuUngDot/DamagePopupSpawner.cs",
+      "destination": "Assets/_Project/Scripts/UI/Combat/DamagePopupSpawner.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX/Arrow.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Fire/Ranged/Arrow.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX/BulletEarthQDX.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Fire/Ranged/BulletEarthQDX.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX/DanEarth2.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Ranged/DanEarth2.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX/DanEarth2.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Fire/Ranged/DanEarth2.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX/DanEarthQDX.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Ranged/DanEarthQDX.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX/Gemini_Generated_Image_fhkyhafhkyhafhky-removebg-preview (1).png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Ranged/Gemini_Generated_Image_fhkyhafhkyhafhky-removebg-preview (1).png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX/Screenshot_2026-01-19_162019-removebg-preview.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Ranged/Screenshot_2026-01-19_162019-removebg-preview.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/frameQDX/QDX-Chay.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Ranged/QDX-Chay.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/frameQDX/QDX-idle.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Ranged/QDX-idle.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/frameQDX/QDX-TanCongCung.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Ranged/QDX-TanCongCung.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/frameQDX/QDX_death.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Ranged/QDX_death.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX/Materials/DanEarth2.mat",
+      "destination": "Assets/_Project/Art/Materials/Enemies/Fire/DanEarth2.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QCC/frameQCC/QL-CanChien2 1.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Melee/QL-CanChien2 1.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QCC/frameQCC/QL-CanChien2.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Melee/QL-CanChien2.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QCC/frameQCC/QL-cc2_death.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Melee/QL-cc2_death.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QCC/frameQCC/QL-CC2_run.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Melee/QL-CC2_run.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QCC/frameQCC/Sprite-0001_QLDG (2).png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Melee/Sprite-0001_QLDG (2).png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QB/frameQB/BotFireFly_attack.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Flying/BotFireFly_attack.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QB/frameQB/BotFireFly_death.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Flying/BotFireFly_death.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QB/frameQB/BotFireFly_idle.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Flying/BotFireFly_idle.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QB/frameQB/BotFireFly_run.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Flying/BotFireFly_run.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botFire/code-QB/frameQB/NoBum.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Fire/Flying/NoBum.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/BotFlyAI.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Earth/Flying/BotFlyAI.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/EnemyExploder.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Earth/Flying/EnemyExploder.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/RangerBotFly.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Earth/Flying/RangerBotFly.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QDX/frameQDX/botEarth.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Ranged/botEarth.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QDX/frameQDX/Solpiercer_attack_QDX-ezgif.com-webp-to-gif-converter.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Ranged/Solpiercer_attack_QDX-ezgif.com-webp-to-gif-converter.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QDX/frameQDX/Solpiercer_death_QDX.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Ranged/Solpiercer_death_QDX.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QDX/frameQDX/Solpiercer_idle_QDX-ezgif.com-webp-to-gif-converter.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Ranged/Solpiercer_idle_QDX-ezgif.com-webp-to-gif-converter.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QDX/frameQDX/Solpiercer_run_QDX.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Ranged/Solpiercer_run_QDX.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QCC/frameQCC/Earth151.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Melee/Earth151.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QCC/frameQCC/Grimrock_attack_BotEarthpng.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Melee/Grimrock_attack_BotEarthpng.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QCC/frameQCC/Grimrock_death_botEarthPNG.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Melee/Grimrock_death_botEarthPNG.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QCC/frameQCC/Grimrock_idle_botEarthPNG.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Melee/Grimrock_idle_botEarthPNG.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QCC/frameQCC/Grimrock_run_botEarthpng.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Melee/Grimrock_run_botEarthpng.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/Harmony_breathing.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Flying/Harmony_breathing.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/Harmony_death_QDB-ezgif.com-webp-to-gif-converter.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Flying/Harmony_death_QDB-ezgif.com-webp-to-gif-converter.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/QuaiBayDat_attack.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Flying/QuaiBayDat_attack.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/QuaiDatBay_idle_2.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Flying/QuaiDatBay_idle_2.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/QuaiDatBay_run.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Flying/QuaiDatBay_run.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/bigStore.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Earth/Flying/bigStore.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/bullet_Earth 1.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Earth/Flying/bullet_Earth 1.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/bullet_Earth.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Flying/bullet_Earth.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/CastSkill.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Earth/Flying/CastSkill.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/DirtBullet.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Earth/Flying/DirtBullet.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/EarthSummon.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Earth/Flying/EarthSummon.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/EarthSummon.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Earth/Flying/EarthSummon.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/Skill-M_N_Earth.png",
+      "destination": "Assets/_Project/Art/Sprites/Enemies/Earth/Flying/Skill-M_N_Earth.png"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/smallStone.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Earth/Flying/smallStone.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/Spike.cs",
+      "destination": "Assets/_Project/Scripts/Enemy/Earth/Flying/Spike.cs"
+    },
+    {
+      "op": "move",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot/Spike2.prefab",
+      "destination": "Assets/_Project/Prefabs/Enemies/Earth/Flying/Spike2.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/Ice.prefab",
+      "destination": "Assets/_Project/Prefabs/World/Environment/Ice/Ice.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/Materials/Lava-export.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Volcano/Materials/Lava-export.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/Materials/Lava.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Volcano/Materials/Lava.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/Materials/SpikeTrapAtBottom.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Volcano/Materials/SpikeTrapAtBottom.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/Tile/Vol.prefab",
+      "destination": "Assets/_Project/Prefabs/World/Environment/Volcano/Tile/Vol.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/ImageBackground/Materials/Materials/0.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Volcano/ImageBackground/Materials/Materials/0.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/ImageBackground/Materials/Materials/1.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Volcano/ImageBackground/Materials/Materials/1.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/ImageBackground/Materials/Materials/2.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Volcano/ImageBackground/Materials/Materials/2.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/ImageBackground/Materials/Materials/3.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Volcano/ImageBackground/Materials/Materials/3.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/ImageBackground/Materials/Materials/4.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Volcano/ImageBackground/Materials/Materials/4.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/ImageBackground/Materials/Materials/BG.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Volcano/ImageBackground/Materials/Materials/BG.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/1.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/1.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/2.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/2.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/3fx.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/3fx.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/4.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/4.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/5.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/5.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/6fx.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/6fx.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/7.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/7.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/8fx.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/8fx.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/9.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/9.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/florest downt.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/florest downt.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/layer 1 florest.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/layer 1 florest.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/layer 2 florest fog.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/layer 2 florest fog.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/layer 3 grass.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/layer 3 grass.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/layer 4 mountain.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/layer 4 mountain.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/layer 5 mountain and sky.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/layer 5 mountain and sky.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials/sky up.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Ice/ImageBackground/Materials/sky up.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/Tile/For.prefab",
+      "destination": "Assets/_Project/Prefabs/World/Environment/Forest/Tile/For.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/Tile/For2.prefab",
+      "destination": "Assets/_Project/Prefabs/World/Environment/Forest/Tile/For2.prefab"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials/background1.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Forest/ImageBackground/Materials/background1.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials/background2.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Forest/ImageBackground/Materials/background2.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials/background3.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Forest/ImageBackground/Materials/background3.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials/background4a.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Forest/ImageBackground/Materials/background4a.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials/background4b.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Forest/ImageBackground/Materials/background4b.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials/j1.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Forest/ImageBackground/Materials/j1.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials/j2.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Forest/ImageBackground/Materials/j2.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials/j3.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Forest/ImageBackground/Materials/j3.mat"
+    },
+    {
+      "op": "move",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials/j4.mat",
+      "destination": "Assets/_Project/Art/Materials/Environment/Forest/ImageBackground/Materials/j4.mat"
+    },
+    {
+      "op": "delete",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/ImageBackground/Materials/Materials",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Ice/ImageBackground/Materials",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Forest/ImageBackground/Materials",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/_Project/Art/Tilemaps/Backgrounds/Volcano/Materials",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX/Materials",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB/frameSkill-bot",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/_Project/Art/Animations/World",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/code-QB/frameQB",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/code-QCC/frameQCC",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/code-QDX/DanQDX",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/code-QDX/frameQDX",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/codeChung/HieuUngDot",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botEarth/code-QB/frameQB",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botEarth/code-QCC/frameQCC",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botEarth/code-QDX/frameQDX",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/_Project/Scripts/Camera",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botEarth/code-QB",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botEarth/code-QCC",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botEarth/code-QDX",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/code-QB",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/code-QCC",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/code-QDX",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire/codeChung",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botEarth",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/botFire",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal/bothasstatus",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Monster-normal",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Prefab",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Prefabs",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/SEN",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    },
+    {
+      "op": "delete",
+      "source": "Assets/Sprites",
+      "reason": "Empty folder after consolidation; no incoming GUID references."
+    }
+  ],
+  "generatedRootFilesRemoved": [
+    "FETCH_HEAD",
+    "Spiritbound-Rise-of-the-Elements.slnx"
+  ],
+  "generatedRootDirectoriesRemoved": [
+    "UIElementsSchema"
+  ],
+  "scope": "Folder and asset organization only; no gameplay source edits; no runtime gameplay or player build validation."
+}

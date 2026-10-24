@@ -97,3 +97,13 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Generated IDE, UI Toolkit schema, OS files and automatic scene recovery
+*.slnx
+/UIElementsSchema/
+/FETCH_HEAD
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+.DS_Store
+Thumbs.db
+Desktop.ini
