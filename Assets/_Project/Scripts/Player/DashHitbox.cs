@@ -1,8 +1,13 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class DashHitbox : MonoBehaviour
 {
     [SerializeField] private PlayerController player;
+
+    private void Awake()
+    {
+        if (player == null) player = GetComponentInParent<PlayerController>();
+    }
 
     private void Reset()
     {
@@ -14,7 +19,7 @@ public class DashHitbox : MonoBehaviour
         if (player == null) return;
 
         // ✅ ai có IDamageable thì coi là enemy
-        if (other.GetComponent<IDamageable>() != null)
+        if (other.GetComponentInParent<IDamageable>() != null)
         {
             player.OnDashHit(other.gameObject);
         }

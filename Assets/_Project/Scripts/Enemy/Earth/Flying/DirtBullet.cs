@@ -35,7 +35,7 @@ public class DirtBullet : MonoBehaviour
         // Nếu trúng Player
         if (collision.CompareTag("Player"))
         {
-            PlayerHealth player = collision.GetComponent<PlayerHealth>();
+            PlayerHealth player = PlayerHealth.Resolve(collision);
             if (player != null)
             {
                 player.TakeDamage(damage);

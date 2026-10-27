@@ -88,6 +88,7 @@ public class AttackController : MonoBehaviour
         attackAction?.Disable();
         skillAction?.Disable();
         skillActionL?.Disable();
+        StopAllCoroutines();
         isAttackLocked = false; // BẮT BUỘC: Reset lại lock nếu form bị tắt (transform sang form khác)
         
         // Tắt luôn lửa và kiếm nếu đang xài dở mà bị đổi form
@@ -96,8 +97,19 @@ public class AttackController : MonoBehaviour
         if (normalAttackHitbox != null) normalAttackHitbox.SetActive(false);
     }
 
+    public void StopAttack()
+    {
+        StopAllCoroutines();
+        isAttackLocked = false;
+        if (skillHitboxK != null) skillHitboxK.SetActive(false);
+        if (skillHitboxL != null) skillHitboxL.SetActive(false);
+        if (normalAttackHitbox != null) normalAttackHitbox.SetActive(false);
+    }
+
     void Update()
     {
+        var owner = PlayerHealth.Resolve(this);
+        if (Time.timeScale <= 0f || (owner != null && (!owner.CanAct || owner.isKnockback))) return;
         // Nhấn J để tấn công và chưa bị khóa
         if (attackAction.WasPressedThisFrame() && !isAttackLocked)
         {

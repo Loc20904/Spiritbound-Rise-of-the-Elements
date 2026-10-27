@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class InventoryUI : MonoBehaviour
 {
@@ -17,7 +17,9 @@ public class InventoryUI : MonoBehaviour
 
     public void Refresh()
     {
-        int startIndex = InventoryManager.Instance.currentPage * 20;
+        if (InventoryManager.Instance == null || slots == null) return;
+        InventoryManager.Instance.currentPage = Mathf.Clamp(InventoryManager.Instance.currentPage, 0, InventoryManager.Instance.TotalPages() - 1);
+        int startIndex = InventoryManager.Instance.currentPage * Mathf.Max(1, InventoryManager.Instance.itemsPerPage);
 
         for (int i = 0; i < slots.Length; i++)
         {

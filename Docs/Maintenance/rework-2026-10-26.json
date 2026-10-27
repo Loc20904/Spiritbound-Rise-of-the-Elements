@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-26",
+  "baseCommit": "a2f3739",
+  "unity": "6000.3.3f1",
+  "editMode": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "evidence": "Completed synchronous Pipeline test run response, Spiritbound.EditMode.Tests"
+  },
+  "playMode": {
+    "total": 31,
+    "passed": 31,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "build": {
+    "result": "Succeeded",
+    "errors": [],
+    "warnings": 9,
+    "totalSize": 757081202,
+    "seconds": 62.377964799999994
+  },
+  "assetValidation": {
+    "scenes": [
+      {
+        "path": "Assets/_Project/Scenes/IntroScene.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/FortuneScene.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/MapVolcano.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/BossFireScene.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/MapForest.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/BossGroundScene.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/CreditsScene.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/MainMenuScene.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/MapIce.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/BossWaterScene.unity",
+        "missing": 0
+      },
+      {
+        "path": "Assets/_Project/Scenes/FinalBossScene.unity",
+        "missing": 0
+      }
+    ],
+    "prefabs": 111,
+    "missingScripts": 0,
+    "ambiguousDamageReceivers": []
+  },
+  "metadata": {
+    "guids": 2779,
+    "duplicateGuids": [],
+    "missingMetadata": []
+  },
+  "standaloneStartup": {
+    "graphics": "Direct3D 11",
+    "assemblyStartupErrors": [],
+    "scope": "Short startup smoke only; no full gameplay or visual validation"
+  },
+  "preservedExistingChanges": [
+    {
+      "path": "Packages/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "unchanged": true
+    },
+    {
+      "path": "ProjectSettings/ShaderGraphSettings.asset",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/TextMesh Pro/Fonts/Rubik-VariableFont_wght SDF.asset",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "unchanged": true
+    }
+  ],
+  "buildLocation": "%TEMP%/spiritbound-rework/Build/Spiritbound.exe",
+  "committed": true,
+  "revertedGeneratedBuildChanges": [
+    "Assets/_Project/Settings/Rendering/UniversalRP.asset",
+    "Assets/_Project/Settings/Rendering/UniversalRenderPipelineGlobalSettings.asset",
+    "ProjectSettings/ProjectSettings.asset"
+  ]
+}

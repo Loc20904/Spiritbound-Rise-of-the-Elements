@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class WorldItem : MonoBehaviour
 {
@@ -14,9 +14,10 @@ public class WorldItem : MonoBehaviour
 
     void Pickup()
     {
-        InventoryManager.Instance.AddItem(itemData);
+        if (InventoryManager.Instance == null || itemData == null || string.IsNullOrEmpty(itemData.Id)) return;
+        InventoryManager.Instance.AddItem(itemData.Clone());
 
-        InventoryUI ui = FindObjectOfType<InventoryUI>();
+        InventoryUI ui = FindFirstObjectByType<InventoryUI>();
         if (ui != null)
             ui.Refresh();
 

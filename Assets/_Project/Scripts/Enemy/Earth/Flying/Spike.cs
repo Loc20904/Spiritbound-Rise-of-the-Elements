@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class Spike : MonoBehaviour
 {
@@ -41,7 +41,7 @@ public class Spike : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            var player = other.GetComponent<PlayerHealth>();
+            var player = PlayerHealth.Resolve(other);
 
             if (player != null)
             {

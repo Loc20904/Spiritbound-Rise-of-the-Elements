@@ -30,7 +30,7 @@ public class BossSpell : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Gây sát thương cho Player
-            other.GetComponent<PlayerStats>()?.TakeDamage((int)damage);
+            PlayerStats.Resolve(other)?.TakeDamage((int)damage);
 
             // Xử lý đẩy lùi
             Rigidbody2D playerRb = other.GetComponent<Rigidbody2D>();

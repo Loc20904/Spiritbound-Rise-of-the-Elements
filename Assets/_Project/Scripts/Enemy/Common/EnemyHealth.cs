@@ -1,7 +1,7 @@
-﻿    using UnityEngine;
+using UnityEngine;
     using System.Collections;
 
-    public class EnemyHealth : MonoBehaviour
+    public class EnemyHealth : MonoBehaviour, IDamageable
     {
         public int maxHP = 200;
         int currentHP;
@@ -50,7 +50,7 @@
 
         public void TakeDamage(int dmg)
         {
-            if (isDead) return;
+            if (isDead || dmg <= 0) return;
 
             currentHP -= dmg;
             PlayHitSound();

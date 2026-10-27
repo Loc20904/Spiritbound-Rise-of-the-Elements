@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class BossGroundMovement : MonoBehaviour
@@ -106,7 +106,7 @@ public class BossGroundMovement : MonoBehaviour
             if (Time.time >= lastDamageTime + damageCooldown)
             {
                 // Tìm script máu của Player (nhớ đổi tên PlayerHealth thành tên script của bạn)
-                PlayerHealth pHealth = collision.gameObject.GetComponent<PlayerHealth>();
+                PlayerHealth pHealth = PlayerHealth.Resolve(collision.gameObject);
 
                 if (pHealth != null)
                 {

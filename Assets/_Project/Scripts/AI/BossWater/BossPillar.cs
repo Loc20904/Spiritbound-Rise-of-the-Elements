@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BossPillar : MonoBehaviour
+public class BossPillar : MonoBehaviour, IDamageable
 {
     [Header("Stats")]
     public float maxHealth = 200f;
@@ -24,9 +24,11 @@ public class BossPillar : MonoBehaviour
         Revive();
     }
 
+    void IDamageable.TakeDamage(int amount) => TakeDamage((float)amount);
+
     public void TakeDamage(float damage)
     {
-        if (IsBroken) return;
+        if (IsBroken || damage <= 0f) return;
 
         currentHealth -= damage;
         if (currentHealth <= 0)

@@ -1,0 +1,9 @@
+{
+  "name": "Spiritbound.Runtime",
+  "references": [
+    "Unity.Cinemachine",
+    "Unity.InputSystem",
+    "Unity.TextMeshPro",
+    "Unity.ugui"
+  ]
+}

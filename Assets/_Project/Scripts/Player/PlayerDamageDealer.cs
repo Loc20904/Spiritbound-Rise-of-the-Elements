@@ -29,12 +29,13 @@ public class PlayerDamageDealer : MonoBehaviour
         if (((1 << collision.gameObject.layer) & enemyLayer) != 0 || collision.CompareTag("Enemy"))
         {
             // Tìm code EnemyHealth trên quái vật
-            EnemyHealth enemyHealth = collision.GetComponent<EnemyHealth>();
+            IDamageable enemyHealth = collision.GetComponentInParent<IDamageable>();
             
             // Nếu có thì gọi hàm TakeDamage
             if (enemyHealth != null)
             {
-                enemyHealth.TakeDamage(damageAmount);
+                var owner = PlayerHealth.Resolve(this);
+                enemyHealth.TakeDamage(owner != null ? owner.ScaleDamage(damageAmount, false) : damageAmount);
                 
                 // Cắm cờ đã gây sát thương xong, chờ tắt hitbox đi bật lại mới đánh tiếp được
                 if (isSingleHit)

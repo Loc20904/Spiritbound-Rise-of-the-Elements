@@ -15,7 +15,7 @@ public class WaterBeamDamage : MonoBehaviour
         if (collision.CompareTag("Player") && Time.time >= nextDamageTime)
         {
             // 1. Gây Damage
-            collision.GetComponent<PlayerStats>()?.TakeDamage((int)(damagePerSecond * tickRate));
+            PlayerStats.Resolve(collision)?.TakeDamage((int)(damagePerSecond * tickRate));
 
             // 2. Đẩy lùi Player (Knockback) - Tạo cảm giác tia nước mạnh
             Rigidbody2D pRb = collision.GetComponent<Rigidbody2D>();

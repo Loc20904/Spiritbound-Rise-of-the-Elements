@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class HandleDameKunai : MonoBehaviour
 {
@@ -8,7 +8,7 @@ public class HandleDameKunai : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Gây sát thương cho Player
-            other.GetComponent<PlayerStats>()?.TakeDamage((int)damage);
+            PlayerStats.Resolve(other)?.TakeDamage((int)damage);
         }
     }
 }

@@ -1,0 +1,12 @@
+{
+  "name": "Spiritbound.EditMode.Tests",
+  "references": [
+    "Spiritbound.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -94,7 +94,6 @@ public class PlayerController : MonoBehaviour
     private bool isClimbing;
     private float defaultGravity;
 
-    private bool isDead;
     private bool dashHasHit;
 
     // Animator hashes
@@ -128,6 +127,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        actions = Instantiate(actions);
         var map = actions.FindActionMap(actionMapName, true);
 
         moveAction = map.FindAction(moveActionName, true);
@@ -137,8 +137,13 @@ public class PlayerController : MonoBehaviour
         skillKAction = map.FindAction(skillKActionName, true);   // K
     }
 
+    private void OnDestroy() { if (actions != null) Destroy(actions); }
+
+    private bool CanAct => Time.timeScale > 0f && (playerHealth == null || (playerHealth.CanAct && !playerHealth.isKnockback));
+
     private void OnEnable()
     {
+        if (moveAction == null) return;
         moveAction.Enable();
         jumpAction.Enable();
         dashAction.Enable();
@@ -153,6 +158,8 @@ public class PlayerController : MonoBehaviour
 
     private void OnDisable()
     {
+        StopMove();
+        if (moveAction == null) return;
         jumpAction.performed -= OnJump;
         dashAction.performed -= OnDash;
         attackAction.performed -= OnAttack;
@@ -167,7 +174,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (isDead) return;
+        if (!CanAct) return;
 
         moveInput = moveAction.ReadValue<Vector2>();
 
@@ -229,7 +236,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isDead) return;
+        if (!CanAct) return;
         if (playerHealth != null && playerHealth.isKnockback)
             return;   // CHẶN ghi đè velocity khi đang knockback
         if (isDashing) return; // dash sẽ set velocity riêng trong coroutine
@@ -240,7 +247,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(moveInput.x * moveSpeed * Mathf.Max(0f, PlayerStatManager.Instance?.GetSpeedMultiplier() ?? 1f), rb.linearVelocity.y);
     }
 
     // ===== Ground =====
@@ -253,7 +260,7 @@ public class PlayerController : MonoBehaviour
     // ===== Jump =====
     private void OnJump(InputAction.CallbackContext ctx)
     {
-        if (isDead) return;
+        if (!CanAct) return;
         jumpBufferTimer = jumpBufferTime;
         TryConsumeJumpBuffer();
     }
@@ -261,7 +268,7 @@ public class PlayerController : MonoBehaviour
     private void TryConsumeJumpBuffer()
     {
         if (jumpBufferTimer <= 0f) return;
-        if (isDead || isDashing) return;
+        if (!CanAct || isDashing) return;
 
         // Nhảy thường khi đang đứng đất hoặc còn coyote time
         if (isGrounded || coyoteTimer > 0f)
@@ -301,7 +308,7 @@ public class PlayerController : MonoBehaviour
     // ===== Dash =====
     private void OnDash(InputAction.CallbackContext ctx)
     {
-        if (isDead) return;
+        if (!CanAct) return;
         if (!canDash || isDashing) return;
         StartCoroutine(CoDash());
     }
@@ -383,7 +390,7 @@ public class PlayerController : MonoBehaviour
     private bool queueSecondHit = false; // ghi nhớ nhấn J lần 2
     private void OnAttack(InputAction.CallbackContext ctx)
     {
-        if (isDead || isDashing || isClimbing) return;
+        if (!CanAct || isDashing || isClimbing) return;
 
         if (attackLocked)
         {
@@ -441,7 +448,7 @@ public class PlayerController : MonoBehaviour
     }
     private void OnSkillK(InputAction.CallbackContext ctx)
     {
-        if (isDead || isDashing || isClimbing) return;
+        if (!CanAct || isDashing || isClimbing) return;
         //if (attackLocked) return;
         if (!canUseSkillK) return;
 
@@ -459,7 +466,7 @@ public class PlayerController : MonoBehaviour
     private IEnumerator SkillKCooldownRoutine()
     {
         canUseSkillK = false;
-        yield return new WaitForSeconds(skillKCooldown);
+        yield return new WaitForSeconds(Mathf.Max(0f, skillKCooldown * (PlayerStatManager.Instance?.GetSkillCooldownMultiplier() ?? 1f)));
         canUseSkillK = true;
     }
 
@@ -485,7 +492,7 @@ public class PlayerController : MonoBehaviour
         SlashProjectile projectile = go.GetComponent<SlashProjectile>();
         if (projectile != null)
         {
-            projectile.Init(facing, slashDamage);
+            projectile.Init(facing, playerHealth != null ? playerHealth.ScaleDamage(slashDamage, true) : slashDamage);
         }
     }
 
@@ -496,26 +503,22 @@ public class PlayerController : MonoBehaviour
         if (!isDashing) return;
         if (dashHasHit) return;
 
+        var receiver = enemy.GetComponentInParent<IDamageable>();
+        if (receiver == null) return;
         dashHasHit = true;
         animator.SetTrigger(T_DashAtta);
-
-        var dmg = enemy.GetComponent<IDamageable>();
-        if (dmg != null) dmg.TakeDamage(dashDamage);
+        receiver.TakeDamage(playerHealth != null ? playerHealth.ScaleDamage(dashDamage, false) : dashDamage);
     }
 
     public void TakeHit()
     {
-        if (isDead) return;
+        if (!CanAct) return;
         animator.SetTrigger(T_Hit);
     }
 
     public void Die()
     {
-        if (isDead) return;
-        isDead = true;
-        animator.SetBool(A_Isdead, true);
-        rb.linearVelocity = Vector2.zero;
-        rb.simulated = false;
+        playerHealth?.Kill();
     }
 
     public void StopMove()
@@ -535,6 +538,8 @@ public class PlayerController : MonoBehaviour
         isDashing = false;
         isClimbing = false;
         canDash = true;
+        canUseSkillK = true;
+        pendingSlashShot = false;
         jumpBufferTimer = 0f;
         coyoteTimer = 0f;
 
@@ -559,10 +564,4 @@ public class PlayerController : MonoBehaviour
     {
         isReversed = state;
     }
-}
-
-
-public interface IDamageable
-{
-    void TakeDamage(int amount);
 }

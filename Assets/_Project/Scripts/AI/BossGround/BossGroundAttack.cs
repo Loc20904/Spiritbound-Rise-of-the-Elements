@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -482,7 +482,7 @@ public class BossGroundAttack : BossAttackBase
         foreach (Collider2D player in hitPlayers)
         {
             // Gọi hàm trừ máu từ script PlayerHealth hoặc PlayerStats của bạn
-            PlayerStats health = player.GetComponent<PlayerStats>();
+            PlayerStats health = PlayerStats.Resolve(player);
             if (health != null)
             {
                 health.TakeDamage(damage);

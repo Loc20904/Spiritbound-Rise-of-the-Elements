@@ -19,7 +19,7 @@ public class EnvironmentBurn : MonoBehaviour
         if (playerObj != null)
         {
             player = playerObj.transform;
-            playerStats = playerObj.GetComponent<PlayerStats>();
+            playerStats = PlayerStats.Resolve(playerObj);
         }
         StartCoroutine(BurnRoutine());
     }

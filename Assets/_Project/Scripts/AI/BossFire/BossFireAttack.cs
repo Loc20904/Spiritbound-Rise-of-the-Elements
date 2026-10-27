@@ -239,7 +239,7 @@ public class BossFireAttack : BossAttackBase // Kế thừa từ lớp cha
         Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(center, radius, playerLayer);
         foreach (Collider2D p in hitPlayers)
         {
-            p.GetComponent<PlayerStats>()?.TakeDamage(supernovaDamage);
+            PlayerStats.Resolve(p)?.TakeDamage(supernovaDamage);
         }
     }
 

@@ -22,7 +22,6 @@ public class TransformController : MonoBehaviour
     private bool isDashing;
     private float dashTimer;
     private int airDashesLeft;
-    private float facingDirection = 1f;
 
     private Animator animator;
     private Rigidbody2D rb;
@@ -79,6 +78,7 @@ public class TransformController : MonoBehaviour
         dashAction?.Disable();
 
         // When the GameObject is disabled, coroutines are killed. Reset flags to avoid getting stuck upon re-enabling.
+        StopAllCoroutines();
         isTransforming = false;
         isDashing = false;
         if (rb != null) rb.gravityScale = normalGravity;
@@ -144,11 +144,21 @@ public class TransformController : MonoBehaviour
 
         isDashing = false;
     }
+    public void StopMove()
+    {
+        StopAllCoroutines();
+        isTransforming = false;
+        isDashing = false;
+        if (rb != null) { rb.linearVelocity = Vector2.zero; rb.gravityScale = normalGravity; }
+    }
+
     private AttackController attackController;
 
     // Update is called once per frame
     void Update()
     {
+        var owner = PlayerHealth.Resolve(this);
+        if (Time.timeScale <= 0f || (owner != null && (!owner.CanAct || owner.isKnockback))) return;
         if (isTransforming) return; // Khoá điều khiển khi đang chạy animation
 
         // Khóa điều khiển nếu đang trong thời gian xài RunAttack
@@ -170,7 +180,7 @@ public class TransformController : MonoBehaviour
         float moveInput = moveAction != null ? moveAction.ReadValue<float>() : 0f;
         if (!isDashing && rb != null) // Prevent movement input during dash
         {
-            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed * Mathf.Max(0f, PlayerStatManager.Instance?.GetSpeedMultiplier() ?? 1f), rb.linearVelocity.y);
 
             if (Mathf.Abs(moveInput) > 0.01f)
             {

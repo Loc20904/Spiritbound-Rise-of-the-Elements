@@ -38,7 +38,20 @@ public class PauseMenuManager : MonoBehaviour
     [Header("Audio Panel Script")]
     [SerializeField] private AudioSettingsPanel audioSettingsPanel;
 
+    private float previousTimeScale = 1f;
+    private bool previousAudioPause;
     private bool isPaused = false;
+    private void OnDisable()
+    {
+        if (isPaused) RestoreGameplay();
+    }
+    private void RestoreGameplay()
+    {
+        Time.timeScale = previousTimeScale;
+        AudioListener.pause = previousAudioPause;
+        if (player != null) PlayerHealth.Resolve(player)?.SetControlsBlocked(this, false);
+        isPaused = false;
+    }
     private bool isInSettings = false;
 
     private GameObject currentSubPanel = null;
@@ -94,6 +107,10 @@ public class PauseMenuManager : MonoBehaviour
 
     public void OpenPause()
     {
+        if (isPaused) return;
+        previousTimeScale = Time.timeScale;
+        previousAudioPause = AudioListener.pause;
+        if (player != null) PlayerHealth.Resolve(player)?.SetControlsBlocked(this, true);
         isPaused = true;
         isInSettings = false;
 
@@ -111,7 +128,7 @@ public class PauseMenuManager : MonoBehaviour
 
     public void ClosePause()
     {
-        isPaused = false;
+        if (isPaused) RestoreGameplay();
         isInSettings = false;
 
         pausePanel.SetActive(false);
@@ -119,8 +136,6 @@ public class PauseMenuManager : MonoBehaviour
 
         if (pauseButton != null)
             pauseButton.SetActive(true);
-
-        Time.timeScale = 1f;
 
         EventSystem.current?.SetSelectedGameObject(null);
     }
@@ -168,7 +183,7 @@ public class PauseMenuManager : MonoBehaviour
         CloseAllSubPanels();
 
         // 🔥 CLEAR selection trước khi disable
-        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current?.SetSelectedGameObject(null);
 
         panelCategoryMenu.SetActive(false);
 
@@ -217,25 +232,26 @@ public class PauseMenuManager : MonoBehaviour
         if (EventSystem.current == null || target == null)
             return;
 
-        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current?.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(target);
         Debug.Log("Selected: " + target.name);
     }
 
     public void SaveGame()
     {
-        var health = player.GetComponent<PlayerHealth>();
-
-        SaveSystem.SaveGame(
-            player.transform.position,
-            health.CurrentHP,
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
-        );
+        var health = PlayerHealth.Resolve(player);
+        if (health == null || health.IsDead) return;
+        SaveSystem.SaveGame(health.ActiveTransform.position, health.CurrentHP,
+            UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
 
     public void menuQuit()
     {
-        SceneController.Instance.LoadScene("MainMenuScene");
+        ClosePause();
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
+        if (SceneController.Instance != null) SceneController.Instance.LoadScene("MainMenuScene");
+        else UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenuScene");
     }
 
 
@@ -251,7 +267,7 @@ public class PauseMenuManager : MonoBehaviour
 
         Canvas.ForceUpdateCanvases();
 
-        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current?.SetSelectedGameObject(null);
 
         if (currentSubPanel == panelAudio)
         {
@@ -278,7 +294,7 @@ public class PauseMenuManager : MonoBehaviour
             audioSettingsPanel.ApplyAudio();
         }
 
-        // Sau này thêm Graphics / Controls ở đây
+        if (currentSubPanel == panelGraphics) SettingsManager.Instance?.SaveTempToSaved();
     }
 
     public void OnResetClicked()
@@ -288,7 +304,7 @@ public class PauseMenuManager : MonoBehaviour
             audioSettingsPanel.ResetToDefault();
         }
 
-        // Sau này thêm Graphics / Controls ở đây
+        if (currentSubPanel == panelGraphics) panelGraphics.GetComponentInChildren<GraphicsSettingsPanel>(true)?.OnReset();
     }
 
     private void SetupBottomNavigation()

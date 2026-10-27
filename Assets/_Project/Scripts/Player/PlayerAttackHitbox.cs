@@ -1,31 +1,19 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAttackHitbox : MonoBehaviour
 {
     public float damageMultiplier = 1f;
     public LayerMask enemyLayer;
-
-    private PlayerHealth ph;
-
-    private void Awake()
-    {
-        ph = GetComponentInParent<PlayerHealth>();
-    }
-
+    private readonly HashSet<IDamageable> hitTargets = new HashSet<IDamageable>();
+    public void BeginAttack() => hitTargets.Clear();
+    private void OnEnable() => BeginAttack();
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //Debug.Log(other.tag+" "+other.layer);
         if (((1 << other.gameObject.layer) & enemyLayer) == 0) return;
-        if (ph == null) return;
-
-        int dmg = Mathf.RoundToInt(ph.Damage * damageMultiplier);
-
-        EnemyBase enemy = other.GetComponentInParent<EnemyBase>();
-        if (enemy != null)
-        {
-            enemy.TakeDamage(dmg);
-        }
-
-        other.SendMessage("TakeDamage", dmg, SendMessageOptions.DontRequireReceiver);
+        var owner = PlayerHealth.Resolve(this);
+        var target = other.GetComponentInParent<IDamageable>();
+        if (owner == null || !owner.CanAct || target == null || !hitTargets.Add(target)) return;
+        target.TakeDamage(Mathf.Max(0, Mathf.RoundToInt(owner.Damage * damageMultiplier)));
     }
 }

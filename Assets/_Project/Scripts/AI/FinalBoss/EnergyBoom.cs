@@ -57,7 +57,7 @@ namespace Assets.Scripts.AI.FinalBoss
             Collider2D hit = Physics2D.OverlapCircle(transform.position, explosionRadius, playerLayer);
             if (hit != null)
             {
-                hit.GetComponent<PlayerStats>()?.TakeDamage(explosionDamage);
+                PlayerStats.Resolve(hit)?.TakeDamage(explosionDamage);
             }
         }
 

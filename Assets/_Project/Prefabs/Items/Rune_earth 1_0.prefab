@@ -128,7 +128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldItem
   itemData:
-    itemName: 
+    itemId: Rune
+    itemName: Rune
     icon: {fileID: 0}
     animationFrames:
     - {fileID: -7793022700219321915, guid: f0e6bc150cb47af449b411942617149f, type: 3}
@@ -162,3 +163,5 @@ MonoBehaviour:
     - {fileID: -255195713, guid: f0e6bc150cb47af449b411942617149f, type: 3}
     - {fileID: 1679333098, guid: f0e6bc150cb47af449b411942617149f, type: 3}
     animationSpeed: 0.1
+    itemType: 2
+    healAmount: 0

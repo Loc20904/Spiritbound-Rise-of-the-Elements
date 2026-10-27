@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class SlashProjectile : MonoBehaviour
 {
@@ -10,6 +10,7 @@ public class SlashProjectile : MonoBehaviour
     [SerializeField] private int damage = 2;
 
     private int direction = 1;
+    private bool hasHit;
 
     public void Init(int dir, int dmg)
     {
@@ -30,20 +31,13 @@ public class SlashProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) return;
+        if (hasHit || PlayerHealth.Resolve(other) != null) return;
 
-        EnemyBase enemy = other.GetComponentInParent<EnemyBase>();
-        if (enemy != null)
+        var receiver = other.GetComponentInParent<IDamageable>();
+        if (receiver != null)
         {
-            enemy.TakeDamage(damage);
-            Destroy(gameObject);
-            return;
-        }
-
-        other.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
-
-        if (((1 << other.gameObject.layer) & LayerMask.GetMask("Enemy", "Boss")) != 0)
-        {
+            hasHit = true;
+            receiver.TakeDamage(damage);
             Destroy(gameObject);
             return;
         }

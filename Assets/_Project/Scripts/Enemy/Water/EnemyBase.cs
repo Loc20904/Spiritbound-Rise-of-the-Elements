@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public abstract class EnemyBase : MonoBehaviour
+public abstract class EnemyBase : MonoBehaviour, IDamageable
 {
     [Header("Target")]
     public Transform target;
@@ -128,9 +128,11 @@ public abstract class EnemyBase : MonoBehaviour
         if (anim) anim.SetFloat("Speed", speed);
     }
 
+    void IDamageable.TakeDamage(int amount) => TakeDamage((float)amount);
+
     public virtual void TakeDamage(float dmg)
     {
-        if (IsDead()) return;
+        if (IsDead() || dmg <= 0f) return;
 
         hp -= dmg;
         if (hp <= 0) Die();

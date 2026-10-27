@@ -46,7 +46,7 @@ public class UltiChainController : MonoBehaviour
             //Debug.Log("<color=red>Player dính Xích!</color>");
 
             // Lấy script máu của player và trừ máu
-            collision.GetComponent<PlayerStats>()?.TakeDamage(damage);
+            PlayerStats.Resolve(collision)?.TakeDamage(damage);
 
             // Nếu có hiệu ứng trói/stun, gọi ở đây
             // collision.GetComponent<PlayerMovement>()?.Stun(1.5f);

@@ -1,7 +1,7 @@
-﻿using System; // Cần dùng thư viện này cho Action
+using System; // Cần dùng thư viện này cho Action
 using UnityEngine;
 
-public class BossHealth : MonoBehaviour
+public class BossHealth : MonoBehaviour, IDamageable
 {
     public float maxHP = 100f;
     public float currentHP;
@@ -23,10 +23,12 @@ public class BossHealth : MonoBehaviour
         currentHP = maxHP;
     }
 
+    void IDamageable.TakeDamage(int amount) => TakeDamage((float)amount);
+
     public void TakeDamage(float dmg)
     {
-        if (isInvulnerable || dmg <= 0f) return;
-        currentHP -= dmg;
+        if (isInvulnerable || currentHP <= 0f || dmg <= 0f) return;
+        currentHP = Mathf.Max(0, currentHP - dmg);
 
         // 1. BẮN SỰ KIỆN: "Tôi vừa mất 'dmg' máu!"
         // Dấu ?. để đảm bảo nếu không ai nghe thì không lỗi

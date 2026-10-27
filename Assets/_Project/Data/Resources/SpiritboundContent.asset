@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd8360f1087e654cab6a9cd8f0fded2, type: 3}
+  m_Name: SpiritboundContent
+  m_EditorClassIdentifier: Spiritbound.Runtime::GameContent
+  tarotDatabase: {fileID: 11400000, guid: 7f31d0ff2e09631408cad1094096dc62, type: 2}
+  items:
+  - itemId: Potion
+    itemName: Potion
+    icon: {fileID: 3335094842527789464, guid: 13c137506a6a4ca4d9a949efeba9eeaa, type: 3}
+    animationFrames: []
+    animationSpeed: 0.1
+    itemType: 0
+    healAmount: 20
+  - itemId: Rune
+    itemName: Rune
+    icon: {fileID: 0}
+    animationFrames:
+    - {fileID: -7793022700219321915, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -8442448740899103613, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 6480291066179216906, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 6332877372600487975, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 5523242012505013235, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -2719885051100479264, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 733414007, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 883293412, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 219601266, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -2041786254, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 467075299, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -410891882, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -678819865, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 1057769700, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1369404076, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1103362194, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1841507316, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -165407210, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -874601413, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1635513767, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1858595749, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 1499937976, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 1051672698, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 110146574, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1888519248, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 406923756, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -1058604527, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 445533947, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: -255195713, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    - {fileID: 1679333098, guid: f0e6bc150cb47af449b411942617149f, type: 3}
+    animationSpeed: 0.1
+    itemType: 2
+    healAmount: 0

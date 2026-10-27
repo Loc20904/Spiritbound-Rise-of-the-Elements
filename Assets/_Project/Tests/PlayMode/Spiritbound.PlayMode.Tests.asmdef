@@ -1,0 +1,10 @@
+{
+  "name": "Spiritbound.PlayMode.Tests",
+  "references": [
+    "Spiritbound.Runtime",
+    "Unity.InputSystem"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class StunObject : MonoBehaviour
 {
@@ -12,7 +12,7 @@ public class StunObject : MonoBehaviour
         if (SFX) PlaySound(SFX);
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerStats>().TakeDamage(10);
+            PlayerStats.Resolve(other)?.TakeDamage(damege);
         }
     }
     protected void PlaySound(AudioClip clip)

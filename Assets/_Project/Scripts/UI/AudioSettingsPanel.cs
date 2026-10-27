@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class AudioSettingsPanel : MonoBehaviour
@@ -71,7 +71,7 @@ public class AudioSettingsPanel : MonoBehaviour
         if (SettingsManager.Instance == null) return;
 
         SettingsManager.Instance.SaveTempToSaved();
-        SettingsManager.Instance.ApplySaved();
+
 
         Debug.Log("Audio Applied");
     }

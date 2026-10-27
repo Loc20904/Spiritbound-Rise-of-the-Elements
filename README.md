@@ -16,3 +16,5 @@ Game hành động đi cảnh 2D, sử dụng URP, Cinemachine, uGUI và Input S
 - `Assets/TextMesh Pro`: tài nguyên TMP dùng chung, giữ đường dẫn mặc định của công cụ.
 
 Xem [quy ước và cây thư mục](Docs/PROJECT_STRUCTURE.md) trước khi thêm hoặc di chuyển asset.
+
+Xem [rework gameplay và kết quả kiểm thử](Docs/REWORK_2026-10-26.md) cho các thay đổi combat, save/session, inventory và settings.

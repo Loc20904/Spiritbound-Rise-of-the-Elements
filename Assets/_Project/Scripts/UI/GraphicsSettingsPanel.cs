@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
@@ -19,18 +19,15 @@ public class GraphicsSettingsPanel : MonoBehaviour
     public Sprite sprite1440;
     public Sprite sprite4K;
 
-    private List<Vector2Int> fixedResolutions = new List<Vector2Int>()
-    {
-        new Vector2Int(1280, 720),
-        new Vector2Int(1366, 768),
-        new Vector2Int(1600, 900),
-        new Vector2Int(1920, 1080),
-        new Vector2Int(2560, 1440),
-        new Vector2Int(3840, 2160)
-    };
 
     void OnEnable()
     {
+        StartCoroutine(Initialize());
+    }
+
+    System.Collections.IEnumerator Initialize()
+    {
+        while (SettingsManager.Instance == null) yield return null;
         SettingsManager.Instance.BeginEditing();
         SetupResolutions();
         LoadFromTemp();
@@ -73,10 +70,11 @@ public class GraphicsSettingsPanel : MonoBehaviour
     {
         var temp = SettingsManager.Instance.temp;
 
-        resolutionDropdown.value = temp.resolutionIndex;
-        qualityDropdown.value = temp.qualityIndex;
-        fullscreenToggle.isOn = temp.fullscreen;
-        vSyncToggle.isOn = temp.vSync;
+        SettingsManager.Sanitize(temp);
+        resolutionDropdown.SetValueWithoutNotify(temp.resolutionIndex);
+        qualityDropdown.SetValueWithoutNotify(temp.qualityIndex);
+        fullscreenToggle.SetIsOnWithoutNotify(temp.fullscreen);
+        vSyncToggle.SetIsOnWithoutNotify(temp.vSync);
 
         // set sprite đúng
         resolutionDropdown.captionImage.sprite = GetSpriteByIndex(temp.resolutionIndex);
@@ -86,6 +84,7 @@ public class GraphicsSettingsPanel : MonoBehaviour
 
     public void OnResolutionChanged(int index)
     {
+        if (SettingsManager.Instance == null || index < 0 || index >= resolutionDropdown.options.Count) return;
         SettingsManager.Instance.temp.resolutionIndex = index;
 
         // đổi sprite hiển thị trên dropdown
@@ -121,6 +120,6 @@ public class GraphicsSettingsPanel : MonoBehaviour
 
     public Vector2Int GetSelectedResolution()
     {
-        return fixedResolutions[SettingsManager.Instance.temp.resolutionIndex];
+        return SettingsManager.Resolutions[Mathf.Clamp(SettingsManager.Instance.temp.resolutionIndex, 0, SettingsManager.Resolutions.Count - 1)];
     }
 }

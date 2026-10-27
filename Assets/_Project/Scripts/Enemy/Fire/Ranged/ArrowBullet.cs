@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class ArrowBullet : MonoBehaviour
 {
@@ -68,7 +68,7 @@ public class ArrowBullet : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // ⭐ Gửi damage với type Boss
-            PlayerHealth health = other.GetComponent<PlayerHealth>();
+            PlayerHealth health = PlayerHealth.Resolve(other);
             if (health != null)
             {
                 health.TakeDamage(damage, DamageType.Boss);
@@ -81,7 +81,7 @@ public class ArrowBullet : MonoBehaviour
 
             if (elementType == ElementType.Fire)
             {
-                PlayerFireDOT fire = other.GetComponent<PlayerFireDOT>();
+                PlayerFireDOT fire = PlayerHealth.Resolve(other)?.GetComponent<PlayerFireDOT>();
                 if (fire != null)
                     fire.ApplyBurn(damagePerTick, burnDuration, tickRate);
             }

@@ -1,36 +1,37 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class InventoryToggleUI : MonoBehaviour
 {
     public GameObject inventoryPanel;
     public GameObject inventoryButton;
     public GameObject player;
+    private bool isOpen;
+    private PlayerHealth health;
 
-    private bool isOpen = false;
-
-    void Start()
+    private void Start()
     {
-        inventoryPanel.SetActive(false);
-        inventoryButton.SetActive(true);
+        health = player != null ? PlayerHealth.Resolve(player.transform) : FindFirstObjectByType<PlayerHealth>();
+        SetOpen(false);
     }
-
-    void Update()
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            ToggleInventory();
-        }
+        if (Time.timeScale > 0f && Input.GetKeyDown(KeyCode.E)) ToggleInventory();
     }
-
     public void ToggleInventory()
-{
-    isOpen = !isOpen;
-
-    inventoryPanel.SetActive(isOpen);
-    inventoryButton.SetActive(!isOpen);
-
-    // 👉 khóa di chuyển
-    if (player != null)
-        player.GetComponent<PlayerController>().enabled = !isOpen;
-}
+    {
+        if (Time.timeScale <= 0f || (health != null && health.IsDead)) return;
+        SetOpen(!isOpen);
+    }
+    private void SetOpen(bool open)
+    {
+        isOpen = open;
+        if (inventoryPanel != null) inventoryPanel.SetActive(open);
+        if (inventoryButton != null) inventoryButton.SetActive(!open);
+        health?.SetControlsBlocked(this, open);
+    }
+    private void OnDisable()
+    {
+        health?.SetControlsBlocked(this, false);
+        isOpen = false;
+    }
 }

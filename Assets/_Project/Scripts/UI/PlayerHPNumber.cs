@@ -9,7 +9,7 @@ public class PlayerHPNumber : MonoBehaviour
     void Start()
     {
         if (playerHealth == null)
-            playerHealth = FindObjectOfType<PlayerHealth>();
+            playerHealth = FindFirstObjectByType<PlayerHealth>();
     }
 
     void Update()

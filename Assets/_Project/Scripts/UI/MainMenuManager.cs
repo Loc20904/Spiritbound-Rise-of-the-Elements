@@ -8,19 +8,13 @@ public class MainMenuManager : MonoBehaviour
     public GameObject resumeButton;
     public GameObject firstSelectedButton;
 
-    private string lastSceneKey = "LastScene";
 
     void Start()
     {
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
         // Nếu chưa từng vào game hoạt không có save → ẩn Resume
-        if (!SaveSystem.HasSave())
-        {
-            resumeButton.SetActive(false);
-        }
-        else
-        {
-            resumeButton.SetActive(true);
-        }
+        if (resumeButton != null) resumeButton.SetActive(SaveSystem.HasSave());
         SelectButton(firstSelectedButton);
     }
 
@@ -29,12 +23,8 @@ public class MainMenuManager : MonoBehaviour
         Time.timeScale = 1f; // 🔥 đảm bảo game không bị freeze
         AudioListener.pause = false;
 
-        SaveSystem.DeleteSave();
-        PlayerPrefs.DeleteKey(lastSceneKey);
-        
-        // Cần reset các stat phụ nếu có
-        PlayerStatManager.Instance?.ResetStat();
-
+        if (!SaveSystem.DeleteSave()) return;
+        GameSession.NewGame();
         SceneManager.LoadScene("IntroScene");
     }
 
@@ -44,18 +34,9 @@ public class MainMenuManager : MonoBehaviour
         AudioListener.pause = false;
 
         SaveData data = SaveSystem.LoadGame();
-        string sceneToLoad = "IntroScene";
-        
-        if (data != null && !string.IsNullOrEmpty(data.currentScene))
-        {
-            sceneToLoad = data.currentScene;
-        }
-        else if (PlayerPrefs.HasKey(lastSceneKey))
-        {
-            sceneToLoad = PlayerPrefs.GetString(lastSceneKey);
-        }
-
-        SceneManager.LoadScene(sceneToLoad);
+        if (data == null) return;
+        GameSession.Restore(data);
+        SceneManager.LoadScene(data.currentScene);
     }
 
     public void QuitGame()

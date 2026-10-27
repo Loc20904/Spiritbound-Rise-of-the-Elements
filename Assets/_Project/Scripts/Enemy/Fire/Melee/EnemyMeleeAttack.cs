@@ -128,7 +128,7 @@ public class EnemyMeleeAttack : MonoBehaviour
         if (!CheckIfTargetInRange(player)) return;
 
         // ⭐ Gửi damage với type Boss
-        PlayerHealth health = player.GetComponent<PlayerHealth>();
+        PlayerHealth health = PlayerHealth.Resolve(player);
         if (health != null)
         {
             health.TakeDamage(damage, DamageType.Boss);
@@ -146,7 +146,7 @@ public class EnemyMeleeAttack : MonoBehaviour
         // ⭐ Gọi PlayerFireDOT giống boss đánh xa
         if (elementType == ElementType.Fire)
         {
-            PlayerFireDOT fire = player.GetComponent<PlayerFireDOT>();
+            PlayerFireDOT fire = PlayerHealth.Resolve(player)?.GetComponent<PlayerFireDOT>();
             if (fire != null)
                 fire.ApplyBurn(fireDamagePerTick, fireBurnDuration, fireTickRate);
         }

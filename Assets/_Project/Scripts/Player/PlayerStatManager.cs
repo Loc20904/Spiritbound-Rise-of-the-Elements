@@ -13,6 +13,28 @@ public class PlayerStatManager : MonoBehaviour
     /// </summary>
     public PlayerStatProfile ActiveStat { get; private set; }
 
+    public int ActiveIndex => ActiveStat != null && database != null ? database.stats.IndexOf(ActiveStat) : -1;
+
+    public static PlayerStatManager EnsureInstance()
+    {
+        if (Instance == null) new GameObject("PlayerStatManager").AddComponent<PlayerStatManager>();
+        return Instance;
+    }
+    public static void ResetSavedStat()
+    {
+        PlayerPrefs.DeleteKey(PREF_KEY);
+        if (Instance != null) Instance.ResetStat();
+    }
+    public void RestoreStat(int index)
+    {
+        ActiveStat = database != null ? database.GetStat(index) : null;
+        if (ActiveStat == null) PlayerPrefs.DeleteKey(PREF_KEY);
+        else PlayerPrefs.SetInt(PREF_KEY, index);
+        PlayerPrefs.Save();
+        OnStatAssigned?.Invoke(ActiveStat);
+    }
+    private void OnDestroy() { if (Instance == this) Instance = null; }
+
     public bool HasReceivedStat => ActiveStat != null;
 
     public event System.Action<PlayerStatProfile> OnStatAssigned;
@@ -32,6 +54,7 @@ public class PlayerStatManager : MonoBehaviour
             return;
         }
 
+        if (database == null) database = GameContent.Load()?.tarotDatabase;
         LoadSavedStat();
     }
 
@@ -99,6 +122,7 @@ public class PlayerStatManager : MonoBehaviour
         PlayerPrefs.DeleteKey(PREF_KEY);
         PlayerPrefs.Save();
         ActiveStat = null;
+        OnStatAssigned?.Invoke(null);
         Debug.Log("[PlayerStatManager] Tarot Card reset. Next interaction will roll a new card.");
     }
 }

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -47,7 +47,7 @@ public class InventorySlot : MonoBehaviour,
         // ❗ FIX: nếu không tìm thấy canvas
         if (canvas == null)
         {
-            canvas = FindObjectOfType<Canvas>();
+            canvas = FindFirstObjectByType<Canvas>();
         }
         canvasGroup = gameObject.AddComponent<CanvasGroup>();
 
@@ -160,7 +160,7 @@ public class InventorySlot : MonoBehaviour,
     {
         if (currentItem == null) return;
 
-        StartCoroutine(UseAndRemove());
+        if (!isUsing) StartCoroutine(UseAndRemove());
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -190,33 +190,10 @@ public class InventorySlot : MonoBehaviour,
 
     public void OnDrop(PointerEventData eventData)
     {
-        InventorySlot draggedSlot = eventData.pointerDrag.GetComponent<InventorySlot>();
+        if (eventData.pointerDrag == null || InventoryManager.Instance == null) return;
+        var draggedSlot = eventData.pointerDrag.GetComponent<InventorySlot>();
         if (draggedSlot == null) return;
-
-        var items = InventoryManager.Instance.items;
-
-        int from = draggedSlot.slotIndex;
-        int to = slotIndex;
-
-        // ❗ check hợp lệ
-        if (from >= items.Count) return;
-
-        // 👉 nếu drop vào slot trống
-        if (to >= items.Count)
-        {
-            // ❗ KHÔNG remove → chỉ swap với null
-            return; // mở rộng list nếu cần
-        }
-
-        // đảm bảo to nằm trong list
-        if (to >= items.Count) return;
-
-        // swap
-        Item temp = items[to];
-        items[to] = items[from];
-        items[from] = temp;
-
-        inventoryUI.Refresh();
+        if (InventoryManager.Instance.MoveItem(draggedSlot.slotIndex, slotIndex)) inventoryUI.Refresh();
     }
 
     IEnumerator UseEffect()
@@ -233,12 +210,17 @@ public class InventorySlot : MonoBehaviour,
         itemIcon.color = Color.white;
     }
 
+    private bool isUsing;
     IEnumerator UseAndRemove()
     {
+        isUsing = true;
+        var item = currentItem;
         yield return StartCoroutine(UseEffect());
 
-        InventoryManager.Instance.UseItem(slotIndex);
-
+        var inventory = InventoryManager.Instance;
+        if (inventory != null && slotIndex >= 0 && slotIndex < inventory.items.Count && ReferenceEquals(inventory.items[slotIndex], item))
+            inventory.TryUseItem(slotIndex);
         inventoryUI.Refresh();
+        isUsing = false;
     }
 }

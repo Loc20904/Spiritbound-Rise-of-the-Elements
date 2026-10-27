@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class EnemyExploder : MonoBehaviour
@@ -142,12 +142,12 @@ public class EnemyExploder : MonoBehaviour
         
         foreach (Collider2D hit in hits)
         {
-            PlayerHealth health = hit.GetComponent<PlayerHealth>();
-            if (health != null)
-                health.TakeDamage(damage);
-                Vector2 dir = (hit.transform.position - transform.position).normalized;
-                Vector2 force = dir * knockbackForce;
-                health.ApplyKnockback(force, 0.2f);
+            PlayerHealth health = PlayerHealth.Resolve(hit);
+            if (health == null) continue;
+            health.TakeDamage(damage);
+            Vector2 dir = (hit.transform.position - transform.position).normalized;
+            Vector2 force = dir * knockbackForce;
+            health.ApplyKnockback(force, 0.2f);
         }
 
         Destroy(gameObject);

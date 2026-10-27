@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Audio;
 
 public class SettingsManager : MonoBehaviour
@@ -21,6 +21,22 @@ public class SettingsManager : MonoBehaviour
     private const int DEFAULT_QUALITY = 1;
     private const int DEFAULT_FULLSCREEN = 1;
     private const int DEFAULT_VSYNC = 1;
+
+    public static readonly System.Collections.Generic.IReadOnlyList<Vector2Int> Resolutions = System.Array.AsReadOnly(new[] {
+        new Vector2Int(1280,720), new Vector2Int(1366,768), new Vector2Int(1600,900),
+        new Vector2Int(1920,1080), new Vector2Int(2560,1440), new Vector2Int(3840,2160)
+    });
+    private bool started;
+    private void Start() { started = true; ApplySaved(); }
+    private void OnDestroy() { if (Instance == this) Instance = null; }
+    public static void Sanitize(SettingsData data)
+    {
+        data.masterVolume = float.IsNaN(data.masterVolume) ? 1f : Mathf.Clamp01(data.masterVolume);
+        data.musicVolume = float.IsNaN(data.musicVolume) ? 1f : Mathf.Clamp01(data.musicVolume);
+        data.sfxVolume = float.IsNaN(data.sfxVolume) ? 1f : Mathf.Clamp01(data.sfxVolume);
+        data.resolutionIndex = Mathf.Clamp(data.resolutionIndex, 0, Resolutions.Count - 1);
+        data.qualityIndex = Mathf.Clamp(data.qualityIndex, 0, Mathf.Max(0, QualitySettings.names.Length - 1));
+    }
 
     private void Awake()
     {
@@ -51,9 +67,9 @@ public class SettingsManager : MonoBehaviour
         current.fullscreen = PlayerPrefs.GetInt("Fullscreen", DEFAULT_FULLSCREEN) == 1;
         current.vSync = PlayerPrefs.GetInt("VSync", DEFAULT_VSYNC) == 1;
 
+        Sanitize(current);
         temp = Clone(current);
-
-        Apply(current);
+        if (started) ApplySaved();
         Debug.Log("Loaded Master: " + current.masterVolume);
     }
 
@@ -81,6 +97,8 @@ public class SettingsManager : MonoBehaviour
     // 🔥 Apply bất kỳ data nào vào mixer (Audio)
     public void Apply(SettingsData data)
     {
+        if (mixer == null || data == null) return;
+        Sanitize(data);
         mixer.SetFloat("MasterVolume", Mathf.Log10(Mathf.Max(data.masterVolume, 0.0001f)) * 20);
         mixer.SetFloat("MusicVolume", Mathf.Log10(Mathf.Max(data.musicVolume, 0.0001f)) * 20);
         mixer.SetFloat("SFXVolume", Mathf.Log10(Mathf.Max(data.sfxVolume, 0.0001f)) * 20);
@@ -89,31 +107,11 @@ public class SettingsManager : MonoBehaviour
     // 🔥 Apply (Graphics)
     public void ApplyGraphics(SettingsData data)
     {
-        // Resolution
-        Vector2Int[] fixedResolutions = new Vector2Int[]
-    {
-        new Vector2Int(1280, 720),
-        new Vector2Int(1366, 768),
-        new Vector2Int(1600, 900),
-        new Vector2Int(1920, 1080),
-        new Vector2Int(2560, 1440),
-        new Vector2Int(3840, 2160)
-    };
-
-        Vector2Int res = fixedResolutions[data.resolutionIndex];
-
-        Screen.SetResolution(res.x, res.y, data.fullscreen);
-
-        // Quality
+        Sanitize(data);
+        Vector2Int res = Resolutions[data.resolutionIndex];
+        Screen.SetResolution(res.x, res.y, data.fullscreen ? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed);
         QualitySettings.SetQualityLevel(data.qualityIndex);
-
-        // VSync
         QualitySettings.vSyncCount = data.vSync ? 1 : 0;
-
-        // Fullscreen Mode (modern way)
-        Screen.fullScreenMode = data.fullscreen ?
-            FullScreenMode.FullScreenWindow :
-            FullScreenMode.Windowed;
     }
 
     // 🔥 Apply TEMP (dùng khi preview nếu sau này bạn muốn)
@@ -136,6 +134,7 @@ public class SettingsManager : MonoBehaviour
     // 🔥 Khi nhấn APPLY
     public void SaveTempToSaved()
     {
+        Sanitize(temp);
         current = Clone(temp);
         Save();
         ApplySaved();

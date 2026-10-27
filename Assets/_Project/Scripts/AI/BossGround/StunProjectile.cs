@@ -67,7 +67,7 @@ public class StunProjectile : MonoBehaviour
             if (other.CompareTag("Player"))
             {
                 // Gây sát thương cho Player
-                other.GetComponent<PlayerStats>()?.TakeDamage((int)damage);
+                PlayerStats.Resolve(other)?.TakeDamage((int)damage);
             }
 
             if (hitVFX != null) Instantiate(hitVFX, transform.position, Quaternion.identity);

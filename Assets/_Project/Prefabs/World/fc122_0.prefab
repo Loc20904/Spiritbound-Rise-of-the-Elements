@@ -105,7 +105,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldItem
   itemData:
+    itemId: Potion
     itemName: Potion
     icon: {fileID: 3335094842527789464, guid: 13c137506a6a4ca4d9a949efeba9eeaa, type: 3}
     animationFrames: []
     animationSpeed: 0.1
+    itemType: 0
+    healAmount: 20

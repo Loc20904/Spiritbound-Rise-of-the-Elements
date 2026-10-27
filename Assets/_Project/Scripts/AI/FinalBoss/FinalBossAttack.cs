@@ -278,7 +278,7 @@ public class FinalBossAttack : BossAttackBase
         Collider2D hit = Physics2D.OverlapCircle(pos, radius, playerLayer);
         if (hit != null)
         {
-            hit.GetComponent<PlayerStats>()?.TakeDamage(darkPillarDamage);
+            PlayerStats.Resolve(hit)?.TakeDamage(darkPillarDamage);
         }
     }
 
@@ -303,7 +303,7 @@ public class FinalBossAttack : BossAttackBase
         Collider2D hit = Physics2D.OverlapCircle(pos, radius, playerLayer);
         if (hit != null)
         {
-            hit.GetComponent<PlayerStats>()?.TakeDamage(dragonDamage);
+            PlayerStats.Resolve(hit)?.TakeDamage(dragonDamage);
         }
     }
 

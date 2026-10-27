@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 
 public enum AttackType { J, K }
@@ -27,6 +27,8 @@ public class PlayerAttack : MonoBehaviour
     /// </summary>
     public void PlayAttack(AttackType type)
     {
+        var hitbox = type == AttackType.J ? hitboxJ : hitboxK;
+        if (hitbox != null) hitbox.GetComponent<PlayerAttackHitbox>()?.BeginAttack();
         if (currentRoutine != null) StopCoroutine(currentRoutine);
         currentRoutine = StartCoroutine(AttackRoutine(type));
     }

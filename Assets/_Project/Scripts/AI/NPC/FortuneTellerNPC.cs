@@ -19,12 +19,7 @@ public class FortuneTellerNPC : MonoBehaviour
 
     private bool isInteracting = false;
 
-#if UNITY_EDITOR
-    private void Awake()
-    {
-        PlayerPrefs.DeleteKey("PlayerStatIndex");
-    }
-#endif
+
 
     /// <summary>
     /// Called when the player presses the interact key near this NPC.
