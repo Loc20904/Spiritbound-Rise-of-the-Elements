@@ -58,3 +58,12 @@ Assets/
 - Phạm vi kiểm tra là import, cấu trúc, tham chiếu và khả năng mở scene; chưa kiểm thử lại toàn bộ gameplay hay tạo player build.
 
 Nhật ký thao tác và kết quả kiểm tra: [restructure-2026-10-24.json](Maintenance/restructure-2026-10-24.json).
+
+
+## Hierarchy scene — 28/10/2026
+
+11 scene build đã được gom theo `_Systems`, `_Cameras`, `_World`, `_Actors`, `_Encounter`, `_UI`, `_Sequences`, `_Audio`; chỉ tạo nhóm có nội dung. Persistent service cũ giữ root. Không đổi tên scene/object hoặc nội bộ prefab để bảo toàn lookup và animation binding. MainMenuScene ở build index 0.
+
+Object mới nên vào nhóm đúng trách nhiệm; container có position 0, rotation identity, scale 1 và không có logic/collider/Rigidbody. Giữ anchor cố định dưới Encounter/Anchors, tách khỏi boss di chuyển. Chi tiết kết quả và các phần ownership/prefab còn lại: [SCENE_RESTRUCTURE_PLAN.md](SCENE_RESTRUCTURE_PLAN.md).
+
+`Tools/Unity/` chứa công cụ bảo trì chạy qua Unity CLI; đặt ngoài Assets để không đưa vào runtime build. Snapshot migration nằm trong Library và không commit.

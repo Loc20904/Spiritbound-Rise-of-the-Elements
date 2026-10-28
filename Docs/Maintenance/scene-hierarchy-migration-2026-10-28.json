@@ -1,0 +1,2545 @@
+{
+  "date": "2026-10-28",
+  "scope": "Pass gom nhóm hierarchy của 11 build scene; giữ persistent service tại root. Ownership/AppRoot và prefab dùng chung là đợt riêng.",
+  "editor": "6000.3.3f1",
+  "baselineHead": "6676dce9fb214f2ba0f03b51c8dae2b257093397",
+  "summary": {
+    "rootsBefore": 281,
+    "rootsAfter": 83,
+    "originalObjects": 1448,
+    "objectsAfter": 1594,
+    "newContainers": 146,
+    "deletedOriginalObjects": 0
+  },
+  "mainMenuBuildIndex": 0,
+  "scenes": [
+    {
+      "scene": "BossFireScene",
+      "path": "Assets/_Project/Scenes/BossFireScene.unity",
+      "rootsBefore": 28,
+      "rootsAfter": 12,
+      "originalObjects": 195,
+      "totalObjectsAfter": 214,
+      "groupsCreated": [
+        "_Cameras",
+        "_Sequences",
+        "_Sequences/Cinematics",
+        "_Encounter",
+        "_Encounter/Boss",
+        "_World",
+        "_World/Terrain",
+        "_World/Platforms",
+        "_World/Backgrounds",
+        "_Sequences/Titles",
+        "_Audio",
+        "_UI",
+        "_Encounter/Effects",
+        "_UI/DialogueAndChoices",
+        "_Systems",
+        "_World/Decorations",
+        "_World/Boundaries",
+        "_Actors",
+        "_Actors/Player"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-1797927610-0",
+          "name": "Main Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-897956777-0",
+          "name": "CutScene",
+          "destination": "_Sequences/Cinematics"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-6432452412418108945-5629578408871608215",
+          "name": "Boss_Fire",
+          "destination": "_Encounter/Boss"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-1816098049-0",
+          "name": "Map",
+          "destination": "_World/Terrain"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-460470208-0",
+          "name": "G_FireGround",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-1689881614-0",
+          "name": "background_0",
+          "destination": "_World/Backgrounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-2017674799-0",
+          "name": "framename_0",
+          "destination": "_Sequences/Titles"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-546023430-0",
+          "name": "bossroom-battle-audio",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-633472703-0",
+          "name": "fire-sound-efftect",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-354101238-0",
+          "name": "destroyGround",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-758120396-0",
+          "name": "destroyGround (1)",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-1378647943-0",
+          "name": "Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-251732545-0",
+          "name": "EventSystem",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-1400887192-0",
+          "name": "BossSkillsHolder",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-1266530208797513907-5953532782330036857",
+          "name": "ChoiceCanvas",
+          "destination": "_UI/DialogueAndChoices"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-1325837031391072489-1456786543",
+          "name": "DialogueUIManager",
+          "destination": "_Systems"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-108028940858530283-338538927",
+          "name": "DialogueCanvas",
+          "destination": "_UI/DialogueAndChoices"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-5011180003998890233-7092826004527925405",
+          "name": "Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-405648774-0",
+          "name": "Triangle",
+          "destination": "_World/Decorations"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-3498326203389133448-655939900",
+          "name": "GameUIComponent",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-2638701943862332577-1721556900",
+          "name": "Bounary",
+          "destination": "_World/Boundaries"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-658356343545937957-97704303",
+          "name": "HPBar_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-8341023862546159181-1119499993",
+          "name": "Inventory_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-47e1b2afbfb2dcd4ca26dbcac8a7541a-8234703889604176796-488781756",
+          "name": "Player",
+          "destination": "_Actors/Player"
+        }
+      ],
+      "preservedObjects": 195,
+      "errors": [],
+      "beforeSha256": "0468039d95d12944068e93b7482778584b64ea426e9f7a2a67d4813db989e9c0",
+      "afterSha256": "9ff17d0bf5d9c5d8b1c6e56c4d02be954ab597840b13b968ea9a2463e3c732ce"
+    },
+    {
+      "scene": "BossGroundScene",
+      "path": "Assets/_Project/Scenes/BossGroundScene.unity",
+      "rootsBefore": 40,
+      "rootsAfter": 10,
+      "originalObjects": 192,
+      "totalObjectsAfter": 213,
+      "groupsCreated": [
+        "_Sequences",
+        "_Sequences/Timelines",
+        "_Sequences/Titles",
+        "_Actors",
+        "_Actors/Player",
+        "_Sequences/Controllers",
+        "_World",
+        "_World/Terrain",
+        "_World/Backgrounds",
+        "_Audio",
+        "_Encounter",
+        "_Encounter/Boss",
+        "_Encounter/Anchors",
+        "_World/Platforms",
+        "_Encounter/Triggers",
+        "_Encounter/Effects",
+        "_Cameras",
+        "_Systems",
+        "_UI",
+        "_UI/DialogueAndChoices",
+        "_World/Boundaries"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-365910518-0",
+          "name": "Phase2Timeline",
+          "destination": "_Sequences/Timelines"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-481603553-0",
+          "name": "IntroTimeline",
+          "destination": "_Sequences/Timelines"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-593665380-0",
+          "name": "framename_0",
+          "destination": "_Sequences/Titles"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-8234703889604176796-1837762937",
+          "name": "Player (1)",
+          "destination": "_Actors/Player"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-5393763144102179350-6084261044694365360",
+          "name": "BossCutsceneManager",
+          "destination": "_Sequences/Controllers"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-774398087-0",
+          "name": "Map",
+          "destination": "_World/Terrain"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-562230053-0",
+          "name": "background_0",
+          "destination": "_World/Backgrounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-851042006-0",
+          "name": "bossroom-battle-audio",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-7872335646049176987-376534568579349523",
+          "name": "Boss_Ground",
+          "destination": "_Encounter/Boss"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1354227728-0",
+          "name": "UltiPoint",
+          "destination": "_Encounter/Anchors"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1792613570-0",
+          "name": "platforms_1",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1191048785-0",
+          "name": "platforms_1 (1)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1352782346-0",
+          "name": "platforms_1 (2)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-238003913-0",
+          "name": "HoldBoss",
+          "destination": "_Encounter/Triggers"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1560098596-0",
+          "name": "platforms_1 (3)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1374046692-0",
+          "name": "platforms_1 (4)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1798290603-0",
+          "name": "platforms_1 (5)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-711251615-0",
+          "name": "platforms_1 (6)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-486670990-0",
+          "name": "platforms_1 (7)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1852478257-0",
+          "name": "platforms_1 (8)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1373773069-0",
+          "name": "platforms_1 (9)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-304398007-0",
+          "name": "platforms_1 (10)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1382297589-0",
+          "name": "platforms_1 (11)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-136368648-0",
+          "name": "groundVFX_0",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1763696923-0",
+          "name": "CameraHolder",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1301853376-0",
+          "name": "s1_0",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-740366012-0",
+          "name": "s2_0",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-853209581-0",
+          "name": "s3_0",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1068588983-0",
+          "name": "BossSkillsHolder",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-2115452773-0",
+          "name": "DeathCutScene",
+          "destination": "_Sequences/Timelines"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-1325837031391072489-1142447326",
+          "name": "DialogueUIManager",
+          "destination": "_Systems"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-108028940858530283-2071320866",
+          "name": "DialogueCanvas",
+          "destination": "_UI/DialogueAndChoices"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-5011180003998890233-55243718",
+          "name": "Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-2638701943862332577-7275826200551639781",
+          "name": "Bounary",
+          "destination": "_World/Boundaries"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-219630891-0",
+          "name": "SpawnUlti",
+          "destination": "_Encounter/Anchors"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-3498326203389133448-1757202874",
+          "name": "GameUIComponent",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-658356343545937957-2118794869",
+          "name": "HPBar_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-9680339b9d5fc4843b9bb9a6458d4037-8341023862546159181-1344184807",
+          "name": "Inventory_Canvas",
+          "destination": "_UI"
+        }
+      ],
+      "preservedObjects": 192,
+      "errors": [],
+      "beforeSha256": "79b3e87a08d612f22e25caf44956bd1deefa9f87537fbb561741c376eec06297",
+      "afterSha256": "00dc6b3508e9f8510f3917dab7a972a9791030c7fe0136b2fc1cdac16b84aec8"
+    },
+    {
+      "scene": "BossWaterScene",
+      "path": "Assets/_Project/Scenes/BossWaterScene.unity",
+      "rootsBefore": 27,
+      "rootsAfter": 10,
+      "originalObjects": 220,
+      "totalObjectsAfter": 240,
+      "groupsCreated": [
+        "_Cameras",
+        "_Encounter",
+        "_Encounter/Boss",
+        "_Audio",
+        "_World",
+        "_World/Terrain",
+        "_Sequences",
+        "_Sequences/Titles",
+        "_World/Backgrounds",
+        "_World/Platforms",
+        "_Encounter/Effects",
+        "_Encounter/Mechanics",
+        "_Encounter/Anchors",
+        "_Systems",
+        "_UI",
+        "_UI/DialogueAndChoices",
+        "_Sequences/Cinematics",
+        "_World/Boundaries",
+        "_Actors",
+        "_Actors/Player"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-1535709911-0",
+          "name": "CameraHolder",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-8247615195374393977-1588130030765846466",
+          "name": "Boss_Water",
+          "destination": "_Encounter/Boss"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-252439741-0",
+          "name": "bossroom-battle-audio",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-2022110981-0",
+          "name": "Map",
+          "destination": "_World/Terrain"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-2099405148-0",
+          "name": "framename_0",
+          "destination": "_Sequences/Titles"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-242629666-0",
+          "name": "background_0",
+          "destination": "_World/Backgrounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-636086738-0",
+          "name": "Platform",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-707282694-0",
+          "name": "Epic Boss Fight Music",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-96508237-0",
+          "name": "water_skill_0",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-1103729916-0",
+          "name": "epic-dragon-roar-364481",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-308768291-0",
+          "name": "Dragon",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-3250695956186012873-815132143",
+          "name": "Pillar",
+          "destination": "_Encounter/Mechanics"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-3250695956186012873-1164764730",
+          "name": "Pillar (1)",
+          "destination": "_Encounter/Mechanics"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-907414613-0",
+          "name": "BossSkillsHolder",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-2014609191-0",
+          "name": "TelePoint",
+          "destination": "_Encounter/Anchors"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-1325837031391072489-214227093",
+          "name": "DialogueUIManager",
+          "destination": "_Systems"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-108028940858530283-1873785343",
+          "name": "DialogueCanvas",
+          "destination": "_UI/DialogueAndChoices"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-5011180003998890233-1858105743",
+          "name": "Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-1282127144-0",
+          "name": "FrameName",
+          "destination": "_Sequences/Titles"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-1683313271-0",
+          "name": "CutScene",
+          "destination": "_Sequences/Cinematics"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-892127474-0",
+          "name": "Bounary",
+          "destination": "_World/Boundaries"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-3498326203389133448-2128221374",
+          "name": "GameUIComponent",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-658356343545937957-752188876",
+          "name": "HPBar_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-8341023862546159181-1314204028",
+          "name": "Inventory_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-3c76467998d0f0d43b2a6b079106b202-8234703889604176796-900501517",
+          "name": "Player",
+          "destination": "_Actors/Player"
+        }
+      ],
+      "preservedObjects": 220,
+      "errors": [],
+      "beforeSha256": "b10e11791f5077d29fee7b36663c28159506534265b8bc7912ca71e2539ed7ed",
+      "afterSha256": "fa447352c38d7ebb1dc3a8f16da3033826f1e9cf1333d69bc29a9c369c3895ea"
+    },
+    {
+      "scene": "CreditsScene",
+      "path": "Assets/_Project/Scenes/CreditsScene.unity",
+      "rootsBefore": 4,
+      "rootsAfter": 3,
+      "originalObjects": 17,
+      "totalObjectsAfter": 20,
+      "groupsCreated": [
+        "_Cameras",
+        "_UI",
+        "_Audio"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-523a3489af46acb4281d704d50ab1484-2052208411-0",
+          "name": "Main Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-523a3489af46acb4281d704d50ab1484-2030151689-0",
+          "name": "EventSystem",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-523a3489af46acb4281d704d50ab1484-1496168968-0",
+          "name": "Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-523a3489af46acb4281d704d50ab1484-702032137-0",
+          "name": "Ascension_of_the_Valiant",
+          "destination": "_Audio"
+        }
+      ],
+      "preservedObjects": 17,
+      "errors": [],
+      "beforeSha256": "4111edf54eafadd80585b2705c30e4c464e9ee33629b33f01a6a90af11e19d8a",
+      "afterSha256": "b71dda833b6e69458925dc0b71518a908184b2035dd81897c578254cf70fe230"
+    },
+    {
+      "scene": "FinalBossScene",
+      "path": "Assets/_Project/Scenes/FinalBossScene.unity",
+      "rootsBefore": 32,
+      "rootsAfter": 10,
+      "originalObjects": 200,
+      "totalObjectsAfter": 218,
+      "groupsCreated": [
+        "_Sequences",
+        "_Sequences/Controllers",
+        "_Sequences/Cinematics",
+        "_Cameras",
+        "_Audio",
+        "_UI",
+        "_Encounter",
+        "_Encounter/Boss",
+        "_Sequences/Presentation",
+        "_Sequences/Titles",
+        "_Encounter/Effects",
+        "_World",
+        "_World/Terrain",
+        "_World/Backgrounds",
+        "_Systems",
+        "_UI/DialogueAndChoices",
+        "_Actors",
+        "_Actors/Player"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1840497920-0",
+          "name": "BossCutsceneManager",
+          "destination": "_Sequences/Controllers"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-2102322142-0",
+          "name": "CutScene",
+          "destination": "_Sequences/Cinematics"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1519350488-0",
+          "name": "Main Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1686444608-0",
+          "name": "destroyGround (1)",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-907780852-0",
+          "name": "fire-sound-efftect",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-853343383-0",
+          "name": "bossroom-battle-audio",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-759603890-0",
+          "name": "destroyGround",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1893630883-0",
+          "name": "EventSystem",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-3019008084065890196-3994686904173880357",
+          "name": "FinalBoss",
+          "destination": "_Encounter/Boss"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1307190869-0",
+          "name": "Audio Source",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1291725607929834223-77919296",
+          "name": "Canvas",
+          "destination": "_Sequences/Presentation"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-2082790034-0",
+          "name": "FibalBoss_FrameName_0",
+          "destination": "_Sequences/Titles"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-2349834341016277686-4085015032055828325",
+          "name": "FinalBoss_Ulti_0",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1215225497-0",
+          "name": "FinalBoss_Ulti_0 (6)",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1300260500-0",
+          "name": "FinalBoss_Ulti_0 (5)",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-335690666-0",
+          "name": "FinalBoss_Ulti_0 (1)",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1770664800-0",
+          "name": "FinalBoss_Ulti_0 (2)",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1246120438-0",
+          "name": "FinalBoss_Ulti_0 (3)",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1320223024-0",
+          "name": "FinalBoss_Ulti_0 (4)",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1508450188-0",
+          "name": "BossSkillsHolder",
+          "destination": "_Encounter/Effects"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1275815915-0",
+          "name": "Map",
+          "destination": "_World/Terrain"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1052883538-0",
+          "name": "background_0",
+          "destination": "_World/Backgrounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-1325837031391072489-371624808",
+          "name": "DialogueUIManager",
+          "destination": "_Systems"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-108028940858530283-7273544524844015125",
+          "name": "DialogueCanvas",
+          "destination": "_UI/DialogueAndChoices"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-5011180003998890233-450287847",
+          "name": "Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-175275181-0",
+          "name": "Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-3498326203389133448-394654761",
+          "name": "GameUIComponent",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-658356343545937957-1307554062",
+          "name": "HPBar_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-8341023862546159181-1309992792",
+          "name": "Inventory_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-0f2dee4b68ccc38409c5bb64c9be67fa-8234703889604176796-1276074313",
+          "name": "Player",
+          "destination": "_Actors/Player"
+        }
+      ],
+      "preservedObjects": 200,
+      "errors": [],
+      "beforeSha256": "0f34ef15fa60ce49eee5301b231dd8bd64da508516cf6172664daafd8492947b",
+      "afterSha256": "111242cf83d3757c2a4c2f686e7ab38581faa4153c151d9aa996fb65c7a19b3c"
+    },
+    {
+      "scene": "FortuneScene",
+      "path": "Assets/_Project/Scenes/FortuneScene.unity",
+      "rootsBefore": 20,
+      "rootsAfter": 10,
+      "originalObjects": 73,
+      "totalObjectsAfter": 87,
+      "groupsCreated": [
+        "_Cameras",
+        "_World",
+        "_World/Terrain",
+        "_Actors",
+        "_Actors/NPCs",
+        "_UI",
+        "_Systems",
+        "_UI/DialogueAndChoices",
+        "_Sequences",
+        "_Sequences/Timelines",
+        "_Audio",
+        "_Actors/Enemies",
+        "_World/Transitions",
+        "_Actors/Player"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-447881266-0",
+          "name": "Main Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-293019688-0",
+          "name": "Grid",
+          "destination": "_World/Terrain"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-5816934518415679762-3641295732583359119",
+          "name": "FortuneNPC",
+          "destination": "_Actors/NPCs"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-1607241169-0",
+          "name": "Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-1325837031391072489-14786434",
+          "name": "DialogueUIManager",
+          "destination": "_Systems"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-108028940858530283-808640142",
+          "name": "DialogueCanvas",
+          "destination": "_UI/DialogueAndChoices"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-1291725607929834223-1536868482",
+          "name": "Canvas (1)",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-1211378777-0",
+          "name": "IntroRandomCard",
+          "destination": "_Sequences/Timelines"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-1222032345-0",
+          "name": "dragon-studio-holy-spell-cast-450460",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-138079505-0",
+          "name": "Grid",
+          "destination": "_World/Terrain"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-1041046247-0",
+          "name": "CinemachineCamera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-2055181901-0",
+          "name": "Tutorial",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-5508234056387091885-201046084",
+          "name": "QuaiNuocDanhgan_idle_1",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-5508234056387091885-1803336164",
+          "name": "QuaiNuocDanhgan_idle_1 (1)",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-5508234056387091885-1691651931",
+          "name": "QuaiNuocDanhgan_idle_1 (2)",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-4658674843385680711-1622690062",
+          "name": "FinishPoint",
+          "destination": "_World/Transitions"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-59df066987f5ed743b324eb82558b847-8234703889604176796-52890284",
+          "name": "Player",
+          "destination": "_Actors/Player"
+        }
+      ],
+      "preservedObjects": 73,
+      "errors": [],
+      "beforeSha256": "a10c2db25bb326e66941c0a0df8a27f0e7abbea2f20ec5c073f2041ccf29b956",
+      "afterSha256": "bc00537b5ca00df8423000986722fde2bee59b82f859387fc1df5e72e32b795f"
+    },
+    {
+      "scene": "IntroScene",
+      "path": "Assets/_Project/Scenes/IntroScene.unity",
+      "rootsBefore": 8,
+      "rootsAfter": 4,
+      "originalObjects": 18,
+      "totalObjectsAfter": 25,
+      "groupsCreated": [
+        "_Cameras",
+        "_Audio",
+        "_Sequences",
+        "_Sequences/Timelines",
+        "_Sequences/Presentation",
+        "_Sequences/Subtitles",
+        "_Sequences/Controllers"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-079947866d79edc48aa4d1b5735359e0-1989881038-0",
+          "name": "Main Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-079947866d79edc48aa4d1b5735359e0-2130558610-0",
+          "name": "Audio Source",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-079947866d79edc48aa4d1b5735359e0-1218058674-0",
+          "name": "CutSceneIntroGame",
+          "destination": "_Sequences/Timelines"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-079947866d79edc48aa4d1b5735359e0-1291725607929834223-4795148546024445768",
+          "name": "Canvas",
+          "destination": "_Sequences/Presentation"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-079947866d79edc48aa4d1b5735359e0-415435429-0",
+          "name": "GameObject",
+          "destination": "_Sequences/Subtitles"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-079947866d79edc48aa4d1b5735359e0-1527692153-0",
+          "name": "IntroSound",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-079947866d79edc48aa4d1b5735359e0-1585880832-0",
+          "name": "ChangeScene",
+          "destination": "_Sequences/Controllers"
+        }
+      ],
+      "preservedObjects": 18,
+      "errors": [],
+      "beforeSha256": "8b5978776b5921cf7752bb182852ef7d18ce187624c47de147b1b428b5d3c8a2",
+      "afterSha256": "29ba5ab73da2a7def5f8aceea19b5ea3c3bd76e18c25be5152705057d530e7a2"
+    },
+    {
+      "scene": "MainMenuScene",
+      "path": "Assets/_Project/Scenes/MainMenuScene.unity",
+      "rootsBefore": 5,
+      "rootsAfter": 3,
+      "originalObjects": 11,
+      "totalObjectsAfter": 15,
+      "groupsCreated": [
+        "_Cameras",
+        "_UI",
+        "_UI/Branding",
+        "_Audio"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-4a376366a0f612d45b1c9d4f5a741d55-542800878-0",
+          "name": "Main Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-4a376366a0f612d45b1c9d4f5a741d55-5147011278253362326-4598537591588707839",
+          "name": "MainMenu_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-4a376366a0f612d45b1c9d4f5a741d55-782492097-0",
+          "name": "EventSystem",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-4a376366a0f612d45b1c9d4f5a741d55-354486170-0",
+          "name": "mainmenuLogo_0",
+          "destination": "_UI/Branding"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-4a376366a0f612d45b1c9d4f5a741d55-3177368402420703891-1162474769",
+          "name": "AudioManger",
+          "destination": "_Audio"
+        }
+      ],
+      "preservedObjects": 11,
+      "errors": [],
+      "beforeSha256": "f74caf3f97378944acc296d43488fbcd98df364ab62ac8449d6b3586bdb383ce",
+      "afterSha256": "717e6fb44b232fa53e7fd6be34810666647762502415a1b4d626bc2219430f55"
+    },
+    {
+      "scene": "MapForest",
+      "path": "Assets/_Project/Scenes/MapForest.unity",
+      "rootsBefore": 19,
+      "rootsAfter": 7,
+      "originalObjects": 147,
+      "totalObjectsAfter": 159,
+      "groupsCreated": [
+        "_Cameras",
+        "_World",
+        "_World/Terrain",
+        "_Cameras/Bounds",
+        "_World/Backgrounds",
+        "_World/Platforms",
+        "_World/Transitions",
+        "_UI",
+        "_Actors",
+        "_Actors/Player",
+        "_Actors/Enemies",
+        "_Audio"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-983284845-0",
+          "name": "Main Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-1109885856-0",
+          "name": "Grid",
+          "destination": "_World/Terrain"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-1470954660-0",
+          "name": "CameralLimit",
+          "destination": "_Cameras/Bounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-2057731862-0",
+          "name": "CinemachineCamera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-831038554-0",
+          "name": "BackGround1",
+          "destination": "_World/Backgrounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-1497725750-0",
+          "name": "Background2",
+          "destination": "_World/Backgrounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-5768965852447567301-540331076479084546",
+          "name": "Platform_0",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-5768965852447567301-2103161138",
+          "name": "Platform_0 (1)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-4658674843385680711-1909003726",
+          "name": "FinishPoint",
+          "destination": "_World/Transitions"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-658356343545937957-1618654968",
+          "name": "HPBar_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-8341023862546159181-1127403460",
+          "name": "Inventory_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-3498326203389133448-1382411232",
+          "name": "GameUIComponent",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-8234703889604176796-740716202",
+          "name": "Player",
+          "destination": "_Actors/Player"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-4964804138525488320-295890636",
+          "name": "BotEarth_QDX",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-8862108177158002733-765319331",
+          "name": "botEarth-QCC",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-2374239812969607815-1843552422",
+          "name": "BotEarth-Fly",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-06080fb45367de94280c29d280278776-3177368402420703891-844262402",
+          "name": "AudioManger",
+          "destination": "_Audio"
+        }
+      ],
+      "preservedObjects": 147,
+      "errors": [],
+      "beforeSha256": "ea2834e058a52052bcc8d71265b621848ae3efda45c98c9ebe5ff131d5123efb",
+      "afterSha256": "fb56afdc763dd8ed92507cdaf99113979531c35330660a02fbffdaef6b61c7cb"
+    },
+    {
+      "scene": "MapIce",
+      "path": "Assets/_Project/Scenes/MapIce.unity",
+      "rootsBefore": 23,
+      "rootsAfter": 7,
+      "originalObjects": 154,
+      "totalObjectsAfter": 168,
+      "groupsCreated": [
+        "_Cameras",
+        "_World",
+        "_World/Terrain",
+        "_World/Hazards",
+        "_World/Backgrounds",
+        "_World/Platforms",
+        "_World/Checkpoints",
+        "_World/Transitions",
+        "_Cameras/Bounds",
+        "_UI",
+        "_Actors",
+        "_Actors/Player",
+        "_Actors/Enemies",
+        "_Audio"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-559350164-0",
+          "name": "Main Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-1423849437-0",
+          "name": "Grid",
+          "destination": "_World/Terrain"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-276593266-0",
+          "name": "Trap_wall",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-1028684408-0",
+          "name": "CinemachineCamera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-216585350-0",
+          "name": "Background1",
+          "destination": "_World/Backgrounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-1551218319-0",
+          "name": "BackGround2",
+          "destination": "_World/Backgrounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-5768965852447567301-1872364433",
+          "name": "Platform_0",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-5768965852447567301-1453448071",
+          "name": "Platform_0 (1)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-664908691-0",
+          "name": "GameObject",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-1857788747-0",
+          "name": "StartPoint",
+          "destination": "_World/Checkpoints"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-8875877385609831522-1470926285",
+          "name": "CheckPoint",
+          "destination": "_World/Checkpoints"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-8875877385609831522-182176364",
+          "name": "CheckPoint (1)",
+          "destination": "_World/Checkpoints"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-4658674843385680711-2008210471",
+          "name": "FinishPoint",
+          "destination": "_World/Transitions"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-1017896264-0",
+          "name": "LimitCamera",
+          "destination": "_Cameras/Bounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-8341023862546159181-1073073689",
+          "name": "Inventory_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-658356343545937957-1146479026",
+          "name": "HPBar_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-3498326203389133448-1967465644",
+          "name": "GameUIComponent",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-8234703889604176796-1783818098",
+          "name": "Player",
+          "destination": "_Actors/Player"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-5652405015203627491-1934273884",
+          "name": "WaterEnemyRanged",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-5508234056387091885-30890682",
+          "name": "QuaiNuocDanhgan_idle_1",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-8609161acc5f6d043949637a172cf14e-3177368402420703891-1711298736",
+          "name": "AudioManger",
+          "destination": "_Audio"
+        }
+      ],
+      "preservedObjects": 154,
+      "errors": [],
+      "beforeSha256": "845b2231a41be1b53f20bd8f9e2f7af1b3d783ac0c544af19f3a160b70b06afc",
+      "afterSha256": "0dd7f66aaacac5557175f72d50cbef9e42b93a74d6e15732c3b12ed2b3653ac2"
+    },
+    {
+      "scene": "MapVolcano",
+      "path": "Assets/_Project/Scenes/MapVolcano.unity",
+      "rootsBefore": 75,
+      "rootsAfter": 7,
+      "originalObjects": 221,
+      "totalObjectsAfter": 235,
+      "groupsCreated": [
+        "_Cameras",
+        "_World",
+        "_World/Backgrounds",
+        "_World/Hazards",
+        "_World/Terrain",
+        "_Audio",
+        "_Actors",
+        "_Actors/Player",
+        "_World/Platforms",
+        "_Cameras/Bounds",
+        "_World/Checkpoints",
+        "_World/Transitions",
+        "_UI",
+        "_Actors/Enemies"
+      ],
+      "movedRoots": [
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-1593820644-0",
+          "name": "Main Camera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-316453072-0",
+          "name": "Background",
+          "destination": "_World/Backgrounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-589028461-0",
+          "name": "GameObject",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-550566887-0",
+          "name": "Grid",
+          "destination": "_World/Terrain"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-3177368402420703891-644841939",
+          "name": "AudioManger",
+          "destination": "_Audio"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8234703889604176796-553917886",
+          "name": "Player",
+          "destination": "_Actors/Player"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-6626412090116727626-4636263250020105902",
+          "name": "TrapBanDan_0",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-6626412090116727626-1998397313",
+          "name": "TrapBanDan_0 (1)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-6626412090116727626-574986945",
+          "name": "TrapBanDan_0 (2)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-1047846496390052055-6854819893155497490",
+          "name": "BêJump_0",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-1047846496390052055-983719405",
+          "name": "BêJump_0 (1)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-7711028943821595809-8431689338158071984",
+          "name": "Lava",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-7711028943821595809-1817980721",
+          "name": "Lava (1)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-7711028943821595809-174502096",
+          "name": "Lava (2)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-7711028943821595809-1146185435",
+          "name": "Lava (3)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-7711028943821595809-1479513606",
+          "name": "Lava (4)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-4058133368474418764-5354490019686298538",
+          "name": "PlatformFall",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-4058133368474418764-1587804721",
+          "name": "PlatformFall (1)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-4058133368474418764-132814453",
+          "name": "PlatformFall (2)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-38924829-0",
+          "name": "CameraLimit",
+          "destination": "_Cameras/Bounds"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-273446880-0",
+          "name": "CinemachineCamera",
+          "destination": "_Cameras"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-1047846496390052055-736203471",
+          "name": "BêJump_0 (2)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-7800277547538648107",
+          "name": "Spike",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-103039701",
+          "name": "Spike (1)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-847445209",
+          "name": "Spike (2)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-1368316076",
+          "name": "Spike (3)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-1259053831",
+          "name": "Spike (4)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-943823478",
+          "name": "Spike (5)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-6526563581449210261",
+          "name": "spikeAbove",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-2015590805",
+          "name": "spikeAbove (1)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-5996424112878316881-2993726842445408940",
+          "name": "FallTrap",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-5996424112878316881-404559950",
+          "name": "FallTrap (1)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-5996424112878316881-1415856604",
+          "name": "FallTrap (2)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-5996424112878316881-991579925",
+          "name": "FallTrap (3)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-1411164680",
+          "name": "spikeAbove (2)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-2030478968",
+          "name": "spikeAbove (3)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-1263831218",
+          "name": "spikeAbove (4)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-1047846496390052055-626607640",
+          "name": "BêJump_0 (3)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-1047846496390052055-227808356",
+          "name": "BêJump_0 (4)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-1047846496390052055-1771794295",
+          "name": "BêJump_0 (6)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-1047846496390052055-497973688",
+          "name": "BêJump_0 (7)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-1047846496390052055-534177384",
+          "name": "BêJump_0 (8)",
+          "destination": "_World/Platforms"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-1179162204",
+          "name": "spikeAbove (7)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-5996424112878316881-1364406636",
+          "name": "FallTrap (4)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-2103180260",
+          "name": "spikeAbove (8)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-144138634",
+          "name": "spikeAbove (9)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-406972843",
+          "name": "Spike (6)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-1596879170",
+          "name": "spikeAbove (10)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-724292190",
+          "name": "spikeAbove (11)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-5996424112878316881-1629870733",
+          "name": "FallTrap (5)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-5996424112878316881-850391941",
+          "name": "FallTrap (6)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-1301707932",
+          "name": "spikeAbove (5)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-1477007327",
+          "name": "spikeAbove (6)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-841760443",
+          "name": "spikeAbove (12)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-1459947643",
+          "name": "spikeAbove (13)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-2120055544",
+          "name": "spikeAbove (14)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-2903833628124401753-931899521",
+          "name": "spikeAbove (15)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-315551824",
+          "name": "Spike (7)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-269958356",
+          "name": "Spike (8)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-1199686611",
+          "name": "Spike (9)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-749808178",
+          "name": "Spike (10)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8218447598536907581-1052216723",
+          "name": "Spike (11)",
+          "destination": "_World/Hazards"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-5674366871434607701-881139720645134481",
+          "name": "StartRespawn",
+          "destination": "_World/Checkpoints"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8875877385609831522-8641543877406235875",
+          "name": "CheckPoint",
+          "destination": "_World/Checkpoints"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8875877385609831522-1486190261",
+          "name": "CheckPoint (1)",
+          "destination": "_World/Checkpoints"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8875877385609831522-399029339",
+          "name": "CheckPoint (2)",
+          "destination": "_World/Checkpoints"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-4658674843385680711-5453243585003228711",
+          "name": "FinishPoint",
+          "destination": "_World/Transitions"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-8341023862546159181-1837180890",
+          "name": "Inventory_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-658356343545937957-1776992914",
+          "name": "HPBar_Canvas",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-3498326203389133448-930241464",
+          "name": "GameUIComponent",
+          "destination": "_UI"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-4958048225767483007-2145041950",
+          "name": "BotFireFly",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-5379199668674463847-414015017",
+          "name": "QL-CanChien_Enemy 1",
+          "destination": "_Actors/Enemies"
+        },
+        {
+          "id": "GlobalObjectId_V1-2-a68fc20ad68ac9c44a5a8d1daabdc47b-7943571883893613723-1467996247",
+          "name": "Qlua-danhxa_Enemy",
+          "destination": "_Actors/Enemies"
+        }
+      ],
+      "preservedObjects": 221,
+      "errors": [],
+      "beforeSha256": "6304cb1717f31d49e4631d8724338712b58ef1d4be3c3bcd76bae492854e187b",
+      "afterSha256": "9bc09dbb3f414d255c2463e32525b921842d9bef5d96c7b27aa6dc1b72a72426"
+    }
+  ],
+  "savedSceneValidation": [
+    {
+      "scene": "MainMenuScene",
+      "roots": 3,
+      "objects": 15,
+      "errors": []
+    },
+    {
+      "scene": "IntroScene",
+      "roots": 4,
+      "objects": 25,
+      "errors": []
+    },
+    {
+      "scene": "FortuneScene",
+      "roots": 10,
+      "objects": 87,
+      "errors": []
+    },
+    {
+      "scene": "MapVolcano",
+      "roots": 7,
+      "objects": 235,
+      "errors": []
+    },
+    {
+      "scene": "BossFireScene",
+      "roots": 12,
+      "objects": 214,
+      "errors": []
+    },
+    {
+      "scene": "MapForest",
+      "roots": 7,
+      "objects": 159,
+      "errors": []
+    },
+    {
+      "scene": "BossGroundScene",
+      "roots": 10,
+      "objects": 213,
+      "errors": []
+    },
+    {
+      "scene": "CreditsScene",
+      "roots": 3,
+      "objects": 20,
+      "errors": []
+    },
+    {
+      "scene": "MapIce",
+      "roots": 7,
+      "objects": 168,
+      "errors": []
+    },
+    {
+      "scene": "BossWaterScene",
+      "roots": 10,
+      "objects": 240,
+      "errors": []
+    },
+    {
+      "scene": "FinalBossScene",
+      "roots": 10,
+      "objects": 218,
+      "errors": []
+    }
+  ],
+  "assetAudit": {
+    "editorSetupPreserved": true,
+    "scenes": [
+      {
+        "scene": "MainMenuScene",
+        "path": "Assets/_Project/Scenes/MainMenuScene.unity",
+        "rootCount": 3,
+        "objectCount": 15,
+        "maxDepth": 3,
+        "prefabRootCount": 0,
+        "inactiveObjects": 0,
+        "missingScripts": 0,
+        "canvasCount": 1,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 0,
+        "taggedPlayerCount": 0,
+        "directorCount": 0,
+        "persistentEventCalls": 3,
+        "invalidEventCalls": 0,
+        "serviceCount": 1
+      },
+      {
+        "scene": "IntroScene",
+        "path": "Assets/_Project/Scenes/IntroScene.unity",
+        "rootCount": 4,
+        "objectCount": 25,
+        "maxDepth": 3,
+        "prefabRootCount": 1,
+        "inactiveObjects": 1,
+        "missingScripts": 0,
+        "canvasCount": 1,
+        "eventSystemCount": 0,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 0,
+        "taggedPlayerCount": 0,
+        "directorCount": 1,
+        "persistentEventCalls": 0,
+        "invalidEventCalls": 0,
+        "serviceCount": 1
+      },
+      {
+        "scene": "FortuneScene",
+        "path": "Assets/_Project/Scenes/FortuneScene.unity",
+        "rootCount": 10,
+        "objectCount": 87,
+        "maxDepth": 4,
+        "prefabRootCount": 2,
+        "inactiveObjects": 28,
+        "missingScripts": 0,
+        "canvasCount": 3,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 1,
+        "persistentEventCalls": 0,
+        "invalidEventCalls": 0,
+        "serviceCount": 4
+      },
+      {
+        "scene": "MapVolcano",
+        "path": "Assets/_Project/Scenes/MapVolcano.unity",
+        "rootCount": 7,
+        "objectCount": 235,
+        "maxDepth": 12,
+        "prefabRootCount": 2,
+        "inactiveObjects": 89,
+        "missingScripts": 0,
+        "canvasCount": 3,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 0,
+        "persistentEventCalls": 18,
+        "invalidEventCalls": 0,
+        "serviceCount": 4
+      },
+      {
+        "scene": "BossFireScene",
+        "path": "Assets/_Project/Scenes/BossFireScene.unity",
+        "rootCount": 12,
+        "objectCount": 214,
+        "maxDepth": 12,
+        "prefabRootCount": 3,
+        "inactiveObjects": 108,
+        "missingScripts": 0,
+        "canvasCount": 6,
+        "eventSystemCount": 2,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 3,
+        "directorCount": 4,
+        "persistentEventCalls": 20,
+        "invalidEventCalls": 0,
+        "serviceCount": 5
+      },
+      {
+        "scene": "MapForest",
+        "path": "Assets/_Project/Scenes/MapForest.unity",
+        "rootCount": 7,
+        "objectCount": 159,
+        "maxDepth": 12,
+        "prefabRootCount": 2,
+        "inactiveObjects": 89,
+        "missingScripts": 0,
+        "canvasCount": 3,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 0,
+        "persistentEventCalls": 18,
+        "invalidEventCalls": 0,
+        "serviceCount": 4
+      },
+      {
+        "scene": "BossGroundScene",
+        "path": "Assets/_Project/Scenes/BossGroundScene.unity",
+        "rootCount": 10,
+        "objectCount": 213,
+        "maxDepth": 12,
+        "prefabRootCount": 1,
+        "inactiveObjects": 135,
+        "missingScripts": 0,
+        "canvasCount": 4,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 3,
+        "persistentEventCalls": 19,
+        "invalidEventCalls": 0,
+        "serviceCount": 3
+      },
+      {
+        "scene": "CreditsScene",
+        "path": "Assets/_Project/Scenes/CreditsScene.unity",
+        "rootCount": 3,
+        "objectCount": 20,
+        "maxDepth": 4,
+        "prefabRootCount": 0,
+        "inactiveObjects": 0,
+        "missingScripts": 0,
+        "canvasCount": 1,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 0,
+        "taggedPlayerCount": 0,
+        "directorCount": 0,
+        "persistentEventCalls": 0,
+        "invalidEventCalls": 0,
+        "serviceCount": 0
+      },
+      {
+        "scene": "MapIce",
+        "path": "Assets/_Project/Scenes/MapIce.unity",
+        "rootCount": 7,
+        "objectCount": 168,
+        "maxDepth": 12,
+        "prefabRootCount": 2,
+        "inactiveObjects": 89,
+        "missingScripts": 0,
+        "canvasCount": 3,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 0,
+        "persistentEventCalls": 18,
+        "invalidEventCalls": 0,
+        "serviceCount": 4
+      },
+      {
+        "scene": "BossWaterScene",
+        "path": "Assets/_Project/Scenes/BossWaterScene.unity",
+        "rootCount": 10,
+        "objectCount": 240,
+        "maxDepth": 12,
+        "prefabRootCount": 1,
+        "inactiveObjects": 157,
+        "missingScripts": 0,
+        "canvasCount": 4,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 3,
+        "persistentEventCalls": 19,
+        "invalidEventCalls": 0,
+        "serviceCount": 3
+      },
+      {
+        "scene": "FinalBossScene",
+        "path": "Assets/_Project/Scenes/FinalBossScene.unity",
+        "rootCount": 10,
+        "objectCount": 218,
+        "maxDepth": 12,
+        "prefabRootCount": 1,
+        "inactiveObjects": 121,
+        "missingScripts": 0,
+        "canvasCount": 6,
+        "eventSystemCount": 2,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 3,
+        "persistentEventCalls": 18,
+        "invalidEventCalls": 0,
+        "serviceCount": 3
+      }
+    ]
+  },
+  "yamlIntegrity": [
+    {
+      "scene": "BossFireScene",
+      "removedDocuments": [],
+      "addedDocuments": 46,
+      "changedDocumentTypes": {
+        "1001": 10,
+        "4": 13,
+        "224": 1,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "BossGroundScene",
+      "removedDocuments": [],
+      "addedDocuments": 51,
+      "changedDocumentTypes": {
+        "1001": 10,
+        "4": 28,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "BossWaterScene",
+      "removedDocuments": [],
+      "addedDocuments": 49,
+      "changedDocumentTypes": {
+        "4": 15,
+        "1001": 10,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "CreditsScene",
+      "removedDocuments": [],
+      "addedDocuments": 6,
+      "changedDocumentTypes": {
+        "4": 3,
+        "224": 1,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "FinalBossScene",
+      "removedDocuments": [],
+      "addedDocuments": 43,
+      "changedDocumentTypes": {
+        "1001": 10,
+        "224": 2,
+        "4": 18,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "FortuneScene",
+      "removedDocuments": [],
+      "addedDocuments": 37,
+      "changedDocumentTypes": {
+        "1001": 9,
+        "4": 7,
+        "224": 1,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "IntroScene",
+      "removedDocuments": [],
+      "addedDocuments": 14,
+      "changedDocumentTypes": {
+        "4": 6,
+        "1001": 1,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "MainMenuScene",
+      "removedDocuments": [],
+      "addedDocuments": 10,
+      "changedDocumentTypes": {
+        "4": 3,
+        "1001": 2,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "MapForest",
+      "removedDocuments": [],
+      "addedDocuments": 35,
+      "changedDocumentTypes": {
+        "1001": 11,
+        "4": 6,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "MapIce",
+      "removedDocuments": [],
+      "addedDocuments": 40,
+      "changedDocumentTypes": {
+        "1001": 12,
+        "4": 9,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    },
+    {
+      "scene": "MapVolcano",
+      "removedDocuments": [],
+      "addedDocuments": 94,
+      "changedDocumentTypes": {
+        "4": 6,
+        "1001": 67,
+        "1660057539": 1
+      },
+      "otherChanges": []
+    }
+  ],
+  "tests": {
+    "editMode": {
+      "status": "completed",
+      "duration": 0.75,
+      "summary": {
+        "total": 12,
+        "passed": 12,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "SaveRepositoryTests.CorruptPrimary_RecoversPreviousValidSave",
+          "Status": "Passed",
+          "Duration": 0.194339,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.Delete_RemovesPrimaryBackupAndTemporary",
+          "Status": "Passed",
+          "Duration": 0.0329099,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.FutureSaveVersion_IsRejected",
+          "Status": "Passed",
+          "Duration": 0.0361658,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.InaccessibleDestination_ReturnsFailure",
+          "Status": "Passed",
+          "Duration": 0.0311157,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.InvalidSave_ReturnsFailureWithoutThrowing(\"\")",
+          "Status": "Passed",
+          "Duration": 0.0130731,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.InvalidSave_ReturnsFailureWithoutThrowing(\"{broken json\")",
+          "Status": "Passed",
+          "Duration": 0.0332392,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.InvalidSave_ReturnsFailureWithoutThrowing(\"{}\")",
+          "Status": "Passed",
+          "Duration": 0.0110729,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.InvalidSave_ReturnsFailureWithoutThrowing(\"null\")",
+          "Status": "Passed",
+          "Duration": 0.0102698,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.InvalidWrite_DoesNotOverwriteExistingSave",
+          "Status": "Passed",
+          "Duration": 0.0145056,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.LegacySave_StillLoads",
+          "Status": "Passed",
+          "Duration": 0.0297214,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveRepositoryTests.SaveRoundTrip_PreservesPositionStoryTarotAndInventorySlots",
+          "Status": "Passed",
+          "Duration": 0.0191453,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SettingsReworkTests.InvalidPreferences_AreClampedToSupportedGraphicsAndVolumeRanges",
+          "Status": "Passed",
+          "Duration": 0.0032022,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "playMode": {
+      "status": "completed",
+      "duration": 2.33,
+      "summary": {
+        "total": 31,
+        "passed": 31,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "CombatReworkTests.AllEnemyHealthFamilies_ExposeTypedDamageReceiver",
+          "Status": "Passed",
+          "Duration": 0.0344838,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.BossDeath_IsNotDispatchedAgainForHitsOnCorpse",
+          "Status": "Passed",
+          "Duration": 0.0169228,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.ControlLocks_ReleaseOnlyTheirOwnOwner",
+          "Status": "Passed",
+          "Duration": 0.0179695,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.DashHitsChildCollider_OncePerDash",
+          "Status": "Passed",
+          "Duration": 0.0207684,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.DetachedFormAndChildCollider_ResolveSharedHealth",
+          "Status": "Passed",
+          "Duration": 0.0156414,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.DirectDamage_SubtractsArmorOnce",
+          "Status": "Passed",
+          "Duration": 0.0135296,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.ForcedDeath_DuringInvulnerabilityStillEntersRespawnLifecycle",
+          "Status": "Passed",
+          "Duration": 0.0147786,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.InvalidDamageAndHealing_DoNotChangeHP",
+          "Status": "Passed",
+          "Duration": 0.012757,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.InventoryLock_PreventsSwitch_AndDoesNotChangeFormOnRelease",
+          "Status": "Passed",
+          "Duration": 0.0159589,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.LegacyAndDirectDamage_ShareInvulnerabilityWindow",
+          "Status": "Passed",
+          "Duration": 0.0129917,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.LegacyStatsDamage_SubtractsArmorOnce",
+          "Status": "Passed",
+          "Duration": 0.0148194,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.LethalBurn_DoesNotContinueAfterRespawn",
+          "Status": "Passed",
+          "Duration": 0.8376673,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.LethalHitThenKnockback_RespawnsAndCanTakeDamageAgain",
+          "Status": "Passed",
+          "Duration": 0.6864008,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.MeleeHitbox_CanHitAgainOnNextAttack_WithoutDoubleHittingOneSwing",
+          "Status": "Passed",
+          "Duration": 0.0142012,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.NormalAndFireScales_SurviveRoundTrip",
+          "Status": "Passed",
+          "Duration": 0.0150729,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.Projectile_HitsMultiColliderEnemyOnce",
+          "Status": "Passed",
+          "Duration": 0.0128222,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.RepeatedKnockback_ThenDeath_DoesNotCancelRespawn",
+          "Status": "Passed",
+          "Duration": 0.1314869,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CombatReworkTests.TransformationDeath_ReturnsToNormalAndRespawns",
+          "Status": "Passed",
+          "Duration": 0.1395042,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.DisablePausedMenu_DoesNotLeaveGlobalPauseBehind",
+          "Status": "Passed",
+          "Duration": 0.0162035,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.EmptySlots_AreReusedAndAcceptDragMoves",
+          "Status": "Passed",
+          "Duration": 0.0136791,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.Inventory_SurvivesManagerRecreationOnSceneChange",
+          "Status": "Passed",
+          "Duration": 0.0313591,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.NewGame_ClearsStoryInventoryTarotAndPendingResume",
+          "Status": "Passed",
+          "Duration": 0.0162279,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.PauseClose_RestoresTimeAudioAndPlayerControl",
+          "Status": "Passed",
+          "Duration": 0.014949,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.Potion_HealsConfiguredAmountAndConsumesOnlyOnce",
+          "Status": "Passed",
+          "Duration": 0.0150302,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.Resume_PlayerStartRestoresPositionAndClampsHP",
+          "Status": "Passed",
+          "Duration": 0.0367825,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.Resume_RestoresStoryTarotInventory_AndPlayerStateOnlyOnce",
+          "Status": "Passed",
+          "Duration": 0.0143527,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.StoryBranch_KillAndMercyAreMutuallyExclusive",
+          "Status": "Passed",
+          "Duration": 0.0152869,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.TarotAssignment_UpdatesExistingPlayerHealthWithoutStackingModifiers",
+          "Status": "Passed",
+          "Duration": 0.0156953,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.TarotModifiers_ApplyToHealthDamageArmorAndIncomingDamage",
+          "Status": "Passed",
+          "Duration": 0.014882,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SessionAndUiReworkTests.UnknownItemsAndFullHealthPotion_AreNotConsumed",
+          "Status": "Passed",
+          "Duration": 0.0124062,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SettingsStartupTests.Startup_AppliesSavedQualityAndVSyncWithoutOpeningSettingsUi",
+          "Status": "Passed",
+          "Duration": 0.0298379,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    }
+  },
+  "pilotRuntime": {
+    "scene": "MapForest",
+    "pauseResume": true,
+    "activeEventSystems": 1,
+    "inventoryOwner": true,
+    "firstFrame": 912,
+    "movementDeltaX": 2.39999771,
+    "fireForm": true,
+    "revertNormal": true,
+    "cameraAndParallax": true,
+    "lastFrame": 1082,
+    "success": true
+  },
+  "menuInput": {
+    "frame": 7871,
+    "scene": "MainMenuScene",
+    "selected": "Btn_Quit",
+    "clicks": [
+      {
+        "name": "Btn_NewGame",
+        "active": true,
+        "count": 1
+      },
+      {
+        "name": "Btn_Resume",
+        "active": true,
+        "count": 1
+      },
+      {
+        "name": "Btn_Quit",
+        "active": true,
+        "count": 1
+      }
+    ]
+  },
+  "menuInputMethod": "Virtual mouse/keyboard through InputSystemUIInputModule; runtime onClick replaced by spies to avoid deleting saves or quitting; persistent target/method checked separately.",
+  "build": {
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 14,
+    "bytes": 757110255,
+    "seconds": 62.088232999999995,
+    "output": "C:\\Users\\THANHL~1\\AppData\\Local\\Temp\\spiritbound-rework\\Build\\Spiritbound.exe",
+    "messages": [
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Run' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Idle' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Run' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Idle' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Run' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Idle' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Run' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Idle' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Run' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Idle' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Run' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Idle' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Run' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      },
+      {
+        "type": "Warning",
+        "content": "Asset 'Transform_01': Transition 'Transform01_Skill_2 -> Transform01_Idle' in state 'Transform01_Skill_2' doesn't have an Exit Time or any condition, transition will be ignored"
+      }
+    ]
+  },
+  "rollback": "Library/SceneHierarchyMigration/2026-10-28/snapshots/<scene>/before.unity (local ignored files); full original working-file backup retained in %TEMP%/spiritbound-hierarchy-implementation/before",
+  "notes": [
+    "Credits initial attempt rolled back without file changes. The same UI displacement occurred from ForceUpdateCanvases on the untouched scene; normalized Canvas layout before capture, then compared successfully.",
+    "MapForest legacy snapshot upgraded only after exact equality of all four Tilemap YAML documents; v1 copies retained.",
+    "Serialized reference native m_FileID/m_PathID bookkeeping is excluded; actual ObjectReference identity is compared through GlobalObjectId. Tilemap data uses stable-reference normalized SHA256.",
+    "Native YAML audit found no removed original documents or changes to existing non-Transform/non-PrefabInstance/non-SceneRoots component documents.",
+    "All 15 PlayableDirector components and serialized bindings are preserved; not every boss phase or complete story route has been played.",
+    "Build warnings are 14 repeated occurrences of two existing Transform_01 transitions without conditions or Exit Time."
+  ],
+  "remainingWork": [
+    "AppBootstrap/AppRoot and SceneContext service ownership",
+    "GameplayUI/CameraRig prefab consolidation and explicit scene binding",
+    "Runtime-owned detached form/projectile/VFX grouping",
+    "Review inactive/debug objects and name changes using references before deletion",
+    "Full boss-phase, checkpoints, inventory and story route acceptance playthrough"
+  ],
+  "workingFilePreservation": {
+    "baselineFilesPreserved": [
+      "Packages/packages-lock.json",
+      "Assets/TextMesh Pro/Fonts/Rubik-VariableFont_wght SDF.asset",
+      "ProjectSettings/ShaderGraphSettings.asset",
+      "Assets/_Project/Scenes/MapForest.unity.meta",
+      "ProjectSettings/ProjectSettings.asset",
+      "Assets/_Project/Scenes/BossWaterScene.unity.meta",
+      "Assets/_Project/Scenes/FortuneScene.unity.meta",
+      "Assets/TextMesh Pro/Fonts/Rubik-Italic-VariableFont_wght SDF.asset",
+      "Assets/_Project/Scenes/CreditsScene.unity.meta",
+      "Assets/_Project/Scenes/FinalBossScene.unity.meta",
+      "Assets/_Project/Scenes/MapVolcano.unity.meta",
+      "ProjectSettings/GraphicsSettings.asset",
+      "Assets/_Project/Scenes/BossGroundScene.unity.meta",
+      "Assets/_Project/Scenes/MainMenuScene.unity.meta",
+      "Docs/Maintenance/scene-hierarchy-audit-2026-10-27.json",
+      "Assets/_Project/Scenes/BossFireScene.unity.meta",
+      "Assets/_Project/Scenes/MapIce.unity.meta",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "Assets/_Project/Scenes/IntroScene.unity.meta",
+      "Assets/_Project/Art/Fonts/UncialAntiqua-Regular SDF.asset",
+      "Packages/manifest.json"
+    ],
+    "unexpectedChangesSinceBaseline": [],
+    "savedSceneHashesStillMatchReport": true,
+    "sceneMetasPreserved": 11,
+    "runtimeScriptsChanged": [],
+    "generatedBuildSettingsRestored": true
+  },
+  "commitScope": {
+    "excludedPreExistingIntroChange": "m_AnchoredPosition x 1644 -> 1612 remains in working tree; staged hierarchy uses HEAD offset 1644. Scene before/after hashes and runtime results in this report describe the tested working tree, including the pre-existing offset.",
+    "menuEventWhitespace": "Normalized six new blank event argument fields without changing serialized values.",
+    "excluded": "Existing fonts, package/Pipeline installation and unrelated settings changes."
+  }
+}

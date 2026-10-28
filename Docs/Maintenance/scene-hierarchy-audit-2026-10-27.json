@@ -1,0 +1,5655 @@
+{
+  "date": "2026-10-27",
+  "project": "Spiritbound-Rise-of-the-Elements",
+  "commitAtAudit": "6676dce",
+  "unity": "6000.3.3f1",
+  "method": "Read-only Unity preview scene inventory; saved assets only",
+  "implementationState": "planning_only",
+  "runtimeTestsRun": false,
+  "sceneMutationPerformed": false,
+  "editorSetupPreserved": true,
+  "editorBefore": [
+    {
+      "path": "Assets/_Project/Scenes/MapVolcano.unity",
+      "isActive": true,
+      "isLoaded": true,
+      "dirty": false
+    }
+  ],
+  "editorAfter": [
+    {
+      "path": "Assets/_Project/Scenes/MapVolcano.unity",
+      "isActive": true,
+      "isLoaded": true,
+      "dirty": false
+    }
+  ],
+  "totals": {
+    "scenes": 11,
+    "objects": 1448,
+    "rootObjects": 281,
+    "missingScripts": 0,
+    "directors": 15
+  },
+  "limitations": [
+    "Preview inventory is not a runtime gameplay/input test.",
+    "Inactive objects and duplicate names are review candidates, not proof of unused content.",
+    "Before migration capture transforms, stable object IDs, all references and Timeline/animation bindings.",
+    "UnityEvent validation only checks existing enabled target/method names."
+  ],
+  "scenes": [
+    {
+      "summary": {
+        "scene": "IntroScene",
+        "path": "Assets/_Project/Scenes/IntroScene.unity",
+        "rootCount": 8,
+        "objectCount": 18,
+        "maxDepth": 1,
+        "prefabRootCount": 2,
+        "inactiveObjects": 1,
+        "missingScripts": 0,
+        "canvasCount": 1,
+        "eventSystemCount": 0,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 0,
+        "taggedPlayerCount": 0,
+        "directorCount": 1,
+        "persistentEventCalls": 0,
+        "invalidEventCalls": 0,
+        "serviceCount": 1,
+        "activeEventSystemCount": 0
+      },
+      "roots": [
+        {
+          "name": "Main Camera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Audio Source",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "CutSceneIntroGame",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "PlayableDirector"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Canvas",
+          "active": true,
+          "descendants": 10,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "Animator"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/OthersBoss/Canvas.prefab",
+          "overrides": 22,
+          "children": [
+            "Image",
+            "RawImage",
+            "RawImage (1)",
+            "RawImage (2)",
+            "RawImage (3)",
+            "RawImage (4)",
+            "RawImage (5)",
+            "Text (TMP)",
+            "Fader",
+            "Tutorial"
+          ]
+        },
+        {
+          "name": "GameObject",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SubtitleController",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "IntroSound",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "ChangeScene",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "IntroChangeScene"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Game Manager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SceneController"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/Game Manager.prefab",
+          "overrides": 11,
+          "children": []
+        }
+      ],
+      "duplicateRootNames": [],
+      "services": [
+        {
+          "type": "SceneController",
+          "path": "Game Manager",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [],
+      "eventSystems": [],
+      "canvases": [
+        {
+          "path": "Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 0,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [
+        {
+          "path": "CutSceneIntroGame",
+          "asset": "CutSceneIntroGameTimeline",
+          "playOnAwake": true
+        }
+      ],
+      "savedSceneSha256": "8b5978776b5921cf7752bb182852ef7d18ce187624c47de147b1b428b5d3c8a2"
+    },
+    {
+      "summary": {
+        "scene": "FortuneScene",
+        "path": "Assets/_Project/Scenes/FortuneScene.unity",
+        "rootCount": 20,
+        "objectCount": 73,
+        "maxDepth": 2,
+        "prefabRootCount": 11,
+        "inactiveObjects": 28,
+        "missingScripts": 0,
+        "canvasCount": 3,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 1,
+        "persistentEventCalls": 0,
+        "invalidEventCalls": 0,
+        "serviceCount": 4,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "Main Camera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData",
+            "CinemachineBrain"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Grid",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Grid"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "PlayerStatManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "PlayerStatManager"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "FortuneNPC",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "FortuneTellerNPC",
+            "BoxCollider2D",
+            "Animator",
+            "NPCInteract"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/NPC/FortuneNPC.prefab",
+          "overrides": 12,
+          "children": [
+            "Text (TMP)",
+            "PressF"
+          ]
+        },
+        {
+          "name": "Canvas",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "EventSystem",
+            "CardTarot",
+            "CardFade",
+            "PlayerStatUI"
+          ]
+        },
+        {
+          "name": "DialogueUIManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "DialogueUIManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/DialogueUIManager.prefab",
+          "overrides": 16,
+          "children": []
+        },
+        {
+          "name": "GameProgressManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "GameProgressManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/GameProgressManager.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "DialogueCanvas",
+          "active": false,
+          "descendants": 5,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/DialogueCanvas.prefab",
+          "overrides": 23,
+          "children": [
+            "DialogueConversation_0",
+            "DialogueFrameName_0",
+            "CharacterAvater",
+            "DinalogText",
+            "CharacterName"
+          ]
+        },
+        {
+          "name": "Canvas (1)",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "Animator"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/OthersBoss/Canvas.prefab",
+          "overrides": 33,
+          "children": [
+            "Image",
+            "RawImage",
+            "RawImage (1)",
+            "RawImage (2)",
+            "RawImage (3)",
+            "RawImage (4)",
+            "RawImage (5)",
+            "Text (TMP)",
+            "Fader"
+          ]
+        },
+        {
+          "name": "IntroRandomCard",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "PlayableDirector"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "dragon-studio-holy-spell-cast-450460",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Grid",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform",
+            "Grid"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "layer1",
+            "layer2"
+          ]
+        },
+        {
+          "name": "CinemachineCamera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "CinemachineCamera",
+            "CinemachinePositionComposer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Tutorial",
+          "active": true,
+          "descendants": 13,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "keyboad2_0",
+            "keyboad2_3",
+            "TutorialMove",
+            "TutorialMove (1)",
+            "TutorialMove (4)",
+            "TutorialMove (3)",
+            "TutorialMove (2)",
+            "Keyboad1_10",
+            "Keyboad1_10 (1)",
+            "keyboad2_1",
+            "keyboad2_1 (1)",
+            "Keyboad1_4",
+            "keyboad2_5"
+          ]
+        },
+        {
+          "name": "QuaiNuocDanhgan_idle_1",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "Animator",
+            "EnemyMelee"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Enemies/Water/QuaiNuocDanhgan_idle_1.prefab",
+          "overrides": 14,
+          "children": [
+            "HitPoint"
+          ]
+        },
+        {
+          "name": "QuaiNuocDanhgan_idle_1 (1)",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "Animator",
+            "EnemyMelee"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Enemies/Water/QuaiNuocDanhgan_idle_1.prefab",
+          "overrides": 13,
+          "children": [
+            "HitPoint"
+          ]
+        },
+        {
+          "name": "QuaiNuocDanhgan_idle_1 (2)",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "Animator",
+            "EnemyMelee"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Enemies/Water/QuaiNuocDanhgan_idle_1.prefab",
+          "overrides": 13,
+          "children": [
+            "HitPoint"
+          ]
+        },
+        {
+          "name": "FinishPoint",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "FinishPoint",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FinishPoint.prefab",
+          "overrides": 13,
+          "children": []
+        },
+        {
+          "name": "Game Manager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SceneController"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/Game Manager.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Player",
+          "active": true,
+          "descendants": 10,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "PlayerController",
+            "PlayerAttack",
+            "DashHitbox",
+            "PlayerHealth",
+            "PlayerFireDOT",
+            "DamagePopupSpawner",
+            "PlayerStats",
+            "PlayerTransformManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Player/Player.prefab",
+          "overrides": 12,
+          "children": [
+            "GroundCheck",
+            "AttackHitbox[J]",
+            "AttackHitBox[K]",
+            "ClimbCheck",
+            "SWordBullet",
+            "Transform_01"
+          ]
+        }
+      ],
+      "duplicateRootNames": [
+        {
+          "name": "Grid",
+          "count": 2
+        }
+      ],
+      "services": [
+        {
+          "type": "PlayerStatManager",
+          "path": "PlayerStatManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "DialogueUIManager",
+          "path": "DialogueUIManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "GameProgressManager",
+          "path": "GameProgressManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SceneController",
+          "path": "Game Manager",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [],
+      "eventSystems": [
+        {
+          "path": "Canvas/EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 5,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        },
+        {
+          "path": "DialogueCanvas",
+          "enabled": true,
+          "active": false,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 5,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        },
+        {
+          "path": "Canvas (1)",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 10,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [
+        {
+          "path": "IntroRandomCard",
+          "asset": "IntroRandomCard",
+          "playOnAwake": false
+        }
+      ],
+      "savedSceneSha256": "a10c2db25bb326e66941c0a0df8a27f0e7abbea2f20ec5c073f2041ccf29b956"
+    },
+    {
+      "summary": {
+        "scene": "MapVolcano",
+        "path": "Assets/_Project/Scenes/MapVolcano.unity",
+        "rootCount": 75,
+        "objectCount": 221,
+        "maxDepth": 11,
+        "prefabRootCount": 69,
+        "inactiveObjects": 89,
+        "missingScripts": 0,
+        "canvasCount": 3,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 0,
+        "persistentEventCalls": 18,
+        "invalidEventCalls": 0,
+        "serviceCount": 4,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "Main Camera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData",
+            "CinemachineBrain"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Background",
+          "active": true,
+          "descendants": 6,
+          "components": [
+            "Transform",
+            "ParallaxController"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "name": "GameObject",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "BoxCollider2D",
+            "Lava"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Grid",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform",
+            "Grid"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "Ground",
+            "Item",
+            "item2"
+          ]
+        },
+        {
+          "name": "AudioManger",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "AudioManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Audio/AudioManger.prefab",
+          "overrides": 11,
+          "children": [
+            "Music"
+          ]
+        },
+        {
+          "name": "Game Manager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SceneController"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/Game Manager.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Player",
+          "active": true,
+          "descendants": 10,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "PlayerController",
+            "PlayerAttack",
+            "DashHitbox",
+            "PlayerHealth",
+            "PlayerFireDOT",
+            "DamagePopupSpawner",
+            "PlayerStats",
+            "PlayerTransformManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Player/Player.prefab",
+          "overrides": 12,
+          "children": [
+            "GroundCheck",
+            "AttackHitbox[J]",
+            "AttackHitBox[K]",
+            "ClimbCheck",
+            "SWordBullet",
+            "Transform_01"
+          ]
+        },
+        {
+          "name": "TrapBanDan_0",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "TrapShooter"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/TrapBanDan_0.prefab",
+          "overrides": 13,
+          "children": [
+            "Target"
+          ]
+        },
+        {
+          "name": "TrapBanDan_0 (1)",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "TrapShooter"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/TrapBanDan_0.prefab",
+          "overrides": 13,
+          "children": [
+            "Target"
+          ]
+        },
+        {
+          "name": "TrapBanDan_0 (2)",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "TrapShooter"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/TrapBanDan_0.prefab",
+          "overrides": 13,
+          "children": [
+            "Target"
+          ]
+        },
+        {
+          "name": "BêJump_0",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "jumpPad"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/BêJump_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "BêJump_0 (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "jumpPad"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/BêJump_0.prefab",
+          "overrides": 12,
+          "children": []
+        },
+        {
+          "name": "Lava",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "MeshFilter",
+            "MeshRenderer",
+            "AnimationLava",
+            "BoxCollider2D",
+            "Lava"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Lava.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Lava (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "MeshFilter",
+            "MeshRenderer",
+            "AnimationLava",
+            "BoxCollider2D",
+            "Lava"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Lava.prefab",
+          "overrides": 13,
+          "children": []
+        },
+        {
+          "name": "Lava (2)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "MeshFilter",
+            "MeshRenderer",
+            "AnimationLava",
+            "BoxCollider2D",
+            "Lava"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Lava.prefab",
+          "overrides": 12,
+          "children": []
+        },
+        {
+          "name": "Lava (3)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "MeshFilter",
+            "MeshRenderer",
+            "AnimationLava",
+            "BoxCollider2D",
+            "Lava"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Lava.prefab",
+          "overrides": 12,
+          "children": []
+        },
+        {
+          "name": "Lava (4)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "MeshFilter",
+            "MeshRenderer",
+            "AnimationLava",
+            "BoxCollider2D",
+            "Lava"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Lava.prefab",
+          "overrides": 14,
+          "children": []
+        },
+        {
+          "name": "PlatformFall",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/PlatformFall.prefab",
+          "overrides": 12,
+          "children": [
+            "Platform",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "PlatformFall (1)",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/PlatformFall.prefab",
+          "overrides": 11,
+          "children": [
+            "Platform",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "PlatformFall (2)",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/PlatformFall.prefab",
+          "overrides": 11,
+          "children": [
+            "Platform",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "CameraLimit",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "PolygonCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "CinemachineCamera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "CinemachineCamera",
+            "CinemachinePositionComposer",
+            "CinemachineConfiner2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "BêJump_0 (2)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "jumpPad"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/BêJump_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (2)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (3)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (4)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (5)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "FallTrap",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FallTrap.prefab",
+          "overrides": 11,
+          "children": [
+            "Trap",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "FallTrap (1)",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FallTrap.prefab",
+          "overrides": 11,
+          "children": [
+            "Trap",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "FallTrap (2)",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FallTrap.prefab",
+          "overrides": 11,
+          "children": [
+            "Trap",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "FallTrap (3)",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FallTrap.prefab",
+          "overrides": 11,
+          "children": [
+            "Trap",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "spikeAbove (2)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (3)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (4)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "BêJump_0 (3)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "jumpPad"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/BêJump_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "BêJump_0 (4)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "jumpPad"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/BêJump_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "BêJump_0 (6)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "jumpPad"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/BêJump_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "BêJump_0 (7)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "jumpPad"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/BêJump_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "BêJump_0 (8)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "jumpPad"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/BêJump_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (7)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "FallTrap (4)",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FallTrap.prefab",
+          "overrides": 11,
+          "children": [
+            "Trap",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "spikeAbove (8)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (9)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (6)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (10)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (11)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "FallTrap (5)",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FallTrap.prefab",
+          "overrides": 11,
+          "children": [
+            "Trap",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "FallTrap (6)",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FallTrap.prefab",
+          "overrides": 11,
+          "children": [
+            "Trap",
+            "PointRespawn"
+          ]
+        },
+        {
+          "name": "spikeAbove (5)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (6)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (12)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (13)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (14)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "spikeAbove (15)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/spikeAbove.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (7)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (8)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (9)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (10)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Spike (11)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Spike.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "StartRespawn",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/StartRespawn.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "CheckPoint",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "CheckPoint",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/CheckPoint.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "CheckPoint (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "CheckPoint",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/CheckPoint.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "CheckPoint (2)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "CheckPoint",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/CheckPoint.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "FinishPoint",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "FinishPoint",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FinishPoint.prefab",
+          "overrides": 12,
+          "children": []
+        },
+        {
+          "name": "SettingsManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "RectTransform",
+            "SettingsManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/SettingsManager.prefab",
+          "overrides": 21,
+          "children": []
+        },
+        {
+          "name": "Inventory_Canvas",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "InventoryManager",
+            "ItemTester",
+            "InventoryToggleUI"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Inventory_Canvas.prefab",
+          "overrides": 22,
+          "children": [
+            "InventoryPanel",
+            "BtnInventory"
+          ]
+        },
+        {
+          "name": "HPBar_Canvas",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/HPBar_Canvas.prefab",
+          "overrides": 21,
+          "children": [
+            "HPBar_BG"
+          ]
+        },
+        {
+          "name": "GameUIComponent",
+          "active": true,
+          "descendants": 82,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/GameUIComponent.prefab",
+          "overrides": 12,
+          "children": [
+            "Canvas",
+            "EventSystem",
+            "PauseMenuManager"
+          ]
+        },
+        {
+          "name": "BotFireFly",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "AudioSource",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "EnemyHealth",
+            "EnemyExploder"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Variants/StatusEffects/BotFireFly.prefab",
+          "overrides": 11,
+          "children": [
+            "groundCheck"
+          ]
+        },
+        {
+          "name": "QL-CanChien_Enemy 1",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Rigidbody2D",
+            "BoxCollider2D",
+            "EnemyHealth",
+            "EnemyMeleeAttack",
+            "EnemyChaseAI_QCC",
+            "QuaiAI_QCC",
+            "AudioSource"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Variants/StatusEffects/QL-CanChien_Enemy 1.prefab",
+          "overrides": 11,
+          "children": [
+            "groundCheck_CC",
+            "edgeGroundCheck_CC",
+            "wallCheck_CC"
+          ]
+        },
+        {
+          "name": "Qlua-danhxa_Enemy",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "EnemyRangedAttack",
+            "QuaiAI",
+            "EnemyHealth",
+            "EnemyChaseAI",
+            "AudioSource"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Variants/StatusEffects/Qlua-danhxa_Enemy.prefab",
+          "overrides": 11,
+          "children": [
+            "FirePoint",
+            "groundCheck",
+            "edgeGroundCheck",
+            "wallCheck"
+          ]
+        }
+      ],
+      "duplicateRootNames": [],
+      "services": [
+        {
+          "type": "AudioManager",
+          "path": "AudioManger",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SceneController",
+          "path": "Game Manager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SettingsManager",
+          "path": "SettingsManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "InventoryManager",
+          "path": "Inventory_Canvas",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [
+        {
+          "path": "Inventory_Canvas",
+          "type": "ItemTester",
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "eventSystems": [
+        {
+          "path": "GameUIComponent/EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "Inventory_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "HPBar_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 0,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "GameUIComponent/Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [],
+      "savedSceneSha256": "6304cb1717f31d49e4631d8724338712b58ef1d4be3c3bcd76bae492854e187b"
+    },
+    {
+      "summary": {
+        "scene": "BossFireScene",
+        "path": "Assets/_Project/Scenes/BossFireScene.unity",
+        "rootCount": 28,
+        "objectCount": 195,
+        "maxDepth": 11,
+        "prefabRootCount": 13,
+        "inactiveObjects": 108,
+        "missingScripts": 0,
+        "canvasCount": 6,
+        "eventSystemCount": 2,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 3,
+        "directorCount": 4,
+        "persistentEventCalls": 20,
+        "invalidEventCalls": 0,
+        "serviceCount": 6,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "Main Camera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData",
+            "Animator",
+            "CinemachineBrain"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "CutScene",
+          "active": true,
+          "descendants": 5,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "BossCutsceneManager",
+            "Phase2Timeline",
+            "IntroTimeline",
+            "DeathCutScene",
+            "ChoiceCutScene"
+          ]
+        },
+        {
+          "name": "Boss_Fire",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BossController",
+            "Animator",
+            "BossFireAttack",
+            "BossHealth",
+            "BossMovement",
+            "BossPhase",
+            "EnvironmentBurn",
+            "Rigidbody2D",
+            "AudioSource",
+            "BossDialogue",
+            "CapsuleCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/OthersBoss/Boss_Fire.prefab",
+          "overrides": 26,
+          "children": [
+            "FirePoint",
+            "Phase2"
+          ]
+        },
+        {
+          "name": "SFXPoll",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SFXPool"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Map",
+          "active": true,
+          "descendants": 34,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "platforms_1",
+            "platforms_1 (1)",
+            "platforms_1 (2)",
+            "platforms_1 (3)",
+            "platforms_1 (4)",
+            "platforms_1 (5)",
+            "platforms_1 (6)",
+            "platforms_1 (7)",
+            "platforms_1 (8)",
+            "platforms_1 (9)",
+            "Map_0",
+            "Map_0 (1)",
+            "Map_1 (2)",
+            "Map_0 (2)",
+            "Map_0 (3)",
+            "Map_0 (4)",
+            "Map_1 (4)",
+            "Map_0 (7)",
+            "Map_1 (7)",
+            "Map_0 (9)",
+            "Map_1 (9)",
+            "Map_1 (8)",
+            "Map_0 (11)",
+            "Map_1 (11)",
+            "Map_1 (10)",
+            "Map_0 (10)",
+            "Map_0 (8)",
+            "Map_1 (6)",
+            "Map_0 (6)",
+            "Map_1 (5)"
+          ]
+        },
+        {
+          "name": "G_FireGround",
+          "active": true,
+          "descendants": 7,
+          "components": [
+            "Transform",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "fireGround",
+            "fireGround (1)",
+            "fireGround (2)",
+            "fireGround (3)",
+            "fireGround (4)",
+            "fireGround (5)",
+            "fireGround (6)"
+          ]
+        },
+        {
+          "name": "background_0",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "framename_0",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "bossroom-battle-audio",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "fire-sound-efftect",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "destroyGround",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "destroyGround (1)",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Canvas",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "Light"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "EventSystem",
+            "InputSystemUIInputModule"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "BossSkillsHolder",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "ChoiceCanvas",
+          "active": false,
+          "descendants": 5,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/ChoiceCanvas.prefab",
+          "overrides": 25,
+          "children": [
+            "Button",
+            "Button (1)",
+            "Text (TMP)"
+          ]
+        },
+        {
+          "name": "DialogueUIManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "DialogueUIManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/DialogueUIManager.prefab",
+          "overrides": 16,
+          "children": []
+        },
+        {
+          "name": "GameProgressManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "GameProgressManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/GameProgressManager.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "DialogueCanvas",
+          "active": false,
+          "descendants": 5,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/DialogueCanvas.prefab",
+          "overrides": 24,
+          "children": [
+            "DialogueConversation_0",
+            "DialogueFrameName_0",
+            "CharacterAvater",
+            "DinalogText",
+            "CharacterName"
+          ]
+        },
+        {
+          "name": "Camera",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Camera.prefab",
+          "overrides": 21,
+          "children": [
+            "CinemachineCamera",
+            "MapBounary",
+            "Target Group"
+          ]
+        },
+        {
+          "name": "Triangle",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "GameUIComponent",
+          "active": true,
+          "descendants": 82,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/GameUIComponent.prefab",
+          "overrides": 13,
+          "children": [
+            "Canvas",
+            "EventSystem",
+            "PauseMenuManager"
+          ]
+        },
+        {
+          "name": "SettingsManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "RectTransform",
+            "SettingsManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/SettingsManager.prefab",
+          "overrides": 21,
+          "children": []
+        },
+        {
+          "name": "Bounary",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "EdgeCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Bounary.prefab",
+          "overrides": 21,
+          "children": []
+        },
+        {
+          "name": "HPBar_Canvas",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/HPBar_Canvas.prefab",
+          "overrides": 21,
+          "children": [
+            "HPBar_BG"
+          ]
+        },
+        {
+          "name": "Inventory_Canvas",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "InventoryManager",
+            "ItemTester",
+            "InventoryToggleUI"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Inventory_Canvas.prefab",
+          "overrides": 22,
+          "children": [
+            "InventoryPanel",
+            "BtnInventory"
+          ]
+        },
+        {
+          "name": "Player",
+          "active": true,
+          "descendants": 10,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "PlayerController",
+            "PlayerAttack",
+            "DashHitbox",
+            "PlayerHealth",
+            "PlayerFireDOT",
+            "DamagePopupSpawner",
+            "PlayerStats",
+            "PlayerTransformManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Player/Player.prefab",
+          "overrides": 15,
+          "children": [
+            "GroundCheck",
+            "AttackHitbox[J]",
+            "AttackHitBox[K]",
+            "ClimbCheck",
+            "SWordBullet",
+            "Transform_01"
+          ]
+        },
+        {
+          "name": "Game Manager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SceneController"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/Game Manager.prefab",
+          "overrides": 11,
+          "children": []
+        }
+      ],
+      "duplicateRootNames": [],
+      "services": [
+        {
+          "type": "DialogueUIManager",
+          "path": "DialogueUIManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "GameProgressManager",
+          "path": "GameProgressManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SettingsManager",
+          "path": "SettingsManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "InventoryManager",
+          "path": "Inventory_Canvas",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SceneController",
+          "path": "Game Manager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SFXPool",
+          "path": "SFXPoll",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [
+        {
+          "path": "Inventory_Canvas",
+          "type": "ItemTester",
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "eventSystems": [
+        {
+          "path": "EventSystem",
+          "enabled": true,
+          "active": false,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        },
+        {
+          "path": "GameUIComponent/EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 2,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        },
+        {
+          "path": "ChoiceCanvas",
+          "enabled": true,
+          "active": false,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 5,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        },
+        {
+          "path": "DialogueCanvas",
+          "enabled": true,
+          "active": false,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 5,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        },
+        {
+          "path": "GameUIComponent/Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "HPBar_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 0,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "Inventory_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [
+        {
+          "path": "CutScene/Phase2Timeline",
+          "asset": "Phase2BossFire",
+          "playOnAwake": false
+        },
+        {
+          "path": "CutScene/IntroTimeline",
+          "asset": "IntroBossFire",
+          "playOnAwake": false
+        },
+        {
+          "path": "CutScene/DeathCutScene",
+          "asset": "DeathBossFire",
+          "playOnAwake": false
+        },
+        {
+          "path": "CutScene/ChoiceCutScene",
+          "asset": "ChoiceTimeline",
+          "playOnAwake": true
+        }
+      ],
+      "savedSceneSha256": "0468039d95d12944068e93b7482778584b64ea426e9f7a2a67d4813db989e9c0"
+    },
+    {
+      "summary": {
+        "scene": "MapForest",
+        "path": "Assets/_Project/Scenes/MapForest.unity",
+        "rootCount": 19,
+        "objectCount": 147,
+        "maxDepth": 11,
+        "prefabRootCount": 13,
+        "inactiveObjects": 89,
+        "missingScripts": 0,
+        "canvasCount": 3,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 0,
+        "persistentEventCalls": 18,
+        "invalidEventCalls": 0,
+        "serviceCount": 4,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "Main Camera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData",
+            "CinemachineBrain"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Grid",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform",
+            "Grid",
+            "Tilemap"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "Ground",
+            "BackGround",
+            "BackGround2"
+          ]
+        },
+        {
+          "name": "CameralLimit",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "PolygonCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "CinemachineCamera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "CinemachineCamera",
+            "CinemachinePositionComposer",
+            "CinemachineConfiner2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "BackGround1",
+          "active": true,
+          "descendants": 5,
+          "components": [
+            "Transform",
+            "ParallaxController"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "name": "Background2",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "Transform",
+            "ParallaxController"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "name": "Platform_0",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "PlatformEffector2D",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Platform_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Platform_0 (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "PlatformEffector2D",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Platform_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "FinishPoint",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "FinishPoint",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FinishPoint.prefab",
+          "overrides": 12,
+          "children": []
+        },
+        {
+          "name": "HPBar_Canvas",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/HPBar_Canvas.prefab",
+          "overrides": 22,
+          "children": [
+            "HPBar_BG"
+          ]
+        },
+        {
+          "name": "Inventory_Canvas",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "InventoryManager",
+            "ItemTester",
+            "InventoryToggleUI"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Inventory_Canvas.prefab",
+          "overrides": 23,
+          "children": [
+            "InventoryPanel",
+            "BtnInventory"
+          ]
+        },
+        {
+          "name": "GameUIComponent",
+          "active": true,
+          "descendants": 82,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/GameUIComponent.prefab",
+          "overrides": 12,
+          "children": [
+            "Canvas",
+            "EventSystem",
+            "PauseMenuManager"
+          ]
+        },
+        {
+          "name": "SettingsManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "RectTransform",
+            "SettingsManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/SettingsManager.prefab",
+          "overrides": 21,
+          "children": []
+        },
+        {
+          "name": "Game Manager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SceneController"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/Game Manager.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Player",
+          "active": true,
+          "descendants": 10,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "PlayerController",
+            "PlayerAttack",
+            "DashHitbox",
+            "PlayerHealth",
+            "PlayerFireDOT",
+            "DamagePopupSpawner",
+            "PlayerStats",
+            "PlayerTransformManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Player/Player.prefab",
+          "overrides": 12,
+          "children": [
+            "GroundCheck",
+            "AttackHitbox[J]",
+            "AttackHitBox[K]",
+            "ClimbCheck",
+            "SWordBullet",
+            "Transform_01"
+          ]
+        },
+        {
+          "name": "BotEarth_QDX",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Rigidbody2D",
+            "BoxCollider2D",
+            "QuaiAI",
+            "EnemyChaseAI",
+            "EnemyRangedAttack",
+            "EnemyHealth",
+            "AudioSource"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Variants/StatusEffects/BotEarth_QDX.prefab",
+          "overrides": 11,
+          "children": [
+            "FirePoint",
+            "groundCheck",
+            "edgeGroundCheck",
+            "wallCheck"
+          ]
+        },
+        {
+          "name": "botEarth-QCC",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Rigidbody2D",
+            "BoxCollider2D",
+            "QuaiAI_QCC",
+            "EnemyChaseAI_QCC",
+            "EnemyMeleeAttack",
+            "EnemyHealth",
+            "AudioSource"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Variants/StatusEffects/botEarth-QCC.prefab",
+          "overrides": 11,
+          "children": [
+            "groundCheck_CC",
+            "edgeGroundCheck_CC",
+            "wallcheck_CC"
+          ]
+        },
+        {
+          "name": "BotEarth-Fly",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "EnemyHealth",
+            "EnemyExploder",
+            "AudioSource"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Variants/StatusEffects/BotEarth-Fly.prefab",
+          "overrides": 11,
+          "children": [
+            "groundCheck",
+            "firePoint",
+            "firePoint1"
+          ]
+        },
+        {
+          "name": "AudioManger",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "AudioManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Audio/AudioManger.prefab",
+          "overrides": 12,
+          "children": [
+            "Music"
+          ]
+        }
+      ],
+      "duplicateRootNames": [],
+      "services": [
+        {
+          "type": "InventoryManager",
+          "path": "Inventory_Canvas",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SettingsManager",
+          "path": "SettingsManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SceneController",
+          "path": "Game Manager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "AudioManager",
+          "path": "AudioManger",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [
+        {
+          "path": "Inventory_Canvas",
+          "type": "ItemTester",
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "eventSystems": [
+        {
+          "path": "GameUIComponent/EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "HPBar_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 0,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "Inventory_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "GameUIComponent/Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [],
+      "savedSceneSha256": "ea2834e058a52052bcc8d71265b621848ae3efda45c98c9ebe5ff131d5123efb"
+    },
+    {
+      "summary": {
+        "scene": "BossGroundScene",
+        "path": "Assets/_Project/Scenes/BossGroundScene.unity",
+        "rootCount": 40,
+        "objectCount": 192,
+        "maxDepth": 11,
+        "prefabRootCount": 11,
+        "inactiveObjects": 135,
+        "missingScripts": 0,
+        "canvasCount": 4,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 3,
+        "persistentEventCalls": 19,
+        "invalidEventCalls": 0,
+        "serviceCount": 4,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "Phase2Timeline",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "PlayableDirector"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "IntroTimeline",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "PlayableDirector"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "framename_0",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Player (1)",
+          "active": true,
+          "descendants": 10,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "PlayerController",
+            "PlayerAttack",
+            "DashHitbox",
+            "PlayerHealth",
+            "PlayerFireDOT",
+            "DamagePopupSpawner",
+            "PlayerStats",
+            "PlayerTransformManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Player/Player.prefab",
+          "overrides": 12,
+          "children": [
+            "GroundCheck",
+            "AttackHitbox[J]",
+            "AttackHitBox[K]",
+            "ClimbCheck",
+            "SWordBullet",
+            "Transform_01"
+          ]
+        },
+        {
+          "name": "BossCutsceneManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "BossCutsceneManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/BossCutsceneManager.prefab",
+          "overrides": 19,
+          "children": []
+        },
+        {
+          "name": "Map",
+          "active": true,
+          "descendants": 34,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "platforms_1",
+            "platforms_1 (1)",
+            "platforms_1 (2)",
+            "platforms_1 (3)",
+            "platforms_1 (4)",
+            "platforms_1 (5)",
+            "platforms_1 (6)",
+            "platforms_1 (7)",
+            "platforms_1 (8)",
+            "platforms_1 (9)",
+            "Map_0",
+            "Map_0 (1)",
+            "Map_1 (2)",
+            "Map_0 (2)",
+            "Map_0 (3)",
+            "Map_0 (4)",
+            "Map_1 (4)",
+            "Map_0 (7)",
+            "Map_1 (7)",
+            "Map_0 (9)",
+            "Map_1 (9)",
+            "Map_1 (8)",
+            "Map_0 (11)",
+            "Map_1 (11)",
+            "Map_1 (10)",
+            "Map_0 (10)",
+            "Map_0 (8)",
+            "Map_1 (6)",
+            "Map_0 (6)",
+            "Map_1 (5)"
+          ]
+        },
+        {
+          "name": "background_0",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "SFXPoll",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SFXPool"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "bossroom-battle-audio",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Boss_Ground",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BossController",
+            "Animator",
+            "BossHealth",
+            "BossPhase",
+            "BossGroundMovement",
+            "BossGroundAttack",
+            "Rigidbody2D",
+            "AudioSource",
+            "CapsuleCollider2D",
+            "BossDialogue",
+            "EnvironmentMud"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/OthersBoss/Boss_Ground.prefab",
+          "overrides": 17,
+          "children": [
+            "AttackPoint",
+            "CastPoint",
+            "shield_ground",
+            "Phase2"
+          ]
+        },
+        {
+          "name": "UltiPoint",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (2)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "HoldBoss",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (3)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (4)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (5)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (6)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (7)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (8)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (9)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (10)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "platforms_1 (11)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "groundVFX_0",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "CameraHolder",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "CameraShake",
+            "SignalReceiver",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "Main Camera"
+          ]
+        },
+        {
+          "name": "s1_0",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "s2_0",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "s3_0",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "BossSkillsHolder",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "DeathCutScene",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "PlayableDirector"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "DialogueUIManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "DialogueUIManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/DialogueUIManager.prefab",
+          "overrides": 16,
+          "children": []
+        },
+        {
+          "name": "DialogueCanvas",
+          "active": false,
+          "descendants": 5,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/DialogueCanvas.prefab",
+          "overrides": 22,
+          "children": [
+            "DialogueConversation_0",
+            "DialogueFrameName_0",
+            "CharacterAvater",
+            "DinalogText",
+            "CharacterName"
+          ]
+        },
+        {
+          "name": "Camera",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Camera.prefab",
+          "overrides": 23,
+          "children": [
+            "CinemachineCamera",
+            "MapBounary",
+            "Target Group"
+          ]
+        },
+        {
+          "name": "Bounary",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "EdgeCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Bounary.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "SpawnUlti",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "SettingsManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "RectTransform",
+            "SettingsManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/SettingsManager.prefab",
+          "overrides": 21,
+          "children": []
+        },
+        {
+          "name": "GameUIComponent",
+          "active": true,
+          "descendants": 82,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/GameUIComponent.prefab",
+          "overrides": 12,
+          "children": [
+            "Canvas",
+            "EventSystem",
+            "PauseMenuManager"
+          ]
+        },
+        {
+          "name": "HPBar_Canvas",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/HPBar_Canvas.prefab",
+          "overrides": 21,
+          "children": [
+            "HPBar_BG"
+          ]
+        },
+        {
+          "name": "Inventory_Canvas",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "InventoryManager",
+            "ItemTester",
+            "InventoryToggleUI"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Inventory_Canvas.prefab",
+          "overrides": 22,
+          "children": [
+            "InventoryPanel",
+            "BtnInventory"
+          ]
+        }
+      ],
+      "duplicateRootNames": [],
+      "services": [
+        {
+          "type": "DialogueUIManager",
+          "path": "DialogueUIManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SettingsManager",
+          "path": "SettingsManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "InventoryManager",
+          "path": "Inventory_Canvas",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SFXPool",
+          "path": "SFXPoll",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [
+        {
+          "path": "Inventory_Canvas",
+          "type": "ItemTester",
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "eventSystems": [
+        {
+          "path": "GameUIComponent/EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "DialogueCanvas",
+          "enabled": true,
+          "active": false,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 5,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        },
+        {
+          "path": "GameUIComponent/Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "HPBar_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 0,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "Inventory_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "CameraHolder/Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [
+        {
+          "path": "Phase2Timeline",
+          "asset": "Phase2BossGround",
+          "playOnAwake": false
+        },
+        {
+          "path": "IntroTimeline",
+          "asset": "IntroBossGround",
+          "playOnAwake": false
+        },
+        {
+          "path": "DeathCutScene",
+          "asset": "DeathBossGround",
+          "playOnAwake": false
+        }
+      ],
+      "savedSceneSha256": "79b3e87a08d612f22e25caf44956bd1deefa9f87537fbb561741c376eec06297"
+    },
+    {
+      "summary": {
+        "scene": "CreditsScene",
+        "path": "Assets/_Project/Scenes/CreditsScene.unity",
+        "rootCount": 4,
+        "objectCount": 17,
+        "maxDepth": 3,
+        "prefabRootCount": 0,
+        "inactiveObjects": 0,
+        "missingScripts": 0,
+        "canvasCount": 1,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 0,
+        "taggedPlayerCount": 0,
+        "directorCount": 0,
+        "persistentEventCalls": 0,
+        "invalidEventCalls": 0,
+        "serviceCount": 0,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "Main Camera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Camera",
+            "AudioListener"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "EventSystem",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "EventSystem",
+            "InputSystemUIInputModule"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Canvas",
+          "active": true,
+          "descendants": 13,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "BackGroundPanel",
+            "CreditsContainer"
+          ]
+        },
+        {
+          "name": "Ascension_of_the_Valiant",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        }
+      ],
+      "duplicateRootNames": [],
+      "services": [],
+      "invalidEvents": [],
+      "debugScripts": [],
+      "eventSystems": [
+        {
+          "path": "EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 0,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [],
+      "savedSceneSha256": "4111edf54eafadd80585b2705c30e4c464e9ee33629b33f01a6a90af11e19d8a"
+    },
+    {
+      "summary": {
+        "scene": "MainMenuScene",
+        "path": "Assets/_Project/Scenes/MainMenuScene.unity",
+        "rootCount": 5,
+        "objectCount": 11,
+        "maxDepth": 2,
+        "prefabRootCount": 2,
+        "inactiveObjects": 0,
+        "missingScripts": 0,
+        "canvasCount": 1,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 0,
+        "taggedPlayerCount": 0,
+        "directorCount": 0,
+        "persistentEventCalls": 3,
+        "invalidEventCalls": 0,
+        "serviceCount": 1,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "Main Camera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "MainMenu_Canvas",
+          "active": true,
+          "descendants": 5,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "MainMenuManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/MainMenu_Canvas.prefab",
+          "overrides": 65,
+          "children": [
+            "Background",
+            "MenuPanel"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "EventSystem",
+            "InputSystemUIInputModule"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "mainmenuLogo_0",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "AudioManger",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "AudioManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Audio/AudioManger.prefab",
+          "overrides": 13,
+          "children": [
+            "Music"
+          ]
+        }
+      ],
+      "duplicateRootNames": [],
+      "services": [
+        {
+          "type": "AudioManager",
+          "path": "AudioManger",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [],
+      "eventSystems": [
+        {
+          "path": "EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "MainMenu_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 0,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [],
+      "savedSceneSha256": "f74caf3f97378944acc296d43488fbcd98df364ab62ac8449d6b3586bdb383ce"
+    },
+    {
+      "summary": {
+        "scene": "MapIce",
+        "path": "Assets/_Project/Scenes/MapIce.unity",
+        "rootCount": 23,
+        "objectCount": 154,
+        "maxDepth": 11,
+        "prefabRootCount": 14,
+        "inactiveObjects": 89,
+        "missingScripts": 0,
+        "canvasCount": 3,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 0,
+        "persistentEventCalls": 18,
+        "invalidEventCalls": 0,
+        "serviceCount": 4,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "Main Camera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData",
+            "CinemachineBrain"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Grid",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "Transform",
+            "Grid",
+            "Tilemap"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "Ground",
+            "Ground2",
+            "BackGround1",
+            "Water"
+          ]
+        },
+        {
+          "name": "Trap_wall",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "Trap",
+            "EndPoint",
+            "Button"
+          ]
+        },
+        {
+          "name": "CinemachineCamera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "CinemachineCamera",
+            "CinemachinePositionComposer",
+            "CinemachineConfiner2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Background1",
+          "active": true,
+          "descendants": 7,
+          "components": [
+            "Transform",
+            "ParallaxController"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "name": "BackGround2",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "Transform",
+            "ParallaxController"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "name": "Platform_0",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "PlatformEffector2D",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Platform_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Platform_0 (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "PlatformEffector2D",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/Platform_0.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "GameObject",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "BoxCollider2D",
+            "Lava"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "StartPoint",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "CheckPoint",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "CheckPoint",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/CheckPoint.prefab",
+          "overrides": 12,
+          "children": []
+        },
+        {
+          "name": "CheckPoint (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "CheckPoint",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/CheckPoint.prefab",
+          "overrides": 12,
+          "children": []
+        },
+        {
+          "name": "FinishPoint",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "FinishPoint",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/World/FinishPoint.prefab",
+          "overrides": 12,
+          "children": []
+        },
+        {
+          "name": "LimitCamera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "PolygonCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "SettingsManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "RectTransform",
+            "SettingsManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/SettingsManager.prefab",
+          "overrides": 21,
+          "children": []
+        },
+        {
+          "name": "Inventory_Canvas",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "InventoryManager",
+            "ItemTester",
+            "InventoryToggleUI"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Inventory_Canvas.prefab",
+          "overrides": 22,
+          "children": [
+            "InventoryPanel",
+            "BtnInventory"
+          ]
+        },
+        {
+          "name": "HPBar_Canvas",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/HPBar_Canvas.prefab",
+          "overrides": 21,
+          "children": [
+            "HPBar_BG"
+          ]
+        },
+        {
+          "name": "GameUIComponent",
+          "active": true,
+          "descendants": 82,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/GameUIComponent.prefab",
+          "overrides": 12,
+          "children": [
+            "Canvas",
+            "EventSystem",
+            "PauseMenuManager"
+          ]
+        },
+        {
+          "name": "Game Manager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SceneController"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/Game Manager.prefab",
+          "overrides": 11,
+          "children": []
+        },
+        {
+          "name": "Player",
+          "active": true,
+          "descendants": 10,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "PlayerController",
+            "PlayerAttack",
+            "DashHitbox",
+            "PlayerHealth",
+            "PlayerFireDOT",
+            "DamagePopupSpawner",
+            "PlayerStats",
+            "PlayerTransformManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Player/Player.prefab",
+          "overrides": 12,
+          "children": [
+            "GroundCheck",
+            "AttackHitbox[J]",
+            "AttackHitBox[K]",
+            "ClimbCheck",
+            "SWordBullet",
+            "Transform_01"
+          ]
+        },
+        {
+          "name": "WaterEnemyRanged",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "waterEnemyRanged",
+            "Rigidbody2D",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Enemies/Water/WaterEnemyRanged.prefab",
+          "overrides": 11,
+          "children": [
+            "FirePoint"
+          ]
+        },
+        {
+          "name": "QuaiNuocDanhgan_idle_1",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "Animator",
+            "EnemyMelee",
+            "EnemyDropTable"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Enemies/Water/QuaiNuocDanhgan_idle_1.prefab",
+          "overrides": 11,
+          "children": [
+            "HitPoint"
+          ]
+        },
+        {
+          "name": "AudioManger",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "AudioManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Audio/AudioManger.prefab",
+          "overrides": 12,
+          "children": [
+            "Music"
+          ]
+        }
+      ],
+      "duplicateRootNames": [],
+      "services": [
+        {
+          "type": "SettingsManager",
+          "path": "SettingsManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "InventoryManager",
+          "path": "Inventory_Canvas",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SceneController",
+          "path": "Game Manager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "AudioManager",
+          "path": "AudioManger",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [
+        {
+          "path": "Inventory_Canvas",
+          "type": "ItemTester",
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "eventSystems": [
+        {
+          "path": "GameUIComponent/EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "Inventory_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "HPBar_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 0,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "GameUIComponent/Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [],
+      "savedSceneSha256": "845b2231a41be1b53f20bd8f9e2f7af1b3d783ac0c544af19f3a160b70b06afc"
+    },
+    {
+      "summary": {
+        "scene": "BossWaterScene",
+        "path": "Assets/_Project/Scenes/BossWaterScene.unity",
+        "rootCount": 27,
+        "objectCount": 220,
+        "maxDepth": 11,
+        "prefabRootCount": 11,
+        "inactiveObjects": 157,
+        "missingScripts": 0,
+        "canvasCount": 4,
+        "eventSystemCount": 1,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 3,
+        "persistentEventCalls": 19,
+        "invalidEventCalls": 0,
+        "serviceCount": 4,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "CameraHolder",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "Transform",
+            "CameraShake",
+            "SignalReceiver"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "Main Camera"
+          ]
+        },
+        {
+          "name": "Boss_Water",
+          "active": true,
+          "descendants": 7,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "BossController",
+            "Animator",
+            "BossHealth",
+            "BossPhase",
+            "BossWaterMovement",
+            "BossWaterAttack",
+            "Rigidbody2D",
+            "AudioSource",
+            "CapsuleCollider2D",
+            "BossShieldManager",
+            "BossDialogue",
+            "EnvironmentIce"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/OthersBoss/Boss_Water.prefab",
+          "overrides": 65,
+          "children": [
+            "CastPoint",
+            "waterGun_1",
+            "BeamPivot",
+            "BossWater_Phase22_0",
+            "Shield"
+          ]
+        },
+        {
+          "name": "bossroom-battle-audio",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Map",
+          "active": true,
+          "descendants": 34,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "platforms_1",
+            "platforms_1 (1)",
+            "platforms_1 (2)",
+            "platforms_1 (3)",
+            "platforms_1 (4)",
+            "platforms_1 (5)",
+            "platforms_1 (6)",
+            "platforms_1 (7)",
+            "platforms_1 (8)",
+            "platforms_1 (9)",
+            "Map_0",
+            "Map_0 (1)",
+            "Map_1 (2)",
+            "Map_0 (2)",
+            "Map_0 (3)",
+            "Map_0 (4)",
+            "Map_1 (4)",
+            "Map_0 (7)",
+            "Map_1 (7)",
+            "Map_0 (9)",
+            "Map_1 (9)",
+            "Map_1 (8)",
+            "Map_0 (11)",
+            "Map_1 (11)",
+            "Map_1 (10)",
+            "Map_0 (10)",
+            "Map_0 (8)",
+            "Map_1 (6)",
+            "Map_0 (6)",
+            "Map_1 (5)"
+          ]
+        },
+        {
+          "name": "framename_0",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "background_0",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "SFXPoll",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SFXPool"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Platform",
+          "active": true,
+          "descendants": 12,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "platforms_1 (11)",
+            "platforms_1 (8)",
+            "platforms_1 (7)",
+            "platforms_1 (1)",
+            "platforms_1 (2)",
+            "platforms_1 (5)",
+            "platforms_1 (10)",
+            "platforms_1 (12)",
+            "platforms_1 (4)",
+            "platforms_1 (6)",
+            "platforms_1 (9)",
+            "platforms_1"
+          ]
+        },
+        {
+          "name": "Epic Boss Fight Music",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "water_skill_0",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "epic-dragon-roar-364481",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Dragon",
+          "active": false,
+          "descendants": 18,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "BossWater_Ulti",
+            "BossWater_Ulti (9)",
+            "BossWater_Ulti (1)",
+            "BossWater_Ulti (10)",
+            "BossWater_Ulti (2)",
+            "BossWater_Ulti (11)",
+            "BossWater_Ulti (3)",
+            "BossWater_Ulti (12)",
+            "BossWater_Ulti (4)",
+            "BossWater_Ulti (13)",
+            "BossWater_Ulti (5)",
+            "BossWater_Ulti (14)",
+            "BossWater_Ulti (6)",
+            "BossWater_Ulti (15)",
+            "BossWater_Ulti (7)",
+            "BossWater_Ulti (16)",
+            "BossWater_Ulti (8)",
+            "BossWater_Ulti (17)"
+          ]
+        },
+        {
+          "name": "Pillar",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "BossPillar",
+            "Rigidbody2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/OthersBoss/Pillar.prefab",
+          "overrides": 13,
+          "children": []
+        },
+        {
+          "name": "Pillar (1)",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "BossPillar",
+            "Rigidbody2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/OthersBoss/Pillar.prefab",
+          "overrides": 13,
+          "children": []
+        },
+        {
+          "name": "BossSkillsHolder",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "TelePoint",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "Point1",
+            "Point2",
+            "Point3",
+            "Point4"
+          ]
+        },
+        {
+          "name": "DialogueUIManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "DialogueUIManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/DialogueUIManager.prefab",
+          "overrides": 16,
+          "children": []
+        },
+        {
+          "name": "DialogueCanvas",
+          "active": false,
+          "descendants": 5,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/DialogueCanvas.prefab",
+          "overrides": 22,
+          "children": [
+            "DialogueConversation_0",
+            "DialogueFrameName_0",
+            "CharacterAvater",
+            "DinalogText",
+            "CharacterName"
+          ]
+        },
+        {
+          "name": "Camera",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Camera.prefab",
+          "overrides": 15,
+          "children": [
+            "CinemachineCamera",
+            "MapBounary",
+            "Target Group"
+          ]
+        },
+        {
+          "name": "FrameName",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "CutScene",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "IntroTimeline",
+            "Phase2Timeline",
+            "BossCutsceneManager",
+            "DeathCutScene"
+          ]
+        },
+        {
+          "name": "Bounary",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "EdgeCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "GameUIComponent",
+          "active": true,
+          "descendants": 82,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/GameUIComponent.prefab",
+          "overrides": 12,
+          "children": [
+            "Canvas",
+            "EventSystem",
+            "PauseMenuManager"
+          ]
+        },
+        {
+          "name": "SettingsManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "RectTransform",
+            "SettingsManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/SettingsManager.prefab",
+          "overrides": 21,
+          "children": []
+        },
+        {
+          "name": "HPBar_Canvas",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/HPBar_Canvas.prefab",
+          "overrides": 21,
+          "children": [
+            "HPBar_BG"
+          ]
+        },
+        {
+          "name": "Inventory_Canvas",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "InventoryManager",
+            "ItemTester",
+            "InventoryToggleUI"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Inventory_Canvas.prefab",
+          "overrides": 22,
+          "children": [
+            "InventoryPanel",
+            "BtnInventory"
+          ]
+        },
+        {
+          "name": "Player",
+          "active": true,
+          "descendants": 10,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "PlayerController",
+            "PlayerAttack",
+            "DashHitbox",
+            "PlayerHealth",
+            "PlayerFireDOT",
+            "DamagePopupSpawner",
+            "PlayerStats",
+            "PlayerTransformManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Player/Player.prefab",
+          "overrides": 12,
+          "children": [
+            "GroundCheck",
+            "AttackHitbox[J]",
+            "AttackHitBox[K]",
+            "ClimbCheck",
+            "SWordBullet",
+            "Transform_01"
+          ]
+        }
+      ],
+      "duplicateRootNames": [],
+      "services": [
+        {
+          "type": "DialogueUIManager",
+          "path": "DialogueUIManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SettingsManager",
+          "path": "SettingsManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "InventoryManager",
+          "path": "Inventory_Canvas",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SFXPool",
+          "path": "SFXPoll",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [
+        {
+          "path": "Inventory_Canvas",
+          "type": "ItemTester",
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "eventSystems": [
+        {
+          "path": "GameUIComponent/EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "DialogueCanvas",
+          "enabled": true,
+          "active": false,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 5,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        },
+        {
+          "path": "GameUIComponent/Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "HPBar_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 0,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "Inventory_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "CameraHolder/Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [
+        {
+          "path": "CutScene/IntroTimeline",
+          "asset": "IntroTimeline",
+          "playOnAwake": false
+        },
+        {
+          "path": "CutScene/Phase2Timeline",
+          "asset": "Phase2Timeline",
+          "playOnAwake": false
+        },
+        {
+          "path": "CutScene/DeathCutScene",
+          "asset": "DeathBossWater",
+          "playOnAwake": false
+        }
+      ],
+      "savedSceneSha256": "b10e11791f5077d29fee7b36663c28159506534265b8bc7912ca71e2539ed7ed"
+    },
+    {
+      "summary": {
+        "scene": "FinalBossScene",
+        "path": "Assets/_Project/Scenes/FinalBossScene.unity",
+        "rootCount": 32,
+        "objectCount": 200,
+        "maxDepth": 11,
+        "prefabRootCount": 11,
+        "inactiveObjects": 121,
+        "missingScripts": 0,
+        "canvasCount": 6,
+        "eventSystemCount": 2,
+        "cameraCount": 1,
+        "audioListenerCount": 1,
+        "playerHealthCount": 1,
+        "taggedPlayerCount": 2,
+        "directorCount": 3,
+        "persistentEventCalls": 18,
+        "invalidEventCalls": 0,
+        "serviceCount": 4,
+        "activeEventSystemCount": 1
+      },
+      "roots": [
+        {
+          "name": "BossCutsceneManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "BossCutsceneManager"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "CutScene",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "IntroTimeline",
+            "Phase2Timeline",
+            "DeathTimeline"
+          ]
+        },
+        {
+          "name": "Main Camera",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "destroyGround (1)",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "SFXPoll",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SFXPool"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "fire-sound-efftect",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "bossroom-battle-audio",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "destroyGround",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "AudioSource",
+            "Animator"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "EventSystem",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "EventSystem",
+            "InputSystemUIInputModule"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "FinalBoss",
+          "active": true,
+          "descendants": 2,
+          "components": [
+            "Transform",
+            "FinalBossAttack",
+            "BossController",
+            "BossPhase",
+            "BossHealth",
+            "FinalBossMovement",
+            "ChaosMechanic",
+            "BossDialogue",
+            "SpriteRenderer",
+            "Animator",
+            "Rigidbody2D",
+            "CapsuleCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/Finalboss/FinalBoss.prefab",
+          "overrides": 25,
+          "children": [
+            "Phase2",
+            "FinalBoss_AnimPhase2_0"
+          ]
+        },
+        {
+          "name": "Audio Source",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "RectTransform",
+            "AudioSource"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Canvas",
+          "active": false,
+          "descendants": 10,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "Animator"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/OthersBoss/Canvas.prefab",
+          "overrides": 46,
+          "children": [
+            "Image",
+            "RawImage",
+            "RawImage (1)",
+            "RawImage (2)",
+            "RawImage (3)",
+            "RawImage (4)",
+            "RawImage (5)",
+            "Text (TMP)",
+            "Fader",
+            "Image (1)"
+          ]
+        },
+        {
+          "name": "FibalBoss_FrameName_0",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "FinalBoss_Ulti_0",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/AI/Finalboss/FinalBoss_Ulti.prefab",
+          "overrides": 13,
+          "children": []
+        },
+        {
+          "name": "FinalBoss_Ulti_0 (6)",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "FinalBoss_Ulti_0 (5)",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "FinalBoss_Ulti_0 (1)",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "FinalBoss_Ulti_0 (2)",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "FinalBoss_Ulti_0 (3)",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "FinalBoss_Ulti_0 (4)",
+          "active": false,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "BossSkillsHolder",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "Map",
+          "active": true,
+          "descendants": 39,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "platforms_1",
+            "platforms_1 (1)",
+            "platforms_1 (2)",
+            "platforms_1 (3)",
+            "platforms_1 (4)",
+            "platforms_1 (5)",
+            "platforms_1 (6)",
+            "platforms_1 (7)",
+            "platforms_1 (8)",
+            "platforms_1 (9)",
+            "platforms_1 (10)",
+            "Map_0",
+            "Map_0 (1)",
+            "Map_1 (2)",
+            "Map_0 (2)",
+            "Map_0 (3)",
+            "Map_0 (4)",
+            "Map_1 (4)",
+            "Map_0 (7)",
+            "Map_1 (7)",
+            "Map_0 (9)",
+            "Map_1 (9)",
+            "Map_1 (8)",
+            "Map_0 (11)",
+            "Map_1 (11)",
+            "Map_1 (10)",
+            "Map_0 (10)",
+            "Map_0 (8)",
+            "Map_1 (6)",
+            "Map_0 (6)"
+          ]
+        },
+        {
+          "name": "background_0",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "SpriteRenderer"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": []
+        },
+        {
+          "name": "DialogueUIManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "Transform",
+            "DialogueUIManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Core/DialogueUIManager.prefab",
+          "overrides": 16,
+          "children": []
+        },
+        {
+          "name": "DialogueCanvas",
+          "active": false,
+          "descendants": 5,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/DialogueCanvas.prefab",
+          "overrides": 22,
+          "children": [
+            "DialogueConversation_0",
+            "DialogueFrameName_0",
+            "CharacterAvater",
+            "DinalogText",
+            "CharacterName"
+          ]
+        },
+        {
+          "name": "Camera",
+          "active": true,
+          "descendants": 3,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Camera.prefab",
+          "overrides": 17,
+          "children": [
+            "CinemachineCamera",
+            "MapBounary",
+            "Target Group"
+          ]
+        },
+        {
+          "name": "Canvas",
+          "active": true,
+          "descendants": 1,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "",
+          "overrides": 0,
+          "children": [
+            "Image"
+          ]
+        },
+        {
+          "name": "GameUIComponent",
+          "active": true,
+          "descendants": 82,
+          "components": [
+            "Transform"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/GameUIComponent.prefab",
+          "overrides": 12,
+          "children": [
+            "Canvas",
+            "EventSystem",
+            "PauseMenuManager"
+          ]
+        },
+        {
+          "name": "SettingsManager",
+          "active": true,
+          "descendants": 0,
+          "components": [
+            "RectTransform",
+            "SettingsManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/SettingsManager.prefab",
+          "overrides": 21,
+          "children": []
+        },
+        {
+          "name": "HPBar_Canvas",
+          "active": true,
+          "descendants": 4,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/HPBar_Canvas.prefab",
+          "overrides": 21,
+          "children": [
+            "HPBar_BG"
+          ]
+        },
+        {
+          "name": "Inventory_Canvas",
+          "active": true,
+          "descendants": 9,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "InventoryManager",
+            "ItemTester",
+            "InventoryToggleUI"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/UI/Inventory_Canvas.prefab",
+          "overrides": 22,
+          "children": [
+            "InventoryPanel",
+            "BtnInventory"
+          ]
+        },
+        {
+          "name": "Player",
+          "active": true,
+          "descendants": 10,
+          "components": [
+            "Transform",
+            "SpriteRenderer",
+            "Animator",
+            "BoxCollider2D",
+            "Rigidbody2D",
+            "PlayerController",
+            "PlayerAttack",
+            "DashHitbox",
+            "PlayerHealth",
+            "PlayerFireDOT",
+            "DamagePopupSpawner",
+            "PlayerStats",
+            "PlayerTransformManager"
+          ],
+          "sourcePrefab": "Assets/_Project/Prefabs/Player/Player.prefab",
+          "overrides": 12,
+          "children": [
+            "GroundCheck",
+            "AttackHitbox[J]",
+            "AttackHitBox[K]",
+            "ClimbCheck",
+            "SWordBullet",
+            "Transform_01"
+          ]
+        }
+      ],
+      "duplicateRootNames": [
+        {
+          "name": "Canvas",
+          "count": 2
+        }
+      ],
+      "services": [
+        {
+          "type": "DialogueUIManager",
+          "path": "DialogueUIManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SettingsManager",
+          "path": "SettingsManager",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "InventoryManager",
+          "path": "Inventory_Canvas",
+          "active": true,
+          "parent": null
+        },
+        {
+          "type": "SFXPool",
+          "path": "SFXPoll",
+          "active": true,
+          "parent": null
+        }
+      ],
+      "invalidEvents": [],
+      "debugScripts": [
+        {
+          "path": "Inventory_Canvas",
+          "type": "ItemTester",
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "eventSystems": [
+        {
+          "path": "EventSystem",
+          "enabled": true,
+          "active": false,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        },
+        {
+          "path": "GameUIComponent/EventSystem",
+          "enabled": true,
+          "active": true,
+          "modules": [
+            "InputSystemUIInputModule"
+          ]
+        }
+      ],
+      "canvases": [
+        {
+          "path": "Canvas",
+          "enabled": true,
+          "active": false,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 1,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "DialogueCanvas",
+          "enabled": true,
+          "active": false,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 5,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        },
+        {
+          "path": "Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceCamera",
+          "sorting": 10,
+          "scaler": "ConstantPixelSize",
+          "raycaster": true
+        },
+        {
+          "path": "GameUIComponent/Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "HPBar_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 0,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        },
+        {
+          "path": "Inventory_Canvas",
+          "enabled": true,
+          "active": true,
+          "mode": "ScreenSpaceOverlay",
+          "sorting": 100,
+          "scaler": "ScaleWithScreenSize",
+          "raycaster": true
+        }
+      ],
+      "cameras": [
+        {
+          "path": "Main Camera",
+          "enabled": true,
+          "active": true,
+          "depth": -1.0,
+          "orthographic": true
+        }
+      ],
+      "directors": [
+        {
+          "path": "CutScene/IntroTimeline",
+          "asset": "FinalBossIntro",
+          "playOnAwake": false
+        },
+        {
+          "path": "CutScene/Phase2Timeline",
+          "asset": "FinalBossPhase2",
+          "playOnAwake": false
+        },
+        {
+          "path": "CutScene/DeathTimeline",
+          "asset": "FinalBossDeath",
+          "playOnAwake": false
+        }
+      ],
+      "savedSceneSha256": "0f34ef15fa60ce49eee5301b231dd8bd64da508516cf6172664daafd8492947b"
+    }
+  ]
+}
